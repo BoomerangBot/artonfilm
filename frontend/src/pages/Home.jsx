@@ -88,11 +88,7 @@ const Home = () => {
             </div>
 
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-8 leading-[0.95] font-serif">
-              {heroData.headline.split(' ').map((word, i) => (
-                <span key={i} className="inline-block" style={{ animationDelay: `${i * 0.1}s` }}>
-                  {word}{' '}
-                </span>
-              ))}
+              {heroData.headline}
             </h1>
             
             <div className="relative pl-6 border-l-4 border-amber-400/50 mb-8">
