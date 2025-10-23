@@ -104,11 +104,46 @@ const Terms = () => {
             </section>
             
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">8. Contact</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">8. Governing Law and Jurisdiction</h2>
+              <p className="mb-4">
+                These Terms shall be governed by and construed in accordance with the laws of England and Wales. Any disputes 
+                arising from or relating to these Terms or your use of the Website shall be subject to the exclusive jurisdiction 
+                of the courts of England and Wales.
+              </p>
               <p>
-                If you have any questions about these Terms of Usage, please contact us at:
+                If you are a consumer based in the European Union, you may also have additional rights under your local consumer 
+                protection laws, and nothing in these Terms affects your statutory rights.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">9. Severability</h2>
+              <p>
+                If any provision of these Terms is found to be invalid or unenforceable by a court of competent jurisdiction, 
+                such provision shall be severed from the remainder of these Terms, which will otherwise remain in full force and effect.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">10. Entire Agreement</h2>
+              <p>
+                These Terms, together with our Privacy Policy and any other legal notices published by us on the Website, 
+                constitute the entire agreement between you and ArtOnFilm LTD concerning your use of the Website.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">11. Contact Information</h2>
+              <p className="mb-4">
+                If you have any questions about these Terms and Conditions, please contact us:
+              </p>
+              <p>
+                <strong>ArtOnFilm LTD</strong><br/>
+                12 Acorn Business Park<br/>
+                Northarbour Road, Portsmouth<br/>
+                England, PO6 3TH<br/>
                 <br/>
-                <a href="mailto:rh@artonfilm.uk" className="text-amber-400 hover:text-amber-300 transition-colors">
+                Email: <a href="mailto:rh@artonfilm.uk" className="text-amber-400 hover:text-amber-300 transition-colors">
                   rh@artonfilm.uk
                 </a>
               </p>
