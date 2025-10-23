@@ -209,7 +209,9 @@ const Home = () => {
       </section>
 
       {/* Gallery Preview */}
-      <section className="py-32 bg-black fade-on-scroll opacity-0 transition-opacity duration-1000">
+      <section className="py-32 bg-black fade-on-scroll opacity-0 transition-all duration-[1500ms] relative overflow-hidden">
+        {/* Soft spotlight from above */}
+        <div className="absolute inset-0 soft-light-top"></div>
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-4 font-serif">Through Our Eyes</h2>
