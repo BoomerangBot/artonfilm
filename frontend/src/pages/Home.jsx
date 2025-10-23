@@ -380,9 +380,10 @@ const Home = () => {
       </section>
 
       {/* Featured Partners & Venues */}
-      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-opacity duration-1000">
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-black to-zinc-950"></div>
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl"></div>
+        <div className="absolute inset-0 soft-light-center"></div>
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-amber-500/6 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '15s' }}></div>
         
         <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
