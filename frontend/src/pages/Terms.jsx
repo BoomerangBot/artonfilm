@@ -9,16 +9,38 @@ const Terms = () => {
         <div className="absolute inset-0 soft-light-center"></div>
         
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
-          <h1 className="text-5xl md:text-6xl font-bold mb-8 font-serif">Terms of Usage</h1>
-          <p className="text-gray-400 mb-12">Last updated: {new Date().toLocaleDateString()}</p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-8 font-serif">Terms and Conditions</h1>
+          <p className="text-gray-400 mb-12">Effective Date: 1 January 2025</p>
           
           <div className="space-y-8 text-gray-300 leading-relaxed">
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
-              <p>
-                By accessing and using the ArtOnFilm website, you accept and agree to be bound by these Terms of Usage. 
-                If you do not agree to these terms, please do not use our website.
+              <h2 className="text-2xl font-bold text-white mb-4">1. Introduction</h2>
+              <p className="mb-4">
+                These Terms and Conditions ("Terms") govern your use of the ArtOnFilm website and services provided by 
+                ArtOnFilm LTD (registered in England and Wales, company number [TBC]).
               </p>
+              <p className="mb-4">
+                <strong>Company Details:</strong><br/>
+                ArtOnFilm LTD<br/>
+                12 Acorn Business Park<br/>
+                Northarbour Road, Portsmouth<br/>
+                England, PO6 3TH
+              </p>
+              <p>
+                By accessing or using our website, you agree to be bound by these Terms. If you disagree with any part 
+                of these Terms, you must not use our website or services.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">2. Definitions</h2>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li><strong>"Company", "we", "our", "us"</strong> refers to ArtOnFilm LTD</li>
+                <li><strong>"Website"</strong> refers to www.artonfilm.uk and all related websites</li>
+                <li><strong>"Services"</strong> refers to all services provided by the Company</li>
+                <li><strong>"User", "you", "your"</strong> refers to the person accessing or using the Website</li>
+                <li><strong>"Content"</strong> refers to all text, images, videos, and other materials on the Website</li>
+              </ul>
             </section>
             
             <section>
