@@ -509,7 +509,8 @@ const Home = () => {
       </section>
 
       {/* Newsletter / Insider Circle */}
-      <section className="py-32 bg-black fade-on-scroll opacity-0 transition-opacity duration-1000">
+      <section className="py-32 bg-black fade-on-scroll opacity-0 transition-all duration-[1500ms] relative overflow-hidden">
+        <div className="absolute inset-0 soft-light-center"></div>
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-12 md:p-16 border border-amber-500/20 text-center">
             <div className="w-20 h-20 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-8">
