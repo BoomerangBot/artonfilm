@@ -108,11 +108,53 @@ const CookiePolicy = () => {
             </section>
             
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Contact Us</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">9. Cookie Consent Under UK/EU Law</h2>
+              <p className="mb-4">
+                In accordance with the UK Privacy and Electronic Communications Regulations (PECR) and the EU ePrivacy Directive, 
+                we obtain your consent before placing certain cookies on your device. You can manage your cookie preferences through 
+                our cookie consent banner when you first visit our website.
+              </p>
               <p>
-                If you have any questions about our use of cookies, please contact us at:
+                Essential cookies do not require consent as they are strictly necessary for the website to function. For all other 
+                cookies, we will ask for your explicit consent before placing them on your device.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">10. Updates to This Policy</h2>
+              <p>
+                We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our operations, 
+                or for other operational, legal, or regulatory reasons. We encourage you to review this policy periodically.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">11. More Information</h2>
+              <p className="mb-4">
+                For more information about cookies and how to manage them, you can visit:
+              </p>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li><a href="https://www.allaboutcookies.org" target="_blank" rel="noopener noreferrer" 
+                className="text-amber-400 hover:text-amber-300 transition-colors">www.allaboutcookies.org</a></li>
+                <li><a href="https://www.youronlinechoices.eu" target="_blank" rel="noopener noreferrer" 
+                className="text-amber-400 hover:text-amber-300 transition-colors">www.youronlinechoices.eu</a> (for EU visitors)</li>
+                <li><a href="https://ico.org.uk/for-the-public/online/cookies" target="_blank" rel="noopener noreferrer" 
+                className="text-amber-400 hover:text-amber-300 transition-colors">ICO Cookie Guidance</a></li>
+              </ul>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">12. Contact Us</h2>
+              <p className="mb-4">
+                If you have any questions about our use of cookies or this Cookie Policy, please contact us:
+              </p>
+              <p>
+                <strong>ArtOnFilm LTD</strong><br/>
+                12 Acorn Business Park<br/>
+                Northarbour Road, Portsmouth<br/>
+                England, PO6 3TH<br/>
                 <br/>
-                <a href="mailto:rh@artonfilm.uk" className="text-amber-400 hover:text-amber-300 transition-colors">
+                Email: <a href="mailto:rh@artonfilm.uk" className="text-amber-400 hover:text-amber-300 transition-colors">
                   rh@artonfilm.uk
                 </a>
               </p>
