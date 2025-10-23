@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Mail, Send } from 'lucide-react';
-import { useToast } from '../hooks/use-toast';
+import { Mail, Send, MessageCircle } from 'lucide-react';
+import { toast } from 'sonner';
 
 const Contact = () => {
   const [searchParams] = useSearchParams();
-  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -35,13 +34,10 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Mock submission - will be replaced with actual backend
     console.log('Form submitted:', formData);
-    toast({
-      title: "Message Sent!",
+    toast.success("Message Sent!", {
       description: "Thank you for your inquiry. We'll respond within 48 hours.",
     });
-    // Reset form
     setFormData({
       name: '',
       email: '',
@@ -52,44 +48,56 @@ const Contact = () => {
 
   return (
     <div className="bg-black text-white min-h-screen pt-20">
-      {/* Header */}
-      <section className="py-24 border-b border-white/10">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <div className="flex justify-center mb-6">
-            <Mail size={48} className="text-white" />
+      {/* Header - More Artistic */}
+      <section className="relative py-32 border-b border-amber-500/20 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 to-black"></div>
+        <div className="absolute top-20 right-10 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl"></div>
+        
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <div className="w-20 h-20 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-8">
+            <MessageCircle size={40} className="text-black" />
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          
+          <h1 className="text-6xl md:text-7xl font-bold mb-6 font-serif">
             Get Involved
           </h1>
-          <p className="text-xl text-gray-400">
+          
+          <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             Contact us to discuss partnership opportunities, patron membership, or media inquiries.
           </p>
         </div>
       </section>
 
       {/* Contact Info */}
-      <section className="py-12">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <p className="text-lg text-gray-400 mb-2">Email us directly at</p>
-          <a
-            href="mailto:rh@artonfilm.uk"
-            className="text-2xl font-semibold text-white hover:text-gray-300 transition-colors"
-          >
-            rh@artonfilm.uk
-          </a>
+      <section className="py-16">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-8 border border-amber-500/20 text-center">
+            <Mail size={32} className="text-amber-400 mx-auto mb-4" />
+            <p className="text-gray-400 mb-2">Email us directly at</p>
+            <a
+              href="mailto:rh@artonfilm.uk"
+              className="text-2xl md:text-3xl font-semibold text-amber-400 hover:text-amber-300 transition-colors"
+            >
+              rh@artonfilm.uk
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* Contact Form */}
-      <section className="py-12 pb-24">
-        <div className="max-w-2xl mx-auto px-6 lg:px-8">
-          <div className="bg-zinc-900 rounded-2xl p-8 md:p-12 border border-white/10">
-            <h2 className="text-2xl font-bold mb-8 text-center">Send Us a Message</h2>
+      {/* Contact Form - More Artistic */}
+      <section className="py-16 pb-32">
+        <div className="max-w-3xl mx-auto px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-zinc-900 via-zinc-900 to-black rounded-3xl p-8 md:p-12 border border-white/10 shadow-2xl">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-bold mb-3 font-serif">Send Us a Message</h2>
+              <p className="text-gray-400">We typically respond within 48 hours</p>
+            </div>
+
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Name */}
               <div>
-                <label htmlFor="name" className="block text-sm font-medium mb-2">
-                  Name *
+                <label htmlFor="name" className="block text-sm font-semibold mb-3 text-gray-300">
+                  Full Name *
                 </label>
                 <input
                   type="text"
@@ -98,15 +106,15 @@ const Contact = () => {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 bg-black border border-white/20 rounded-lg focus:outline-none focus:border-white/40 transition-colors text-white"
+                  className="w-full px-5 py-4 bg-black/50 border border-white/20 rounded-xl focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white placeholder-gray-500"
                   placeholder="Your full name"
                 />
               </div>
 
               {/* Email */}
               <div>
-                <label htmlFor="email" className="block text-sm font-medium mb-2">
-                  Email *
+                <label htmlFor="email" className="block text-sm font-semibold mb-3 text-gray-300">
+                  Email Address *
                 </label>
                 <input
                   type="email"
@@ -115,15 +123,15 @@ const Contact = () => {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 bg-black border border-white/20 rounded-lg focus:outline-none focus:border-white/40 transition-colors text-white"
+                  className="w-full px-5 py-4 bg-black/50 border border-white/20 rounded-xl focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white placeholder-gray-500"
                   placeholder="your.email@example.com"
                 />
               </div>
 
               {/* Subject */}
               <div>
-                <label htmlFor="subject" className="block text-sm font-medium mb-2">
-                  Subject *
+                <label htmlFor="subject" className="block text-sm font-semibold mb-3 text-gray-300">
+                  Inquiry Subject *
                 </label>
                 <select
                   id="subject"
@@ -131,11 +139,11 @@ const Contact = () => {
                   required
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 bg-black border border-white/20 rounded-lg focus:outline-none focus:border-white/40 transition-colors text-white"
+                  className="w-full px-5 py-4 bg-black/50 border border-white/20 rounded-xl focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white"
                 >
-                  <option value="">Select a subject</option>
+                  <option value="" className="bg-zinc-900">Select a subject</option>
                   {subjects.map((subject) => (
-                    <option key={subject} value={subject}>
+                    <option key={subject} value={subject} className="bg-zinc-900">
                       {subject}
                     </option>
                   ))}
@@ -144,8 +152,8 @@ const Contact = () => {
 
               {/* Message */}
               <div>
-                <label htmlFor="message" className="block text-sm font-medium mb-2">
-                  Message *
+                <label htmlFor="message" className="block text-sm font-semibold mb-3 text-gray-300">
+                  Your Message *
                 </label>
                 <textarea
                   id="message"
@@ -154,7 +162,7 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows={6}
-                  className="w-full px-4 py-3 bg-black border border-white/20 rounded-lg focus:outline-none focus:border-white/40 transition-colors text-white resize-none"
+                  className="w-full px-5 py-4 bg-black/50 border border-white/20 rounded-xl focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white resize-none placeholder-gray-500"
                   placeholder="Tell us about your inquiry..."
                 />
               </div>
@@ -162,7 +170,7 @@ const Contact = () => {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full flex items-center justify-center gap-2 px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-all hover:scale-105 active:scale-95"
+                className="w-full flex items-center justify-center gap-3 px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-[1.02] active:scale-95 shadow-lg shadow-amber-500/20"
               >
                 <Send size={20} />
                 Send Message
