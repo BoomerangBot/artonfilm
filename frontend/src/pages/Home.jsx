@@ -63,7 +63,10 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white relative">
+      {/* Film Grain Overlay */}
+      <div className="film-grain"></div>
+
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
@@ -72,30 +75,49 @@ const Home = () => {
             alt="Art Gallery"
             className="w-full h-full object-cover scale-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-black/60"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/85 to-black/50"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/90"></div>
+          
+          {/* Cinematic Vignette */}
+          <div className="vignette"></div>
+          
+          {/* Hollywood Spotlights */}
+          <div className="spotlight" style={{ top: '-200px', left: '-200px' }}></div>
+          <div className="spotlight" style={{ bottom: '-300px', right: '-300px' }}></div>
         </div>
 
-        {/* Decorative Frame Elements */}
-        <div className="absolute top-8 left-8 w-32 h-32 border-l-4 border-t-4 border-amber-400/30"></div>
-        <div className="absolute bottom-8 right-8 w-32 h-32 border-r-4 border-b-4 border-amber-400/30"></div>
+        {/* Decorative Frame Elements - Gold Art Deco Style */}
+        <div className="absolute top-8 left-8 w-32 h-32 border-l-4 border-t-4 border-amber-400/40"></div>
+        <div className="absolute bottom-8 right-8 w-32 h-32 border-r-4 border-b-4 border-amber-400/40"></div>
+        
+        {/* Corner accents */}
+        <div className="absolute top-8 left-8 w-4 h-4 bg-amber-400/60"></div>
+        <div className="absolute bottom-8 right-8 w-4 h-4 bg-amber-400/60"></div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-32 w-full">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-6 py-3 bg-white/5 backdrop-blur-sm border border-amber-400/30 rounded-full mb-8">
-              <Palette size={20} className="text-amber-400" />
-              <span className="text-amber-400 text-sm font-medium tracking-wider">UK ↔ EU CULTURAL EXCHANGE</span>
+            {/* Carnaby Films x ArtOnFilm Badge */}
+            <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-amber-500/10 to-amber-600/10 backdrop-blur-md border border-amber-400/40 rounded-full mb-6 shadow-lg shadow-amber-500/10">
+              <Film size={20} className="text-amber-400" />
+              <span className="text-amber-400 text-sm font-semibold tracking-widest">CARNABY FILMS × ARTONFILM</span>
             </div>
 
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-8 leading-[0.95] font-serif">
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-[0.95] font-serif text-shadow-lg">
               {heroData.headline}
             </h1>
             
-            <div className="relative pl-6 border-l-4 border-amber-400/50 mb-8">
-              <p className="text-2xl md:text-3xl text-gray-200 mb-6 font-light italic">
+            {/* The World Is Yours - Cinematic Tagline */}
+            <div className="mb-8">
+              <p className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 mb-2 font-serif italic" style={{ backgroundSize: '200% auto', animation: 'goldShimmer 4s ease-in-out infinite' }}>
+                The World Is Yours
+              </p>
+            </div>
+            
+            <div className="relative pl-6 border-l-4 border-amber-400/50 mb-10 backdrop-blur-sm bg-black/20 py-4 rounded-r-lg">
+              <p className="text-2xl md:text-3xl text-gray-100 mb-4 font-light italic">
                 {heroData.subheadline}
               </p>
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-lg text-gray-200 leading-relaxed">
                 {heroData.description}
               </p>
             </div>
@@ -103,14 +125,14 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 to="/programme"
-                className="group inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
+                className="group inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-300 hover:via-amber-400 hover:to-amber-500 transition-all duration-500 hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/30"
               >
                 Explore the Programme
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
               </Link>
               <Link
                 to="/patrons"
-                className="inline-flex items-center justify-center px-10 py-5 border-2 border-white/80 text-white font-bold rounded-full hover:bg-white hover:text-black transition-all hover:scale-105 active:scale-95 backdrop-blur-sm"
+                className="inline-flex items-center justify-center px-10 py-5 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all duration-500 hover:scale-105 active:scale-95 backdrop-blur-md shadow-xl"
               >
                 Become a Patron
               </Link>
@@ -118,7 +140,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-r from-transparent via-amber-400/10 to-transparent"></div>
+        {/* Bottom Film Strip Effect */}
+        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-r from-transparent via-amber-400/20 to-transparent opacity-50"></div>
+        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-400/60 to-transparent"></div>
       </section>
 
       {/* Vision Section */}
