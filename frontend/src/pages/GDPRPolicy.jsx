@@ -72,29 +72,100 @@ const GDPRPolicy = () => {
             </section>
             
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Data Protection Officer</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">5. Data Transfers Outside the UK/EEA</h2>
+              <p className="mb-4">
+                Where we transfer personal data outside the United Kingdom or European Economic Area (EEA), we ensure that 
+                appropriate safeguards are in place, including:
+              </p>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>Standard Contractual Clauses (SCCs) approved by the European Commission</li>
+                <li>Adequacy decisions confirming equivalent protection in the destination country</li>
+                <li>Binding Corporate Rules where applicable</li>
+                <li>Other appropriate safeguards as required by UK GDPR and EU GDPR</li>
+              </ul>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">6. Data Retention</h2>
               <p>
-                For questions regarding GDPR compliance or to exercise your rights, please contact our Data Protection Officer:
+                We will only retain your personal data for as long as reasonably necessary to fulfil the purposes we collected 
+                it for, including for the purposes of satisfying any legal, regulatory, tax, accounting or reporting requirements. 
+                To determine the appropriate retention period, we consider the amount, nature and sensitivity of the personal data, 
+                the potential risk of harm from unauthorised use or disclosure, the purposes for which we process your personal 
+                data and whether we can achieve those purposes through other means.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">7. Data Protection Impact Assessments</h2>
+              <p>
+                Where our processing activities are likely to result in a high risk to individuals' rights and freedoms, we 
+                conduct Data Protection Impact Assessments (DPIAs) before commencing such processing. This helps us identify 
+                and minimise data protection risks.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">8. Data Breaches</h2>
+              <p>
+                In the event of a personal data breach, we have procedures in place to deal with it promptly. Where required 
+                by law, we will notify the relevant supervisory authority (ICO in the UK) within 72 hours of becoming aware 
+                of the breach. We will also notify affected individuals where the breach is likely to result in a high risk 
+                to their rights and freedoms.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">9. Staff Training and Awareness</h2>
+              <p>
+                We ensure that all staff members who handle personal data receive appropriate training on data protection 
+                principles and GDPR compliance. Regular awareness sessions are conducted to maintain high standards of 
+                data protection across our organisation.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">10. Third-Party Processors</h2>
+              <p>
+                Where we engage third-party processors to handle personal data on our behalf, we ensure that appropriate 
+                data processing agreements are in place that comply with GDPR requirements. We conduct due diligence on all 
+                processors to ensure they provide sufficient guarantees to implement appropriate technical and organisational 
+                measures.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">11. Supervisory Authority</h2>
+              <p className="mb-4">
+                Our lead supervisory authority is the Information Commissioner's Office (ICO):
+              </p>
+              <p>
+                Information Commissioner's Office<br/>
+                Wycliffe House<br/>
+                Water Lane<br/>
+                Wilmslow<br/>
+                Cheshire, SK9 5AF<br/>
                 <br/>
-                <a href="mailto:rh@artonfilm.uk" className="text-amber-400 hover:text-amber-300 transition-colors">
+                Tel: 0303 123 1113<br/>
+                Website: <a href="https://www.ico.org.uk" target="_blank" rel="noopener noreferrer" 
+                className="text-amber-400 hover:text-amber-300 transition-colors">www.ico.org.uk</a>
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">12. Contact Us</h2>
+              <p className="mb-4">
+                For questions regarding GDPR compliance or to exercise your rights, please contact us:
+              </p>
+              <p>
+                <strong>ArtOnFilm LTD</strong><br/>
+                12 Acorn Business Park<br/>
+                Northarbour Road, Portsmouth<br/>
+                England, PO6 3TH<br/>
+                <br/>
+                Email: <a href="mailto:rh@artonfilm.uk" className="text-amber-400 hover:text-amber-300 transition-colors">
                   rh@artonfilm.uk
                 </a>
-              </p>
-            </section>
-            
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4">International Transfers</h2>
-              <p>
-                We may transfer your personal data outside the EU. When we do, we ensure appropriate safeguards are in place 
-                to protect your data in accordance with GDPR requirements.
-              </p>
-            </section>
-            
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Data Retention</h2>
-              <p>
-                We will only retain your personal data for as long as necessary to fulfill the purposes we collected it for, 
-                including for legal, accounting, or reporting requirements.
               </p>
             </section>
           </div>
