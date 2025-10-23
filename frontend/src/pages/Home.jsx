@@ -488,7 +488,8 @@ const Home = () => {
       </section>
 
       {/* Testimonial Quote Strip */}
-      <section className="py-24 bg-gradient-to-r from-amber-500/10 via-purple-500/10 to-amber-500/10 fade-on-scroll opacity-0 transition-opacity duration-1000">
+      <section className="py-24 bg-gradient-to-r from-amber-500/10 via-amber-600/15 to-amber-500/10 fade-on-scroll opacity-0 transition-all duration-[1500ms] relative overflow-hidden">
+        <div className="absolute inset-0 soft-light-center"></div>
         <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <div className="text-center">
             <div className="text-6xl text-amber-400 mb-6">"</div>
