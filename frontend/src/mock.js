@@ -219,7 +219,7 @@ export const partnersVenuesData = {
 
 export const behindCameraData = {
   headline: 'Every Frame Tells a Story',
-  content: 'Follow the making of Through Our Eyes / One Frame Ahead - a documentary capturing the people, process, and purpose behind Europe\\'s newest cultural exchange.',
+  content: 'Follow the making of Through Our Eyes / One Frame Ahead - a documentary capturing the people, process, and purpose behind Europe's newest cultural exchange.',
   videoPlaceholder: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
 };
 
