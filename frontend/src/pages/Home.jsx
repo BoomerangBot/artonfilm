@@ -266,8 +266,9 @@ const Home = () => {
       </section>
 
       {/* Join the Movement */}
-      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-opacity duration-1000">
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-black to-purple-500/10"></div>
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-black to-amber-600/10"></div>
+        <div className="absolute inset-0 soft-light-center"></div>
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif">Join the Movement</h2>
           <p className="text-xl text-gray-300 mb-12">
