@@ -52,13 +52,24 @@ const Footer = () => {
 
         {/* Charity Partners */}
         <div className="border-t border-white/10 pt-8">
-          <h4 className="text-white font-semibold mb-4 text-center">Charity Partners</h4>
+          <h4 className="text-white font-semibold mb-6 text-center">Charity Partners</h4>
           <div className="flex flex-wrap justify-center items-center gap-8 mb-8">
-            {charityLogos.map((charity) => (
-              <div key={charity.name} className="text-gray-400 text-sm font-medium">
-                {charity.name}
-              </div>
-            ))}
+            {charityLogos.map((charity) => {
+              const initials = charity.name.split(' ').map(word => word[0]).join('');
+              return (
+                <div 
+                  key={charity.name} 
+                  className="flex flex-col items-center gap-3 group cursor-pointer"
+                >
+                  <div className="w-16 h-16 bg-gradient-to-br from-red-500/20 to-pink-500/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform border border-white/10">
+                    <span className="text-xl font-bold text-red-400">{initials}</span>
+                  </div>
+                  <span className="text-gray-400 text-sm font-medium text-center group-hover:text-white transition-colors">
+                    {charity.name}
+                  </span>
+                </div>
+              );
+            })}
           </div>
         </div>
 
