@@ -146,11 +146,15 @@ const Home = () => {
       </section>
 
       {/* Vision Section */}
-      <section className="relative py-32 fade-on-scroll opacity-0 transition-opacity duration-1000 overflow-hidden">
+      <section className="relative py-32 fade-on-scroll opacity-0 transition-all duration-[1500ms] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 to-black"></div>
         
-        <div className="absolute top-20 right-10 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 left-10 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl"></div>
+        {/* Soft Hollywood Lighting */}
+        <div className="absolute top-0 left-0 right-0 h-96 soft-light-top"></div>
+        <div className="absolute inset-0 soft-light-center"></div>
+        
+        <div className="absolute top-20 right-10 w-96 h-96 bg-amber-500/8 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '8s' }}></div>
+        <div className="absolute bottom-20 left-10 w-96 h-96 bg-amber-400/6 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '10s' }}></div>
 
         <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
