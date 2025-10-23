@@ -11,6 +11,10 @@ import Institutional from './pages/Institutional';
 import Impact from './pages/Impact';
 import Media from './pages/Media';
 import Contact from './pages/Contact';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import GDPRPolicy from './pages/GDPRPolicy';
+import Terms from './pages/Terms';
+import CookiePolicy from './pages/CookiePolicy';
 import { Toaster } from './components/ui/sonner';
 
 function App() {
@@ -27,6 +31,10 @@ function App() {
           <Route path="/impact" element={<Impact />} />
           <Route path="/media" element={<Media />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/gdpr-policy" element={<GDPRPolicy />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/cookie-policy" element={<CookiePolicy />} />
         </Routes>
         <Footer />
         <Toaster />
