@@ -1,9 +1,32 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { heroData, visionData, galleryImages } from '../mock';
-import { ArrowRight, Palette, Film } from 'lucide-react';
+import { 
+  heroData, 
+  visionData, 
+  galleryImages, 
+  investmentData,
+  impactTransparencyData,
+  partnersVenuesData,
+  behindCameraData,
+  testimonialData
+} from '../mock';
+import { 
+  ArrowRight, 
+  Palette, 
+  Film, 
+  TrendingUp, 
+  Users, 
+  GraduationCap, 
+  Leaf, 
+  Heart,
+  Building2,
+  Play,
+  Mail
+} from 'lucide-react';
 
 const Home = () => {
+  const [email, setEmail] = useState('');
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -21,9 +44,27 @@ const Home = () => {
     return () => observer.disconnect();
   }, []);
 
+  const handleNewsletterSubmit = (e) => {
+    e.preventDefault();
+    console.log('Newsletter signup:', email);
+    alert('Thank you for subscribing! (Mock submission)');
+    setEmail('');
+  };
+
+  const getIcon = (iconName) => {
+    const icons = {
+      users: Users,
+      graduation: GraduationCap,
+      leaf: Leaf,
+      heart: Heart
+    };
+    const IconComponent = icons[iconName] || Users;
+    return <IconComponent size={32} />;
+  };
+
   return (
     <div className="bg-black text-white">
-      {/* Hero Section - More Dramatic */}
+      {/* Hero Section */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
@@ -41,7 +82,6 @@ const Home = () => {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-32 w-full">
           <div className="max-w-3xl">
-            {/* Artistic Label */}
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-white/5 backdrop-blur-sm border border-amber-400/30 rounded-full mb-8">
               <Palette size={20} className="text-amber-400" />
               <span className="text-amber-400 text-sm font-medium tracking-wider">UK ↔ EU CULTURAL EXCHANGE</span>
@@ -82,15 +122,13 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Film Strip Decoration */}
         <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-r from-transparent via-amber-400/10 to-transparent"></div>
       </section>
 
-      {/* Vision Section - More Artistic */}
+      {/* Vision Section */}
       <section className="relative py-32 fade-on-scroll opacity-0 transition-opacity duration-1000 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 to-black"></div>
         
-        {/* Decorative Elements */}
         <div className="absolute top-20 right-10 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 left-10 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl"></div>
 
@@ -146,7 +184,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Gallery Preview - More Artistic Layout */}
+      {/* Gallery Preview */}
       <section className="py-32 bg-black fade-on-scroll opacity-0 transition-opacity duration-1000">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -155,7 +193,6 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-            {/* Large Featured Image */}
             <div className="md:col-span-8 relative group cursor-pointer overflow-hidden rounded-2xl">
               <div className="aspect-[16/10]">
                 <img
@@ -174,7 +211,6 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Side Images */}
             <div className="md:col-span-4 space-y-6">
               <div className="relative group cursor-pointer overflow-hidden rounded-2xl">
                 <div className="aspect-square">
@@ -203,8 +239,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-32 relative overflow-hidden">
+      {/* Join the Movement */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-opacity duration-1000">
         <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-black to-purple-500/10"></div>
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif">Join the Movement</h2>
@@ -224,6 +260,238 @@ const Home = () => {
             >
               Partnership Opportunities
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Investment in Culture Section */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-opacity duration-1000">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        <div className="absolute top-20 left-10 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl"></div>
+        
+        <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500/10 border border-amber-500/30 rounded-full mb-8">
+              <TrendingUp size={20} className="text-amber-400" />
+              <span className="text-amber-400 text-sm font-semibold tracking-widest">FOR INVESTORS</span>
+            </div>
+            
+            <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif">
+              {investmentData.headline}
+            </h2>
+            <p className="text-2xl text-gray-400 mb-8 max-w-3xl mx-auto font-light">
+              {investmentData.subheadline}
+            </p>
+            <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto mb-12">
+              {investmentData.content}
+            </p>
+          </div>
+
+          {/* Stats Row */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {investmentData.stats.map((stat, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-amber-500/20 text-center group hover:border-amber-500/40 transition-all"
+              >
+                <div className="text-5xl font-bold text-amber-400 mb-4 group-hover:scale-110 transition-transform">
+                  {stat.value}
+                </div>
+                <div className="text-lg text-gray-300 font-medium">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <button className="inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20">
+              View Investment Overview
+              <ArrowRight size={20} />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Impact & Transparency Section */}
+      <section className="py-32 bg-zinc-950 fade-on-scroll opacity-0 transition-opacity duration-1000">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold mb-6 font-serif">
+              {impactTransparencyData.headline}
+            </h2>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+              {impactTransparencyData.content}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+            {impactTransparencyData.metrics.map((metric, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-white/10 hover:border-amber-500/30 transition-all group"
+              >
+                <div className="w-16 h-16 bg-amber-500/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-amber-500/30 transition-colors">
+                  {getIcon(metric.icon)}
+                </div>
+                <h3 className="text-sm font-semibold text-amber-400 mb-3 uppercase tracking-wider">
+                  {metric.label}
+                </h3>
+                <div className="text-3xl font-bold mb-3">{metric.value}</div>
+                <p className="text-gray-400 text-sm">{metric.description}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <button className="inline-flex items-center gap-2 px-10 py-5 border-2 border-amber-500/50 text-amber-400 font-bold rounded-full hover:bg-amber-500 hover:text-black transition-all hover:scale-105 active:scale-95">
+              Download Impact Report
+              <ArrowRight size={20} />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Partners & Venues */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-opacity duration-1000">
+        <div className="absolute inset-0 bg-gradient-to-b from-black to-zinc-950"></div>
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl"></div>
+        
+        <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="w-20 h-20 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-8">
+              <Building2 size={40} className="text-black" />
+            </div>
+            <h2 className="text-5xl font-bold mb-6 font-serif">
+              {partnersVenuesData.headline}
+            </h2>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-12">
+              {partnersVenuesData.content}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {partnersVenuesData.partners.map((partner, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-zinc-900 to-black rounded-xl p-6 border border-white/10 hover:border-amber-500/30 transition-all text-center group"
+              >
+                <p className="text-lg font-medium text-gray-300 group-hover:text-amber-400 transition-colors">
+                  {partner}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <Link
+              to="/partners"
+              className="inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
+            >
+              Partner with Us
+              <ArrowRight size={20} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Behind the Camera */}
+      <section className="py-32 bg-black fade-on-scroll opacity-0 transition-opacity duration-1000">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-500/10 border border-purple-500/30 rounded-full mb-6">
+                <Film size={16} className="text-purple-400" />
+                <span className="text-purple-400 text-xs font-semibold tracking-widest">DOCUMENTARY</span>
+              </div>
+              
+              <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight font-serif">
+                {behindCameraData.headline}
+              </h2>
+              <p className="text-xl text-gray-300 leading-relaxed mb-8">
+                {behindCameraData.content}
+              </p>
+              <Link
+                to="/media"
+                className="inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-bold rounded-full hover:from-purple-400 hover:to-purple-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-purple-500/20"
+              >
+                <Play size={20} />
+                Watch the Teaser
+              </Link>
+            </div>
+
+            <div className="relative">
+              <div className="relative aspect-video bg-zinc-900 rounded-2xl overflow-hidden group cursor-pointer">
+                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-purple-500/20 to-black/80 group-hover:from-purple-500/30 transition-colors">
+                  <div className="w-24 h-24 rounded-full bg-white/90 flex items-center justify-center group-hover:bg-white transition-colors group-hover:scale-110 transition-transform">
+                    <Play size={40} className="text-black ml-2" />
+                  </div>
+                </div>
+                <img
+                  src={galleryImages[1]}
+                  alt="Documentary Preview"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="text-center text-sm text-gray-500 mt-4">
+                Documentary teaser coming soon
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial Quote Strip */}
+      <section className="py-24 bg-gradient-to-r from-amber-500/10 via-purple-500/10 to-amber-500/10 fade-on-scroll opacity-0 transition-opacity duration-1000">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8">
+          <div className="text-center">
+            <div className="text-6xl text-amber-400 mb-6">"</div>
+            <p className="text-2xl md:text-3xl font-light italic text-gray-200 mb-8 leading-relaxed">
+              {testimonialData.quote}
+            </p>
+            <div className="flex items-center justify-center gap-4">
+              <div className="h-px w-12 bg-amber-400"></div>
+              <div>
+                <p className="text-lg font-semibold text-amber-400">{testimonialData.author}</p>
+                <p className="text-sm text-gray-400">{testimonialData.title}</p>
+              </div>
+              <div className="h-px w-12 bg-amber-400"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Newsletter / Insider Circle */}
+      <section className="py-32 bg-black fade-on-scroll opacity-0 transition-opacity duration-1000">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-12 md:p-16 border border-amber-500/20 text-center">
+            <div className="w-20 h-20 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-8">
+              <Mail size={40} className="text-black" />
+            </div>
+            
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-serif">
+              Stay in the Frame
+            </h2>
+            <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
+              Join the ArtOnFilm Insider Circle for exhibition updates, patron opportunities, and early access to limited editions.
+            </p>
+
+            <form onSubmit={handleNewsletterSubmit} className="max-w-xl mx-auto">
+              <div className="flex flex-col sm:flex-row gap-4">
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Enter your email"
+                  required
+                  className="flex-1 px-6 py-4 bg-black/50 border border-white/20 rounded-full focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white placeholder-gray-500"
+                />
+                <button
+                  type="submit"
+                  className="px-10 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20 whitespace-nowrap"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </section>
