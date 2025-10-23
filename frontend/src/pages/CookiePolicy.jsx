@@ -10,14 +10,30 @@ const CookiePolicy = () => {
         
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <h1 className="text-5xl md:text-6xl font-bold mb-8 font-serif">Cookie Policy</h1>
-          <p className="text-gray-400 mb-12">Last updated: {new Date().toLocaleDateString()}</p>
+          <p className="text-gray-400 mb-12">Effective Date: 1 January 2025</p>
           
           <div className="space-y-8 text-gray-300 leading-relaxed">
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">What Are Cookies</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">1. Introduction</h2>
+              <p className="mb-4">
+                This Cookie Policy explains how ArtOnFilm LTD ("we", "our", "us") uses cookies and similar technologies on 
+                our website. This policy should be read in conjunction with our Privacy Policy and Terms and Conditions.
+              </p>
               <p>
-                Cookies are small text files that are placed on your device when you visit our website. They are widely used 
-                to make websites work more efficiently and to provide information to website owners.
+                <strong>Company Details:</strong><br/>
+                ArtOnFilm LTD<br/>
+                12 Acorn Business Park<br/>
+                Northarbour Road, Portsmouth<br/>
+                England, PO6 3TH
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-bold text-white mb-4">2. What Are Cookies</h2>
+              <p>
+                Cookies are small text files that are placed on your computer or mobile device when you visit a website. 
+                They are widely used to make websites work more efficiently and provide information to the owners of the site. 
+                Cookies enable websites to recognise your device and store some information about your preferences or past actions.
               </p>
             </section>
             
