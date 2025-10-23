@@ -340,7 +340,8 @@ const Home = () => {
       </section>
 
       {/* Impact & Transparency Section */}
-      <section className="py-32 bg-zinc-950 fade-on-scroll opacity-0 transition-opacity duration-1000">
+      <section className="py-32 bg-zinc-950 fade-on-scroll opacity-0 transition-all duration-[1500ms] relative overflow-hidden">
+        <div className="absolute inset-0 soft-light-center"></div>
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 font-serif">
