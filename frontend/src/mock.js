@@ -162,3 +162,69 @@ export const galleryImages = [
   'https://images.unsplash.com/photo-1600903781679-7ea3cbc564c3',
   'https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3'
 ];
+
+export const investmentData = {
+  headline: 'Investing in Cultural Capital',
+  subheadline: 'ArtOnFilm transforms creativity into long-term value.',
+  content: 'Each exhibition is built on a sustainable model where artistic merit, education, and brand visibility align. From limited-edition works and licensing to educational sponsorships, every partnership leaves a measurable legacy.',
+  stats: [
+    { label: '6 Cities', value: '6' },
+    { label: '10,000+ Visitors', value: '10K+' },
+    { label: '15% of Revenue Donated', value: '15%' }
+  ]
+};
+
+export const impactTransparencyData = {
+  headline: 'Measurable Cultural Impact',
+  content: 'Every ArtOnFilm programme reports outcomes across five pillars — reach, education, accessibility, sustainability, and giving.',
+  metrics: [
+    {
+      icon: 'users',
+      label: 'Public Reach',
+      value: '10,000+ visitors',
+      description: 'Across all exhibition venues'
+    },
+    {
+      icon: 'graduation',
+      label: 'Education',
+      value: '300+ students',
+      description: 'Workshop & outreach programmes'
+    },
+    {
+      icon: 'leaf',
+      label: 'Sustainability',
+      value: '−40% CO₂',
+      description: 'vs standard touring exhibitions'
+    },
+    {
+      icon: 'heart',
+      label: 'Charity Support',
+      value: '15% gross income',
+      description: 'Donated to health charities'
+    }
+  ]
+};
+
+export const partnersVenuesData = {
+  headline: 'Trusted by Cultural Leaders',
+  content: 'Our partners span art, film, hospitality, and science — united by one belief: culture creates connection.',
+  partners: [
+    'Hans Alf Gallery (Copenhagen)',
+    'Carnaby Films (London)',
+    'DHS Labs (Berlin)',
+    'Bluebird Group (Chelsea)',
+    'South Place Hotel (London City)'
+  ]
+};
+
+export const behindCameraData = {
+  headline: 'Every Frame Tells a Story',
+  content: 'Follow the making of Through Our Eyes / One Frame Ahead — a documentary capturing the people, process, and purpose behind Europe's newest cultural exchange.',
+  videoPlaceholder: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+};
+
+export const testimonialData = {
+  quote: 'ArtOnFilm redefines cultural diplomacy — proof that art can move economies as well as hearts.',
+  author: 'Dr Chris Lee',
+  title: 'Art & Science Director'
+};
