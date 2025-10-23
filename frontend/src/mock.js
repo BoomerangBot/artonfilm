@@ -209,11 +209,45 @@ export const partnersVenuesData = {
   headline: 'Trusted by Cultural Leaders',
   content: 'Our partners span art, film, hospitality, and science - united by one belief: culture creates connection.',
   partners: [
-    'Hans Alf Gallery (Copenhagen)',
-    'Carnaby Films (London)',
-    'DHS Labs (Berlin)',
-    'Bluebird Group (Chelsea)',
-    'South Place Hotel (London City)'
+    {
+      name: 'Hans Alf Gallery',
+      location: 'Copenhagen',
+      website: 'http://hansalf.com/',
+      instagram: 'https://instagram.com/hansalfgallery',
+      facebook: 'https://facebook.com/hansalfgallery'
+    },
+    {
+      name: 'Carnaby Films',
+      location: 'London',
+      website: 'http://www.carnabysales.com',
+      twitter: 'https://twitter.com/CarnabyFilms',
+      facebook: 'https://facebook.com/carnaby.international'
+    },
+    {
+      name: 'DHS Labs',
+      location: 'Berlin',
+      website: '#',
+      linkedin: '#'
+    },
+    {
+      name: 'Bluebird Group',
+      location: 'Chelsea',
+      website: '#',
+      instagram: '#'
+    },
+    {
+      name: 'South Place Hotel',
+      location: 'London City',
+      website: '#',
+      instagram: '#'
+    },
+    {
+      name: 'Natasha Kissell',
+      location: 'Brighton',
+      website: 'https://natashakissell.uk',
+      instagram: 'https://instagram.com/natashakissell',
+      email: 'njkissell@aol.com'
+    }
   ]
 };
 
