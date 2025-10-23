@@ -441,7 +441,8 @@ const Home = () => {
       </section>
 
       {/* Behind the Camera */}
-      <section className="py-32 bg-black fade-on-scroll opacity-0 transition-opacity duration-1000">
+      <section className="py-32 bg-black fade-on-scroll opacity-0 transition-all duration-[1500ms] relative overflow-hidden">
+        <div className="absolute inset-0 soft-light-center"></div>
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
