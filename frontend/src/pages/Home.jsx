@@ -369,16 +369,33 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {partnersVenuesData.partners.map((partner, index) => (
-              <div
-                key={index}
-                className="bg-gradient-to-br from-zinc-900 to-black rounded-xl p-6 border border-white/10 hover:border-amber-500/30 transition-all text-center group"
-              >
-                <p className="text-lg font-medium text-gray-300 group-hover:text-amber-400 transition-colors">
-                  {partner}
-                </p>
-              </div>
-            ))}
+            {partnersVenuesData.partners.map((partner, index) => {
+              const partnerName = partner.split('(')[0].trim();
+              const location = partner.match(/\((.*?)\)/)?.[1] || '';
+              
+              return (
+                <div
+                  key={index}
+                  className="bg-gradient-to-br from-zinc-900 to-black rounded-xl p-8 border border-white/10 hover:border-amber-500/30 transition-all group cursor-pointer"
+                >
+                  {/* Logo placeholder with first letters */}
+                  <div className="w-16 h-16 bg-gradient-to-br from-amber-500/20 to-purple-500/20 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                    <span className="text-2xl font-bold text-amber-400">
+                      {partnerName.split(' ').map(word => word[0]).join('').substring(0, 2)}
+                    </span>
+                  </div>
+                  
+                  <div className="text-center">
+                    <p className="text-lg font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">
+                      {partnerName}
+                    </p>
+                    <p className="text-sm text-gray-500">
+                      {location}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
 
           <div className="text-center">
