@@ -224,7 +224,7 @@ export const behindCameraData = {
 };
 
 export const testimonialData = {
-  quote: 'ArtOnFilm redefines cultural diplomacy — proof that art can move economies as well as hearts.',
+  quote: 'ArtOnFilm redefines cultural diplomacy - proof that art can move economies as well as hearts.',
   author: 'Dr Chris Lee',
   title: 'Art & Science Director'
 };
