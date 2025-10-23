@@ -152,9 +152,32 @@ export const mediaData = {
 };
 
 export const charityLogos = [
-  { name: 'Red Cross', url: '#' },
-  { name: 'Cancer Research UK', url: '#' },
-  { name: 'ArtOnGiving CIC', url: '#' }
+  { 
+    name: 'Red Cross', 
+    url: 'https://www.redcross.org',
+    social: {
+      twitter: 'https://twitter.com/RedCross',
+      facebook: 'https://facebook.com/redcross',
+      instagram: 'https://instagram.com/americanredcross'
+    }
+  },
+  { 
+    name: 'Cancer Research UK', 
+    url: 'https://www.cancerresearchuk.org',
+    social: {
+      twitter: 'https://twitter.com/CR_UK',
+      facebook: 'https://facebook.com/cancerresearchuk',
+      instagram: 'https://instagram.com/cr_uk'
+    }
+  },
+  { 
+    name: 'ArtOnGiving', 
+    url: 'https://artofgivingfoundation.org',
+    social: {
+      facebook: 'https://facebook.com/artofgivingfoundation',
+      instagram: 'https://instagram.com/artofgivingfoundation'
+    }
+  }
 ];
 
 export const galleryImages = [
