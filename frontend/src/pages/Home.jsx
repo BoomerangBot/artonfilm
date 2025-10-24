@@ -97,10 +97,10 @@ const Home = () => {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-32 w-full">
           <div className="max-w-3xl">
-            {/* Carnaby Films x ArtOnFilm Badge */}
+            {/* Perks of Giving Badge */}
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-amber-500/10 to-amber-600/10 backdrop-blur-md border border-amber-400/40 rounded-full mb-6 shadow-lg shadow-amber-500/10">
-              <Film size={20} className="text-amber-400" />
-              <span className="text-amber-400 text-sm font-semibold tracking-widest">CARNABY FILMS × ARTONFILM</span>
+              <Heart size={20} className="text-amber-400" />
+              <span className="text-amber-400 text-sm font-semibold tracking-widest">PERKS OF GIVING</span>
             </div>
 
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-[0.95] font-serif text-shadow-lg">
