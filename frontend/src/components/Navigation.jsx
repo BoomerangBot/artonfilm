@@ -142,6 +142,14 @@ const Navigation = () => {
                 ></span>
               </Link>
             ))}
+
+            {/* Prominent Shop Button */}
+            <Link
+              to={shopButton.path}
+              className="ml-2 px-6 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
+            >
+              {shopButton.name}
+            </Link>
           </div>
 
           {/* Mobile menu button */}
