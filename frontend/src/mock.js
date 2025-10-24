@@ -266,11 +266,13 @@ export const partnersVenuesData = {
       instagram: '#'
     },
     {
-      name: 'South Place Hotel',
-      location: 'London City',
-      logo: 'https://via.placeholder.com/200x100/000000/FFFFFF?text=South+Place',
+      name: 'Dr Chris Lee',
+      subtitle: 'JustXR1',
+      location: 'London',
+      logo: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2vzvbti7_WhatsApp%20Image%202025-10-24%20at%2019.35.18_e26b9272.jpg',
       website: '#',
-      instagram: '#'
+      instagram: 'https://instagram.com/justxr1',
+      collection: '/collection/chris-lee'
     },
     {
       name: 'Natasha Kissell',
