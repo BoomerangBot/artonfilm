@@ -155,6 +155,7 @@ export const charityLogos = [
   { 
     name: 'Red Cross', 
     url: 'https://www.redcross.org',
+    logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/7c054fpk_redcross.png',
     social: {
       twitter: 'https://twitter.com/RedCross',
       facebook: 'https://facebook.com/redcross',
@@ -164,6 +165,7 @@ export const charityLogos = [
   { 
     name: 'Cancer Research UK', 
     url: 'https://www.cancerresearchuk.org',
+    logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/gy6qkv2h_cancerresearchuk.png',
     social: {
       twitter: 'https://twitter.com/CR_UK',
       facebook: 'https://facebook.com/cancerresearchuk',
@@ -173,6 +175,7 @@ export const charityLogos = [
   { 
     name: 'ArtOnGiving', 
     url: 'https://artofgivingfoundation.org',
+    logo: 'https://via.placeholder.com/200x100/000000/FFFFFF?text=ArtOnGiving',
     social: {
       facebook: 'https://facebook.com/artofgivingfoundation',
       instagram: 'https://instagram.com/artofgivingfoundation'
