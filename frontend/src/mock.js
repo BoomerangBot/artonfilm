@@ -395,5 +395,55 @@ export const artworks = [
     description: 'Sweeping views and dramatic skies frame this expansive poolside vista. The painting celebrates the grandeur of architectural design set against the majesty of the natural world.',
     image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/fvuht8kh_10.jpeg',
     price: 'POA'
+  },
+  {
+    id: 11,
+    title: 'Urban Oasis',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'A stunning juxtaposition of city life and leisure. The rooftop pool becomes a serene escape, floating above the urban landscape. Bold colors capture the energy of modern metropolitan living.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/fsw2bbqf_11.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 12,
+    title: 'Mediterranean Dream',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Sun-drenched terraces and azure waters define this celebration of coastal architecture. The warm palette evokes the timeless beauty of Mediterranean villas and endless summer days.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/9acadqpl_12.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 13,
+    title: 'Skyline Serenity',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Twilight descends on this elevated sanctuary. The interplay of interior and exterior spaces creates a contemplative dialogue between urban sophistication and natural beauty.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/b0gchrbv_13.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 14,
+    title: 'Architectural Harmony',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Clean lines and geometric forms compose this ode to modernist design. The pool serves as a mirror, reflecting the careful balance between structure and nature.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/cnvu54te_14.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 15,
+    title: 'Infinity Edge',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Where water meets sky in perfect unity. This piece explores the concept of boundless horizons through the lens of contemporary pool design and spectacular natural vistas.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/qwvztiqx_15.jpeg',
+    price: 'POA'
   }
 ];
