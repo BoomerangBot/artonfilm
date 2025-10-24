@@ -26,7 +26,7 @@ const Navigation = () => {
     { name: 'Contact', path: '/contact' }
   ];
 
-  const shopButton = { name: 'Shop', path: '/shop' };
+  const collectionButton = { name: 'Collection', path: '/collection' };
 
   useEffect(() => {
     const handleScroll = () => {
