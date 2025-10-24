@@ -238,6 +238,7 @@ export const partnersVenuesData = {
     {
       name: 'Hans Alf Gallery',
       location: 'Copenhagen',
+      logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/ryh5nhf5_hansalfgallery.jpeg',
       website: 'http://hansalf.com/',
       instagram: 'https://instagram.com/hansalfgallery',
       facebook: 'https://facebook.com/hansalfgallery'
@@ -245,6 +246,7 @@ export const partnersVenuesData = {
     {
       name: 'Carnaby Films',
       location: 'London',
+      logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/m524tx8t_carnabyfilms.jpeg',
       website: 'http://www.carnabysales.com',
       twitter: 'https://twitter.com/CarnabyFilms',
       facebook: 'https://facebook.com/carnaby.international'
@@ -252,24 +254,28 @@ export const partnersVenuesData = {
     {
       name: 'DHS Labs',
       location: 'Berlin',
+      logo: 'https://via.placeholder.com/200x100/000000/FFFFFF?text=DHS+Labs',
       website: '#',
       linkedin: '#'
     },
     {
       name: 'Bluebird Group',
       location: 'Chelsea',
+      logo: 'https://via.placeholder.com/200x100/000000/FFFFFF?text=Bluebird',
       website: '#',
       instagram: '#'
     },
     {
       name: 'South Place Hotel',
       location: 'London City',
+      logo: 'https://via.placeholder.com/200x100/000000/FFFFFF?text=South+Place',
       website: '#',
       instagram: '#'
     },
     {
       name: 'Natasha Kissell',
       location: 'Brighton',
+      logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/0uay4yw2_natashakissell.jpeg',
       website: 'https://natashakissell.uk',
       instagram: 'https://instagram.com/natashakissell',
       email: 'njkissell@aol.com'
