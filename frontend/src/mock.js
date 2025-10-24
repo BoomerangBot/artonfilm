@@ -294,3 +294,56 @@ export const testimonialData = {
   author: 'Dr Chris Lee',
   title: 'Art and Science Director'
 };
+
+export const artworks = [
+  {
+    id: 1,
+    title: 'Mountain Villa with Pool',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'A stunning contemporary piece capturing the serene beauty of modern architecture nestled in mountain landscapes. The vibrant colors and bold brushstrokes create a sense of tranquility and luxury.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/m5z5gyle_1.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 2,
+    title: 'Modernist Poolside',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'An exploration of light and reflection through the lens of mid-century modern architecture. The interplay between the pool and surrounding structure creates a captivating visual dialogue.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/s0yg3lwq_2.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 3,
+    title: 'Desert Oasis',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Vibrant colors dance across the canvas in this celebration of Palm Springs modernism. The playful patterns in the pool contrast beautifully with the desert landscape and palm trees.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/q8bw9otk_3.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 4,
+    title: 'Alpine Reflection',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Majestic mountain peaks frame this serene poolside scene. The crystal-clear water reflects the grandeur of the alpine landscape, creating a harmonious blend of luxury and nature.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/1o4c82hd_4.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 5,
+    title: 'Snowscape Sanctuary',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'A masterful study of winter light and architectural form. The snow-covered mountains provide a dramatic backdrop to this contemplative poolside composition.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/3tdybigr_5.jpeg',
+    price: 'POA'
+  }
+];
