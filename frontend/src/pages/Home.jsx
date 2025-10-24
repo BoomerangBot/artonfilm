@@ -8,7 +8,8 @@ import {
   impactTransparencyData,
   partnersVenuesData,
   behindCameraData,
-  testimonialData
+  testimonialData,
+  charityLogos
 } from '../mock';
 import { 
   ArrowRight, 
