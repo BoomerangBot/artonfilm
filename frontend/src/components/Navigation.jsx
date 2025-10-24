@@ -228,6 +228,15 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
+
+            {/* Mobile Shop Button */}
+            <Link
+              to={shopButton.path}
+              onClick={() => setIsOpen(false)}
+              className="block px-4 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-lg text-center hover:from-amber-400 hover:to-amber-500 transition-all"
+            >
+              {shopButton.name}
+            </Link>
           </div>
         )}
       </div>
