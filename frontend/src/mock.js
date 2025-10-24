@@ -345,5 +345,55 @@ export const artworks = [
     description: 'A masterful study of winter light and architectural form. The snow-covered mountains provide a dramatic backdrop to this contemplative poolside composition.',
     image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/3tdybigr_5.jpeg',
     price: 'POA'
+  },
+  {
+    id: 6,
+    title: 'Coastal Retreat',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Capturing the essence of coastal luxury, this piece explores the relationship between modern architecture and the Mediterranean landscape. Warm tones and bold strokes evoke the timeless charm of seaside living.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/mtsu0dfm_6.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 7,
+    title: 'Summer Solace',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Vibrant blues and greens dance across this celebration of summer leisure. The composition invites viewers to experience the tranquility of a perfect afternoon by the pool.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/wr8z9n3w_7.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 8,
+    title: 'Modernist Haven',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'An homage to mid-century modern architecture, this work captures the clean lines and geometric precision of the era while infusing it with contemporary color and energy.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/7jxr23el_8.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 9,
+    title: 'Twilight Reflection',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'The golden hour transforms this architectural scene into a study of light and shadow. The interplay between natural and artificial elements creates a mesmerizing visual harmony.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/8kjbhdng_9.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 10,
+    title: 'Panoramic Paradise',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Sweeping views and dramatic skies frame this expansive poolside vista. The painting celebrates the grandeur of architectural design set against the majesty of the natural world.',
+    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/fvuht8kh_10.jpeg',
+    price: 'POA'
   }
 ];
