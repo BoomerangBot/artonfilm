@@ -26,6 +26,8 @@ const Navigation = () => {
     { name: 'Contact', path: '/contact' }
   ];
 
+  const shopButton = { name: 'Shop', path: '/shop' };
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
