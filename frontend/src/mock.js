@@ -495,5 +495,45 @@ export const artworks = [
     description: 'Sunlit decking and azure waters invite contemplation in this serene composition. The interplay of light on water creates a meditative atmosphere of timeless elegance.',
     image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/1axxgyr7_20.jpeg',
     price: 'POA'
+  },
+  {
+    id: 21,
+    title: 'Seaside Perspective',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'A unique vantage point overlooking the sea, where architectural geometry meets coastal beauty. The painting captures a moment of tranquil observation from an elevated terrace.',
+    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/u6ykuo0g_21.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 22,
+    title: 'Art Deco Elegance',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Pink and white umbrellas dot a checkered poolside in this celebration of vintage glamour. The composition evokes the timeless sophistication of mid-century resort living.',
+    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/lfqa35q2_22.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 23,
+    title: 'Mountain Villa Retreat',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Nestled against dramatic mountain peaks, this architectural study explores the harmony between modern design and natural grandeur. Warm tones contrast beautifully with the cool alpine backdrop.',
+    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2hukoy8z_23.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 24,
+    title: 'Canyon Vista',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Overlooking a vast urban landscape, this piece captures the serenity of a poolside sanctuary high above the city. The hazy atmosphere creates a dreamlike quality of peaceful isolation.',
+    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/qrefteba_24.jpeg',
+    price: 'POA'
   }
 ];
