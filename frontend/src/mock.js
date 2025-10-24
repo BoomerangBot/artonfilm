@@ -445,5 +445,55 @@ export const artworks = [
     description: 'Where water meets sky in perfect unity. This piece explores the concept of boundless horizons through the lens of contemporary pool design and spectacular natural vistas.',
     image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/qwvztiqx_15.jpeg',
     price: 'POA'
+  },
+  {
+    id: 16,
+    title: 'Tropical Sanctuary',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Pink-draped pavilions and heart-shaped floats create a dreamlike tropical escape. This vibrant composition celebrates leisure and luxury in a lush, colorful paradise.',
+    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 17,
+    title: 'Desert Modernism',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'A masterful exploration of mid-century architecture against desert palms. The painted pool floor adds a kaleidoscope of color to this celebration of Palm Springs style.',
+    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/dxeheg2r_17.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 18,
+    title: 'Coastal Promenade',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Where sea meets shore in a symphony of blues and yellows. This seaside pool captures the joy and vitality of coastal living with bold, expressive brushwork.',
+    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/g8idwuhn_18.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 19,
+    title: 'Palm Springs Elegance',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Towering palms frame this quintessential desert retreat. The crystalline pool and manicured grounds exemplify the refined aesthetic of California modernism.',
+    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/gwa5rbec_19.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 20,
+    title: 'Poolside Tranquility',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'Sunlit decking and azure waters invite contemplation in this serene composition. The interplay of light on water creates a meditative atmosphere of timeless elegance.',
+    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/1axxgyr7_20.jpeg',
+    price: 'POA'
   }
 ];
