@@ -11,6 +11,7 @@ import Institutional from './pages/Institutional';
 import Impact from './pages/Impact';
 import Media from './pages/Media';
 import Contact from './pages/Contact';
+import Shop from './pages/Shop';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import GDPRPolicy from './pages/GDPRPolicy';
 import Terms from './pages/Terms';
