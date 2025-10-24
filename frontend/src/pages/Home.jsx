@@ -419,6 +419,9 @@ const Home = () => {
                     <p className="text-lg font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">
                       {partner.name}
                     </p>
+                    {partner.subtitle && (
+                      <p className="text-sm text-amber-400 font-medium mb-2">{partner.subtitle}</p>
+                    )}
                     <p className="text-sm text-gray-500 mb-4">
                       {partner.location}
                     </p>
@@ -433,8 +436,18 @@ const Home = () => {
                       </Link>
                     )}
                     
+                    {/* Collection Button for Dr Chris Lee */}
+                    {partner.name === 'Dr Chris Lee' && (
+                      <Link
+                        to="/collection/chris-lee"
+                        className="inline-block px-6 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20 mb-4"
+                      >
+                        Coming Soon
+                      </Link>
+                    )}
+                    
                     {/* Website Link */}
-                    {partner.website && partner.website !== '#' && partner.name !== 'Natasha Kissell' && (
+                    {partner.website && partner.website !== '#' && partner.name !== 'Natasha Kissell' && partner.name !== 'Dr Chris Lee' && (
                       <a
                         href={partner.website}
                         target="_blank"
