@@ -62,56 +62,63 @@ const Shop = () => {
       </section>
 
       {/* Artworks Grid */}
-      <section className="py-32 relative">
+      <section className="py-24 relative">
         <div className="absolute inset-0 soft-light-center"></div>
         
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="mb-8 text-center">
+            <p className="text-gray-400 text-lg">
+              Showing <span className="text-amber-400 font-semibold">{artworks.length}</span> available works
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {artworks.map((artwork) => (
               <div
                 key={artwork.id}
-                className="group relative bg-gradient-to-br from-zinc-900 to-black rounded-2xl overflow-hidden border border-white/10 hover:border-amber-500/30 transition-all duration-500"
+                className="group relative bg-gradient-to-br from-zinc-900 to-black rounded-xl overflow-hidden border border-white/10 hover:border-amber-500/30 transition-all duration-500 cursor-pointer"
+                onClick={() => setSelectedArtwork(artwork)}
               >
-                {/* Image */}
-                <div className="relative aspect-[4/5] overflow-hidden">
+                {/* Image - More compact */}
+                <div className="relative aspect-square overflow-hidden">
                   <img
                     src={artwork.image}
                     alt={artwork.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-60 group-hover:opacity-30 transition-opacity"></div>
                   
                   {/* Hover Overlay */}
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     <button
-                      onClick={() => setSelectedArtwork(artwork)}
-                      className="px-6 py-3 bg-white/90 backdrop-blur-sm text-black font-bold rounded-full hover:bg-white transition-all flex items-center gap-2"
+                      className="px-4 py-2 bg-white/90 backdrop-blur-sm text-black font-bold rounded-full hover:bg-white transition-all flex items-center gap-2 text-sm"
                     >
-                      <Eye size={20} />
-                      View Details
+                      <Eye size={16} />
+                      View
                     </button>
+                  </div>
+
+                  {/* Price Badge */}
+                  <div className="absolute top-3 right-3 px-3 py-1 bg-black/80 backdrop-blur-sm rounded-full">
+                    <span className="text-amber-400 font-bold text-sm">{artwork.price}</span>
                   </div>
                 </div>
 
-                {/* Info */}
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold mb-2 group-hover:text-amber-400 transition-colors">
+                {/* Info - More compact */}
+                <div className="p-4">
+                  <h3 className="text-lg font-bold mb-1 group-hover:text-amber-400 transition-colors line-clamp-1">
                     {artwork.title}
                   </h3>
-                  <p className="text-gray-400 text-sm mb-1">{artwork.medium}</p>
-                  <p className="text-gray-500 text-sm mb-4">{artwork.year}</p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-xl font-bold text-amber-400">{artwork.price}</span>
-                    <button
-                      onClick={() => setSelectedArtwork(artwork)}
-                      className="px-4 py-2 bg-amber-500/20 text-amber-400 font-semibold rounded-lg hover:bg-amber-500/30 transition-all"
-                    >
-                      Inquire
-                    </button>
-                  </div>
+                  <p className="text-gray-400 text-xs mb-1">{artwork.medium}</p>
+                  <p className="text-gray-500 text-xs">{artwork.year}</p>
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* Pagination placeholder for future */}
+          <div className="mt-12 text-center">
+            <p className="text-gray-500 text-sm">More artworks coming soon</p>
           </div>
         </div>
       </section>
