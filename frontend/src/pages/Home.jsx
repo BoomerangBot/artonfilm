@@ -222,28 +222,100 @@ const Home = () => {
               </Link>
             </div>
 
-            <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-r from-amber-500/20 to-purple-500/20 rounded-2xl blur-xl"></div>
-              <div className="relative bg-zinc-900 rounded-2xl p-8 border border-white/10">
-                <div className="space-y-6">
-                  <div className="flex items-start gap-4">
+            {/* Artists Cards */}
+            <div className="space-y-6">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold text-amber-400 uppercase tracking-wider">ARTISTS</h3>
+              </div>
+
+              {/* Natasha Kissell Card */}
+              <div className="relative group">
+                <div className="absolute -inset-4 bg-gradient-to-r from-amber-500/20 to-gold/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="relative bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-white/10 hover:border-amber-500/30 transition-all">
+                  <div className="flex items-start gap-4 mb-4">
                     <div className="w-12 h-12 bg-amber-500/20 rounded-full flex items-center justify-center flex-shrink-0">
                       <Palette size={24} className="text-amber-400" />
                     </div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Award-Winning Artists</h3>
-                      <p className="text-gray-400">Natasha Kissell (Painter) & JustXR1 (Photographer)</p>
+                    <div className="flex-1">
+                      <h4 className="text-2xl font-bold text-white mb-1">Natasha Kissell</h4>
+                      <p className="text-amber-400 font-medium mb-3">Modern Eden</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-4">
+                  
+                  <p className="text-gray-300 italic mb-4">
+                    Romance in architecture · Grace in modernity<br />
+                    Paintings that re-imagine skylines as stories of hope.
+                  </p>
+                  
+                  <div className="bg-black/30 rounded-lg p-4 mb-4 space-y-2">
+                    <p className="text-sm text-gray-300">
+                      <span className="text-amber-400 font-semibold">Originals:</span> £5 000–£7 000–£10 000
+                    </p>
+                    <p className="text-sm text-gray-400">
+                      Past performance at international auction & corporate collection artist
+                    </p>
+                    <p className="text-sm text-gray-300">
+                      <span className="text-amber-400 font-semibold">Limited Editions:</span> from £1 500
+                    </p>
+                    <p className="text-sm text-gray-300">
+                      <span className="text-amber-400 font-semibold">Commissions:</span> from £100 000 <span className="text-green-400">(30% donated to charity)</span>
+                    </p>
+                  </div>
+                  
+                  <Link
+                    to="/collection/natasha-kissell"
+                    className="inline-flex items-center justify-center w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-lg hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95"
+                  >
+                    View Collection
+                    <ArrowRight className="ml-2" size={18} />
+                  </Link>
+                </div>
+              </div>
+
+              {/* Dr Chris Lee Card */}
+              <div className="relative group">
+                <div className="absolute -inset-4 bg-gradient-to-r from-purple-500/20 to-blue-500/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="relative bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-white/10 hover:border-purple-500/30 transition-all">
+                  <div className="flex items-start gap-4 mb-4">
                     <div className="w-12 h-12 bg-purple-500/20 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Film size={24} className="text-purple-400" />
+                      <Palette size={24} className="text-purple-400" />
                     </div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Documentary Film</h3>
-                      <p className="text-gray-400">Cinematic storytelling by Carnaby Films</p>
+                    <div className="flex-1">
+                      <h4 className="text-2xl font-bold text-white mb-1">Dr Chris Lee</h4>
+                      <p className="text-purple-400 font-medium mb-3">JustXR1 / Big City Short Life</p>
                     </div>
                   </div>
+                  
+                  <p className="text-gray-300 italic mb-4">
+                    The city breathes. We listen.<br />
+                    Photography that captures the heartbeat between chaos and calm.
+                  </p>
+                  
+                  <div className="bg-black/30 rounded-lg p-4 mb-4 space-y-2">
+                    <div className="grid grid-cols-2 gap-2 text-sm text-gray-300 mb-3">
+                      <p><span className="text-purple-400 font-semibold">1/1:</span> £2 500</p>
+                      <p><span className="text-purple-400 font-semibold">1/10:</span> £1 500</p>
+                      <p><span className="text-purple-400 font-semibold">1/20:</span> £1 000</p>
+                      <p><span className="text-purple-400 font-semibold">1/50:</span> £750</p>
+                    </div>
+                    <p className="text-sm text-green-400 font-medium">
+                      All sales support the Lens2Care programme for youth and mental health.
+                    </p>
+                    <p className="text-sm text-gray-400 italic">
+                      Art Is passion and the creative light in life. Last UK exhibitions both sold out collections.
+                    </p>
+                    <p className="text-sm text-purple-400 font-semibold">
+                      Limited release for Lens2Care Art&Science. JustArt JustGive JustDo.
+                    </p>
+                  </div>
+                  
+                  <Link
+                    to="/collection/chris-lee"
+                    className="inline-flex items-center justify-center w-full px-6 py-3 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-bold rounded-lg hover:from-purple-400 hover:to-purple-500 transition-all hover:scale-105 active:scale-95"
+                  >
+                    Coming Soon
+                    <ArrowRight className="ml-2" size={18} />
+                  </Link>
                 </div>
               </div>
             </div>
