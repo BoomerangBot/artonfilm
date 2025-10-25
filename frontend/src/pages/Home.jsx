@@ -24,11 +24,19 @@ import {
   Heart,
   Building2,
   Play,
-  Mail
+  Mail,
+  X
 } from 'lucide-react';
 
 const Home = () => {
   const [email, setEmail] = useState('');
+  const [showJourneyModal, setShowJourneyModal] = useState(false);
+  const [showHostEventModal, setShowHostEventModal] = useState(false);
+  const [showInvitationModal, setShowInvitationModal] = useState(false);
+  
+  const [journeyForm, setJourneyForm] = useState({ name: '', email: '', message: '' });
+  const [hostEventForm, setHostEventForm] = useState({ name: '', email: '', organization: '', eventDetails: '' });
+  const [invitationForm, setInvitationForm] = useState({ name: '', email: '', interest: '' });
 
   useEffect(() => {
     const observer = new IntersectionObserver(
