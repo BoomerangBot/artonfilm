@@ -794,24 +794,24 @@ const Home = () => {
 
           {/* CTAs */}
           <div className="flex flex-wrap gap-4 justify-center mt-12">
-            <Link
-              to="/contact"
+            <button
+              onClick={() => setShowJourneyModal(true)}
               className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
             >
               Join the Journey
-            </Link>
-            <Link
-              to="/contact"
+            </button>
+            <button
+              onClick={() => setShowHostEventModal(true)}
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all hover:scale-105 active:scale-95 backdrop-blur-md"
             >
               Host an Event
-            </Link>
-            <Link
-              to="/contact"
+            </button>
+            <button
+              onClick={() => setShowInvitationModal(true)}
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all hover:scale-105 active:scale-95 backdrop-blur-md"
             >
               Apply for Invitation
-            </Link>
+            </button>
           </div>
         </div>
       </section>
