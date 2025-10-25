@@ -16,7 +16,12 @@ import {
   artScienceData,
   shopData,
   artOnDesignData,
-  carnabyFilmsData
+  carnabyFilmsData,
+  artOnGivingData,
+  givingModelData,
+  partnersData,
+  ethicsPrivacyData,
+  contactData
 } from '../mock';
 import { 
   ArrowRight, 
