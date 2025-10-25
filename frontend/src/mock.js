@@ -352,7 +352,85 @@ export const exhibitionsToursData = {
 export const membershipData = {
   title: 'MEMBERSHIP',
   price: '£5 000 per year',
-  description: 'Includes travel to two European events each year, private access to galleries and screenings, hospitality privileges and concierge support. Additional events may be joined at member rates.'
+  description: 'Includes travel to two European events each year, private access to galleries and screenings, hospitality privileges and concierge support. Additional events may be joined at member rates.',
+  patronLevels: [
+    {
+      tier: 'Supporter',
+      annual: '£5 000',
+      benefit: 'Two EU events + art scholarship funding'
+    },
+    {
+      tier: 'Patron',
+      annual: '£15 000',
+      benefit: 'Festival credit + film recognition'
+    },
+    {
+      tier: 'Founder',
+      annual: '£25 000 +',
+      benefit: 'Naming rights + global legacy projects'
+    }
+  ],
+  framework: 'Each patron supports Creation · Education · Healing.'
+};
+
+export const artOnGivingData = {
+  headline: 'ART ON GIVING',
+  subheadline: 'The Festival of Humanity',
+  description: 'ArtOnGiving is the philanthropic heart of ArtOnFilm — linking art, film, academia and embassies to create projects that heal and teach.',
+  quote: 'You — the patron — have the power to shine the eternal light of creation.'
+};
+
+export const givingModelData = {
+  headline: 'THE 5·5·5 MODEL',
+  subheadline: 'JustGive2Support™',
+  description: 'At every event, giving is shared fairly:',
+  breakdown: '£15 ticket = £5 Host · £5 ArtOnFilm · £5 Charity',
+  footer: 'A transparent cycle where culture and kindness grow together. Anyone may host an event within this model and earn while they give.'
+};
+
+export const partnersData = {
+  headline: 'PARTNERS',
+  partners: [
+    'Bluebird Chelsea',
+    'Carnaby Films',
+    'Carnaby AV & Comfort',
+    'Kissell Fine Art',
+    'Hans Alf Gallery (Copenhagen)',
+    'DHS Labs Berlin',
+    'The Hub Construction',
+    'Onrise Digital'
+  ]
+};
+
+export const ethicsPrivacyData = {
+  headline: 'ETHICS & PRIVACY',
+  intro: 'ArtOnFilm upholds international standards for transparency, data care and creative rights. All artwork and film content is protected under copyright law.',
+  sections: [
+    {
+      title: 'Data Use',
+      content: 'Personal data is handled with respect and stored securely on UK / EU servers. We collect only what is necessary to manage membership, events and communications. You may request access or erasure at any time via privacy@artonfilm.uk.'
+    },
+    {
+      title: 'Attendance & Liability',
+      content: 'Event participation is voluntary; attendees maintain their own insurance. ArtOnFilm and its partners accept no liability for loss or injury beyond statutory duty.'
+    },
+    {
+      title: 'Refunds & Sponsorship',
+      content: 'Contributions are voluntary donations or sponsorships; no profit or equity rights are created.'
+    },
+    {
+      title: 'Fair Use & Copyright',
+      content: 'Reproduction of ArtOnFilm materials without written permission is prohibited.'
+    }
+  ]
+};
+
+export const contactData = {
+  emails: [
+    { label: 'General', email: 'info@artonfilm.uk' },
+    { label: 'Press', email: 'press@artonfilm.uk' },
+    { label: 'Partners', email: 'partners@artonfilm.uk' }
+  ]
 };
 
 export const artScienceData = {
