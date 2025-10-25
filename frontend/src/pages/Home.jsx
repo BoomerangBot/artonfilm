@@ -897,28 +897,86 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Membership */}
+      {/* ART ON GIVING — The Festival of Humanity */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        <div className="absolute inset-0">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-radial from-red-500/10 via-transparent to-transparent blur-3xl"></div>
+        </div>
+        
+        <div className="relative max-w-5xl mx-auto px-6 lg:px-8 text-center">
+          <div className="inline-block mb-6 px-6 py-2 border border-red-500/30 rounded-full bg-red-500/5">
+            <Heart size={20} className="inline-block mr-2 text-red-400" />
+            <span className="text-red-400 text-sm font-medium tracking-wider uppercase">{artOnGivingData.headline}</span>
+          </div>
+          
+          <h2 className="text-5xl md:text-6xl font-bold mb-8 font-serif text-white">
+            {artOnGivingData.subheadline}
+          </h2>
+          
+          <p className="text-2xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
+            {artOnGivingData.description}
+          </p>
+          
+          <div className="bg-gradient-to-r from-red-500/10 to-amber-500/10 rounded-2xl p-8 border border-red-500/20 mb-12">
+            <p className="text-2xl text-amber-400 italic font-light leading-relaxed">
+              {artOnGivingData.quote}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Membership with Patron Levels */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 to-black"></div>
         <div className="absolute top-20 right-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 left-20 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
         
-        <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-12 md:p-16 border border-amber-500/30 text-center">
+        <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
             <div className="inline-block mb-6 px-6 py-2 border border-amber-500/30 rounded-full bg-amber-500/5">
               <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">Exclusive Access</span>
             </div>
             
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif text-white">
               {membershipData.title}
             </h2>
             <p className="text-3xl text-amber-400 font-bold mb-8">
               {membershipData.price}
             </p>
-            <p className="text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto mb-10">
+            <p className="text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto mb-12">
               {membershipData.description}
             </p>
+          </div>
+
+          {/* Patron Levels */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-amber-400 text-center mb-8 uppercase tracking-wider">PATRON LEVELS</h3>
             
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              {membershipData.patronLevels.map((level, index) => (
+                <div
+                  key={index}
+                  className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-amber-500/20 hover:border-amber-500/40 transition-all text-center"
+                >
+                  <h4 className="text-2xl font-bold text-white mb-3">{level.tier}</h4>
+                  <p className="text-3xl text-amber-400 font-bold mb-4">{level.annual}</p>
+                  <p className="text-gray-300 leading-relaxed">{level.benefit}</p>
+                </div>
+              ))}
+            </div>
+            
+            <div className="text-center">
+              <p className="text-lg text-gray-300 mb-8 italic">
+                Support to Give Framework
+              </p>
+              <p className="text-xl text-amber-400 font-semibold">
+                {membershipData.framework}
+              </p>
+            </div>
+          </div>
+          
+          <div className="text-center">
             <Link
               to="/contact"
               className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/30"
@@ -926,6 +984,110 @@ const Home = () => {
               Apply for Membership
               <ArrowRight className="ml-2" size={20} />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* THE 5·5·5 MODEL — JustGive2Support™ */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        <div className="absolute inset-0 soft-light-center"></div>
+        
+        <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-green-900/20 to-black rounded-3xl p-12 md:p-16 border border-green-500/20 text-center">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif text-white">
+              {givingModelData.headline}
+            </h2>
+            <p className="text-2xl text-green-400 font-medium mb-8">
+              {givingModelData.subheadline}
+            </p>
+            
+            <p className="text-xl text-gray-300 mb-6">
+              {givingModelData.description}
+            </p>
+            
+            <div className="bg-black/40 rounded-2xl p-8 mb-8 border border-green-500/30">
+              <p className="text-3xl text-green-400 font-bold">
+                {givingModelData.breakdown}
+              </p>
+            </div>
+            
+            <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
+              {givingModelData.footer}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* PARTNERS */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 to-black"></div>
+        
+        <div className="relative max-w-6xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 font-serif text-white uppercase tracking-wider">
+            {partnersData.headline}
+          </h2>
+          
+          <div className="flex flex-wrap justify-center gap-6">
+            {partnersData.partners.map((partner, index) => (
+              <span
+                key={index}
+                className="px-6 py-3 bg-gradient-to-r from-zinc-900 to-black border border-white/10 rounded-full text-white font-medium hover:border-amber-500/30 hover:text-amber-400 transition-all"
+              >
+                {partner}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ETHICS & PRIVACY */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        
+        <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-8 font-serif text-white text-center uppercase tracking-wider">
+            {ethicsPrivacyData.headline}
+          </h2>
+          
+          <p className="text-xl text-gray-300 text-center mb-12 leading-relaxed">
+            {ethicsPrivacyData.intro}
+          </p>
+          
+          <div className="space-y-6">
+            {ethicsPrivacyData.sections.map((section, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-r from-zinc-900/50 to-black/50 rounded-xl p-6 border border-white/10"
+              >
+                <h3 className="text-xl font-bold text-amber-400 mb-3">{section.title}</h3>
+                <p className="text-gray-300 leading-relaxed">{section.content}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CONTACT */}
+      <section className="py-32 bg-black relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 soft-light-center"></div>
+        
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 font-serif text-white uppercase tracking-wider">
+            CONTACT
+          </h2>
+          
+          <div className="flex flex-col sm:flex-row justify-center gap-6">
+            {contactData.emails.map((contact, index) => (
+              <a
+                key={index}
+                href={`mailto:${contact.email}`}
+                className="group bg-gradient-to-r from-zinc-900 to-black border border-white/10 rounded-xl p-6 hover:border-amber-500/30 transition-all"
+              >
+                <p className="text-sm text-gray-400 mb-2">{contact.label}</p>
+                <p className="text-amber-400 font-medium group-hover:text-amber-300 transition-colors">{contact.email}</p>
+              </a>
+            ))}
           </div>
         </div>
       </section>
