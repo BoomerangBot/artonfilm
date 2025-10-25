@@ -919,9 +919,13 @@ const Home = () => {
           </p>
           
           <div className="bg-gradient-to-r from-red-500/10 to-amber-500/10 rounded-2xl p-8 border border-red-500/20 mb-12">
-            <p className="text-2xl text-amber-400 italic font-light leading-relaxed">
-              {artOnGivingData.quote}
+            <p className="text-2xl text-amber-400 italic font-light leading-relaxed mb-4">
+              "{artOnGivingData.quote}"
             </p>
+            <div className="text-right">
+              <p className="text-white font-semibold">— {artOnGivingData.author}</p>
+              <p className="text-gray-400 text-sm">{artOnGivingData.title}</p>
+            </div>
           </div>
         </div>
       </section>
