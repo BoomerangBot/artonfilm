@@ -49,35 +49,36 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Legal Links */}
+        {/* Legal Links & Copyright */}
         <div className="border-t border-white/10 pt-8">
-          <div className="flex flex-wrap justify-center items-center gap-6 mb-6">
-            <Link to="/privacy-policy" className="text-gray-400 hover:text-white transition-colors text-sm">
-              Privacy Policy
-            </Link>
-            <span className="text-gray-600">•</span>
-            <Link to="/gdpr-policy" className="text-gray-400 hover:text-white transition-colors text-sm">
-              GDPR Policy
-            </Link>
-            <span className="text-gray-600">•</span>
-            <Link to="/terms" className="text-gray-400 hover:text-white transition-colors text-sm">
-              Terms of Usage
-            </Link>
-            <span className="text-gray-600">•</span>
-            <Link to="/cookie-policy" className="text-gray-400 hover:text-white transition-colors text-sm">
-              Cookie Policy
-            </Link>
+          <div className="text-center space-y-4">
+            <p className="text-gray-400 text-sm">
+              &copy; 2025 ArtOnFilm.uk · All Rights Reserved
+            </p>
+            <p className="text-gray-300 text-sm font-medium">
+              Ethics Is Wealth · Contribution Not Content · Just Do
+            </p>
+            <div className="flex flex-wrap justify-center items-center gap-3 text-sm">
+              <Link to="/privacy-policy" className="text-gray-400 hover:text-amber-400 transition-colors">
+                Privacy Policy
+              </Link>
+              <span className="text-gray-600">·</span>
+              <Link to="/terms" className="text-gray-400 hover:text-amber-400 transition-colors">
+                Terms of Use
+              </Link>
+              <span className="text-gray-600">·</span>
+              <Link to="/cookie-policy" className="text-gray-400 hover:text-amber-400 transition-colors">
+                Cookie Policy
+              </Link>
+              <span className="text-gray-600">·</span>
+              <Link to="/gdpr-policy" className="text-gray-400 hover:text-amber-400 transition-colors">
+                Accessibility Statement
+              </Link>
+            </div>
+            <p className="text-amber-400 text-lg font-light italic pt-4">
+              Together, the World Is Yours.
+            </p>
           </div>
-        </div>
-
-        {/* Copyright */}
-        <div className="text-center space-y-3">
-          <p className="text-gray-500 text-sm">
-            &copy; 2025 ArtOnFilm.uk · All Rights Reserved
-          </p>
-          <p className="text-gray-400 text-sm font-medium">
-            Ethics Is Wealth · Contribution Not Content · Just Do
-          </p>
         </div>
       </div>
     </footer>
