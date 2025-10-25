@@ -384,6 +384,34 @@ export const artScienceData = {
   footer: 'Led by artists, scientists and mentors who believe knowledge shared is hope multiplied.'
 };
 
+export const shopData = {
+  headline: 'SHOP',
+  subheadline: 'Collect with Conscience',
+  description: 'Fine art and design with purpose. Every piece supports mentorship, education and health projects worldwide.',
+  categories: ['Originals', 'Prints', 'Photography', 'Design Objects']
+};
+
+export const artOnDesignData = {
+  headline: 'ART ON DESIGN',
+  subheadline: 'Where Art Meets Comfort',
+  description: 'Kissell\'s signature chairs, scarves and frames transform art into everyday beauty.',
+  details: 'European-made · ethically sourced · supporting creative scholarships.',
+  pricing: [
+    { item: 'Chairs', price: 'from £3 000' },
+    { item: 'Scarves', price: '£350–£600' },
+    { item: 'Frames', price: 'from £250' }
+  ],
+  footer: 'Products in development stage, hosts & partners with ethics & wish to create living art that heals. We want YOU.'
+};
+
+export const carnabyFilmsData = {
+  headline: 'CARNABY FILMS',
+  subheadline: 'The Silver Screen of Giving',
+  description: 'From Chelsea to Cannes, Carnaby Films brings ArtOnFilm\'s stories to life. Each project pairs elegance with empathy — proof that cinema can change the world.',
+  additional: 'Carnaby AV & Comfort design the spaces where film is felt — luxury viewing rooms and immersive galleries.',
+  quote: 'ArtOnFilm builds the dream; Carnaby brings it to life — glamorous, gracious and global.'
+};
+
 export const artworks = [
   {
     id: 1,
