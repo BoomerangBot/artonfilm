@@ -399,8 +399,7 @@ export const partnersData = {
     'Kissell Fine Art',
     'Hans Alf Gallery (Copenhagen)',
     'DHS Labs Berlin',
-    'The Hub Construction',
-    'Onrise Digital'
+    'The Hub Construction'
   ]
 };
 
