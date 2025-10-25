@@ -717,6 +717,105 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Exhibitions & Tours */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        <div className="absolute inset-0 soft-light-center"></div>
+        
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold mb-4 font-serif">
+              {exhibitionsToursData.headline}
+            </h2>
+            <p className="text-2xl text-amber-400 font-light italic">
+              {exhibitionsToursData.subheadline}
+            </p>
+          </div>
+
+          {/* Events Table */}
+          <div className="bg-gradient-to-br from-zinc-900/50 to-black/50 rounded-3xl border border-amber-500/20 overflow-hidden backdrop-blur-sm">
+            <div className="overflow-x-auto">
+              <table className="w-full">
+                <thead>
+                  <tr className="bg-gradient-to-r from-amber-500/10 to-amber-600/10 border-b border-amber-500/20">
+                    <th className="px-6 py-4 text-left text-amber-400 font-bold text-sm uppercase tracking-wider">City</th>
+                    <th className="px-6 py-4 text-left text-amber-400 font-bold text-sm uppercase tracking-wider">Project</th>
+                    <th className="px-6 py-4 text-left text-amber-400 font-bold text-sm uppercase tracking-wider">Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {exhibitionsToursData.events.map((event, index) => (
+                    <tr 
+                      key={index}
+                      className="border-b border-white/5 hover:bg-amber-500/5 transition-colors"
+                    >
+                      <td className="px-6 py-5 text-white font-medium">{event.city}</td>
+                      <td className="px-6 py-5 text-gray-300">{event.project}</td>
+                      <td className="px-6 py-5 text-amber-400 font-medium">{event.date}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* CTAs */}
+          <div className="flex flex-wrap gap-4 justify-center mt-12">
+            <Link
+              to="/contact"
+              className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
+            >
+              Join the Journey
+            </Link>
+            <Link
+              to="/contact"
+              className="inline-flex items-center justify-center px-8 py-4 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all hover:scale-105 active:scale-95 backdrop-blur-md"
+            >
+              Host an Event
+            </Link>
+            <Link
+              to="/contact"
+              className="inline-flex items-center justify-center px-8 py-4 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all hover:scale-105 active:scale-95 backdrop-blur-md"
+            >
+              Apply for Invitation
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Membership */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 to-black"></div>
+        <div className="absolute top-20 right-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 left-20 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
+        
+        <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-12 md:p-16 border border-amber-500/30 text-center">
+            <div className="inline-block mb-6 px-6 py-2 border border-amber-500/30 rounded-full bg-amber-500/5">
+              <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">Exclusive Access</span>
+            </div>
+            
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif">
+              {membershipData.title}
+            </h2>
+            <p className="text-3xl text-amber-400 font-bold mb-8">
+              {membershipData.price}
+            </p>
+            <p className="text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto mb-10">
+              {membershipData.description}
+            </p>
+            
+            <Link
+              to="/contact"
+              className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/30"
+            >
+              Apply for Membership
+              <ArrowRight className="ml-2" size={20} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Newsletter / Insider Circle */}
       <section className="py-32 bg-black fade-on-scroll opacity-0 transition-all duration-[1500ms] relative overflow-hidden">
         <div className="absolute inset-0 soft-light-center"></div>
