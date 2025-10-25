@@ -297,6 +297,64 @@ export const testimonialData = {
   title: 'Art and Science Director'
 };
 
+export const exhibitionsToursData = {
+  headline: 'EXHIBITIONS & TOURS',
+  subheadline: 'Culture That Travels',
+  events: [
+    {
+      city: 'Inverness',
+      project: 'Explosive Culture & Living',
+      date: 'Nov 2025 TBC'
+    },
+    {
+      city: 'Singapore',
+      project: 'The Singapore Sessions',
+      date: '23–29 Nov 2025'
+    },
+    {
+      city: 'Bluebird Chelsea',
+      project: 'Friends & Family Gala',
+      date: 'Dec 2025–Jan 2026'
+    },
+    {
+      city: 'South Place Hotel',
+      project: 'Summer in the City',
+      date: 'Summer 2026'
+    },
+    {
+      city: 'Copenhagen',
+      project: 'Eternal Grace at Hans Alf Gallery',
+      date: 'Feb 2026'
+    },
+    {
+      city: 'Berlin',
+      project: 'Art & Science Forum / Berlinale',
+      date: 'Feb 2026'
+    },
+    {
+      city: 'Warsaw',
+      project: 'Showroom & Boutique Cinema',
+      date: 'Q4 2026'
+    },
+    {
+      city: 'Marbella / Portugal',
+      project: 'Blue & Gold Film Series',
+      date: 'Q3 2026'
+    },
+    {
+      city: 'Cannes',
+      project: 'Art2Care Global Premiere',
+      date: '2027'
+    }
+  ]
+};
+
+export const membershipData = {
+  title: 'MEMBERSHIP',
+  price: '£5 000 per year',
+  description: 'Includes travel to two European events each year, private access to galleries and screenings, hospitality privileges and concierge support. Additional events may be joined at member rates.'
+};
+
 export const artworks = [
   {
     id: 1,
