@@ -9,7 +9,9 @@ import {
   partnersVenuesData,
   behindCameraData,
   testimonialData,
-  charityLogos
+  charityLogos,
+  exhibitionsToursData,
+  membershipData
 } from '../mock';
 import { 
   ArrowRight, 
