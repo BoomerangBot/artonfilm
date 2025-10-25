@@ -985,6 +985,142 @@ const Home = () => {
         </div>
       </section>
 
+      {/* SHOP — Collect with Conscience */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-black to-zinc-950"></div>
+        <div className="absolute inset-0 soft-light-center"></div>
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"></div>
+        
+        <div className="relative max-w-6xl mx-auto px-6 lg:px-8 text-center">
+          <div className="inline-block mb-6 px-6 py-2 border border-amber-500/30 rounded-full bg-amber-500/5">
+            <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">{shopData.headline}</span>
+          </div>
+          
+          <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif text-white">
+            {shopData.subheadline}
+          </h2>
+          
+          <p className="text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
+            {shopData.description}
+          </p>
+          
+          <div className="flex flex-wrap justify-center gap-4 mb-12">
+            {shopData.categories.map((category, index) => (
+              <span
+                key={index}
+                className="px-6 py-3 bg-gradient-to-r from-zinc-900 to-black border border-white/10 rounded-full text-white font-medium hover:border-amber-500/30 transition-all"
+              >
+                {category}
+              </span>
+            ))}
+          </div>
+          
+          <Link
+            to="/collection"
+            className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/30"
+          >
+            Shop Ethically
+            <ArrowRight className="ml-2" size={20} />
+          </Link>
+        </div>
+      </section>
+
+      {/* ART ON DESIGN — Where Art Meets Comfort */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        <div className="absolute top-20 left-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+        
+        <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-block mb-6 px-6 py-2 border border-purple-500/30 rounded-full bg-purple-500/5">
+              <span className="text-purple-400 text-sm font-medium tracking-wider uppercase">{artOnDesignData.headline}</span>
+            </div>
+            
+            <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif text-white">
+              {artOnDesignData.subheadline}
+            </h2>
+            
+            <p className="text-2xl text-gray-300 mb-4 max-w-3xl mx-auto leading-relaxed">
+              {artOnDesignData.description}
+            </p>
+            
+            <p className="text-lg text-amber-400 italic mb-12">
+              {artOnDesignData.details}
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            {artOnDesignData.pricing.map((item, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-zinc-900/50 to-black/50 rounded-2xl p-8 border border-white/10 hover:border-purple-500/30 transition-all text-center backdrop-blur-sm"
+              >
+                <h3 className="text-2xl font-bold text-white mb-3">{item.item}</h3>
+                <p className="text-purple-400 text-xl font-semibold">{item.price}</p>
+              </div>
+            ))}
+          </div>
+          
+          <div className="text-center">
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mb-8">
+              {artOnDesignData.footer}
+            </p>
+            
+            <Link
+              to="/contact"
+              className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-bold rounded-full hover:from-purple-400 hover:to-purple-500 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-purple-500/30"
+            >
+              Get Involved
+              <ArrowRight className="ml-2" size={20} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* CARNABY FILMS — The Silver Screen of Giving */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-black to-zinc-950"></div>
+        <div className="absolute inset-0">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-radial from-amber-500/10 via-transparent to-transparent blur-3xl"></div>
+        </div>
+        
+        <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-12 md:p-16 border border-amber-500/20 text-center">
+            <div className="inline-block mb-6 px-6 py-2 border border-amber-500/30 rounded-full bg-amber-500/5">
+              <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">{carnabyFilmsData.headline}</span>
+            </div>
+            
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-serif text-white">
+              {carnabyFilmsData.subheadline}
+            </h2>
+            
+            <p className="text-xl text-gray-300 mb-6 leading-relaxed">
+              {carnabyFilmsData.description}
+            </p>
+            
+            <p className="text-lg text-gray-400 mb-8 leading-relaxed">
+              {carnabyFilmsData.additional}
+            </p>
+            
+            <div className="bg-black/30 rounded-xl p-6 mb-8 border-l-4 border-amber-500">
+              <p className="text-xl text-amber-400 italic font-light leading-relaxed">
+                "{carnabyFilmsData.quote}"
+              </p>
+            </div>
+            
+            <a
+              href="http://www.carnabysales.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/30"
+            >
+              Visit Carnaby Films
+              <ArrowRight className="ml-2" size={20} />
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Newsletter / Insider Circle */}
       <section className="py-32 bg-black fade-on-scroll opacity-0 transition-all duration-[1500ms] relative overflow-hidden">
         <div className="absolute inset-0 soft-light-center"></div>
