@@ -59,8 +59,32 @@ const Home = () => {
   const handleNewsletterSubmit = (e) => {
     e.preventDefault();
     console.log('Newsletter signup:', email);
-    alert('Thank you for subscribing! (Mock submission)');
+    toast.success('Thank you for subscribing!');
     setEmail('');
+  };
+
+  const handleJourneySubmit = (e) => {
+    e.preventDefault();
+    console.log('Journey form:', journeyForm);
+    toast.success('Thank you! We\'ll be in touch soon.');
+    setJourneyForm({ name: '', email: '', message: '' });
+    setShowJourneyModal(false);
+  };
+
+  const handleHostEventSubmit = (e) => {
+    e.preventDefault();
+    console.log('Host event form:', hostEventForm);
+    toast.success('Thank you! We\'ll contact you about hosting an event.');
+    setHostEventForm({ name: '', email: '', organization: '', eventDetails: '' });
+    setShowHostEventModal(false);
+  };
+
+  const handleInvitationSubmit = (e) => {
+    e.preventDefault();
+    console.log('Invitation form:', invitationForm);
+    toast.success('Thank you! Your invitation request has been submitted.');
+    setInvitationForm({ name: '', email: '', interest: '' });
+    setShowInvitationModal(false);
   };
 
   const getIcon = (iconName) => {
