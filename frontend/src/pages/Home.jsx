@@ -12,7 +12,8 @@ import {
   testimonialData,
   charityLogos,
   exhibitionsToursData,
-  membershipData
+  membershipData,
+  artScienceData
 } from '../mock';
 import { 
   ArrowRight, 
