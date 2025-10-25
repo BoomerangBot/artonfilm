@@ -377,7 +377,9 @@ export const artOnGivingData = {
   headline: 'ART ON GIVING',
   subheadline: 'The Festival of Humanity',
   description: 'ArtOnGiving is the philanthropic heart of ArtOnFilm — linking art, film, academia and embassies to create projects that heal and teach.',
-  quote: 'You — the patron — have the power to shine the eternal light of creation.'
+  quote: 'You — the patron — have the power to shine the eternal light of creation.',
+  author: 'Russell Hamilton',
+  title: 'Co-Founder of ArtOnFilm'
 };
 
 export const givingModelData = {
