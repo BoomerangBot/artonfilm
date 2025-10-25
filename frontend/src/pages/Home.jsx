@@ -886,6 +886,203 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Join the Journey Modal */}
+      {showJourneyModal && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4" onClick={() => setShowJourneyModal(false)}>
+          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 max-w-md w-full border border-amber-500/30 relative" onClick={(e) => e.stopPropagation()}>
+            <button
+              onClick={() => setShowJourneyModal(false)}
+              className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors"
+            >
+              <X size={24} />
+            </button>
+            
+            <h3 className="text-3xl font-bold text-white mb-2">Join the Journey</h3>
+            <p className="text-gray-400 mb-6">Become part of the ArtOnFilm movement</p>
+            
+            <form onSubmit={handleJourneySubmit} className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Name</label>
+                <input
+                  type="text"
+                  value={journeyForm.name}
+                  onChange={(e) => setJourneyForm({ ...journeyForm, name: e.target.value })}
+                  required
+                  className="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white"
+                  placeholder="Your name"
+                />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                <input
+                  type="email"
+                  value={journeyForm.email}
+                  onChange={(e) => setJourneyForm({ ...journeyForm, email: e.target.value })}
+                  required
+                  className="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white"
+                  placeholder="your@email.com"
+                />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Message</label>
+                <textarea
+                  value={journeyForm.message}
+                  onChange={(e) => setJourneyForm({ ...journeyForm, message: e.target.value })}
+                  rows={4}
+                  className="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white resize-none"
+                  placeholder="Tell us about your interest..."
+                />
+              </div>
+              
+              <button
+                type="submit"
+                className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-lg hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Host an Event Modal */}
+      {showHostEventModal && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4" onClick={() => setShowHostEventModal(false)}>
+          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 max-w-md w-full border border-amber-500/30 relative" onClick={(e) => e.stopPropagation()}>
+            <button
+              onClick={() => setShowHostEventModal(false)}
+              className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors"
+            >
+              <X size={24} />
+            </button>
+            
+            <h3 className="text-3xl font-bold text-white mb-2">Host an Event</h3>
+            <p className="text-gray-400 mb-6">Bring ArtOnFilm to your venue</p>
+            
+            <form onSubmit={handleHostEventSubmit} className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Name</label>
+                <input
+                  type="text"
+                  value={hostEventForm.name}
+                  onChange={(e) => setHostEventForm({ ...hostEventForm, name: e.target.value })}
+                  required
+                  className="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white"
+                  placeholder="Your name"
+                />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                <input
+                  type="email"
+                  value={hostEventForm.email}
+                  onChange={(e) => setHostEventForm({ ...hostEventForm, email: e.target.value })}
+                  required
+                  className="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white"
+                  placeholder="your@email.com"
+                />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Organization</label>
+                <input
+                  type="text"
+                  value={hostEventForm.organization}
+                  onChange={(e) => setHostEventForm({ ...hostEventForm, organization: e.target.value })}
+                  required
+                  className="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white"
+                  placeholder="Venue or organization name"
+                />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Event Details</label>
+                <textarea
+                  value={hostEventForm.eventDetails}
+                  onChange={(e) => setHostEventForm({ ...hostEventForm, eventDetails: e.target.value })}
+                  rows={4}
+                  required
+                  className="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white resize-none"
+                  placeholder="Tell us about your venue and event ideas..."
+                />
+              </div>
+              
+              <button
+                type="submit"
+                className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-lg hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Apply for Invitation Modal */}
+      {showInvitationModal && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4" onClick={() => setShowInvitationModal(false)}>
+          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 max-w-md w-full border border-amber-500/30 relative" onClick={(e) => e.stopPropagation()}>
+            <button
+              onClick={() => setShowInvitationModal(false)}
+              className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors"
+            >
+              <X size={24} />
+            </button>
+            
+            <h3 className="text-3xl font-bold text-white mb-2">Apply for Invitation</h3>
+            <p className="text-gray-400 mb-6">Request exclusive access to our events</p>
+            
+            <form onSubmit={handleInvitationSubmit} className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Name</label>
+                <input
+                  type="text"
+                  value={invitationForm.name}
+                  onChange={(e) => setInvitationForm({ ...invitationForm, name: e.target.value })}
+                  required
+                  className="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white"
+                  placeholder="Your name"
+                />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                <input
+                  type="email"
+                  value={invitationForm.email}
+                  onChange={(e) => setInvitationForm({ ...invitationForm, email: e.target.value })}
+                  required
+                  className="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white"
+                  placeholder="your@email.com"
+                />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Why are you interested?</label>
+                <textarea
+                  value={invitationForm.interest}
+                  onChange={(e) => setInvitationForm({ ...invitationForm, interest: e.target.value })}
+                  rows={4}
+                  required
+                  className="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white resize-none"
+                  placeholder="Tell us about your interest in ArtOnFilm..."
+                />
+              </div>
+              
+              <button
+                type="submit"
+                className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-lg hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
