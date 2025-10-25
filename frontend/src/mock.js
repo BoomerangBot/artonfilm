@@ -19,8 +19,8 @@ export const heroData = {
 };
 
 export const visionData = {
-  headline: 'Culture without borders. Connection without politics.',
-  content: 'ArtOnFilm is a British-European cultural platform that unites art, film, and purpose. Our mission: to move people through art - not just display it. In 2025-26, our headline exhibition Through Our Eyes / One Frame Ahead takes award-winning painter Natasha Kissell and photographer JustXR1 from London to Warsaw and Copenhagen before returning to the UK for a national showcase. Each exhibition is both an artwork and an act of diplomacy - culture as dialogue, not decoration.'
+  headline: 'An art and humanity platform built for people, by people.',
+  content: 'ArtOnFilm brings together art, cinema, design, and science through global collaboration. Its purpose — to turn creativity into contribution — drives every exhibition, event and film. We measure success not by what we sell but by what we change. Beauty belongs to everyone; giving is the purest artform.'
 };
 
 export const programmeData = {
