@@ -13,7 +13,10 @@ import {
   charityLogos,
   exhibitionsToursData,
   membershipData,
-  artScienceData
+  artScienceData,
+  shopData,
+  artOnDesignData,
+  carnabyFilmsData
 } from '../mock';
 import { 
   ArrowRight, 
