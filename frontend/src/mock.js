@@ -13,7 +13,7 @@ export const navigation = [
 
 export const heroData = {
   headline: 'The Silver Screen of Culture',
-  subheadline: 'Where art, ethics, and exposure meet.',
+  subheadline: 'Where art, film, science and human story meet — creating beauty that gives back.',
   description: 'ArtOnFilm connects Britain\'s leading visual artists with Europe\'s most dynamic cultural cities - building bridges through art, film, and human story.',
   backgroundImage: 'https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxicmlnaHQlMjBhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85'
 };
