@@ -355,6 +355,35 @@ export const membershipData = {
   description: 'Includes travel to two European events each year, private access to galleries and screenings, hospitality privileges and concierge support. Additional events may be joined at member rates.'
 };
 
+export const artScienceData = {
+  headline: 'ART & SCIENCE',
+  subheadline: 'Education Is Alchemy',
+  tagline: 'Creativity is a form of medicine.',
+  programmes: [
+    {
+      title: 'Lens2Care',
+      subtitle: 'Health Through Creativity',
+      description: 'Using visual arts and photography to support mental health and wellbeing.'
+    },
+    {
+      title: 'Film4Change',
+      subtitle: 'Documenting real impact',
+      description: 'Capturing stories of transformation and social change through cinema.'
+    },
+    {
+      title: 'Art & Science Forum',
+      subtitle: 'Berlinale Summit 2026',
+      description: 'Bridging creativity and research at Europe\'s premier film festival.'
+    },
+    {
+      title: 'UK2YOU Mentors4Life',
+      subtitle: 'Education & Embassy Talks',
+      description: 'Empowering the next generation through mentorship and cultural exchange.'
+    }
+  ],
+  footer: 'Led by artists, scientists and mentors who believe knowledge shared is hope multiplied.'
+};
+
 export const artworks = [
   {
     id: 1,
