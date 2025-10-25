@@ -1025,21 +1025,39 @@ const Home = () => {
 
       {/* PARTNERS */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
-        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 to-black"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-black to-zinc-950"></div>
+        <div className="absolute inset-0">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-gradient-radial from-amber-500/5 via-transparent to-transparent blur-3xl"></div>
+        </div>
         
-        <div className="relative max-w-6xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-12 font-serif text-white uppercase tracking-wider">
-            {partnersData.headline}
-          </h2>
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-6 px-6 py-2 border border-amber-500/30 rounded-full bg-amber-500/5">
+              <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">Our Network</span>
+            </div>
+            
+            <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif text-white">
+              {partnersData.headline}
+            </h2>
+            
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-12">
+              Building a global community of cultural excellence
+            </p>
+          </div>
           
-          <div className="flex flex-wrap justify-center gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {partnersData.partners.map((partner, index) => (
-              <span
+              <div
                 key={index}
-                className="px-6 py-3 bg-gradient-to-r from-zinc-900 to-black border border-white/10 rounded-full text-white font-medium hover:border-amber-500/30 hover:text-amber-400 transition-all"
+                className="group bg-gradient-to-br from-zinc-900/50 to-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-amber-500/30 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-500/10 text-center"
               >
-                {partner}
-              </span>
+                <div className="w-16 h-16 bg-gradient-to-br from-amber-500/20 to-gold/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <Building2 size={32} className="text-amber-400" />
+                </div>
+                <h3 className="text-xl font-bold text-white group-hover:text-amber-400 transition-colors">
+                  {partner}
+                </h3>
+              </div>
             ))}
           </div>
         </div>
