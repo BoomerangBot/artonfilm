@@ -71,8 +71,13 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} ArtOnFilm. All rights reserved.</p>
+        <div className="text-center space-y-3">
+          <p className="text-gray-500 text-sm">
+            &copy; 2025 ArtOnFilm.uk · All Rights Reserved
+          </p>
+          <p className="text-gray-400 text-sm font-medium">
+            Ethics Is Wealth · Contribution Not Content · Just Do
+          </p>
         </div>
       </div>
     </footer>
