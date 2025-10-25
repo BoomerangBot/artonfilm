@@ -850,6 +850,66 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Art & Science - Education Is Alchemy */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        <div className="absolute inset-0 soft-light-center"></div>
+        <div className="absolute top-20 left-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"></div>
+        
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-6 px-6 py-2 border border-amber-500/30 rounded-full bg-amber-500/5">
+              <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">{artScienceData.headline}</span>
+            </div>
+            
+            <h2 className="text-5xl md:text-6xl font-bold mb-4 font-serif text-white">
+              {artScienceData.subheadline}
+            </h2>
+            <p className="text-2xl text-amber-400 font-light italic mb-12">
+              {artScienceData.tagline}
+            </p>
+            
+            <div className="inline-block mb-12 px-6 py-2 bg-gradient-to-r from-amber-500/10 to-amber-600/10 rounded-full border border-amber-500/20">
+              <span className="text-white font-semibold text-lg">Programmes</span>
+            </div>
+          </div>
+
+          {/* Programme Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+            {artScienceData.programmes.map((programme, index) => (
+              <div
+                key={index}
+                className="group bg-gradient-to-br from-zinc-900/50 to-black/50 rounded-2xl p-8 border border-white/10 hover:border-amber-500/30 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-500/10 backdrop-blur-sm"
+              >
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                    <GraduationCap size={24} className="text-black" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-white mb-1 group-hover:text-amber-400 transition-colors">
+                      {programme.title}
+                    </h3>
+                    <p className="text-amber-400 font-medium mb-3">
+                      {programme.subtitle}
+                    </p>
+                  </div>
+                </div>
+                <p className="text-gray-300 leading-relaxed">
+                  {programme.description}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* Footer Text */}
+          <div className="text-center">
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+              {artScienceData.footer}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Newsletter / Insider Circle */}
       <section className="py-32 bg-black fade-on-scroll opacity-0 transition-all duration-[1500ms] relative overflow-hidden">
         <div className="absolute inset-0 soft-light-center"></div>
