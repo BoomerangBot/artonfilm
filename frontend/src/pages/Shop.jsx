@@ -98,9 +98,9 @@ const Shop = () => {
                     </button>
                   </div>
 
-                  {/* Price Badge */}
-                  <div className="absolute top-3 right-3 px-3 py-1 bg-black/80 backdrop-blur-sm rounded-full">
-                    <span className="text-amber-400 font-bold text-sm">{artwork.price}</span>
+                  {/* Artistic Badge */}
+                  <div className="absolute top-3 right-3 px-4 py-2 bg-gradient-to-br from-amber-500/20 to-amber-600/20 backdrop-blur-md rounded-full border border-amber-500/30">
+                    <span className="text-amber-400 font-semibold text-xs tracking-wider uppercase">Original</span>
                   </div>
                 </div>
 
