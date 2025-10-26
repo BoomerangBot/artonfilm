@@ -422,24 +422,38 @@ const Home = () => {
 
       {/* Patronage in Culture Section */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        {/* Background with Plane Image */}
+        <div 
+          className="absolute inset-0"
+          style={{
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/ygw6vajq_b93a6028-f7f8-4c8b-840c-d8a7955c63e6.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
+          {/* Dark overlays for readability */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/85 to-black/90"></div>
+          <div className="absolute inset-0 bg-black/40"></div>
+        </div>
+        
         <div className="absolute inset-0 soft-light-center"></div>
         <div className="absolute top-20 left-10 w-96 h-96 bg-amber-500/8 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '12s' }}></div>
         
         <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500/10 border border-amber-500/30 rounded-full mb-8">
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500/10 border border-amber-500/30 rounded-full mb-8 backdrop-blur-sm">
               <TrendingUp size={20} className="text-amber-400" />
               <span className="text-amber-400 text-sm font-semibold tracking-widest">FOR PATRONS</span>
             </div>
             
-            <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif">
+            <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif drop-shadow-lg">
               {investmentData.headline}
             </h2>
-            <p className="text-2xl text-gray-400 mb-8 max-w-3xl mx-auto font-light">
+            <p className="text-2xl text-gray-300 mb-8 max-w-3xl mx-auto font-light drop-shadow-md">
               {investmentData.subheadline}
             </p>
-            <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto mb-12">
+            <p className="text-lg text-gray-200 leading-relaxed max-w-3xl mx-auto mb-12 drop-shadow-md">
               {investmentData.content}
             </p>
           </div>
@@ -449,12 +463,12 @@ const Home = () => {
             {investmentData.stats.map((stat, index) => (
               <div
                 key={index}
-                className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-amber-500/20 text-center group hover:border-amber-500/40 transition-all"
+                className="bg-gradient-to-br from-zinc-900/90 to-black/90 backdrop-blur-md rounded-2xl p-8 border border-amber-500/30 text-center group hover:border-amber-500/50 transition-all"
               >
                 <div className="text-5xl font-bold text-amber-400 mb-4 group-hover:scale-110 transition-transform">
                   {stat.value}
                 </div>
-                <div className="text-lg text-gray-300 font-medium">{stat.label}</div>
+                <div className="text-lg text-gray-200 font-medium">{stat.label}</div>
               </div>
             ))}
           </div>
