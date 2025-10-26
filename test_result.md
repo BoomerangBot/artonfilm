@@ -145,6 +145,18 @@ frontend:
         agent: "main"
         comment: "Added cinematic hero sections with artistic backgrounds to 4 pages. Impact page uses 'From Gallery to Family' poster, Media page uses 'Rise of the Footsoldier' movie poster, Partners page uses Mercedes art car image, Patrons page uses 'We Are The Noise' poster. All hero sections include gradient overlays, film grain effects, and professional typography matching the homepage aesthetic."
 
+  - task: "Add inspirational quotes from Andrew Carnegie and Zig Ziglar across site pages"
+    implemented: true
+    working: true
+    file: "frontend/src/mock.js, frontend/src/pages/Home.jsx, frontend/src/pages/Patrons.jsx, frontend/src/pages/Partners.jsx, frontend/src/pages/Impact.jsx, frontend/src/pages/Institutional.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Added quotes object to mock.js with multiple quotes from Carnegie and Ziglar. Strategically placed 5 quote sections across site: Home page (Carnegie philanthropy quote after Art on Giving), Patrons page (Ziglar helping quote), Partners page (Carnegie enrichment quote), Impact page (Ziglar attitude quote), Institutional page (Ziglar building together quote). All quotes styled consistently with amber color scheme, large quotation marks, and proper attribution."
+
 backend:
   - task: "No backend changes required"
     implemented: false
