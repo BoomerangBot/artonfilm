@@ -404,7 +404,7 @@ export const partnersData = {
     'Kissell Fine Art',
     'Hans Alf Gallery (Copenhagen)',
     'DHS Labs Berlin',
-    'The Hub Construction'
+    'JUSTXR1 - Lens2Care Art4Good'
   ]
 };
 
