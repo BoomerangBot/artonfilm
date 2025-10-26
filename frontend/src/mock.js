@@ -315,53 +315,85 @@ export const quotes = {
 
 export const exhibitionsToursData = {
   headline: 'EXHIBITIONS & TOURS',
-  subheadline: 'Culture That Travels',
+  subheadline: 'Modern Eden Art & Science Tour',
   events: [
     {
-      city: 'Inverness',
-      project: 'Explosive Culture & Living',
-      date: 'Nov 2025 TBC'
+      city: 'Brighton',
+      project: 'Modern Eden Collection',
+      date: 'April/May 2026'
     },
     {
       city: 'Singapore',
       project: 'The Singapore Sessions',
-      date: '23–29 Nov 2025'
-    },
-    {
-      city: 'Bluebird Chelsea',
-      project: 'Friends & Family Gala',
-      date: 'Dec 2025–Jan 2026'
-    },
-    {
-      city: 'South Place Hotel',
-      project: 'Summer in the City',
-      date: 'Summer 2026'
+      date: 'January 2025'
     },
     {
       city: 'Copenhagen',
       project: 'Eternal Grace at Hans Alf Gallery',
-      date: 'Feb 2026'
+      date: 'February 2026'
     },
     {
       city: 'Berlin',
       project: 'Art & Science Forum / Berlinale',
-      date: 'Feb 2026'
+      date: 'February 2026'
+    },
+    {
+      city: 'South Place Hotel',
+      project: 'Summer in the City',
+      date: 'June/July 2026'
     },
     {
       city: 'Warsaw',
       project: 'Showroom & Boutique Cinema',
-      date: 'Q4 2026'
-    },
-    {
-      city: 'Marbella / Portugal',
-      project: 'Blue & Gold Film Series',
-      date: 'Q3 2026'
-    },
-    {
-      city: 'Cannes',
-      project: 'Art2Care Global Premiere',
-      date: '2027'
+      date: 'August/September 2026'
     }
+  ],
+  venues: {
+    headline: 'Host & Culture Venues',
+    description: 'ArtOnFilm is honoured to visit on Modern Eden Art & Science tour',
+    singapore2025: [
+      'Swiss Club Singapore',
+      'Simply Champagne Singapore',
+      'Tangling Trust School Singapore'
+    ]
+  },
+  previousExhibitions: {
+    headline: '2023/24 Flower Man & Girls Gone Stone Tour',
+    events: [
+      {
+        location: 'Warsaw',
+        year: '2023/4',
+        description: 'Private viewing featuring fine oil on canvas works curated from the early 1960s to present day'
+      },
+      {
+        location: 'Cannes Film Festival',
+        year: '2023',
+        description: 'Private host parties with Colombian & Greek film and culture executives for exclusive collection viewings'
+      },
+      {
+        location: 'Monaco Art Expo',
+        event: 'F1 Event',
+        year: '2023',
+        description: 'Girls on canvas collection by Polish & Bratislavan oil painters'
+      },
+      {
+        location: 'Bratislava',
+        event: 'Home and Decoration Expo',
+        year: '2023',
+        artist: 'JustJazmine (Monaco and Expo)'
+      },
+      {
+        location: 'Marbella Film Festival',
+        year: '2024',
+        description: 'Guest of Carnaby Films for film & art at RedDog Marbella'
+      }
+    ]
+  },
+  partners: [
+    'Andrew Coates Music',
+    'JBM Lawyers Bogotá',
+    'AOF Group',
+    'Carnaby Films'
   ]
 };
 
