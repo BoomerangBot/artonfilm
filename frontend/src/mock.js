@@ -25,8 +25,8 @@ export const visionData = {
 
 export const programmeData = {
   headline: 'Through Our Eyes / One Frame Ahead',
-  subheadline: 'A UK to EU Art Exchange.',
-  tourDates: 'Dec 2025 to Jun 2026',
+  subheadline: 'Fine art & social impact: Modern Eden Tour. Are you invited?',
+  tourDates: 'Nov 2025 to 2027. UK - ASIA - EU - UK. More TBC',
   cities: [
     {
       name: 'London',
