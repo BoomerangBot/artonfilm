@@ -331,7 +331,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Investment in Culture Section */}
+      {/* Patronage in Culture Section */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
         <div className="absolute inset-0 soft-light-center"></div>
@@ -341,7 +341,7 @@ const Home = () => {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500/10 border border-amber-500/30 rounded-full mb-8">
               <TrendingUp size={20} className="text-amber-400" />
-              <span className="text-amber-400 text-sm font-semibold tracking-widest">FOR INVESTORS</span>
+              <span className="text-amber-400 text-sm font-semibold tracking-widest">FOR PATRONS</span>
             </div>
             
             <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif">
