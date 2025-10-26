@@ -120,6 +120,16 @@ const Home = () => {
             alt="Art Gallery"
             className="w-full h-full object-cover scale-105"
           />
+          {/* Artistic street art overlay */}
+          <div 
+            className="absolute inset-0 opacity-20 mix-blend-screen"
+            style={{
+              backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/gvberlem_file_000000004fbc62468d23486c88f5cf8f.png)',
+              backgroundSize: '40%',
+              backgroundPosition: 'bottom right',
+              backgroundRepeat: 'no-repeat'
+            }}
+          ></div>
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/85 to-black/50"></div>
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/90"></div>
           
