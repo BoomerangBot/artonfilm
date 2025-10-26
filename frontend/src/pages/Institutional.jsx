@@ -248,6 +248,26 @@ const Institutional = () => {
           </div>
         </div>
       </section>
+
+      {/* Zig Ziglar Quote - On Building Together */}
+      <section className="py-20 bg-gradient-to-b from-black to-zinc-950">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center">
+            <div className="text-6xl text-amber-400 mb-4 font-serif">"</div>
+            <blockquote className="text-2xl md:text-3xl font-light italic text-gray-200 mb-6 leading-relaxed">
+              {quotes.ziglar.together}
+            </blockquote>
+            <div className="flex items-center justify-center gap-3">
+              <div className="h-px w-12 bg-amber-400"></div>
+              <div>
+                <p className="text-lg font-bold text-amber-400">Zig Ziglar</p>
+                <p className="text-xs text-gray-400 uppercase tracking-wider">Author & Motivational Speaker</p>
+              </div>
+              <div className="h-px w-12 bg-amber-400"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
