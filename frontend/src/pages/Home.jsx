@@ -278,19 +278,25 @@ const Home = () => {
                     Paintings that re-imagine skylines as stories of hope.
                   </p>
                   
-                  <div className="bg-black/30 rounded-lg p-4 mb-4 space-y-2">
-                    <p className="text-sm text-gray-300">
-                      <span className="text-amber-400 font-semibold">Originals:</span> £5 000–£7 000–£10 000
-                    </p>
-                    <p className="text-sm text-gray-400">
-                      Past performance at international auction & corporate collection artist
-                    </p>
-                    <p className="text-sm text-gray-300">
-                      <span className="text-amber-400 font-semibold">Limited Editions:</span> from £1 500
-                    </p>
-                    <p className="text-sm text-gray-300">
-                      <span className="text-amber-400 font-semibold">Commissions:</span> from £100 000 <span className="text-green-400">(30% donated to charity)</span>
-                    </p>
+                  <div className="bg-gradient-to-br from-amber-500/10 to-amber-600/5 rounded-lg p-5 mb-4 border border-amber-500/20">
+                    <div className="flex items-center gap-2 mb-3">
+                      <div className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></div>
+                      <p className="text-sm font-bold text-amber-400 uppercase tracking-wider">Award-Winning Artist</p>
+                    </div>
+                    <div className="space-y-2">
+                      <p className="text-sm text-gray-300 leading-relaxed">
+                        ✦ Original paintings & limited edition prints
+                      </p>
+                      <p className="text-sm text-gray-300 leading-relaxed">
+                        ✦ Featured in international auctions & corporate collections
+                      </p>
+                      <p className="text-sm text-gray-300 leading-relaxed">
+                        ✦ Private commissions available
+                      </p>
+                      <p className="text-sm text-green-400 font-medium italic mt-3">
+                        30% of commission proceeds support charitable causes
+                      </p>
+                    </div>
                   </div>
                   
                   <Link
@@ -322,22 +328,28 @@ const Home = () => {
                     Photography that captures the heartbeat between chaos and calm.
                   </p>
                   
-                  <div className="bg-black/30 rounded-lg p-4 mb-4 space-y-2">
-                    <div className="grid grid-cols-2 gap-2 text-sm text-gray-300 mb-3">
-                      <p><span className="text-purple-400 font-semibold">1/1:</span> £2 500</p>
-                      <p><span className="text-purple-400 font-semibold">1/10:</span> £1 500</p>
-                      <p><span className="text-purple-400 font-semibold">1/20:</span> £1 000</p>
-                      <p><span className="text-purple-400 font-semibold">1/50:</span> £750</p>
+                  <div className="bg-gradient-to-br from-purple-500/10 to-blue-500/5 rounded-lg p-5 mb-4 border border-purple-500/20">
+                    <div className="flex items-center gap-2 mb-3">
+                      <div className="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></div>
+                      <p className="text-sm font-bold text-purple-400 uppercase tracking-wider">Art for Good</p>
                     </div>
-                    <p className="text-sm text-green-400 font-medium">
-                      All sales support the Lens2Care programme for youth and mental health.
-                    </p>
-                    <p className="text-sm text-gray-400 italic">
-                      Art Is passion and the creative light in life. Last UK exhibitions both sold out collections.
-                    </p>
-                    <p className="text-sm text-purple-400 font-semibold">
-                      Limited release for Lens2Care Art&Science. JustArt JustGive JustDo.
-                    </p>
+                    <div className="space-y-2">
+                      <p className="text-sm text-gray-300 leading-relaxed">
+                        ✦ Unique editions & limited releases
+                      </p>
+                      <p className="text-sm text-gray-300 leading-relaxed">
+                        ✦ Multiple edition sizes available for collectors
+                      </p>
+                      <p className="text-sm text-green-400 font-medium italic mt-3">
+                        All sales support the Lens2Care programme for youth and mental health
+                      </p>
+                      <p className="text-sm text-gray-400 italic mt-3">
+                        "Art is passion and the creative light in life." — Last UK exhibitions sold out
+                      </p>
+                      <p className="text-sm text-purple-400 font-semibold mt-2">
+                        Limited release for Lens2Care Art&Science • JustArt JustGive JustDo
+                      </p>
+                    </div>
                   </div>
                   
                   <Link
