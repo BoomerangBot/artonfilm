@@ -1,21 +1,53 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { patronData } from '../mock';
-import { Check, ArrowRight } from 'lucide-react';
+import { Check, ArrowRight, Users } from 'lucide-react';
 
 const Patrons = () => {
   return (
-    <div className="bg-black text-white min-h-screen pt-20">
-      {/* Header */}
-      <section className="py-24 border-b border-white/10">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            {patronData.headline}
-          </h1>
-          <p className="text-2xl text-gray-400 mb-8">
-            {patronData.subheadline}
-          </p>
+    <div className="bg-black text-white min-h-screen">
+      {/* Hero Section with Artistic Background */}
+      <section className="relative h-[65vh] min-h-[450px] overflow-hidden">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/jxkyrjva_file_000000006a2461f7b89e4e2f623440d7.png')`
+          }}
+        >
+          {/* Gradient Overlays */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/85 via-black/70 to-black"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-black/80"></div>
+          
+          {/* Film Grain Effect */}
+          <div className="absolute inset-0 opacity-20 mix-blend-overlay" 
+            style={{
+              backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulance type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E")`
+            }}
+          ></div>
         </div>
+
+        {/* Hero Content */}
+        <div className="relative z-10 h-full flex items-center justify-center">
+          <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center">
+            <div className="inline-flex items-center justify-center w-20 h-20 mb-8 bg-gradient-to-br from-amber-500/20 to-amber-600/20 rounded-full border-2 border-amber-500/50 backdrop-blur-sm">
+              <Users size={40} className="text-amber-400" />
+            </div>
+            
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight font-serif">
+              <span className="bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200 bg-clip-text text-transparent">
+                {patronData.headline}
+              </span>
+            </h1>
+            
+            <p className="text-2xl md:text-3xl text-gray-300 font-light max-w-3xl mx-auto">
+              {patronData.subheadline}
+            </p>
+          </div>
+        </div>
+
+        {/* Bottom Fade */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent"></div>
       </section>
 
       {/* Benefits */}
