@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { institutionalData } from '../mock';
+import { institutionalData, quotes } from '../mock';
 import { Globe2, ArrowRight, Building2, Users, Handshake, Award } from 'lucide-react';
 
 const Institutional = () => {
