@@ -7,6 +7,7 @@ const Navigation = () => {
   const [scrolled, setScrolled] = useState(false);
   const [supportDropdownOpen, setSupportDropdownOpen] = useState(false);
   const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
+  const [dropdownCloseTimeout, setDropdownCloseTimeout] = useState(null);
   const location = useLocation();
 
   const mainNavigation = [
@@ -35,6 +36,23 @@ const Navigation = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Handle dropdown open with immediate response
+  const handleDropdownEnter = () => {
+    if (dropdownCloseTimeout) {
+      clearTimeout(dropdownCloseTimeout);
+      setDropdownCloseTimeout(null);
+    }
+    setSupportDropdownOpen(true);
+  };
+
+  // Handle dropdown close with delay
+  const handleDropdownLeave = () => {
+    const timeout = setTimeout(() => {
+      setSupportDropdownOpen(false);
+    }, 300); // 300ms delay before closing
+    setDropdownCloseTimeout(timeout);
+  };
 
   const isSupportActive = supportItems.some(item => item.path === location.pathname);
 
