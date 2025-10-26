@@ -678,24 +678,26 @@ const Home = () => {
 
       {/* Exhibitions & Tours */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
-        {/* Circular artwork accent - bottom left */}
+        {/* Background Image with Overlays */}
         <div 
-          className="absolute bottom-0 left-0 w-96 h-96 opacity-25 mix-blend-overlay"
+          className="absolute inset-0"
           style={{
-            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/gwa5rbec_19.jpeg)',
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/yx1o440r_file_00000000314461f7b345efec99445794.png)',
             backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            borderRadius: '50%',
-            transform: 'translate(-30%, 30%)',
-            filter: 'blur(2px)'
+            backgroundPosition: 'center'
           }}
-        ></div>
+        >
+          <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/85 to-black/90"></div>
+          <div className="absolute inset-0 bg-black/50"></div>
+        </div>
+        
+        {/* Decorative Elements */}
         <div className="absolute inset-0 soft-light-center"></div>
+        <div className="absolute top-20 right-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"></div>
         
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-bold mb-4 font-serif">
+            <h2 className="text-5xl md:text-6xl font-bold mb-4 font-serif text-white">
               {exhibitionsToursData.headline}
             </h2>
             <p className="text-2xl text-amber-400 font-light italic">
@@ -704,11 +706,11 @@ const Home = () => {
           </div>
 
           {/* Events Table */}
-          <div className="bg-gradient-to-br from-zinc-900/50 to-black/50 rounded-3xl border border-amber-500/20 overflow-hidden backdrop-blur-sm">
+          <div className="bg-gradient-to-br from-zinc-900/70 to-black/70 rounded-3xl border border-amber-500/30 overflow-hidden backdrop-blur-md mb-12">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead>
-                  <tr className="bg-gradient-to-r from-amber-500/10 to-amber-600/10 border-b border-amber-500/20">
+                  <tr className="bg-gradient-to-r from-amber-500/20 to-amber-600/20 border-b border-amber-500/30">
                     <th className="px-6 py-4 text-left text-amber-400 font-bold text-sm uppercase tracking-wider">City</th>
                     <th className="px-6 py-4 text-left text-amber-400 font-bold text-sm uppercase tracking-wider">Project</th>
                     <th className="px-6 py-4 text-left text-amber-400 font-bold text-sm uppercase tracking-wider">Date</th>
@@ -730,8 +732,64 @@ const Home = () => {
             </div>
           </div>
 
+          {/* Host & Culture Venues Section */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+            {/* Singapore 2025 Venues */}
+            <div className="bg-gradient-to-br from-zinc-900/70 to-black/70 rounded-2xl border border-amber-500/20 p-8 backdrop-blur-md">
+              <h3 className="text-2xl font-bold text-amber-400 mb-4 flex items-center gap-2">
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                {exhibitionsToursData.venues.headline}
+              </h3>
+              <p className="text-gray-300 mb-4 italic">{exhibitionsToursData.venues.description}</p>
+              <div className="space-y-2">
+                <p className="text-amber-400 font-semibold text-sm uppercase tracking-wider">Singapore 2025:</p>
+                {exhibitionsToursData.venues.singapore2025.map((venue, idx) => (
+                  <div key={idx} className="flex items-center gap-2 text-gray-300">
+                    <div className="w-1.5 h-1.5 rounded-full bg-amber-400"></div>
+                    <span>{venue}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Partners */}
+            <div className="bg-gradient-to-br from-zinc-900/70 to-black/70 rounded-2xl border border-amber-500/20 p-8 backdrop-blur-md">
+              <h3 className="text-2xl font-bold text-amber-400 mb-6">Partners</h3>
+              <div className="grid grid-cols-2 gap-4">
+                {exhibitionsToursData.partners.map((partner, idx) => (
+                  <div key={idx} className="bg-black/40 rounded-lg p-4 border border-white/10 text-center">
+                    <p className="text-gray-300 text-sm font-medium">{partner}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Previous Exhibitions History */}
+          <div className="bg-gradient-to-br from-zinc-900/70 to-black/70 rounded-2xl border border-amber-500/20 p-8 backdrop-blur-md mb-12">
+            <h3 className="text-2xl font-bold text-amber-400 mb-2">{exhibitionsToursData.previousExhibitions.headline}</h3>
+            <div className="h-px w-32 bg-gradient-to-r from-amber-400 to-transparent mb-6"></div>
+            
+            <div className="space-y-4">
+              {exhibitionsToursData.previousExhibitions.events.map((event, idx) => (
+                <div key={idx} className="border-l-2 border-amber-500/30 pl-6 py-2 hover:border-amber-500/60 transition-colors">
+                  <div className="flex items-baseline gap-4 mb-1">
+                    <p className="text-white font-bold">{event.location}</p>
+                    {event.event && <span className="text-amber-400 text-sm">• {event.event}</span>}
+                    <span className="text-gray-500 text-sm">{event.year}</span>
+                  </div>
+                  {event.description && <p className="text-gray-400 text-sm leading-relaxed">{event.description}</p>}
+                  {event.artist && <p className="text-gray-400 text-sm italic">Artist: {event.artist}</p>}
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* CTAs */}
-          <div className="flex flex-wrap gap-4 justify-center mt-12">
+          <div className="flex flex-wrap gap-4 justify-center">
             <button
               onClick={() => setShowJourneyModal(true)}
               className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
