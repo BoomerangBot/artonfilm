@@ -1134,11 +1134,22 @@ const Home = () => {
       {/* CARNABY FILMS — The Silver Screen of Giving */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-black to-zinc-950"></div>
+        {/* Cinematic pool art - background */}
+        <div 
+          className="absolute inset-0 opacity-10 mix-blend-soft-light"
+          style={{
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/dxeheg2r_17.jpeg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            filter: 'grayscale(30%) contrast(1.1)'
+          }}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/90"></div>
         <div className="absolute inset-0">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-radial from-amber-500/10 via-transparent to-transparent blur-3xl"></div>
         </div>
         
-        <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
+        <div className="relative max-w-5xl mx-auto px-6 lg:px-8 z-10">
           <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-12 md:p-16 border border-amber-500/20 text-center">
             <div className="inline-block mb-6 px-6 py-2 border border-amber-500/30 rounded-full bg-amber-500/5">
               <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">{carnabyFilmsData.headline}</span>
