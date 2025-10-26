@@ -471,7 +471,7 @@ export const artScienceData = {
 export const shopData = {
   headline: 'SHOP',
   subheadline: 'Collect with Conscience',
-  description: 'Fine art and design with purpose. Every piece supports mentorship, education and health projects worldwide.',
+  description: 'Fine art & photography combine with AI & global promotions to create ethical wealth & opportunity creation for asset value change linked to established auction sale and existing collectors worldwide.',
   categories: ['Originals', 'Prints', 'Photography', 'Design Objects']
 };
 
