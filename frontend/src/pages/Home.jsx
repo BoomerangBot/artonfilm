@@ -855,30 +855,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CONTACT */}
-      <section className="py-32 bg-black relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
-        <div className="absolute inset-0 soft-light-center"></div>
-        
-        <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-12 font-serif text-white uppercase tracking-wider">
-            CONTACT
-          </h2>
-          
-          <div className="flex flex-col sm:flex-row justify-center gap-6">
-            {contactData.emails.map((contact, index) => (
-              <a
-                key={index}
-                href={`mailto:${contact.email}`}
-                className="group bg-gradient-to-r from-zinc-900 to-black border border-white/10 rounded-xl p-6 hover:border-amber-500/30 transition-all"
-              >
-                <p className="text-sm text-gray-400 mb-2">{contact.label}</p>
-                <p className="text-amber-400 font-medium group-hover:text-amber-300 transition-colors">{contact.email}</p>
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Art & Science - Education Is Alchemy */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
