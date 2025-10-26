@@ -917,6 +917,16 @@ const Home = () => {
       {/* Art & Science - Education Is Alchemy */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        {/* "We Are The Noise" artistic background */}
+        <div 
+          className="absolute inset-0 opacity-25 mix-blend-overlay"
+          style={{
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/4qv6n410_file_000000006a2461f7b89e4e2f623440d7.png)',
+            backgroundSize: '50%',
+            backgroundPosition: 'center left',
+            backgroundRepeat: 'no-repeat'
+          }}
+        ></div>
         <div className="absolute inset-0 soft-light-center"></div>
         <div className="absolute top-20 left-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"></div>
         
