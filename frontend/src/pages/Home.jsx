@@ -214,6 +214,18 @@ const Home = () => {
         <div className="absolute top-0 left-0 right-0 h-96 soft-light-top"></div>
         <div className="absolute inset-0 soft-light-center"></div>
         
+        {/* Artistic portrait overlay - right side */}
+        <div 
+          className="absolute top-0 right-0 w-1/3 h-full opacity-10 mix-blend-luminosity"
+          style={{
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/3s22vv51_file_000000000af061f494311e2844019cdb.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            maskImage: 'linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)',
+            WebkitMaskImage: 'linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)'
+          }}
+        ></div>
+        
         <div className="absolute top-20 right-10 w-96 h-96 bg-amber-500/8 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '8s' }}></div>
         <div className="absolute bottom-20 left-10 w-96 h-96 bg-amber-400/6 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '10s' }}></div>
 
