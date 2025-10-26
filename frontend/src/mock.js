@@ -44,7 +44,7 @@ export const programmeData = {
       date: 'April 2026'
     }
   ],
-  partners: ['Hans Alf Gallery', 'Carnaby Films', 'ArtOnGiving CIC'],
+  partners: ['Hans Alf Gallery', 'Carnaby Films', 'ArtOnGiving'],
   outcomes: [
     'Touring exhibitions',
     'Documentary film',
