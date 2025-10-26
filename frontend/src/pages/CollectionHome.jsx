@@ -149,9 +149,34 @@ const CollectionHome = () => {
                       </div>
                     </div>
                     
-                    <p className="text-neutral-300 leading-relaxed mb-6">
+                    <p className="text-neutral-300 leading-relaxed mb-4 italic">
                       {collection.description}
                     </p>
+                    
+                    {collection.subtitle2 && (
+                      <p className="text-neutral-400 text-sm mb-6">
+                        {collection.subtitle2}
+                      </p>
+                    )}
+                    
+                    {/* Features List */}
+                    {collection.features && (
+                      <div className="mb-6 space-y-2">
+                        {collection.features.map((feature, idx) => (
+                          <div key={idx} className="flex items-start gap-2">
+                            <div className="w-1.5 h-1.5 rounded-full bg-amber-400 mt-2"></div>
+                            <p className="text-neutral-300 text-sm">{feature}</p>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                    
+                    {/* Additional Info - Small Text */}
+                    {collection.additionalInfo && (
+                      <p className="text-xs text-neutral-500 mb-6 leading-relaxed">
+                        {collection.additionalInfo}
+                      </p>
+                    )}
                     
                     {/* Action Button */}
                     {collection.available ? (
