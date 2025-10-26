@@ -21,7 +21,8 @@ import {
   givingModelData,
   partnersData,
   ethicsPrivacyData,
-  contactData
+  contactData,
+  quotes
 } from '../mock';
 import { 
   ArrowRight, 
