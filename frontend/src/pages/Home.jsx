@@ -1088,6 +1088,36 @@ const Home = () => {
         </div>
       </section>
 
+      {/* CONTACT - Simple Bottom Section */}
+      <section className="py-20 bg-zinc-950 border-t border-white/5">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Get in Touch
+            </h2>
+            <p className="text-gray-400">
+              We'd love to hear from you
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            {contactData.emails.map((contact, index) => (
+              <a
+                key={index}
+                href={`mailto:${contact.email}`}
+                className="group bg-black/30 border border-white/10 rounded-xl p-6 hover:border-amber-500/50 hover:bg-black/50 transition-all text-center"
+              >
+                <Mail className="w-6 h-6 text-amber-400 mx-auto mb-3" />
+                <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">{contact.label}</p>
+                <p className="text-amber-400 font-medium group-hover:text-amber-300 transition-colors text-sm">
+                  {contact.email}
+                </p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Join the Journey Modal */}
       {showJourneyModal && (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4" onClick={() => setShowJourneyModal(false)}>
