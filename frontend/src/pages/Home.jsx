@@ -789,10 +789,21 @@ const Home = () => {
       {/* Membership with Patron Levels */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 to-black"></div>
+        {/* Sophisticated pool art - top right corner */}
+        <div 
+          className="absolute top-0 right-0 w-1/3 h-1/2 opacity-15 mix-blend-lighten"
+          style={{
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/1axxgyr7_20.jpeg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            maskImage: 'radial-gradient(ellipse at top right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 70%)',
+            WebkitMaskImage: 'radial-gradient(ellipse at top right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 70%)'
+          }}
+        ></div>
         <div className="absolute top-20 right-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 left-20 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
         
-        <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
+        <div className="relative max-w-6xl mx-auto px-6 lg:px-8 z-10">
           <div className="text-center mb-12">
             <div className="inline-block mb-6 px-6 py-2 border border-amber-500/30 rounded-full bg-amber-500/5">
               <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">Exclusive Access</span>
