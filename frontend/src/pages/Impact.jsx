@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { impactData } from '../mock';
+import { impactData, quotes } from '../mock';
 import { TrendingUp, FileText } from 'lucide-react';
 
 const Impact = () => {
