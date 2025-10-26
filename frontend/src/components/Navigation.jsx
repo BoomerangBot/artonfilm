@@ -103,8 +103,8 @@ const Navigation = () => {
             {/* Support Dropdown */}
             <div 
               className="relative"
-              onMouseEnter={() => setSupportDropdownOpen(true)}
-              onMouseLeave={() => setSupportDropdownOpen(false)}
+              onMouseEnter={handleDropdownEnter}
+              onMouseLeave={handleDropdownLeave}
             >
               <button
                 className={`px-4 py-2 text-sm font-medium transition-all rounded-lg relative group flex items-center gap-1 ${
@@ -114,7 +114,7 @@ const Navigation = () => {
                 }`}
               >
                 Support
-                <ChevronDown size={16} className={`transition-transform ${supportDropdownOpen ? 'rotate-180' : ''}`} />
+                <ChevronDown size={16} className={`transition-transform duration-300 ${supportDropdownOpen ? 'rotate-180' : ''}`} />
                 <span
                   className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 bg-gradient-to-r from-amber-400 to-amber-600 transition-all ${
                     isSupportActive ? 'w-full' : 'w-0 group-hover:w-full'
@@ -124,7 +124,7 @@ const Navigation = () => {
 
               {/* Dropdown Menu */}
               {supportDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-48 bg-black/95 backdrop-blur-xl border border-amber-500/20 rounded-xl shadow-2xl shadow-amber-500/10 overflow-hidden">
+                <div className="absolute top-full left-0 mt-1 w-48 bg-black/95 backdrop-blur-xl border border-amber-500/20 rounded-xl shadow-2xl shadow-amber-500/10 overflow-hidden animate-fadeIn">
                   {supportItems.map((item) => (
                     <Link
                       key={item.path}
@@ -134,6 +134,7 @@ const Navigation = () => {
                           ? 'text-amber-400 bg-amber-500/10'
                           : 'text-gray-300 hover:text-white hover:bg-white/5'
                       }`}
+                      onClick={() => setSupportDropdownOpen(false)}
                     >
                       {item.name}
                     </Link>
