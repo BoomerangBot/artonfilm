@@ -50,6 +50,26 @@ const Patrons = () => {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent"></div>
       </section>
 
+      {/* Zig Ziglar Quote - On Helping Others */}
+      <section className="py-20 bg-black border-b border-white/5">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center">
+            <div className="text-6xl text-amber-400 mb-4 font-serif">"</div>
+            <blockquote className="text-2xl md:text-3xl font-light italic text-gray-200 mb-6 leading-relaxed">
+              {quotes.ziglar.helping}
+            </blockquote>
+            <div className="flex items-center justify-center gap-3">
+              <div className="h-px w-12 bg-amber-400"></div>
+              <div>
+                <p className="text-lg font-bold text-amber-400">Zig Ziglar</p>
+                <p className="text-xs text-gray-400 uppercase tracking-wider">Author & Motivational Speaker</p>
+              </div>
+              <div className="h-px w-12 bg-amber-400"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits */}
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
