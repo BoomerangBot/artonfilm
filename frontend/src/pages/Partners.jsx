@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { corporateData } from '../mock';
+import { corporateData, quotes } from '../mock';
 import { Building2, ArrowRight } from 'lucide-react';
 
 const Partners = () => {
