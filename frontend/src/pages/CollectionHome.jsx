@@ -7,8 +7,15 @@ const CollectionHome = () => {
     {
       id: 1,
       name: 'Natasha Kissell',
-      title: 'Contemporary Painter',
-      description: 'Award-winning contemporary paintings exploring the relationship between architecture, landscape, and light.',
+      title: 'Modern Eden',
+      description: 'Romance in architecture • Grace in modernity',
+      subtitle: 'Paintings that re-imagine skylines as stories of hope',
+      features: [
+        'Award-winning photography',
+        'Original and limited edition collections',
+        'Private & charitable commissions'
+      ],
+      additionalInfo: 'Originals: £5,000–£7,000–£10,000 | Past performance at international auction & corporate collection artist | Limited Editions: from £1,500 | Commissions: from £100,000 (30% donated to charity)',
       image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg',
       path: '/collection/natasha-kissell',
       icon: Palette,
@@ -17,10 +24,17 @@ const CollectionHome = () => {
     },
     {
       id: 2,
-      name: 'Chris Lee',
-      subtitle: 'JustXR1',
+      name: 'Dr Chris Lee',
+      subtitle: 'JustXR1 / Big City Short Life',
       title: 'Urban Photographer',
-      description: 'Capturing the pulse of city life through striking street photography and architectural documentation.',
+      description: 'The city breathes. We listen.',
+      subtitle2: 'Photography that captures the heartbeat between chaos and calm',
+      features: [
+        'Award-winning photography',
+        'Original and limited edition collections',
+        'All sales support the Lens2Care programme for youth and mental health'
+      ],
+      additionalInfo: '1/1: £2,500 | 1/10: £1,500 | 1/20: £1,000 | 1/50: £750 | Limited release for Lens2Care Art&Science. JustArt JustGive JustDo',
       image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMHBob3RvZ3JhcGh5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85',
       path: '/collection/chris-lee',
       icon: Camera,
