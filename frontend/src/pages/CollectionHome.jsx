@@ -15,7 +15,6 @@ const CollectionHome = () => {
         'Original and limited edition collections',
         'Private & charitable commissions'
       ],
-      additionalInfo: 'Originals: £5,000–£7,000–£10,000 | Past performance at international auction & corporate collection artist | Limited Editions: from £1,500 | Commissions: from £100,000 (30% donated to charity)',
       image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg',
       path: '/collection/natasha-kissell',
       icon: Palette,
@@ -34,7 +33,6 @@ const CollectionHome = () => {
         'Original and limited edition collections',
         'All sales support the Lens2Care programme for youth and mental health'
       ],
-      additionalInfo: '1/1: £2,500 | 1/10: £1,500 | 1/20: £1,000 | 1/50: £750 | Limited release for Lens2Care Art&Science. JustArt JustGive JustDo',
       image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMHBob3RvZ3JhcGh5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85',
       path: '/collection/chris-lee',
       icon: Camera,
