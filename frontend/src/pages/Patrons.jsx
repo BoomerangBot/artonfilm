@@ -205,12 +205,18 @@ const Patrons = () => {
             <div className="absolute -bottom-6 -right-6 w-32 h-32 border-b-2 border-r-2 border-amber-500/30"></div>
             
             <div className="bg-gradient-to-br from-zinc-900/50 to-black/50 backdrop-blur-sm rounded-3xl p-16 border border-white/10">
-              <blockquote className="text-2xl md:text-3xl text-gray-200 leading-relaxed text-center font-light italic">
+              <div className="text-7xl text-amber-400 mb-4 font-serif text-center">"</div>
+              <blockquote className="text-xl md:text-2xl text-gray-200 leading-relaxed text-center font-light italic mb-8">
                 As a Founding Patron, you become part of a select group shaping the future of UK-EU cultural exchange. Your support enables extraordinary artists to reach new audiences and creates lasting connections across borders.
               </blockquote>
               
-              <div className="mt-10 flex justify-center">
-                <div className="h-1 w-48 bg-gradient-to-r from-transparent via-amber-500 to-transparent"></div>
+              <div className="flex items-center justify-center gap-3">
+                <div className="h-px w-12 bg-amber-400"></div>
+                <div>
+                  <p className="text-lg font-bold text-amber-400">Russell Hamilton</p>
+                  <p className="text-xs text-gray-400 uppercase tracking-wider">Founder, ArtOnFilm</p>
+                </div>
+                <div className="h-px w-12 bg-amber-400"></div>
               </div>
             </div>
           </div>
