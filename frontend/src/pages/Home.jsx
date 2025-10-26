@@ -331,6 +331,60 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Featured Artworks Showcase */}
+      <section className="py-20 bg-zinc-950">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-serif">
+              Featured Works
+            </h2>
+            <p className="text-gray-400 text-lg">
+              Explore stunning contemporary art from our collection
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg',
+              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/dxeheg2r_17.jpeg',
+              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/g8idwuhn_18.jpeg',
+              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/gwa5rbec_19.jpeg',
+              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/1axxgyr7_20.jpeg',
+              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/u6ykuo0g_21.jpeg',
+              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/lfqa35q2_22.jpeg',
+              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2hukoy8z_23.jpeg'
+            ].map((img, index) => (
+              <Link
+                key={index}
+                to="/collection/natasha-kissell"
+                className="group relative aspect-square overflow-hidden rounded-lg"
+              >
+                <img
+                  src={img}
+                  alt={`Artwork ${index + 1}`}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center">
+                  <span className="text-white font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+                    View Collection
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center mt-8">
+            <Link
+              to="/collection"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-amber-500 text-black font-bold rounded-full hover:bg-amber-400 transition-all hover:scale-105"
+            >
+              Explore Full Collection
+              <ArrowRight size={20} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Patronage in Culture Section */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
