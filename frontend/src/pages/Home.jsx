@@ -260,54 +260,37 @@ const Home = () => {
               </div>
 
               {/* Natasha Kissell Card */}
-              <div className="relative group overflow-hidden rounded-2xl">
-                {/* Background Image */}
-                <div 
-                  className="absolute inset-0"
-                  style={{
-                    backgroundImage: 'url(https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/6u342cn4_natashakissell.jpeg)',
-                    backgroundSize: 'contain',
-                    backgroundPosition: 'right center',
-                    backgroundRepeat: 'no-repeat'
-                  }}
-                >
-                  {/* Lighter overlays for better image visibility */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-black/40"></div>
-                </div>
-                
-                {/* Glow effect on hover */}
+              <div className="relative group">
                 <div className="absolute -inset-4 bg-gradient-to-r from-amber-500/20 to-gold/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                
-                {/* Content */}
-                <div className="relative rounded-2xl p-8">
+                <div className="relative bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-white/10 hover:border-amber-500/30 transition-all">
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="w-12 h-12 bg-amber-500/30 backdrop-blur-md rounded-full flex items-center justify-center flex-shrink-0 border border-amber-500/50">
+                    <div className="w-12 h-12 bg-amber-500/20 rounded-full flex items-center justify-center flex-shrink-0">
                       <Palette size={24} className="text-amber-400" />
                     </div>
                     <div className="flex-1">
-                      <h4 className="text-2xl font-bold text-white mb-1 drop-shadow-lg">Natasha Kissell</h4>
-                      <p className="text-amber-400 font-medium mb-3 drop-shadow-md">Modern Eden</p>
+                      <h4 className="text-2xl font-bold text-white mb-1">Natasha Kissell</h4>
+                      <p className="text-amber-400 font-medium mb-3">Modern Eden</p>
                     </div>
                   </div>
                   
-                  <p className="text-white italic mb-4 drop-shadow-md">
+                  <p className="text-gray-300 italic mb-4">
                     Romance in architecture · Grace in modernity<br />
                     Paintings that re-imagine skylines as stories of hope.
                   </p>
                   
-                  <div className="bg-black/80 backdrop-blur-md rounded-lg p-5 mb-4 border border-amber-500/30">
+                  <div className="bg-gradient-to-br from-amber-500/10 to-amber-600/5 rounded-lg p-5 mb-4 border border-amber-500/20">
                     <div className="flex items-center gap-2 mb-3">
                       <div className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></div>
                       <p className="text-sm font-bold text-amber-400 uppercase tracking-wider">Award-Winning Artist</p>
                     </div>
                     <div className="space-y-2">
-                      <p className="text-sm text-gray-100 leading-relaxed">
+                      <p className="text-sm text-gray-300 leading-relaxed">
                         ✦ Original paintings & limited edition prints
                       </p>
-                      <p className="text-sm text-gray-100 leading-relaxed">
+                      <p className="text-sm text-gray-300 leading-relaxed">
                         ✦ Featured in international auctions & corporate collections
                       </p>
-                      <p className="text-sm text-gray-100 leading-relaxed">
+                      <p className="text-sm text-gray-300 leading-relaxed">
                         ✦ Private commissions available
                       </p>
                       <p className="text-sm text-green-400 font-medium italic mt-3">
@@ -318,7 +301,7 @@ const Home = () => {
                   
                   <Link
                     to="/collection/natasha-kissell"
-                    className="inline-flex items-center justify-center w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-lg hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-amber-500/30"
+                    className="inline-flex items-center justify-center w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-lg hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95"
                   >
                     View Collection
                     <ArrowRight className="ml-2" size={18} />
