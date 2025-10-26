@@ -862,9 +862,21 @@ const Home = () => {
       {/* THE 5·5·5 MODEL — JustGive2Support™ */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        {/* Bright colorful accent - bottom right */}
+        <div 
+          className="absolute bottom-0 right-0 w-80 h-80 opacity-15 mix-blend-screen"
+          style={{
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/lfqa35q2_22.jpeg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            borderRadius: '50%',
+            transform: 'translate(25%, 25%)',
+            filter: 'saturate(1.4) brightness(1.2)'
+          }}
+        ></div>
         <div className="absolute inset-0 soft-light-center"></div>
         
-        <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
+        <div className="relative max-w-5xl mx-auto px-6 lg:px-8 z-10">
           <div className="bg-gradient-to-br from-green-900/20 to-black rounded-3xl p-12 md:p-16 border border-green-500/20 text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif text-white">
               {givingModelData.headline}
