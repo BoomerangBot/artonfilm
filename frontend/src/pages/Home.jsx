@@ -678,9 +678,21 @@ const Home = () => {
       {/* Exhibitions & Tours */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        {/* Circular artwork accent - bottom left */}
+        <div 
+          className="absolute bottom-0 left-0 w-96 h-96 opacity-25 mix-blend-overlay"
+          style={{
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/gwa5rbec_19.jpeg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            borderRadius: '50%',
+            transform: 'translate(-30%, 30%)',
+            filter: 'blur(2px)'
+          }}
+        ></div>
         <div className="absolute inset-0 soft-light-center"></div>
         
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold mb-4 font-serif">
               {exhibitionsToursData.headline}
