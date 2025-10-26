@@ -461,8 +461,8 @@ export const artScienceData = {
     },
     {
       title: 'UK2YOU Mentors4Life',
-      subtitle: 'Education & Embassy Talks',
-      description: 'Empowering the next generation through mentorship and cultural exchange.'
+      subtitle: 'Art & mental health',
+      description: 'The science behind the eternal light. Can creativity and contribution help?'
     }
   ],
   footer: 'Led by artists, scientists and mentors who believe knowledge shared is hope multiplied.'
