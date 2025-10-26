@@ -297,6 +297,22 @@ export const testimonialData = {
   title: 'Art and Science Director'
 };
 
+// Inspirational Quotes from Thought Leaders
+export const quotes = {
+  carnegie: {
+    culture: "No man becomes rich unless he enriches others.",
+    giving: "The man who dies rich dies disgraced.",
+    libraries: "A library outranks any other one thing a community can do to benefit its people.",
+    philanthropy: "Surplus wealth is a sacred trust which its possessor is bound to administer in his lifetime for the good of the community."
+  },
+  ziglar: {
+    helping: "You can have everything in life you want, if you will just help other people get what they want.",
+    success: "Success is the maximum utilization of the ability that you have.",
+    attitude: "Your attitude, not your aptitude, will determine your altitude.",
+    together: "You don't build a business. You build people and people build the business."
+  }
+};
+
 export const exhibitionsToursData = {
   headline: 'EXHIBITIONS & TOURS',
   subheadline: 'Culture That Travels',
