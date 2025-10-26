@@ -768,9 +768,17 @@ const Home = () => {
             </p>
             
             <div className="bg-black/40 rounded-2xl p-8 mb-8 border border-green-500/30">
-              <p className="text-3xl text-green-400 font-bold">
+              <p className="text-3xl text-green-400 font-bold mb-6">
                 {givingModelData.breakdown}
               </p>
+              <div className="space-y-3">
+                {givingModelData.breakdownDetails.map((item, index) => (
+                  <div key={index} className="flex justify-between items-center py-2 border-b border-green-500/20 last:border-0">
+                    <span className="text-xl text-white">{item.label}</span>
+                    <span className="text-2xl text-green-400 font-bold">{item.amount}</span>
+                  </div>
+                ))}
+              </div>
             </div>
             
             <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
