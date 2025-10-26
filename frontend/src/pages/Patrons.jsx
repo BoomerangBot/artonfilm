@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { patronData } from '../mock';
+import { patronData, quotes } from '../mock';
 import { Check, ArrowRight, Users } from 'lucide-react';
 
 const Patrons = () => {
