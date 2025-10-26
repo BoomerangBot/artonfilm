@@ -1004,13 +1004,12 @@ const Home = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-            {artOnDesignData.pricing.map((item, index) => (
+            {artOnDesignData.items.map((item, index) => (
               <div
                 key={index}
                 className="bg-gradient-to-br from-zinc-900/50 to-black/50 rounded-2xl p-8 border border-white/10 hover:border-purple-500/30 transition-all text-center backdrop-blur-sm"
               >
-                <h3 className="text-2xl font-bold text-white mb-3">{item.item}</h3>
-                <p className="text-purple-400 text-xl font-semibold">{item.price}</p>
+                <h3 className="text-2xl font-bold text-white">{item}</h3>
               </div>
             ))}
           </div>
