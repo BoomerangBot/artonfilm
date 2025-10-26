@@ -155,9 +155,19 @@ const Shop = () => {
                     {selectedArtwork.description}
                   </p>
 
-                  <div className="flex items-center justify-between mb-8 p-4 bg-black/50 rounded-xl">
-                    <span className="text-gray-400">Price</span>
-                    <span className="text-3xl font-bold text-amber-400">{selectedArtwork.price}</span>
+                  <div className="mb-8 p-6 bg-gradient-to-br from-amber-500/10 to-purple-500/10 rounded-2xl border border-amber-500/20 backdrop-blur-sm">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></div>
+                      <span className="text-amber-400 font-bold text-sm uppercase tracking-wider">Collector's Edition</span>
+                    </div>
+                    <p className="text-gray-200 leading-relaxed italic text-sm">
+                      "Each piece carries the essence of modern romance—where steel meets sky, and architecture becomes poetry."
+                    </p>
+                    <div className="mt-4 pt-4 border-t border-white/10">
+                      <p className="text-xs text-gray-400">
+                        <span className="text-amber-400 font-semibold">Investment Quality</span> • Certificate of Authenticity • Museum-Grade Materials
+                      </p>
+                    </div>
                   </div>
                 </div>
 
