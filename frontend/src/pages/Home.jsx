@@ -1032,10 +1032,21 @@ const Home = () => {
       {/* SHOP — Collect with Conscience */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-black to-zinc-950"></div>
+        {/* Colorful artwork split - left side */}
+        <div 
+          className="absolute left-0 top-0 w-1/4 h-full opacity-20 mix-blend-color-dodge"
+          style={{
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/g8idwuhn_18.jpeg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center right',
+            maskImage: 'linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)',
+            WebkitMaskImage: 'linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)'
+          }}
+        ></div>
         <div className="absolute inset-0 soft-light-center"></div>
         <div className="absolute bottom-20 right-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"></div>
         
-        <div className="relative max-w-6xl mx-auto px-6 lg:px-8 text-center">
+        <div className="relative max-w-6xl mx-auto px-6 lg:px-8 text-center z-10">
           <div className="inline-block mb-6 px-6 py-2 border border-amber-500/30 rounded-full bg-amber-500/5">
             <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">{shopData.headline}</span>
           </div>
