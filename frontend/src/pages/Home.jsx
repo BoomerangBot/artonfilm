@@ -890,8 +890,19 @@ const Home = () => {
       {/* ETHICS & PRIVACY */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
+        {/* "Terms Glitched" edgy background */}
+        <div 
+          className="absolute inset-0 opacity-15 mix-blend-lighten"
+          style={{
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/wjv5gir6_file_0000000005746246ab1b470ae83bcdc9.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            filter: 'hue-rotate(30deg)'
+          }}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/80"></div>
         
-        <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
+        <div className="relative max-w-5xl mx-auto px-6 lg:px-8 z-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 font-serif text-white text-center uppercase tracking-wider">
             {ethicsPrivacyData.headline}
           </h2>
