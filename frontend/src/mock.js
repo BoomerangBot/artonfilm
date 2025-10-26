@@ -480,12 +480,8 @@ export const artOnDesignData = {
   subheadline: 'Where Art Meets Comfort',
   description: 'Kissell\'s signature chairs, scarves and frames transform art into everyday beauty.',
   details: 'European-made · ethically sourced · supporting creative scholarships.',
-  pricing: [
-    { item: 'Chairs', price: 'from £3 000' },
-    { item: 'Scarves', price: '£350–£600' },
-    { item: 'Frames', price: 'from £250' }
-  ],
-  footer: 'Products in development stage, hosts & partners with ethics & wish to create living art that heals. We want YOU.'
+  items: ['Chairs', 'Scarves', 'Frames'],
+  footer: 'Kissell & ArtOnGiving will look to launch a life style and living collection in 2026. We want YOU to help bring this modern eden style collection to life.'
 };
 
 export const carnabyFilmsData = {
