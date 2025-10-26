@@ -386,7 +386,12 @@ export const givingModelData = {
   headline: 'THE 5·5·5 MODEL',
   subheadline: 'JustGive2Support™',
   description: 'At every event, giving is shared fairly:',
-  breakdown: '£15 ticket = £5 Host · £5 ArtOnFilm · £5 Charity',
+  breakdown: '£15 Ticket',
+  breakdownDetails: [
+    { label: 'Host', amount: '£5' },
+    { label: 'Charity', amount: '£5' },
+    { label: 'ArtOnFilm', amount: '£5' }
+  ],
   footer: 'A transparent cycle where culture and kindness grow together. Anyone may host an event within this model and earn while they give.'
 };
 
