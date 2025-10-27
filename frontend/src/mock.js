@@ -450,8 +450,6 @@ export const partnersData = {
     'Carnaby Films',
     'Carnaby AV & Comfort',
     'Kissell Fine Art',
-    'Hans Alf Gallery (Copenhagen)',
-    'DHS Labs Berlin',
     'JUSTXR1 - Lens2Care Art4Good'
   ]
 };
