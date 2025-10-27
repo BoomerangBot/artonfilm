@@ -614,7 +614,7 @@ const Home = () => {
             </div>
             
             <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif">
-              Charity Partners — We AIM to Support
+              ArtOnFilm Family & Memberships
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-12">
               15% of our gross income supports vital charitable causes. Together, we're making a difference beyond the gallery walls.
