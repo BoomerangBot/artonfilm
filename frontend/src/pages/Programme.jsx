@@ -86,10 +86,16 @@ const Programme = () => {
                       {city.name}
                     </h3>
                     
-                    <p className="text-lg text-gray-400 leading-relaxed">
-                      Experience the exhibition in one of Europe's most vibrant cultural capitals. 
-                      A unique showcase bringing together visual art, photography, and cinematic storytelling.
-                    </p>
+                    {city.subtitle ? (
+                      <p className="text-lg text-gray-300 leading-relaxed italic">
+                        {city.subtitle}
+                      </p>
+                    ) : (
+                      <p className="text-lg text-gray-400 leading-relaxed">
+                        Experience the exhibition in one of Europe's most vibrant cultural capitals. 
+                        A unique showcase bringing together visual art, photography, and cinematic storytelling.
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>
