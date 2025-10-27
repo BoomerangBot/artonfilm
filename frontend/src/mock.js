@@ -191,7 +191,7 @@ export const galleryImages = [
 ];
 
 export const investmentData = {
-  headline: 'Investing in Cultural Capital',
+  headline: 'Building Cultural Capital',
   subheadline: 'ArtOnFilm transforms creativity into long-term value.',
   content: 'Each exhibition is built on a sustainable model where artistic merit, education, and brand visibility align. From limited-edition works and licensing to educational sponsorships, every partnership leaves a measurable legacy.',
   stats: [
