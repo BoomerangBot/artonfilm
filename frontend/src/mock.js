@@ -39,9 +39,10 @@ export const programmeData = {
       date: 'February 2026'
     },
     {
-      name: 'Copenhagen',
+      name: 'Denmark',
       image: 'https://images.unsplash.com/photo-1628341036825-f785c8ca030f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHxDb3BlbmhhZ2VuJTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc2MTIyMTEyOHww&ixlib=rb-4.1.0&q=85',
-      date: 'April 2026'
+      date: 'February 2026',
+      subtitle: 'Hans Alf: Kissell Eternal & glamourous home of fine Art.'
     }
   ],
   partners: ['Hans Alf Gallery', 'Carnaby Films', 'ArtOnGiving'],
