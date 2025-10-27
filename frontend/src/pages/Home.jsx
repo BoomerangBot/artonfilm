@@ -1021,9 +1021,14 @@ const Home = () => {
       {/* PARTNERS - Simplified */}
       <section className="py-20 bg-black border-y border-white/5">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
-            {partnersData.headline}
-          </h2>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              {partnersData.headline}
+            </h2>
+            <p className="text-lg text-gray-400 italic">
+              Partners, Friends & Sponsors JUSTART together creating tomorrow, today. JUSTDO we JUSTGIVE
+            </p>
+          </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {partnersData.partners.map((partner, index) => (
