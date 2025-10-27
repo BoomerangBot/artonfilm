@@ -155,7 +155,7 @@ const Home = () => {
             {/* Hero Badge */}
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-amber-500/10 to-amber-600/10 backdrop-blur-md border border-amber-400/40 rounded-full mb-6 shadow-lg shadow-amber-500/10">
               <Heart size={20} className="text-amber-400" />
-              <span className="text-amber-400 text-sm font-semibold tracking-widest">ART IS FREE. EXPOSURE IS PRICELESS.</span>
+              <span className="text-amber-400 text-sm font-semibold tracking-widest">ART & CULTURE. EXPOSURE IS PRICELESS.</span>
             </div>
 
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-[0.95] font-serif text-shadow-lg">
