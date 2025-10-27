@@ -165,7 +165,7 @@ const Shop = () => {
                     </p>
                     <div className="mt-4 pt-4 border-t border-white/10">
                       <p className="text-xs text-gray-400">
-                        <span className="text-amber-400 font-semibold">Investment Quality</span> • Certificate of Authenticity • Museum-Grade Materials
+                        <span className="text-amber-400 font-semibold">Collector Quality</span> • Certificate of Authenticity • Museum-Grade Materials
                       </p>
                     </div>
                   </div>
