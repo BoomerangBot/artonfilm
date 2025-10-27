@@ -68,14 +68,14 @@ const DisclaimerModal = () => {
               <div>
                 <h3 className="text-base sm:text-lg md:text-xl font-bold text-amber-400 mb-2">No Financial Advice</h3>
                 <p className="leading-relaxed text-sm sm:text-base">
-                  The information contained on this website is provided for general informational and educational purposes only. Nothing on this site constitutes, or should be construed as, financial, legal, tax, or investment advice. You should seek independent professional advice before making any investment decisions.
+                  The information contained on this website is provided for general informational and educational purposes only. Nothing on this site constitutes, or should be construed as, financial, legal, tax, or acquisition advice. You should seek independent professional advice before making any purchase decisions.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-base sm:text-lg md:text-xl font-bold text-amber-400 mb-2">Investment Risk</h3>
+                <h3 className="text-base sm:text-lg md:text-xl font-bold text-amber-400 mb-2">Art Acquisition Risk</h3>
                 <p className="leading-relaxed text-sm sm:text-base">
-                  Investing in art involves risks, including the potential loss of capital. Past performance of artworks, artists, or markets is not indicative of future results. Prices and valuations can fluctuate, and there is no guarantee of liquidity or future appreciation.
+                  Acquiring art involves considerations including capital requirements. Past performance of artworks, artists, or markets is not indicative of future results. Prices and valuations can fluctuate, and there is no guarantee of liquidity or future appreciation.
                 </p>
               </div>
 
