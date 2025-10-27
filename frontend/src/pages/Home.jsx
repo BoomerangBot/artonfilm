@@ -475,7 +475,7 @@ const Home = () => {
 
           <div className="text-center">
             <button className="inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20">
-              View Investment Overview
+              View Asset & Art Opportunities
               <ArrowRight size={20} />
             </button>
           </div>
