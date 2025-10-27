@@ -350,7 +350,7 @@ export const exhibitionsToursData = {
   ],
   venues: {
     headline: 'Host & Culture Venues',
-    description: 'ArtOnFilm is honoured to visit on Modern Eden Art & Science tour',
+    description: 'ArtOnFilm is honoured to meet & host partners during the Modern Eden Art & Science tour',
     singapore2025: [
       'Swiss Club Singapore',
       'Simply Champagne Singapore',
