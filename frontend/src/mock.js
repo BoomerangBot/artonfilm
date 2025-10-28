@@ -319,14 +319,19 @@ export const exhibitionsToursData = {
   subheadline: 'Modern Eden Art & Science Tour',
   events: [
     {
-      city: 'Brighton',
-      project: 'Modern Eden Collection',
-      date: 'April/May 2026'
-    },
-    {
       city: 'Singapore',
       project: 'The Singapore Sessions',
-      date: 'January 2025'
+      date: 'November 2025'
+    },
+    {
+      city: 'Inverness',
+      project: 'Modern Eden Collection',
+      date: 'November 2025'
+    },
+    {
+      city: 'London',
+      project: 'Winter Exhibition',
+      date: 'January 2026'
     },
     {
       city: 'Copenhagen',
@@ -337,6 +342,11 @@ export const exhibitionsToursData = {
       city: 'Berlin',
       project: 'Art & Science Forum / Berlinale',
       date: 'February 2026'
+    },
+    {
+      city: 'Brighton',
+      project: 'Modern Eden Collection',
+      date: 'April/May 2026'
     },
     {
       city: 'South Place Hotel',
