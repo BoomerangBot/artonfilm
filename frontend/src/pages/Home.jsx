@@ -1599,6 +1599,14 @@ const Home = () => {
           </div>
         </div>
       )}
+
+      {/* Partner Modal */}
+      {selectedPartner && (
+        <PartnerModal
+          partner={selectedPartner}
+          onClose={() => setSelectedPartner(null)}
+        />
+      )}
     </div>
   );
 };
