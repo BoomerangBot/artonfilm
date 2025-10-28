@@ -349,8 +349,8 @@ export const exhibitionsToursData = {
       date: 'April/May 2026'
     },
     {
-      city: 'South Place Hotel',
-      project: 'Summer in the City',
+      city: 'BlueBird London',
+      project: 'Home of ArtOnFilm',
       date: 'June/July 2026'
     },
     {
