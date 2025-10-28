@@ -44,24 +44,24 @@ const FloatingCollectionCTA = () => {
       {isVisible && (
         <Link
           to="/collection"
-          className="fixed bottom-8 right-8 z-40 group"
+          className="fixed bottom-6 right-6 z-40 group"
           style={{ animation: 'fadeIn 0.5s ease-in-out' }}
         >
           <div className="relative">
             {/* Glow effect */}
-            <div className="absolute inset-0 bg-gradient-to-r from-amber-500 to-amber-600 rounded-full blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300 animate-pulse"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-amber-500 to-amber-600 rounded-full blur-lg opacity-40 group-hover:opacity-60 transition-opacity duration-300 animate-pulse"></div>
             
-            {/* Main button */}
-            <div className="relative flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full shadow-2xl transform transition-all duration-300 group-hover:scale-110 group-hover:shadow-amber-500/50">
-              <Palette size={24} className="group-hover:rotate-12 transition-transform duration-300" />
-              <span className="text-lg whitespace-nowrap">{ctaText}</span>
-              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform duration-300" />
+            {/* Main button - reduced by 25% */}
+            <div className="relative flex items-center gap-2 px-4 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full shadow-xl transform transition-all duration-300 group-hover:scale-110 group-hover:shadow-amber-500/50">
+              <Palette size={18} className="group-hover:rotate-12 transition-transform duration-300" />
+              <span className="text-base whitespace-nowrap">{ctaText}</span>
+              <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-300" />
             </div>
 
             {/* Sparkle decoration */}
             <Sparkles 
-              size={16} 
-              className="absolute -top-2 -right-2 text-amber-400 animate-pulse"
+              size={12} 
+              className="absolute -top-1 -right-1 text-amber-400 animate-pulse"
             />
           </div>
         </Link>
