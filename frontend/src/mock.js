@@ -255,12 +255,51 @@ export const partnersVenuesData = {
       description: 'Carnaby Films brings art and culture to life through cinematic storytelling, creating powerful visual narratives that inspire and engage.'
     },
     {
-      name: 'DHS Labs',
+      name: 'DHS Labs Berlin',
+      subtitle: 'Julian & Sandra Milz',
       location: 'Berlin',
       logo: 'https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/lff49e3m_DHS.jpg',
       website: '#',
       linkedin: '#',
-      description: 'DHS Labs pioneers innovative solutions at the intersection of art, science, and technology, fostering creative breakthroughs.'
+      tagline: 'Precision in Science, Purpose in Partnership',
+      fullDescription: `At the intersection of Europe's cultural and scientific centres, DHS Labs Berlin stands as a trusted pillar of innovation within the AOF Group.
+
+Led by Julian and Sandra Milz, DHS combines scientific precision with human purpose — proving that integrity in research and empathy in leadership go hand in hand.
+
+Their mission bridges diagnostic science, AI-assisted healthcare, and ethical data governance — forming the foundation for ArtOnFilm, Lens2Care, and CTC.ai's shared vision: where science and art build a better tomorrow.`,
+      expertise: [
+        {
+          title: 'Clinical & Data Integrity',
+          description: 'Upholding the highest EU and UK standards across all AOF and FD-linked processes.'
+        },
+        {
+          title: 'Innovation & Grants',
+          description: 'Guiding EU funding and R&D initiatives through Horizon Europe and German federal programmes.'
+        },
+        {
+          title: 'Culture & Collaboration',
+          description: 'Translating scientific insight into creative and educational formats that connect with people.'
+        },
+        {
+          title: 'Berlin as a Hub',
+          description: 'Anchoring CTC.ai\'s European operations and linking Berlin\'s scientific network with the UK, Ireland, and Asia-Pacific.'
+        }
+      ],
+      leadership: `Julian Milz brings expertise in diagnostic systems, data protection, and applied lab innovation.
+Sandra Milz leads operations and outreach, nurturing education and youth mentorship under AOF's principle of contribution over content.
+
+Together, they embody the conscience of AOF's medical and creative collaborations.`,
+      quote: {
+        text: 'When science meets empathy, data becomes humanity.',
+        attribution: 'DHS Labs Berlin × AOF Group'
+      },
+      sponsorship: `As a corporate sponsor of the Modern Eden Fine Art Tour 2025/2026 – Art & Science: Together Creating Tomorrow, Today, DHS Labs Berlin champions JUSTART. JUSTGIVE. JUSTDO.`,
+      closing: `Berlin stands as the European basecamp for conscience-driven innovation — uniting science, art, and society through ethics, creativity, and hope.`,
+      gallery: [
+        'https://via.placeholder.com/400x300/1a1a1a/amber?text=DHS+Labs+1',
+        'https://via.placeholder.com/400x300/1a1a1a/amber?text=DHS+Labs+2',
+        'https://via.placeholder.com/400x300/1a1a1a/amber?text=DHS+Labs+3'
+      ]
     },
     {
       name: 'Natasha Kissell',
