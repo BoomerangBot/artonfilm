@@ -5,6 +5,8 @@ import { Building2, ArrowRight } from 'lucide-react';
 import PartnerModal from '../components/PartnerModal';
 
 const Partners = () => {
+  const [selectedPartner, setSelectedPartner] = useState(null);
+
   return (
     <div className="bg-black text-white min-h-screen">
       {/* Hero Section with Artistic Background */}
