@@ -39,6 +39,8 @@ import {
   X
 } from 'lucide-react';
 import PartnerModal from '../components/PartnerModal';
+import FloatingCollectionCTA from '../components/FloatingCollectionCTA';
+import SideRibbonCTA from '../components/SideRibbonCTA';
 
 const Home = () => {
   const [email, setEmail] = useState('');
