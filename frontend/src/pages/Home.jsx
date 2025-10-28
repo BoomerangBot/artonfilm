@@ -1609,6 +1609,12 @@ const Home = () => {
           onClose={() => setSelectedPartner(null)}
         />
       )}
+
+      {/* Floating Collection CTA */}
+      <FloatingCollectionCTA />
+
+      {/* Side Ribbon CTA */}
+      <SideRibbonCTA />
     </div>
   );
 };
