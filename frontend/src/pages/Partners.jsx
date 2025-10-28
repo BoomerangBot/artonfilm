@@ -117,6 +117,56 @@ const Partners = () => {
           </Link>
         </div>
       </section>
+
+      {/* Partners, Friends & Sponsors Section */}
+      <section className="py-24 bg-black border-t border-white/10">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif">
+              <span className="bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200 bg-clip-text text-transparent">
+                Partners, Friends & Sponsors
+              </span>
+            </h2>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+              {partnersVenuesData.content}
+            </p>
+          </div>
+
+          {/* Partners Logo Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {partnersVenuesData.partners.map((partner, index) => (
+              <div
+                key={index}
+                onClick={() => setSelectedPartner(partner)}
+                className="group relative bg-white rounded-xl p-6 cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20 border-2 border-transparent hover:border-amber-500/50"
+              >
+                {/* Logo Container */}
+                <div className="aspect-video flex items-center justify-center">
+                  <img
+                    src={partner.logo}
+                    alt={partner.name}
+                    className="max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-110"
+                  />
+                </div>
+
+                {/* Hover Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex items-end justify-center pb-4">
+                  <p className="text-white font-semibold text-sm">Click to learn more</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Partner Modal */}
+      {selectedPartner && (
+        <PartnerModal
+          partner={selectedPartner}
+          onClose={() => setSelectedPartner(null)}
+        />
+      )}
     </div>
   );
 };
