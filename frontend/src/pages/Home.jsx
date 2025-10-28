@@ -469,6 +469,9 @@ const Home = () => {
                   {stat.value}
                 </div>
                 <div className="text-lg text-gray-200 font-medium">{stat.label}</div>
+                {stat.sublabel && (
+                  <div className="text-sm text-gray-400 mt-2 italic">{stat.sublabel}</div>
+                )}
               </div>
             ))}
           </div>
