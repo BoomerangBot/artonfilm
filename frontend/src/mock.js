@@ -391,8 +391,10 @@ export const exhibitionsToursData = {
     ]
   },
   partners: [
-    'Andrew Coates Music',
-    'JBM Lawyers Bogotá',
+    'KISSELL',
+    'Swiss Club Singapore',
+    'Simply Champagne',
+    'Tangling Trust School',
     'AOF Group',
     'Carnaby Films'
   ]
