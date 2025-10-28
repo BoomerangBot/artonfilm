@@ -263,14 +263,6 @@ export const partnersVenuesData = {
       description: 'DHS Labs pioneers innovative solutions at the intersection of art, science, and technology, fostering creative breakthroughs.'
     },
     {
-      name: 'Bluebird Group',
-      location: 'Chelsea',
-      logo: 'https://via.placeholder.com/200x100/000000/FFFFFF?text=Bluebird',
-      website: '#',
-      instagram: '#',
-      description: 'An iconic Chelsea destination offering sophisticated dining and cultural experiences in an elegant setting.'
-    },
-    {
       name: 'Dr Chris Lee',
       subtitle: 'JustXR1',
       location: 'London',
@@ -309,13 +301,6 @@ export const partnersVenuesData = {
       logo: 'https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/o6xq2gvd_SCHOOL.jpg',
       website: '#',
       description: 'Committed to educational excellence and cultural enrichment, nurturing the next generation of creative minds.'
-    },
-    {
-      name: 'Carnaby AV & Comfort',
-      location: 'London',
-      logo: 'https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/kes3tsbm_CARNABY.jpg',
-      website: '#',
-      description: 'Specialists in luxury viewing rooms and immersive gallery design, creating spaces where art and film come alive.'
     }
   ]
 };
