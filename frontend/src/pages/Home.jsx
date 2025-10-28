@@ -620,7 +620,7 @@ const Home = () => {
               ArtOnFilm Family & Memberships
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-12">
-              15% of our gross income supports vital charitable causes. Together, we're making a difference beyond the gallery walls.
+              We aim to support vital charitable causes, dedicating 15% of our gross income to make a difference beyond the gallery walls.
             </p>
           </div>
 
