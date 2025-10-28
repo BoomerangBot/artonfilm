@@ -1612,9 +1612,6 @@ const Home = () => {
 
       {/* Floating Collection CTA */}
       <FloatingCollectionCTA />
-
-      {/* Side Ribbon CTA */}
-      <SideRibbonCTA />
     </div>
   );
 };
