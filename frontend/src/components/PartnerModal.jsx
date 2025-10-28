@@ -4,13 +4,16 @@ import { X, Globe, Instagram, Facebook, Twitter, Linkedin, Mail } from 'lucide-r
 const PartnerModal = ({ partner, onClose }) => {
   if (!partner) return null;
 
+  // Check if this is DHS Labs with extended content
+  const isDHSLabs = partner.name === 'DHS Labs Berlin' || partner.fullDescription;
+
   return (
     <div 
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-fadeIn"
       onClick={onClose}
     >
       <div 
-        className="relative bg-zinc-900 border-2 border-amber-500/50 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+        className="relative bg-zinc-900 border-2 border-amber-500/50 rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
@@ -45,19 +48,104 @@ const PartnerModal = ({ partner, onClose }) => {
                 <span className="text-amber-400">📍</span>
                 {partner.location}
               </p>
+              {partner.tagline && (
+                <p className="text-xl text-amber-300/90 italic mt-3 font-light">{partner.tagline}</p>
+              )}
             </div>
           </div>
         </div>
 
         {/* Content */}
         <div className="p-8">
-          {/* Description */}
-          <div className="mb-6">
-            <h3 className="text-xl font-bold text-amber-400 mb-3">About</h3>
-            <p className="text-gray-300 leading-relaxed">
-              {partner.description}
-            </p>
-          </div>
+          {isDHSLabs ? (
+            // Extended DHS Labs Content
+            <>
+              {/* Full Description */}
+              {partner.fullDescription && (
+                <div className="mb-8">
+                  <p className="text-gray-300 leading-relaxed whitespace-pre-line">
+                    {partner.fullDescription}
+                  </p>
+                </div>
+              )}
+
+              {/* Core Expertise */}
+              {partner.expertise && (
+                <div className="mb-8">
+                  <h3 className="text-2xl font-bold text-amber-400 mb-4">Core Expertise</h3>
+                  <div className="space-y-4">
+                    {partner.expertise.map((item, index) => (
+                      <div key={index} className="bg-zinc-800/50 rounded-lg p-4">
+                        <h4 className="text-lg font-semibold text-white mb-2">{item.title}</h4>
+                        <p className="text-gray-400 leading-relaxed">{item.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Leadership */}
+              {partner.leadership && (
+                <div className="mb-8">
+                  <h3 className="text-2xl font-bold text-amber-400 mb-4">Leadership</h3>
+                  <p className="text-gray-300 leading-relaxed whitespace-pre-line">
+                    {partner.leadership}
+                  </p>
+                </div>
+              )}
+
+              {/* Quote */}
+              {partner.quote && (
+                <div className="mb-8 bg-zinc-800/30 border-l-4 border-amber-500 p-6 rounded-r-lg">
+                  <p className="text-xl italic text-gray-200 mb-3">"{partner.quote.text}"</p>
+                  <p className="text-amber-400 font-semibold">— {partner.quote.attribution}</p>
+                </div>
+              )}
+
+              {/* Sponsorship */}
+              {partner.sponsorship && (
+                <div className="mb-8">
+                  <p className="text-gray-300 leading-relaxed">{partner.sponsorship}</p>
+                </div>
+              )}
+
+              {/* Closing Statement */}
+              {partner.closing && (
+                <div className="mb-8">
+                  <p className="text-gray-300 leading-relaxed italic">{partner.closing}</p>
+                </div>
+              )}
+
+              {/* Gallery */}
+              {partner.gallery && partner.gallery.length > 0 && (
+                <div className="pt-6 border-t border-white/10">
+                  <h3 className="text-2xl font-bold text-amber-400 mb-4">Gallery</h3>
+                  <div className="grid grid-cols-3 gap-4">
+                    {partner.gallery.map((image, index) => (
+                      <div key={index} className="aspect-video bg-zinc-800 rounded-lg overflow-hidden">
+                        <img 
+                          src={image} 
+                          alt={`${partner.name} ${index + 1}`}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </>
+          ) : (
+            // Standard Partner Content
+            <>
+              {/* Description */}
+              <div className="mb-6">
+                <h3 className="text-xl font-bold text-amber-400 mb-3">About</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  {partner.description}
+                </p>
+              </div>
+            </>
+          )}
 
           {/* Social Links */}
           {(partner.website || partner.instagram || partner.facebook || partner.twitter || partner.linkedin || partner.email) && (
