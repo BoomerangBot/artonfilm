@@ -195,7 +195,7 @@ export const investmentData = {
   subheadline: 'ArtOnFilm transforms creativity into long-term value.',
   content: 'Each exhibition is built on a sustainable model where artistic merit, education, and brand visibility align. From limited-edition works and licensing to educational sponsorships, every partnership leaves a measurable legacy.',
   stats: [
-    { label: '6 Cities', value: '6' },
+    { label: '6+ Cities', sublabel: 'many more to be confirmed', value: '6+' },
     { label: '10,000+ Visitors', value: '10K+' },
     { label: '15% of Revenue Donated', value: '15%' }
   ]
