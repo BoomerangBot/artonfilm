@@ -263,16 +263,6 @@ export const partnersVenuesData = {
       description: 'DHS Labs pioneers innovative solutions at the intersection of art, science, and technology, fostering creative breakthroughs.'
     },
     {
-      name: 'Dr Chris Lee',
-      subtitle: 'JustXR1',
-      location: 'London',
-      logo: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2vzvbti7_WhatsApp%20Image%202025-10-24%20at%2019.35.18_e26b9272.jpg',
-      website: '#',
-      instagram: 'https://instagram.com/justxr1',
-      collection: '/collection/chris-lee',
-      description: 'JustXR1 merges art with cutting-edge technology and mental health advocacy, creating transformative experiences through Lens2Care initiatives.'
-    },
-    {
       name: 'Natasha Kissell',
       location: 'Brighton',
       logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/0uay4yw2_natashakissell.jpeg',
