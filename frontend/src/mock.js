@@ -242,7 +242,8 @@ export const partnersVenuesData = {
       logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/ryh5nhf5_hansalfgallery.jpeg',
       website: 'http://hansalf.com/',
       instagram: 'https://instagram.com/hansalfgallery',
-      facebook: 'https://facebook.com/hansalfgallery'
+      facebook: 'https://facebook.com/hansalfgallery',
+      description: 'Hans Alf Gallery is a premier contemporary art space in Copenhagen, showcasing exceptional works from international artists.'
     },
     {
       name: 'Carnaby Films',
@@ -250,21 +251,24 @@ export const partnersVenuesData = {
       logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/m524tx8t_carnabyfilms.jpeg',
       website: 'http://www.carnabysales.com',
       twitter: 'https://twitter.com/CarnabyFilms',
-      facebook: 'https://facebook.com/carnaby.international'
+      facebook: 'https://facebook.com/carnaby.international',
+      description: 'Carnaby Films brings art and culture to life through cinematic storytelling, creating powerful visual narratives that inspire and engage.'
     },
     {
       name: 'DHS Labs',
       location: 'Berlin',
-      logo: 'https://via.placeholder.com/200x100/000000/FFFFFF?text=DHS+Labs',
+      logo: 'https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/lff49e3m_DHS.jpg',
       website: '#',
-      linkedin: '#'
+      linkedin: '#',
+      description: 'DHS Labs pioneers innovative solutions at the intersection of art, science, and technology, fostering creative breakthroughs.'
     },
     {
       name: 'Bluebird Group',
       location: 'Chelsea',
       logo: 'https://via.placeholder.com/200x100/000000/FFFFFF?text=Bluebird',
       website: '#',
-      instagram: '#'
+      instagram: '#',
+      description: 'An iconic Chelsea destination offering sophisticated dining and cultural experiences in an elegant setting.'
     },
     {
       name: 'Dr Chris Lee',
@@ -273,7 +277,8 @@ export const partnersVenuesData = {
       logo: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2vzvbti7_WhatsApp%20Image%202025-10-24%20at%2019.35.18_e26b9272.jpg',
       website: '#',
       instagram: 'https://instagram.com/justxr1',
-      collection: '/collection/chris-lee'
+      collection: '/collection/chris-lee',
+      description: 'JustXR1 merges art with cutting-edge technology and mental health advocacy, creating transformative experiences through Lens2Care initiatives.'
     },
     {
       name: 'Natasha Kissell',
@@ -281,7 +286,36 @@ export const partnersVenuesData = {
       logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/0uay4yw2_natashakissell.jpeg',
       website: 'https://natashakissell.uk',
       instagram: 'https://instagram.com/natashakissell',
-      email: 'njkissell@aol.com'
+      email: 'njkissell@aol.com',
+      description: 'Contemporary British artist known for vibrant poolside and architectural paintings that capture the essence of modern luxury and leisure.'
+    },
+    {
+      name: 'Simply Champagne',
+      location: 'Singapore',
+      logo: 'https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/evquw6kk_simply_champagne.jpg',
+      website: '#',
+      description: 'Singapore\'s premier champagne house, bringing elegance and celebration to cultural events and exhibitions.'
+    },
+    {
+      name: 'Swiss Club Singapore',
+      location: 'Singapore',
+      logo: 'https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/w4ge5kno_SWISS%20CLUB.jpg',
+      website: '#',
+      description: 'A prestigious social and cultural institution fostering Swiss heritage and international connections in Singapore.'
+    },
+    {
+      name: 'Tangling Trust School',
+      location: 'Singapore',
+      logo: 'https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/o6xq2gvd_SCHOOL.jpg',
+      website: '#',
+      description: 'Committed to educational excellence and cultural enrichment, nurturing the next generation of creative minds.'
+    },
+    {
+      name: 'Carnaby AV & Comfort',
+      location: 'London',
+      logo: 'https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/kes3tsbm_CARNABY.jpg',
+      website: '#',
+      description: 'Specialists in luxury viewing rooms and immersive gallery design, creating spaces where art and film come alive.'
     }
   ]
 };
