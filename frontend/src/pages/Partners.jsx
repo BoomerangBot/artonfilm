@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { corporateData, quotes } from '../mock';
+import { corporateData, quotes, partnersVenuesData } from '../mock';
 import { Building2, ArrowRight } from 'lucide-react';
+import PartnerModal from '../components/PartnerModal';
 
 const Partners = () => {
   return (
