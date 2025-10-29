@@ -157,9 +157,20 @@ const Home = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-32 w-full">
           <div className="max-w-3xl">
             {/* Hero Badge */}
-            <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-amber-500/10 to-amber-600/10 backdrop-blur-md border border-amber-400/40 rounded-full mb-6 shadow-lg shadow-amber-500/10">
-              <Heart size={20} className="text-amber-400" />
-              <span className="text-amber-400 text-sm font-semibold tracking-widest">ART & CULTURE. EXPOSURE IS PRICELESS.</span>
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-6">
+              <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-amber-500/10 to-amber-600/10 backdrop-blur-md border border-amber-400/40 rounded-full shadow-lg shadow-amber-500/10">
+                <Heart size={20} className="text-amber-400" />
+                <span className="text-amber-400 text-sm font-semibold tracking-widest">ART & CULTURE. EXPOSURE IS PRICELESS.</span>
+              </div>
+              
+              {/* Small Shop Now button - Hidden on desktop, shown on mobile after logo */}
+              <Link
+                to="/collection"
+                className="sm:hidden inline-flex items-center gap-2 px-4 py-2 bg-amber-500 text-black font-bold rounded-full hover:bg-amber-400 transition-all text-sm"
+              >
+                <Palette size={16} />
+                Shop Now
+              </Link>
             </div>
 
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-[0.95] font-serif text-shadow-lg">
@@ -168,9 +179,19 @@ const Home = () => {
             
             {/* The World Is Yours - Cinematic Tagline */}
             <div className="mb-8">
-              <p className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 mb-2 font-serif italic" style={{ backgroundSize: '200% auto', animation: 'goldShimmer 4s ease-in-out infinite' }}>
+              <p className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 mb-4 font-serif italic" style={{ backgroundSize: '200% auto', animation: 'goldShimmer 4s ease-in-out infinite' }}>
                 The World Is Yours
               </p>
+              
+              {/* Shop Now button after "The World Is Yours" */}
+              <Link
+                to="/collection"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-300 hover:via-amber-400 hover:to-amber-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl shadow-amber-500/30"
+              >
+                <Palette size={20} />
+                Shop Now
+                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+              </Link>
             </div>
             
             <div className="relative pl-6 border-l-4 border-amber-400/50 mb-10 backdrop-blur-sm bg-black/20 py-4 rounded-r-lg">
