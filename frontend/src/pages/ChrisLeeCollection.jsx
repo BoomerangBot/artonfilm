@@ -1,10 +1,27 @@
 import React, { useState } from 'react';
-import { chrisLeeArtworks } from '../mock';
-import { Camera, Palette, Eye, Mail } from 'lucide-react';
+import { chrisLeeArtworks, chrisLeeMusicArtworks, chrisLeeColorArtworks } from '../mock';
+import { Camera, Palette, Eye, Mail, Music, Building2, Image } from 'lucide-react';
 import { toast } from 'sonner';
 
 const ChrisLeeCollection = () => {
   const [selectedArtwork, setSelectedArtwork] = useState(null);
+  const [selectedCollection, setSelectedCollection] = useState('all');
+
+  // Combine all collections
+  const allArtworks = [
+    ...chrisLeeArtworks,
+    ...chrisLeeMusicArtworks,
+    ...chrisLeeColorArtworks
+  ];
+
+  // Filter artworks based on selected collection
+  const filteredArtworks = selectedCollection === 'all' 
+    ? allArtworks 
+    : selectedCollection === 'urban'
+    ? chrisLeeArtworks
+    : selectedCollection === 'music'
+    ? chrisLeeMusicArtworks
+    : chrisLeeColorArtworks;
 
   const handleInquiry = (artwork) => {
     toast.success("Inquiry Sent!", {
@@ -32,7 +49,7 @@ const ChrisLeeCollection = () => {
           <h1 className="text-6xl md:text-7xl font-bold mb-6 font-serif leading-tight">
             <span className="gradient-text">Dr Chris Lee</span>
             <br />
-            <span className="text-white">JUSTXR1 Collection</span>
+            <span className="text-white">JUSTXR1 Collections</span>
           </h1>
           
           <p className="text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
@@ -60,6 +77,66 @@ const ChrisLeeCollection = () => {
         </div>
       </section>
 
+      {/* Collection Filters */}
+      <section className="py-12 bg-zinc-950 border-b border-white/5">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="flex flex-wrap justify-center gap-4">
+            <button
+              onClick={() => setSelectedCollection('all')}
+              className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
+                selectedCollection === 'all'
+                  ? 'bg-gradient-to-r from-red-400 to-red-600 text-black'
+                  : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
+              }`}
+            >
+              <span className="flex items-center gap-2">
+                <Palette size={18} />
+                All Collections ({allArtworks.length})
+              </span>
+            </button>
+            <button
+              onClick={() => setSelectedCollection('urban')}
+              className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
+                selectedCollection === 'urban'
+                  ? 'bg-gradient-to-r from-red-400 to-red-600 text-black'
+                  : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
+              }`}
+            >
+              <span className="flex items-center gap-2">
+                <Building2 size={18} />
+                Urban Chronicles ({chrisLeeArtworks.length})
+              </span>
+            </button>
+            <button
+              onClick={() => setSelectedCollection('music')}
+              className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
+                selectedCollection === 'music'
+                  ? 'bg-gradient-to-r from-red-400 to-red-600 text-black'
+                  : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
+              }`}
+            >
+              <span className="flex items-center gap-2">
+                <Music size={18} />
+                Soul & Strings ({chrisLeeMusicArtworks.length})
+              </span>
+            </button>
+            <button
+              onClick={() => setSelectedCollection('color')}
+              className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
+                selectedCollection === 'color'
+                  ? 'bg-gradient-to-r from-red-400 to-red-600 text-black'
+                  : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
+              }`}
+            >
+              <span className="flex items-center gap-2">
+                <Image size={18} />
+                Chromatic Visions ({chrisLeeColorArtworks.length})
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* Artworks Grid */}
       <section className="py-24 relative">
         <div className="absolute inset-0 soft-light-center"></div>
@@ -67,54 +144,62 @@ const ChrisLeeCollection = () => {
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
           <div className="mb-8 text-center">
             <p className="text-gray-400 text-lg">
-              Showing <span className="text-red-400 font-semibold">{chrisLeeArtworks.length}</span> available works
+              Showing <span className="text-red-400 font-semibold">{filteredArtworks.length}</span> available works
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {chrisLeeArtworks.map((artwork) => (
-              <div
-                key={artwork.id}
-                className="group relative bg-gradient-to-br from-zinc-900 to-black rounded-xl overflow-hidden border border-white/10 hover:border-red-500/30 transition-all duration-500 cursor-pointer"
-                onClick={() => setSelectedArtwork(artwork)}
-              >
-                {/* Image */}
-                <div className="relative aspect-square overflow-hidden">
-                  <img
-                    src={artwork.image}
-                    alt={artwork.title}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-60 group-hover:opacity-30 transition-opacity"></div>
-                  
-                  {/* Hover Overlay */}
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    <button
-                      className="px-4 py-2 bg-white/90 backdrop-blur-sm text-black font-bold rounded-full hover:bg-white transition-all flex items-center gap-2 text-sm"
-                    >
-                      <Eye size={16} />
-                      View
-                    </button>
+          {filteredArtworks.length === 0 ? (
+            <div className="text-center py-20">
+              <Image size={64} className="mx-auto mb-4 text-gray-600" />
+              <p className="text-xl text-gray-400">Coming Soon</p>
+              <p className="text-gray-500 mt-2">This collection is being curated</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              {filteredArtworks.map((artwork) => (
+                <div
+                  key={artwork.id}
+                  className="group relative bg-gradient-to-br from-zinc-900 to-black rounded-xl overflow-hidden border border-white/10 hover:border-red-500/30 transition-all duration-500 cursor-pointer"
+                  onClick={() => setSelectedArtwork(artwork)}
+                >
+                  {/* Image */}
+                  <div className="relative aspect-square overflow-hidden">
+                    <img
+                      src={artwork.image}
+                      alt={artwork.title}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-60 group-hover:opacity-30 transition-opacity"></div>
+                    
+                    {/* Hover Overlay */}
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                      <button
+                        className="px-4 py-2 bg-white/90 backdrop-blur-sm text-black font-bold rounded-full hover:bg-white transition-all flex items-center gap-2 text-sm"
+                      >
+                        <Eye size={16} />
+                        View
+                      </button>
+                    </div>
+
+                    {/* Category Badge */}
+                    <div className="absolute top-3 left-3 px-3 py-1 bg-black/70 backdrop-blur-sm rounded-full">
+                      <span className="text-red-400 text-xs font-semibold uppercase tracking-wider">{artwork.category}</span>
+                    </div>
                   </div>
 
-                  {/* Category Badge */}
-                  <div className="absolute top-3 left-3 px-3 py-1 bg-black/70 backdrop-blur-sm rounded-full">
-                    <span className="text-red-400 text-xs font-semibold uppercase tracking-wider">{artwork.category}</span>
+                  {/* Info */}
+                  <div className="p-4">
+                    <h3 className="text-lg font-bold mb-1 line-clamp-1 group-hover:text-red-400 transition-colors">{artwork.title}</h3>
+                    <p className="text-sm text-gray-400 mb-2">{artwork.medium}</p>
+                    <p className="text-xs text-gray-500 line-clamp-2 mb-3">{artwork.description}</p>
+                    <div className="flex items-center justify-between pt-3 border-t border-white/5">
+                      <span className="text-sm font-semibold text-red-400">POA</span>
+                    </div>
                   </div>
                 </div>
-
-                {/* Info */}
-                <div className="p-4">
-                  <h3 className="text-lg font-bold mb-1 line-clamp-1 group-hover:text-red-400 transition-colors">{artwork.title}</h3>
-                  <p className="text-sm text-gray-400 mb-2">{artwork.medium}</p>
-                  <p className="text-xs text-gray-500 line-clamp-2 mb-3">{artwork.description}</p>
-                  <div className="flex items-center justify-between pt-3 border-t border-white/5">
-                    <span className="text-sm font-semibold text-red-400">POA</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
