@@ -1385,7 +1385,7 @@ const Home = () => {
               Stay in the Frame
             </h2>
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-              Join the ArtOnFilm Insider Circle for exhibition updates, patron opportunities, and early access to limited editions.
+              Join the ArtOnFilm Giving Circle for exhibition updates, patron opportunities, and early access to limited editions.
             </p>
 
             <form onSubmit={handleNewsletterSubmit} className="max-w-xl mx-auto">
