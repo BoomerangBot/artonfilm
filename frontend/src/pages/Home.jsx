@@ -379,7 +379,7 @@ const Home = () => {
                     to="/collection/chris-lee"
                     className="inline-flex items-center justify-center w-full px-6 py-3 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-bold rounded-lg hover:from-purple-400 hover:to-purple-500 transition-all hover:scale-105 active:scale-95"
                   >
-                    Coming Soon
+                    View Collection
                     <ArrowRight className="ml-2" size={18} />
                   </Link>
                 </div>
