@@ -176,7 +176,7 @@ export const charityLogos = [
   { 
     name: 'ArtOnGiving', 
     url: 'https://artofgivingfoundation.org',
-    logo: 'https://via.placeholder.com/200x100/000000/FFFFFF?text=ArtOnGiving',
+    logo: 'https://customer-assets.emergentagent.com/job_film-canvas/artifacts/ccjapidt_Art_on_giving.jpg',
     social: {
       facebook: 'https://facebook.com/artofgivingfoundation',
       instagram: 'https://instagram.com/artofgivingfoundation'
