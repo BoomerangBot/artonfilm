@@ -332,7 +332,7 @@ const Home = () => {
                 </div>
               </div>
 
-              {/* Dr Chris Lee Card */}
+              {/* Dr Chris Lee Card - Updated Oct 29, 2025 */}
               <div className="relative group">
                 <div className="absolute -inset-4 bg-gradient-to-r from-purple-500/20 to-blue-500/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="relative bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-white/10 hover:border-purple-500/30 transition-all">
