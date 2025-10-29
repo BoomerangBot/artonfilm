@@ -832,3 +832,54 @@ export const artworks = [
     price: 'POA'
   }
 ];
+
+
+// Dr Chris Lee / JustXR1 Artworks
+export const chrisLeeArtworks = [
+  {
+    id: 'cl-1',
+    title: 'Echoes of the Ancients',
+    image: 'https://customer-assets.emergentagent.com/job_film-canvas/artifacts/4unm2w5e_mordor2.jpg',
+    description: 'A haunting study of time and decay, where stone walls whisper stories of forgotten kingdoms.',
+    medium: 'Fine Art Photography',
+    category: 'Architectural Heritage',
+    price: 'POA'
+  },
+  {
+    id: 'cl-2',
+    title: 'Soulful Strings',
+    image: 'https://customer-assets.emergentagent.com/job_film-canvas/artifacts/1bvhwrbd_New%20orlens%204.jpg',
+    description: 'An intimate portrait capturing the raw emotion and dedication of musical craftsmanship.',
+    medium: 'Fine Art Photography',
+    category: 'Musical Portraiture',
+    price: 'POA'
+  },
+  {
+    id: 'cl-3',
+    title: 'Bourbon Street Chronicles',
+    image: 'https://customer-assets.emergentagent.com/job_film-canvas/artifacts/lzqa5ukf_NO%20Images%201.jpg',
+    description: 'Urban life unfolds at the iconic intersection, where culture, commerce, and humanity converge.',
+    medium: 'Fine Art Photography',
+    category: 'Street Photography',
+    price: 'POA'
+  },
+  {
+    id: 'cl-4',
+    title: 'Guardian Spirit',
+    image: 'https://customer-assets.emergentagent.com/job_film-canvas/artifacts/qlkyw13i_bear%20statue.jpg',
+    description: 'A powerful sculptural study exploring themes of protection, struggle, and mythological narrative.',
+    medium: 'Fine Art Photography',
+    category: 'Sculptural Detail',
+    price: 'POA'
+  },
+  {
+    id: 'cl-5',
+    title: 'JUSTXR1: Big City Short Life',
+    image: 'https://customer-assets.emergentagent.com/job_film-canvas/artifacts/czqk54bw_WhatsApp%20Image%202025-10-29%20at%2000.21.14_69ab36a2.jpg',
+    description: 'Brand identity artwork exploring urban intensity and the fleeting nature of modern existence.',
+    medium: 'Digital Art',
+    category: 'Conceptual Branding',
+    price: 'POA'
+  }
+];
+
