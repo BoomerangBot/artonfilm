@@ -157,20 +157,9 @@ const Home = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-32 w-full">
           <div className="max-w-3xl">
             {/* Hero Badge */}
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-6">
-              <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-amber-500/10 to-amber-600/10 backdrop-blur-md border border-amber-400/40 rounded-full shadow-lg shadow-amber-500/10">
-                <Heart size={20} className="text-amber-400" />
-                <span className="text-amber-400 text-sm font-semibold tracking-widest">ART & CULTURE. EXPOSURE IS PRICELESS.</span>
-              </div>
-              
-              {/* Small Shop Now button - Hidden on desktop, shown on mobile after logo */}
-              <Link
-                to="/collection"
-                className="sm:hidden inline-flex items-center gap-2 px-4 py-2 bg-amber-500 text-black font-bold rounded-full hover:bg-amber-400 transition-all text-sm"
-              >
-                <Palette size={16} />
-                Shop Now
-              </Link>
+            <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-amber-500/10 to-amber-600/10 backdrop-blur-md border border-amber-400/40 rounded-full mb-6 shadow-lg shadow-amber-500/10">
+              <Heart size={20} className="text-amber-400" />
+              <span className="text-amber-400 text-sm font-semibold tracking-widest">ART & CULTURE. EXPOSURE IS PRICELESS.</span>
             </div>
 
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-[0.95] font-serif text-shadow-lg">
