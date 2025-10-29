@@ -197,7 +197,7 @@ export const investmentData = {
   stats: [
     { label: '6+ Cities', sublabel: 'many more to be confirmed', value: '6+' },
     { label: '10,000+ Visitors', value: '10K+' },
-    { label: '15% of Revenue Donated', value: '15%' }
+    { label: 'Global Reach', value: '100%' }
   ]
 };
 
