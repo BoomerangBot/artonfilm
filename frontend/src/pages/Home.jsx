@@ -26,8 +26,8 @@ import {
 } from '../mock';
 import { 
   ArrowRight, 
-  Palette, 
   Film, 
+  Camera,
   TrendingUp, 
   Users, 
   GraduationCap, 
