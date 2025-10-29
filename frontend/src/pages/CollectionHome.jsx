@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Palette, Camera, Clock } from 'lucide-react';
+import { Film, Camera, Clock } from 'lucide-react';
 
 const CollectionHome = () => {
   const collections = [
