@@ -40,6 +40,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/collection" element={<CollectionHome />} />
           <Route path="/collection/natasha-kissell" element={<Shop />} />
+          <Route path="/collection/chris-lee" element={<ChrisLeeCollection />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/gdpr-policy" element={<GDPRPolicy />} />
           <Route path="/terms" element={<Terms />} />
