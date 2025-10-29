@@ -71,11 +71,9 @@ const Navigation = () => {
             to="/"
             className="flex items-center gap-3 group"
           >
-            <img 
-              src="https://customer-assets.emergentagent.com/job_film-canvas/artifacts/xc8ys2yz_WhatsApp%20Image%202025-10-29%20at%2000.21.14_a537d2df.jpg"
-              alt="ArtOnFilm"
-              className="h-12 w-auto group-hover:scale-105 transition-transform"
-            />
+            <span className="text-2xl font-bold bg-gradient-to-r from-amber-400 to-gold bg-clip-text text-transparent group-hover:from-amber-300 group-hover:to-amber-500 transition-all">
+              ArtOnFilm
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
