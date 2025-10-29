@@ -531,9 +531,9 @@ export const ethicsPrivacyData = {
 
 export const contactData = {
   emails: [
-    { label: 'General', email: 'info@artonfilm.uk' },
+    { label: 'General', email: 'justart@artonfilm.uk' },
     { label: 'Press', email: 'press@artonfilm.uk' },
-    { label: 'Partners', email: 'partners@artonfilm.uk' }
+    { label: 'Partners', email: 'artontour@artonfilm.uk' }
   ]
 };
 
