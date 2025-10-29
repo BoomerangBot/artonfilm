@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Film, Camera, Clock, Palette } from 'lucide-react';
 
 const CollectionHome = () => {
+  console.log('🔥 CollectionHome LOADED - Dr Chris Lee should be LIVE');
   const collections = [
     {
       id: 1,
