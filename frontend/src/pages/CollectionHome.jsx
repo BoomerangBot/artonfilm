@@ -188,13 +188,25 @@ const CollectionHome = () => {
                         </svg>
                       </Link>
                     ) : collection.comingSoon ? (
-                      <button
-                        disabled
-                        className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-800 text-neutral-400 font-medium rounded-full border border-neutral-700 cursor-not-allowed"
-                      >
-                        <Clock className="w-4 h-4" />
-                        <span>Coming Soon</span>
-                      </button>
+                      collection.id === 2 ? (
+                        <Link
+                          to={collection.path}
+                          className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
+                        >
+                          <span>View Collection</span>
+                          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                          </svg>
+                        </Link>
+                      ) : (
+                        <button
+                          disabled
+                          className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-800 text-neutral-400 font-medium rounded-full border border-neutral-700 cursor-not-allowed"
+                        >
+                          <Clock className="w-4 h-4" />
+                          <span>Coming Soon</span>
+                        </button>
+                      )
                     ) : (
                       <button
                         disabled
