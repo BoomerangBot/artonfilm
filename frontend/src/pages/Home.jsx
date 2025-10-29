@@ -113,6 +113,14 @@ const Home = () => {
     return <IconComponent size={32} />;
   };
 
+  // Icon mapping for programmes
+  const programmeIcons = {
+    heart: Heart,
+    film: Film,
+    flask: Flask,
+    users: Users
+  };
+
   return (
     <div className="bg-black text-white relative">
       {/* Film Grain Overlay */}
