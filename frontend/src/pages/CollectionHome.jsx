@@ -38,8 +38,7 @@ const CollectionHome = () => {
       path: '/collection/chris-lee',
       icon: Camera,
       available: true,
-      artworkCount: 15,
-      comingSoon: false  // Explicitly set to false to override any defaults
+      artworkCount: 15
     },
     {
       id: 3,
