@@ -53,7 +53,7 @@ const FloatingCollectionCTA = () => {
             
             {/* Main button - reduced by 25% */}
             <div className="relative flex items-center gap-2 px-4 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full shadow-xl transform transition-all duration-300 group-hover:scale-110 group-hover:shadow-amber-500/50">
-              <Palette size={18} className="group-hover:rotate-12 transition-transform duration-300" />
+              <Film size={18} className="group-hover:rotate-12 transition-transform duration-300" />
               <span className="text-base whitespace-nowrap">{ctaText}</span>
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-300" />
             </div>
