@@ -545,22 +545,26 @@ export const artScienceData = {
     {
       title: 'Lens2Care',
       subtitle: 'Health Through Creativity',
-      description: 'Using visual arts and photography to support mental health and wellbeing.'
+      description: 'Using visual arts and photography to support mental health and wellbeing.',
+      icon: 'heart'
     },
     {
       title: 'Film4Change',
       subtitle: 'Documenting real impact',
-      description: 'Capturing stories of transformation and social change through cinema.'
+      description: 'Capturing stories of transformation and social change through cinema.',
+      icon: 'film'
     },
     {
       title: 'Art & Science Forum',
       subtitle: 'Berlinale Summit 2026',
-      description: 'Bridging creativity and research at Europe\'s premier film festival.'
+      description: 'Bridging creativity and research at Europe\'s premier film festival.',
+      icon: 'flask'
     },
     {
       title: 'UK2YOU Mentors4Life',
       subtitle: 'Art & mental health',
-      description: 'The science behind the eternal light. Can creativity and contribution help?'
+      description: 'The science behind the eternal light. Can creativity and contribution help?',
+      icon: 'users'
     }
   ],
   footer: 'Led by artists, scientists and mentors who believe knowledge shared is hope multiplied.'
