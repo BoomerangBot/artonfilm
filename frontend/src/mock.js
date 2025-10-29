@@ -302,15 +302,6 @@ Together, they embody the conscience of AOF's medical and creative collaboration
       ]
     },
     {
-      name: 'Natasha Kissell',
-      location: 'Brighton',
-      logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/0uay4yw2_natashakissell.jpeg',
-      website: 'https://natashakissell.uk',
-      instagram: 'https://instagram.com/natashakissell',
-      email: 'njkissell@aol.com',
-      description: 'Contemporary British artist known for vibrant poolside and architectural paintings that capture the essence of modern luxury and leisure.'
-    },
-    {
       name: 'Simply Champagne',
       location: 'Singapore',
       logo: 'https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/evquw6kk_simply_champagne.jpg',
