@@ -33,11 +33,11 @@ const CollectionHome = () => {
         'Original and limited edition collections',
         'All sales support the Lens2Care programme for youth and mental health'
       ],
-      image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMHBob3RvZ3JhcGh5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85',
+      image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/1z5jlpab_file_00000000b81461f4a29365c740e75d5b%20%281%29.png',
       path: '/collection/chris-lee',
       icon: Camera,
-      available: false,
-      comingSoon: true
+      available: true,
+      artworkCount: 15
     },
     {
       id: 3,
