@@ -37,7 +37,7 @@ import {
   Play,
   Mail,
   X,
-  Flask
+  Beaker
 } from 'lucide-react';
 import PartnerModal from '../components/PartnerModal';
 import FloatingCollectionCTA from '../components/FloatingCollectionCTA';
