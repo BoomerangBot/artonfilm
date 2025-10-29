@@ -195,18 +195,58 @@ const Shop = () => {
       <section className="py-32 bg-zinc-950 relative overflow-hidden">
         <div className="absolute inset-0 soft-light-center"></div>
         
-        <div className="relative max-w-5xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 font-serif">About the Artist</h2>
-          <p className="text-xl text-gray-300 leading-relaxed mb-8">
-            Natasha Kissell is an award-winning British painter based in Brighton. Her work explores the interplay 
-            between modern architecture, natural landscapes, and the quality of light. Each piece captures a moment 
-            of serenity and contemplation, inviting viewers to pause and reflect on the relationship between built 
-            and natural environments.
-          </p>
-          <p className="text-lg text-gray-400">
-            Her paintings have been featured in exhibitions across Europe and are held in private collections 
-            internationally.
-          </p>
+        <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-16 font-serif text-center">About the Artist</h2>
+          
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Artist Photo */}
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-amber-600/20 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="relative aspect-square rounded-2xl overflow-hidden border-2 border-amber-500/30 shadow-2xl">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_film-canvas/artifacts/9ecw3iwg_natashakissell.jpeg"
+                  alt="Natasha Kissell"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+
+            {/* Artist Bio */}
+            <div className="space-y-6">
+              <p className="text-xl text-gray-300 leading-relaxed">
+                Natasha Kissell is an award-winning British painter based in Brighton. Her work explores the interplay 
+                between modern architecture, natural landscapes, and the quality of light. Each piece captures a moment 
+                of serenity and contemplation, inviting viewers to pause and reflect on the relationship between built 
+                and natural environments.
+              </p>
+              <p className="text-lg text-gray-400 leading-relaxed">
+                Her paintings have been featured in exhibitions across Europe and are held in private collections 
+                internationally.
+              </p>
+              
+              {/* Artist Details */}
+              <div className="pt-6 border-t border-white/10">
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <p className="text-amber-400 text-sm font-semibold mb-1">Based in</p>
+                    <p className="text-white">Brighton, UK</p>
+                  </div>
+                  <div>
+                    <p className="text-amber-400 text-sm font-semibold mb-1">Style</p>
+                    <p className="text-white">Contemporary</p>
+                  </div>
+                  <div>
+                    <p className="text-amber-400 text-sm font-semibold mb-1">Medium</p>
+                    <p className="text-white">Oil on Canvas</p>
+                  </div>
+                  <div>
+                    <p className="text-amber-400 text-sm font-semibold mb-1">Recognition</p>
+                    <p className="text-white">Award-Winning</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
