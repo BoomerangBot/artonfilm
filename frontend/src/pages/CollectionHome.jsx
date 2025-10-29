@@ -96,6 +96,17 @@ const CollectionHome = () => {
             {collections.map((collection) => {
               const IconComponent = collection.icon;
               
+              // DEBUG: Log Chris Lee collection data
+              if (collection.id === 2) {
+                console.log('🔍 Chris Lee Collection Data:', {
+                  id: collection.id,
+                  available: collection.available,
+                  artworkCount: collection.artworkCount,
+                  comingSoon: collection.comingSoon,
+                  name: collection.name
+                });
+              }
+              
               return (
                 <div
                   key={collection.id}
