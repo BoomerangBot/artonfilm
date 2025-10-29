@@ -862,6 +862,20 @@ const Home = () => {
             {artOnGivingData.subheadline}
           </h2>
           
+          {/* ArtOnGiving Logo */}
+          <div className="mb-12 flex justify-center">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-br from-red-500/20 to-amber-500/20 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="relative bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-red-500/30">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_film-canvas/artifacts/5b3ww1e1_Art_on_giving.jpg"
+                  alt="ArtOnGiving"
+                  className="h-32 w-auto object-contain"
+                />
+              </div>
+            </div>
+          </div>
+          
           <p className="text-2xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
             {artOnGivingData.description}
           </p>
