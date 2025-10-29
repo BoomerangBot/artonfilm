@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { artworks } from '../mock';
-import { ShoppingBag, Palette, Eye, Mail } from 'lucide-react';
+import { ShoppingBag, Film, Eye, Mail } from 'lucide-react';
 import { toast } from 'sonner';
 
 const Shop = () => {
