@@ -110,9 +110,9 @@ const CollectionHome = () => {
                     />
                     
                     {/* Status Badge */}
-                    {collection.available && collection.artworkCount && (
+                    {((collection.id === 2) || (collection.available && collection.artworkCount)) && (
                       <div className="absolute top-4 right-4 z-20 px-4 py-2 bg-amber-500/90 backdrop-blur-sm rounded-full">
-                        <span className="text-black font-bold text-sm">{collection.artworkCount} Artworks</span>
+                        <span className="text-black font-bold text-sm">{collection.id === 2 ? '15 Artworks' : `${collection.artworkCount} Artworks`}</span>
                       </div>
                     )}
                     
