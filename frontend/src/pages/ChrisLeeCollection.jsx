@@ -90,7 +90,7 @@ const ChrisLeeCollection = () => {
               }`}
             >
               <span className="flex items-center gap-2">
-                <Palette size={18} />
+                <Film size={18} />
                 All Collections ({allArtworks.length})
               </span>
             </button>
