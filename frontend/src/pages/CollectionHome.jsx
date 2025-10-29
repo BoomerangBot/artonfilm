@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Film, Camera, Clock, Palette } from 'lucide-react';
 
 const CollectionHome = () => {
+  // Updated: Dr Chris Lee collection is now LIVE with JustXR1 logo
   const collections = [
     {
       id: 1,
