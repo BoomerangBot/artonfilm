@@ -177,7 +177,7 @@ const CollectionHome = () => {
                     )}
                     
                     {/* Action Button */}
-                    {collection.available ? (
+                    {(collection.id === 2 || collection.available) ? (
                       <Link
                         to={collection.path}
                         className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
