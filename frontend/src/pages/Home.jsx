@@ -177,7 +177,7 @@ const Home = () => {
                 to="/collection"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-300 hover:via-amber-400 hover:to-amber-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl shadow-amber-500/30"
               >
-                <Palette size={20} />
+                <Film size={20} />
                 Shop Now
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </Link>
