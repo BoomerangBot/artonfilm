@@ -47,7 +47,7 @@ const Shop = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all duration-500 hover:scale-105 active:scale-95 backdrop-blur-md"
             >
-              <Palette size={20} />
+              <Film size={20} />
               Visit Artist Website
             </a>
             <a
