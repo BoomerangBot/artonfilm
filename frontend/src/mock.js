@@ -203,7 +203,7 @@ export const investmentData = {
 
 export const impactTransparencyData = {
   headline: 'Measurable Cultural Impact',
-  content: 'Our programmes are guided by five measurable pillars — reach, education, accessibility, sustainability, and giving. Our goal is to achieve meaningful impact across each, including dedicating 15% of our gross income to support vital charitable causes.',
+  content: 'Our programmes are guided by five measurable pillars — reach, education, accessibility, sustainability, and giving. Our goal is to achieve meaningful impact across each.',
   metrics: [
     {
       icon: 'users',
