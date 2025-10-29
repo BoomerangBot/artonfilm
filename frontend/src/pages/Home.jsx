@@ -117,7 +117,7 @@ const Home = () => {
   const programmeIcons = {
     heart: Heart,
     film: Film,
-    flask: Flask,
+    flask: Beaker,
     users: Users
   };
 
