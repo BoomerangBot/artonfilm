@@ -116,7 +116,7 @@ const CollectionHome = () => {
                       </div>
                     )}
                     
-                    {collection.comingSoon && (
+                    {collection.comingSoon && collection.id !== 2 && (
                       <div className="absolute top-4 right-4 z-20 px-4 py-2 bg-neutral-800/90 backdrop-blur-sm rounded-full border border-amber-500/30">
                         <span className="text-amber-400 font-medium text-sm">Coming Soon</span>
                       </div>
