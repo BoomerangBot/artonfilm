@@ -36,7 +36,8 @@ import {
   Building2,
   Play,
   Mail,
-  X
+  X,
+  Flask
 } from 'lucide-react';
 import PartnerModal from '../components/PartnerModal';
 import FloatingCollectionCTA from '../components/FloatingCollectionCTA';
