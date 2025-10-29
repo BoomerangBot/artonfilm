@@ -279,7 +279,7 @@ const Home = () => {
                 <div className="relative bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-white/10 hover:border-amber-500/30 transition-all">
                   <div className="flex items-start gap-4 mb-4">
                     <div className="w-12 h-12 bg-amber-500/20 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Palette size={24} className="text-amber-400" />
+                      <Film size={24} className="text-amber-400" />
                     </div>
                     <div className="flex-1">
                       <h4 className="text-2xl font-bold text-white mb-1">Natasha Kissell</h4>
