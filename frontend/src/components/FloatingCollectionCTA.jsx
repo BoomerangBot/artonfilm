@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Palette, ArrowRight, Sparkles } from 'lucide-react';
+import { Film, ArrowRight, Sparkles } from 'lucide-react';
 
 const FloatingCollectionCTA = () => {
   const [isVisible, setIsVisible] = useState(false);
