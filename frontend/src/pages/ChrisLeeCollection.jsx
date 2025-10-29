@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { chrisLeeArtworks, chrisLeeMusicArtworks, chrisLeeColorArtworks } from '../mock';
-import { Camera, Palette, Eye, Mail, Music, Building2, Image } from 'lucide-react';
+import { Camera, Film, Eye, Mail, Music, Building2, Image } from 'lucide-react';
 import { toast } from 'sonner';
 
 const ChrisLeeCollection = () => {
