@@ -148,7 +148,7 @@ export const impactData = {
 
 export const mediaData = {
   headline: 'Every Frame Tells a Story',
-  content: 'Follow the journey through cinematic footage by Carnaby Films. Short films, artist interviews, and behind-the-scenes content will premiere online during the tour.',
+  content: 'Follow the journey through cinematic footage by Carnaby International. Short films, artist interviews, and behind-the-scenes content will premiere online during the tour.',
   placeholderVideo: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
 };
 
