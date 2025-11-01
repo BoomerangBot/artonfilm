@@ -75,10 +75,10 @@ const Contact = () => {
             <Mail size={32} className="text-amber-400 mx-auto mb-4" />
             <p className="text-gray-400 mb-2">Email us directly at</p>
             <a
-              href="mailto:rh@artonfilm.uk"
+              href="mailto:justart@artonfilm.uk"
               className="text-2xl md:text-3xl font-semibold text-amber-400 hover:text-amber-300 transition-colors"
             >
-              rh@artonfilm.uk
+              justart@artonfilm.uk
             </a>
           </div>
         </div>
