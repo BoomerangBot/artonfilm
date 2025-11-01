@@ -67,7 +67,7 @@ const ChrisLeeCollection = () => {
               Follow on Instagram
             </a>
             <a
-              href="mailto:rh@artonfilm.uk?subject=JustXR1 Artwork Inquiry"
+              href="mailto:justart@artonfilm.uk?subject=JustXR1 Artwork Inquiry"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-red-400 via-red-500 to-red-600 text-black font-bold rounded-full hover:from-red-300 hover:via-red-400 hover:to-red-500 transition-all duration-500 hover:scale-105 active:scale-95 shadow-2xl shadow-red-500/30"
             >
               <Mail size={20} />
