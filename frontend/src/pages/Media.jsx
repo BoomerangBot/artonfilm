@@ -67,7 +67,7 @@ const Media = () => {
             </video>
           </div>
           <p className="text-center text-sm text-gray-400 mt-4">
-            Cinematic showcase by Carnaby Films
+            Cinematic showcase by Carnaby International
           </p>
         </div>
       </section>
