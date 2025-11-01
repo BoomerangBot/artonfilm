@@ -100,7 +100,7 @@ const Media = () => {
           <p className="text-lg text-gray-400 mb-4">
             Cinematic documentation by
           </p>
-          <p className="text-3xl font-bold">Carnaby Films</p>
+          <p className="text-3xl font-bold">Carnaby International</p>
         </div>
       </section>
     </div>
