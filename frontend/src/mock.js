@@ -45,7 +45,7 @@ export const programmeData = {
       subtitle: 'Hans Alf: Kissell Eternal & glamourous home of fine Art.'
     }
   ],
-  partners: ['Hans Alf Gallery', 'Carnaby Films', 'ArtOnGiving'],
+  partners: ['Hans Alf Gallery', 'Carnaby International', 'ArtOnGiving'],
   outcomes: [
     'Touring exhibitions',
     'Documentary film',
