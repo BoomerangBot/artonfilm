@@ -165,8 +165,8 @@ const PrivacyPolicy = () => {
                 Northarbour Road, Portsmouth<br/>
                 England, PO6 3TH<br/>
                 <br/>
-                Email: <a href="mailto:rh@artonfilm.uk" className="text-amber-400 hover:text-amber-300 transition-colors">
-                  rh@artonfilm.uk
+                Email: <a href="mailto:justart@artonfilm.uk" className="text-amber-400 hover:text-amber-300 transition-colors">
+                  justart@artonfilm.uk
                 </a>
               </p>
               <p className="mt-4">
