@@ -136,7 +136,7 @@ const Home = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold mb-2">Documentary Film</h3>
-                      <p className="text-gray-400">Cinematic storytelling by Carnaby Films</p>
+                      <p className="text-gray-400">Cinematic storytelling by Carnaby International</p>
                     </div>
                   </div>
                 </div>
