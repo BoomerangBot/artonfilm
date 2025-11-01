@@ -587,7 +587,7 @@ export const artOnDesignData = {
 };
 
 export const carnabyFilmsData = {
-  headline: 'CARNABY FILMS',
+  headline: 'CARNABY INTERNATIONAL',
   subheadline: 'The Silver Screen of Giving',
   description: 'From Chelsea to Cannes, Carnaby Films brings ArtOnFilm\'s stories to life. Each project pairs elegance with empathy — proof that cinema can change the world.',
   additional: 'Carnaby AV & Comfort design the spaces where film is felt — luxury viewing rooms and immersive galleries.',
