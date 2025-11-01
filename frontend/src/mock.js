@@ -435,7 +435,7 @@ export const exhibitionsToursData = {
       {
         location: 'Marbella Film Festival',
         year: '2024',
-        description: 'Guest of Carnaby Films for film & art at RedDog Marbella'
+        description: 'Guest of Carnaby International for film & art at RedDog Marbella'
       }
     ]
   },
