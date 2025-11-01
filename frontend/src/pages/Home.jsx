@@ -1318,7 +1318,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CARNABY FILMS — The Silver Screen of Giving */}
+      {/* CARNABY INTERNATIONAL — The Silver Screen of Giving */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-black to-zinc-950"></div>
         {/* Cinematic pool art - background */}
