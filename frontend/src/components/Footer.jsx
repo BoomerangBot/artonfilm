@@ -44,7 +44,7 @@ const Footer = () => {
           {/* Contact */}
           <div>
             <h4 className="text-white font-semibold mb-4">Contact</h4>
-            <p className="text-gray-400 text-sm mb-2">rh@artonfilm.uk</p>
+            <p className="text-gray-400 text-sm mb-2">justart@artonfilm.uk</p>
             <p className="text-gray-400 text-sm">United Kingdom</p>
           </div>
         </div>
