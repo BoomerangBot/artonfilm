@@ -1366,7 +1366,7 @@ const Home = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/30"
             >
-              Visit Carnaby Films
+              Visit Carnaby International
               <ArrowRight className="ml-2" size={20} />
             </a>
           </div>
