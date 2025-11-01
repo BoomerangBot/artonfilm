@@ -51,13 +51,13 @@ const Media = () => {
 
       {/* Video Section */}
       <section className="py-24">
-        <div className="max-w-5xl mx-auto px-6 lg:px-8">
-          <div className="relative aspect-video bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-amber-500/10">
+        <div className="max-w-3xl mx-auto px-6 lg:px-8">
+          <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-amber-500/10 mx-auto" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
             <video 
               className="w-full h-full object-cover"
               controls
               preload="metadata"
-              poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect fill='%23000000' width='1920' height='1080'/%3E%3C/svg%3E"
+              poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 960'%3E%3Crect fill='%23000000' width='540' height='960'/%3E%3C/svg%3E"
             >
               <source 
                 src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/i5qz746b_WhatsApp%20Video%202025-10-31%20at%2009.38.20_f37e7469.mp4" 
