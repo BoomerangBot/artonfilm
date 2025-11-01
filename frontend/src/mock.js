@@ -445,7 +445,7 @@ export const exhibitionsToursData = {
     'Simply Champagne',
     'Tangling Trust School',
     'AOF Group',
-    'Carnaby Films'
+    'Carnaby International'
   ]
 };
 
@@ -499,7 +499,7 @@ export const partnersData = {
   headline: 'PARTNERS',
   partners: [
     'Bluebird Chelsea',
-    'Carnaby Films',
+    'Carnaby International',
     'Carnaby AV & Comfort',
     'Kissell Fine Art',
     'JUSTXR1 - Lens2Care Art4Good'
