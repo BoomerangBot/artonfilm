@@ -252,7 +252,7 @@ export const partnersVenuesData = {
       website: 'http://www.carnabysales.com',
       twitter: 'https://twitter.com/CarnabyFilms',
       facebook: 'https://facebook.com/carnaby.international',
-      description: 'Carnaby Films brings art and culture to life through cinematic storytelling, creating powerful visual narratives that inspire and engage.'
+      description: 'Carnaby International brings art and culture to life through cinematic storytelling, creating powerful visual narratives that inspire and engage.'
     },
     {
       name: 'DHS Labs Berlin',
