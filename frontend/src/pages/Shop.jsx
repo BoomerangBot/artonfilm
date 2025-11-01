@@ -51,7 +51,7 @@ const Shop = () => {
               Visit Artist Website
             </a>
             <a
-              href="mailto:rh@artonfilm.uk?subject=Artwork Inquiry"
+              href="mailto:justart@artonfilm.uk?subject=Artwork Inquiry"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-300 hover:via-amber-400 hover:to-amber-500 transition-all duration-500 hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/30"
             >
               <Mail size={20} />
