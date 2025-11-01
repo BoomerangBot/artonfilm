@@ -246,7 +246,7 @@ export const partnersVenuesData = {
       description: 'Hans Alf Gallery is a premier contemporary art space in Copenhagen, showcasing exceptional works from international artists.'
     },
     {
-      name: 'Carnaby Films',
+      name: 'Carnaby International',
       location: 'London',
       logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/m524tx8t_carnabyfilms.jpeg',
       website: 'http://www.carnabysales.com',
