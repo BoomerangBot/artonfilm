@@ -543,6 +543,190 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Collection Highlights - Urban Chronicles, Modern Eden, Soul & Strings */}
+      <section className="py-32 relative overflow-hidden bg-gradient-to-b from-black via-zinc-950 to-black">
+        <div className="absolute inset-0">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-5 py-2 mb-4 bg-gradient-to-r from-purple-500/10 to-amber-500/10 border border-amber-400/30 rounded-full backdrop-blur-sm">
+              <span className="text-amber-400 text-xs font-semibold tracking-wider">COLLECTION HIGHLIGHTS</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-serif">
+              Signature Collections
+            </h2>
+            <p className="text-gray-400 text-lg max-w-3xl mx-auto">
+              Discover the diverse range of our artists' visions — from urban landscapes to musical moments, architectural dreams to winter stillness
+            </p>
+          </div>
+
+          {/* Urban Chronicles by Dr Chris Lee */}
+          <div className="mb-20">
+            <div className="flex items-center justify-between mb-6">
+              <div>
+                <h3 className="text-3xl font-bold text-white mb-2">Urban Chronicles</h3>
+                <p className="text-purple-400 text-lg">Photography by Dr Chris Lee (JustXR1)</p>
+              </div>
+              <Link to="/collection/chris-lee" className="text-amber-400 hover:text-amber-300 font-semibold flex items-center gap-2">
+                View Collection <ArrowRight size={18} />
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_film-canvas/artifacts/5z2mwq5y_big%20ben.jpg" 
+                  alt="Westminster Shadows"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <p className="text-white font-bold text-xl mb-1">Westminster Shadows</p>
+                    <p className="text-gray-300 text-sm">London's iconic clock tower in dramatic chiaroscuro</p>
+                  </div>
+                </div>
+              </div>
+              <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/xho0bx9q_tiger%20and%20turtle.jpg" 
+                  alt="Tiger & Turtle"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <p className="text-white font-bold text-xl mb-1">Tiger & Turtle</p>
+                    <p className="text-gray-300 text-sm">Where art meets architecture in sculptural form</p>
+                  </div>
+                </div>
+              </div>
+              <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/24f3x6ro_shad2.jpg" 
+                  alt="Urban Shadows"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <p className="text-white font-bold text-xl mb-1">Urban Shadows</p>
+                    <p className="text-gray-300 text-sm">Light and shadow dance across the cityscape</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Modern Eden by Natasha Kissell */}
+          <div className="mb-20">
+            <div className="flex items-center justify-between mb-6">
+              <div>
+                <h3 className="text-3xl font-bold text-white mb-2">Modern Eden</h3>
+                <p className="text-amber-400 text-lg">Paintings by Natasha Kissell</p>
+              </div>
+              <Link to="/collection/natasha-kissell" className="text-amber-400 hover:text-amber-300 font-semibold flex items-center gap-2">
+                View Collection <ArrowRight size={18} />
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg" 
+                  alt="Urban Reverie"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <p className="text-white font-bold text-xl mb-1">Urban Reverie</p>
+                    <p className="text-gray-300 text-sm">Skylines transformed into stories of hope</p>
+                  </div>
+                </div>
+              </div>
+              <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_art-investor/artifacts/1axxgyr7_20.jpeg" 
+                  alt="Reflection"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <p className="text-white font-bold text-xl mb-1">Reflection</p>
+                    <p className="text-gray-300 text-sm">Architecture meeting water in perfect symmetry</p>
+                  </div>
+                </div>
+              </div>
+              <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_art-investor/artifacts/g8idwuhn_18.jpeg" 
+                  alt="Skyline Dreams"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <p className="text-white font-bold text-xl mb-1">Skyline Dreams</p>
+                    <p className="text-gray-300 text-sm">Romance in architecture, grace in modernity</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Soul & Strings by Dr Chris Lee */}
+          <div>
+            <div className="flex items-center justify-between mb-6">
+              <div>
+                <h3 className="text-3xl font-bold text-white mb-2">Soul & Strings</h3>
+                <p className="text-purple-400 text-lg">Music Photography by Dr Chris Lee (JustXR1)</p>
+              </div>
+              <Link to="/collection/chris-lee" className="text-amber-400 hover:text-amber-300 font-semibold flex items-center gap-2">
+                View Collection <ArrowRight size={18} />
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/kg42jehx_NOM17-min.jpg" 
+                  alt="Jazz Spirit"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <p className="text-white font-bold text-xl mb-1">Jazz Spirit</p>
+                    <p className="text-gray-300 text-sm">The essence of New Orleans jazz captured</p>
+                  </div>
+                </div>
+              </div>
+              <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/qktaq7ds_NOM19-min.jpg" 
+                  alt="Bourbon Blues"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <p className="text-white font-bold text-xl mb-1">Bourbon Blues</p>
+                    <p className="text-gray-300 text-sm">Where every note tells a story</p>
+                  </div>
+                </div>
+              </div>
+              <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/w6zn765f_NOM11-min.jpg" 
+                  alt="Quarter Notes"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <p className="text-white font-bold text-xl mb-1">Quarter Notes</p>
+                    <p className="text-gray-300 text-sm">The French Quarter's musical soul</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Patronage in Culture Section */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         {/* Background with Plane Image */}
