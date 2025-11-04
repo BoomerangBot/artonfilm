@@ -1121,6 +1121,56 @@ export const chrisLeeMusicArtworks = [
     category: 'Soul & Strings',
     collection: 'music',
     price: 'POA'
+  },
+  {
+    id: 'cl-30',
+    title: 'Abandoned Echoes',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/9a8d63g2_abandoned%20cottages_.jpg',
+    description: 'Forgotten cottages stand as silent witnesses to time, their weathered facades telling stories of lives once lived.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-31',
+    title: 'Battle Scarred',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/78h2k05z_battle%20scared.jpg',
+    description: 'Raw and unfiltered, a portrait of resilience etched in the fabric of urban decay.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-32',
+    title: 'NOLA Rhythms',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/nrlp9okj_NO%2030-min.jpg',
+    description: 'The pulse of New Orleans captured in stark contrast, where light and shadow dance to the city\'s timeless beat.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-33',
+    title: 'Urban Poetry',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/wttg16cc_NO%2031-min.jpg',
+    description: 'Street scenes transformed into visual poetry, each frame a verse in the city\'s endless song.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-34',
+    title: 'Bridge to Nowhere',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/cyv3kw8u_NO%20Bridge-min.jpg',
+    description: 'A solitary bridge stands against the elements, a monument to connection in an ever-changing urban landscape.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
   }
 ];
 
