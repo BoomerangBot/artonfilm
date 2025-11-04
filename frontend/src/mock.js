@@ -963,6 +963,16 @@ export const chrisLeeArtworks = [
     category: 'Urban Chronicles',
     collection: 'urban',
     price: 'POA'
+  },
+  {
+    id: 'cl-8',
+    title: 'Urban Shadows',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/24f3x6ro_shad2.jpg',
+    description: 'Light and shadow dance across the cityscape, revealing the hidden geometry of urban life.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
   }
 ];
 
