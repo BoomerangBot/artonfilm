@@ -54,7 +54,7 @@ export const programmeData = {
       date: 'March 2026'
     }
   ],
-  partners: ['Hans Alf Gallery', 'Carnaby International', 'ArtOnGiving'],
+  partners: ['Hans Alf Gallery', 'Carnaby International', 'DHS Labs'],
   outcomes: [
     'Touring exhibitions',
     'Documentary film',
