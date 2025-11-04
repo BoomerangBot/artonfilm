@@ -1171,6 +1171,56 @@ export const chrisLeeMusicArtworks = [
     category: 'Urban Chronicles',
     collection: 'urban',
     price: 'POA'
+  },
+  {
+    id: 'cl-35',
+    title: 'Nocturnal Narratives',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/9j8vnpuu_NO%20Images%202-min.jpg',
+    description: 'When darkness falls, the city reveals its true character—shadows become stories and light becomes life.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-36',
+    title: 'Italian Quarter',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/gh379opz_NO%20italia-min.jpg',
+    description: 'Heritage and history intertwine in New Orleans\' Italian neighborhood, where old-world charm meets Southern soul.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'clm-12',
+    title: 'Jazz Interlude',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/tkv80ikm_NOM11-min.jpg',
+    description: 'In the space between notes lies the soul of jazz—captured here in raw, unfiltered emotion.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-13',
+    title: 'Blues in Motion',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/tsp7a4s9_NOM12-min.jpg',
+    description: 'The blues lives and breathes in every performance, a visual symphony of passion and pain.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-14',
+    title: 'Street Serenade',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/99tr1ttz_NOM14-min.jpg',
+    description: 'Where the streets become a stage and every musician tells a story through their instrument.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
   }
 ];
 
