@@ -311,7 +311,7 @@ const Home = () => {
             {/* Artists Cards */}
             <div className="space-y-6">
               <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-amber-400 uppercase tracking-wider">ARTISTS</h3>
+                <h3 className="text-2xl font-bold text-amber-400 uppercase tracking-wider">Artists & Collections</h3>
               </div>
 
               {/* Natasha Kissell Card */}
