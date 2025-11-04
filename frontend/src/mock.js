@@ -459,27 +459,72 @@ export const exhibitionsToursData = {
 };
 
 export const membershipData = {
-  title: 'MEMBERSHIP',
-  price: '£5 000 per year',
-  description: 'Includes travel to two European events each year, private access to galleries and screenings, hospitality privileges and concierge support. Additional events may be joined at member rates.',
+  title: 'ArtOnGiving — Perks of Giving',
+  subtitle: 'We\'re not a charity — we just choose to give.',
+  description: 'ArtOnFilm Ltd donates up to 15% of company income — and up to 30% from premium projects — directly to registered international charities supporting mental health, patient care, and diagnostic R&D.',
+  quote: '"Art washes away all sins. Together, art and science might prove that even pretty pictures could be free."',
+  subQuote: '° Ethics + Exposure + pretty pictures = who knows...let\'s find out °',
+  attribution: '>Not quoted by Albert Einstein.',
   patronLevels: [
     {
-      tier: 'Supporter',
-      annual: '£5 000',
-      benefit: 'Two EU events + art scholarship funding'
+      tier: '💠 £5 000 · Supporter of Light',
+      benefits: [
+        'Invitations to all UK events (space permitting)',
+        'Two guaranteed UK/EU events per year with basic travel & hospitality included',
+        'Access to 30 + ArtOnFilm & Friends of Giving experiences — red carpet, heritage, sports',
+        'Friends of Giving Network privileges + 10 % partner savings (partner & product terms may vary)',
+        'Optional art token: one signed 1/20 photograph by Dr Chris Lee (Lens2Care or Big City Short Life) or donate its value instead',
+        'Recognition on the Roll of Light'
+      ],
+      tagline: 'You don\'t buy art — you buy into action.'
     },
     {
-      tier: 'Patron',
-      annual: '£15 000',
-      benefit: 'Festival credit + film recognition'
+      tier: '💎 £15 000 · Patron of Grace',
+      benefits: [
+        'All Supporter benefits + four guaranteed events per year',
+        'Flights + two nights hotel for two to any EU event',
+        'Invitations to Chelsea Art & Giving Gala and Copenhagen Modern Eden Dinner',
+        'Brand visibility at one ArtOnFilm / Kissell / Carnaby International showcase',
+        'Carnaby AV Privilege — festival access (Cannes · Berlinale · Raindance) + 15 % design discount',
+        'Optional token: one 1/10 or two 1/20 editions — or donate value directly',
+        'Listed as Patron of Grace in the Roll of Light and Annual Impact Report'
+      ],
+      tagline: 'Grace is what you leave behind.'
     },
     {
-      tier: 'Founder',
-      annual: '£25 000 +',
-      benefit: 'Naming rights + global legacy projects'
+      tier: '👑 £25 000 + · Founder of Legacy',
+      benefits: [
+        'All Patron benefits + naming rights for one annual ArtOnGiving or Lens2Care initiative',
+        'Private charity/networking event arranged for you by ArtOnFilm at a premier venue',
+        'Invitations to global film & culture summits with flights + two-night EU hospitality for two',
+        'Carnaby Silver Screen VIP — red-carpet placement + festival credit',
+        '25 % partner discount on Carnaby AV & ArtOnDesign projects (terms my vary)',
+        'Lifetime inscription in the Legacy Circle of Light',
+        'Optional art token: one original (1/1) or three 1/10 editions — or convert to direct giving'
+      ],
+      tagline: 'Legacy is not wealth — it\'s what you create for others.'
+    },
+    {
+      tier: '💎 £100 000 + · Founder of Grace & Giving',
+      headline: 'When giving becomes legacy, eternal life, is it creation?',
+      benefits: [
+        'All Founder benefits plus one exclusive Natasha Kissell "Just4You" commission, artist\'s vision preserved',
+        'Modern Eden Art & Science exhibition by Kissel brought to a city of your choice — curated and hosted by ArtOnFilm as part of the ArtOnTour programme',
+        'Full access to the ArtOnFilm network (Carnaby International, Hans Alf Gallery, DHS Labs Berlin)',
+        'VIP invitations for Singapore 2025 and Copenhagen 2026 flagships',
+        'ArtOnFilm donates 30 % of its income from this tier directly to registered charities',
+        'Optional participation in Lens2Care and ArtOnTour education events'
+      ],
+      tagline: '•True wealth is the light you leave behind•'
     }
   ],
-  framework: 'Each patron supports Creation · Education · Healing.'
+  closingStatements: [
+    '•True giving balance nor be bought.•',
+    '• Ethics is wealth & contribution not content offer a unique new membership platform that gives back.•',
+    '•JustArt•JustGive•JustDo•',
+    'Silver Screen & Glamorous',
+    'Grace by ArtOnFilm presents:'
+  ]
 };
 
 export const artOnGivingData = {
