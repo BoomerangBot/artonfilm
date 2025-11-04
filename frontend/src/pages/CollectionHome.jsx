@@ -43,7 +43,7 @@ const CollectionHome = () => {
     {
       id: 3,
       name: 'To Be Announced',
-      title: 'Featured Artist',
+      title: 'Lens2Care, Film4Fun & OneFrameAhead. Work-in-progress tour to begin soon.',
       description: 'We are curating an exceptional new collection. Stay tuned for the reveal.',
       image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwzfHxhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85',
       path: '#',
@@ -55,7 +55,7 @@ const CollectionHome = () => {
       id: 4,
       name: 'To Be Announced',
       title: 'Featured Artist',
-      description: 'We are curating an exceptional new collection. Stay tuned for the reveal.',
+      description: 'Patron of Giving: Art wants YOU!! Sign up today & JUSTDo. ArtOnTour..',
       image: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHw1fHxhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85',
       path: '#',
       icon: Clock,
