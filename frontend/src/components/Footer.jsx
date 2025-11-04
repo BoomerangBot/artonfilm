@@ -51,12 +51,25 @@ const Footer = () => {
 
         {/* Legal Links & Copyright */}
         <div className="border-t border-white/10 pt-8">
+          {/* Motto badges */}
+          <div className="flex flex-wrap justify-center gap-3 mb-6">
+            <div className="px-4 py-2 bg-gradient-to-r from-amber-500/10 to-transparent border border-amber-400/30 rounded-full">
+              <span className="text-amber-400 text-xs font-semibold tracking-wider">Art can be Free · Exposure Is Priceless</span>
+            </div>
+            <div className="px-4 py-2 bg-gradient-to-r from-purple-500/10 to-transparent border border-purple-400/30 rounded-full">
+              <span className="text-purple-400 text-xs font-semibold tracking-wider">Fortune Favours the Givers</span>
+            </div>
+          </div>
+
           <div className="text-center space-y-4">
             <p className="text-gray-400 text-sm">
               &copy; 2025 ArtOnFilm.uk · All Rights Reserved
             </p>
             <p className="text-gray-300 text-sm font-medium">
               Ethics Is Wealth · Contribution Not Content · Just Do
+            </p>
+            <p className="text-gray-400 text-sm italic max-w-2xl mx-auto">
+              Join us to turn culture into contribution and light into legacy.
             </p>
             <div className="flex flex-wrap justify-center items-center gap-3 text-sm">
               <Link to="/privacy-policy" className="text-gray-400 hover:text-amber-400 transition-colors">
