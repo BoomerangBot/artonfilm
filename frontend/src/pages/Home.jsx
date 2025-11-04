@@ -1152,7 +1152,7 @@ const Home = () => {
               </span>
             </h2>
             <p className="text-lg text-gray-400 italic">
-              Partners, Friends & Sponsors JUSTART together creating tomorrow, today. JUSTDO we JUSTGIVE
+              Friends During ArtOnTour: Singapore:
             </p>
           </div>
           
