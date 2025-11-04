@@ -951,6 +951,16 @@ const Home = () => {
               <p className="text-gray-400 text-sm">{artOnGivingData.title}</p>
             </div>
           </div>
+
+          {/* Modern motto badges */}
+          <div className="flex flex-wrap justify-center gap-3 mb-8">
+            <div className="px-5 py-2.5 bg-gradient-to-r from-red-500/10 to-transparent border border-red-400/30 rounded-full backdrop-blur-sm">
+              <span className="text-red-400 text-sm font-semibold">We remember the brave</span>
+            </div>
+            <div className="px-5 py-2.5 bg-gradient-to-r from-amber-500/10 to-transparent border border-amber-400/30 rounded-full backdrop-blur-sm">
+              <span className="text-amber-400 text-sm font-semibold">Creation is life</span>
+            </div>
+          </div>
         </div>
       </section>
 
