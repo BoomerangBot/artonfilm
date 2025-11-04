@@ -380,7 +380,7 @@ const Home = () => {
                   
                   <p className="text-gray-300 italic mb-4">
                     The city breathes. We listen.<br />
-                    Photography that captures the heartbeat between chaos and calm.
+                    Through photography and film, he captures life in its fleeting seconds — the heartbeat behind the lens.
                   </p>
                   
                   <div className="bg-gradient-to-br from-purple-500/10 to-blue-500/5 rounded-lg p-5 mb-4 border border-purple-500/20">
