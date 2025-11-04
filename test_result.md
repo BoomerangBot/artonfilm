@@ -159,6 +159,30 @@ frontend:
         agent: "main"
         comment: "Added quotes object to mock.js with multiple quotes from Carnegie and Ziglar. Strategically placed 5 quote sections across site: Home page (Carnegie philanthropy quote after Art on Giving), Patrons page (Ziglar helping quote), Partners page (Carnegie enrichment quote), Impact page (Ziglar attitude quote), Institutional page (Ziglar building together quote). All quotes styled consistently with amber color scheme, large quotation marks, and proper attribution."
 
+  - task: "Fix broken image in patron tier card"
+    implemented: true
+    working: true
+    file: "frontend/src/pages/Patrons.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Fixed broken image in £15,000 'Patron of Grace' tier card. Replaced problematic 'tiger and turtle.jpg' URL at index 2 of artworks array with working 'shad2.jpg' artwork. All four patron tier cards now display properly with their respective artwork backgrounds."
+
+  - task: "Add promotional materials to Media page and across site"
+    implemented: true
+    working: true
+    file: "frontend/src/mock.js, frontend/src/pages/Media.jsx, frontend/src/pages/Home.jsx, frontend/src/pages/Programme.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Added 4 new promotional materials/posters to galleryImages array in mock.js. Enhanced Media page 'Behind the Scenes' gallery with 2x2 grid layout, improved heading with badge, and enhanced hover effects. Added new 'Our Story in Motion' promotional materials section to Home page with 4-column grid and link to Media page. Added 'Past Events & Materials' gallery section to Programme page. All 4 images now display beautifully across 3 pages: 1) DIRECTED BY: SANDY KUBECK poster, 2) BLUEBIRD CLUB - Buddha collage with JUST CREATE/Lens2Care branding, 3) ART WASHES AWAY ALL SINS - dark sunset silhouettes, 4) ART WASHES AWAY ALL SINS - orange sunset silhouettes."
+
 backend:
   - task: "No backend changes required"
     implemented: false
