@@ -983,8 +983,8 @@ const Home = () => {
         <div className="absolute top-20 right-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 left-20 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
         
-        <div className="relative max-w-6xl mx-auto px-6 lg:px-8 z-10">
-          <div className="text-center mb-12">
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
+          <div className="text-center mb-16">
             <div className="inline-block mb-6 px-6 py-2 border border-amber-500/30 rounded-full bg-amber-500/5">
               <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">Exclusive Access</span>
             </div>
@@ -992,44 +992,65 @@ const Home = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif text-white">
               {membershipData.title}
             </h2>
-            <p className="text-3xl text-amber-400 font-bold mb-8">
-              {membershipData.price}
+            <p className="text-xl text-gray-300 mb-6 italic">
+              {membershipData.subtitle}
             </p>
-            <p className="text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto mb-12">
+            <p className="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto mb-8">
               {membershipData.description}
             </p>
+            
+            {/* Quotes */}
+            <div className="max-w-3xl mx-auto mb-6">
+              <p className="text-xl text-amber-100 italic mb-2">
+                {membershipData.quote}
+              </p>
+              <p className="text-lg text-gray-400 italic mb-2">
+                {membershipData.subQuote}
+              </p>
+              <p className="text-sm text-gray-500 italic">
+                {membershipData.attribution}
+              </p>
+            </div>
           </div>
 
           {/* Patron Levels */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold text-amber-400 text-center mb-8 uppercase tracking-wider">PATRON LEVELS</h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-              {membershipData.patronLevels.map((level, index) => (
-                <div
-                  key={index}
-                  className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-amber-500/20 hover:border-amber-500/40 transition-all text-center"
-                >
-                  <h4 className="text-2xl font-bold text-white mb-3">{level.tier}</h4>
-                  <p className="text-3xl text-amber-400 font-bold mb-4">{level.annual}</p>
-                  <p className="text-gray-300 leading-relaxed">{level.benefit}</p>
-                </div>
-              ))}
-            </div>
-            
-            <div className="text-center">
-              <p className="text-lg text-gray-300 mb-8 italic">
-                Support to Give Framework
-              </p>
-              <p className="text-xl text-amber-400 font-semibold">
-                {membershipData.framework}
-              </p>
-            </div>
+          <div className="space-y-8 mb-12">
+            {membershipData.patronLevels.map((level, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-amber-500/20 hover:border-amber-500/40 transition-all"
+              >
+                <h4 className="text-2xl font-bold text-amber-400 mb-2">{level.tier}</h4>
+                {level.headline && (
+                  <p className="text-lg text-gray-300 italic mb-4">{level.headline}</p>
+                )}
+                <ul className="space-y-3 mb-6">
+                  {level.benefits.map((benefit, idx) => (
+                    <li key={idx} className="text-gray-300 leading-relaxed flex items-start">
+                      <span className="text-amber-400 mr-3">•</span>
+                      <span>{benefit}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-amber-400 font-semibold italic text-lg border-t border-amber-500/20 pt-4">
+                  {level.tagline}
+                </p>
+              </div>
+            ))}
           </div>
           
+          {/* Closing Statements */}
+          <div className="text-center mb-12 space-y-3">
+            {membershipData.closingStatements.map((statement, idx) => (
+              <p key={idx} className="text-gray-300 text-lg italic">
+                {statement}
+              </p>
+            ))}
+          </div>
+
           <div className="text-center">
             <Link
-              to="/contact"
+              to="/patrons"
               className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/30"
             >
               Apply for Membership
