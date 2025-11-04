@@ -7,13 +7,14 @@ const CollectionHome = () => {
     {
       id: 1,
       name: 'Natasha Kissell',
-      title: 'Modern Eden',
-      description: 'Romance in architecture • Grace in modernity',
-      subtitle: 'Paintings that re-imagine skylines as stories of hope',
+      title: 'Award-Winning Artist',
+      description: 'Romance in architecture · Grace in modernity',
+      subtitle: 'Her Modern Eden collection transforms skylines into reflections of hope — bridging Chelsea rooftops, Warsaw courtyards and Singapore gardens.',
       features: [
-        'Award-winning photography',
-        'Original and limited edition collections',
-        'Private & charitable commissions'
+        '✦ Original paintings & limited edition prints',
+        '✦ Featured in international auctions & corporate collections',
+        '✦ Private commissions available',
+        '30% of commission proceeds support charitable causes'
       ],
       image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg',
       path: '/collection/natasha-kissell',
