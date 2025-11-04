@@ -449,8 +449,8 @@ const Home = () => {
                   <div className="grid grid-cols-3 gap-2 mb-4">
                     <div className="relative aspect-square rounded-lg overflow-hidden group/img">
                       <img 
-                        src="https://customer-assets.emergentagent.com/job_film-canvas/artifacts/5z2mwq5y_big%20ben.jpg" 
-                        alt="Urban Chronicles artwork"
+                        src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/cyv3kw8u_NO%20Bridge-min.jpg" 
+                        alt="Bridge to Nowhere - Urban Chronicles"
                         className="w-full h-full object-cover transition-transform group-hover/img:scale-110"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity"></div>
@@ -465,8 +465,8 @@ const Home = () => {
                     </div>
                     <div className="relative aspect-square rounded-lg overflow-hidden group/img">
                       <img 
-                        src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/xho0bx9q_tiger%20and%20turtle.jpg" 
-                        alt="Urban Chronicles artwork"
+                        src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/78h2k05z_battle%20scared.jpg" 
+                        alt="Battle Scarred - Urban Chronicles"
                         className="w-full h-full object-cover transition-transform group-hover/img:scale-110"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity"></div>
