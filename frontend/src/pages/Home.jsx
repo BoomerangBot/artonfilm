@@ -1220,6 +1220,77 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Legal & Ethical Framework */}
+      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-black to-zinc-950"></div>
+        <div className="absolute inset-0">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-radial from-blue-500/5 via-transparent to-transparent blur-3xl"></div>
+        </div>
+        
+        <div className="relative max-w-5xl mx-auto px-6 lg:px-8 z-10">
+          <div className="text-center mb-12">
+            <div className="inline-block mb-6 px-6 py-2 border border-blue-500/30 rounded-full bg-blue-500/5">
+              <span className="text-blue-400 text-sm font-medium tracking-wider uppercase">Transparency & Compliance</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-serif text-white uppercase tracking-wider">
+              Legal & Ethical Framework
+            </h2>
+          </div>
+          
+          {/* Main Content */}
+          <div className="space-y-6 mb-12">
+            <div className="bg-gradient-to-r from-blue-900/20 to-black/50 rounded-xl p-6 border border-blue-500/20">
+              <ul className="space-y-4 text-gray-300 leading-relaxed">
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>Operated by <span className="text-white font-semibold">ArtOnFilm Ltd (UK)</span> — a cultural promotion company, not a charity</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>All tiers support ArtOnTour, Lens2Care and ArtOnGiving projects</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>Tokens and experiences are commercial rewards, not investments</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>Participants may redirect token value to verified charities</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>Corporate memberships may qualify for tax relief under <span className="text-white font-semibold">HMRC BIM45045 / CTA 2009 s54</span></span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>VAT included; official invoice issued</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>Annual Transparency Report published</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Risk Notice */}
+          <div className="bg-gradient-to-r from-amber-900/20 to-black/50 rounded-xl p-8 border border-amber-500/30">
+            <h3 className="text-2xl font-bold text-amber-400 mb-6 flex items-center gap-3">
+              <span className="text-3xl">⚠️</span>
+              Risk Notice
+            </h3>
+            <div className="space-y-3 text-gray-300 leading-relaxed">
+              <p>Membership is a commercial partnership, not a charitable donation or financial promotion.</p>
+              <p>Event benefits subject to availability and partner approval.</p>
+              <p>All operations adhere to UK/EU GDPR.</p>
+              <p className="text-amber-100 font-medium pt-3 border-t border-amber-500/20">
+                ArtOnFilm Ltd reserves the right to adjust benefits to maintain legal and ethical compliance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Art & Science - Education Is Alchemy */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
