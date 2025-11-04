@@ -195,7 +195,7 @@ const Shop = () => {
       <section className="py-24 bg-zinc-900 relative overflow-hidden">
         <div className="absolute inset-0 soft-light-center"></div>
         
-        <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
+        <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-6 py-3 mb-6 bg-gradient-to-r from-amber-500/20 to-purple-500/20 border border-amber-400/30 rounded-full backdrop-blur-md">
               <Film size={20} className="text-amber-400" />
@@ -209,23 +209,49 @@ const Shop = () => {
             </p>
           </div>
 
-          <div className="relative bg-black rounded-2xl overflow-hidden shadow-2xl shadow-amber-500/20 border-2 border-amber-500/30 mx-auto" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
-            <video 
-              className="w-full h-full object-cover"
-              controls
-              preload="metadata"
-              poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 960'%3E%3Crect fill='%23000000' width='540' height='960'/%3E%3C/svg%3E"
-            >
-              <source 
-                src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/jvtvbukl_WhatsApp%20Video%202025-11-04%20at%2016.11.02_65f0fa6b.mp4" 
-                type="video/mp4" 
-              />
-              Your browser does not support the video tag.
-            </video>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {/* Video 1 */}
+            <div className="space-y-4">
+              <div className="relative bg-black rounded-2xl overflow-hidden shadow-2xl shadow-amber-500/20 border-2 border-amber-500/30 hover:border-amber-500/50 transition-all mx-auto" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 960'%3E%3Crect fill='%23000000' width='540' height='960'/%3E%3C/svg%3E"
+                >
+                  <source 
+                    src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/jvtvbukl_WhatsApp%20Video%202025-11-04%20at%2016.11.02_65f0fa6b.mp4" 
+                    type="video/mp4" 
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <p className="text-center text-sm text-gray-400">
+                Experience the artistry and passion behind each masterpiece
+              </p>
+            </div>
+
+            {/* Video 2 - New */}
+            <div className="space-y-4">
+              <div className="relative bg-black rounded-2xl overflow-hidden shadow-2xl shadow-purple-500/20 border-2 border-purple-500/30 hover:border-purple-500/50 transition-all mx-auto" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 960'%3E%3Crect fill='%23000000' width='540' height='960'/%3E%3C/svg%3E"
+                >
+                  <source 
+                    src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/bxb8kaqz_WhatsApp%20Video%202025-11-04%20at%2016.48.13_5977d510.mp4" 
+                    type="video/mp4" 
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <p className="text-center text-sm text-gray-400">
+                Artist insights and creative inspiration
+              </p>
+            </div>
           </div>
-          <p className="text-center text-sm text-gray-400 mt-6">
-            Experience the artistry and passion behind each masterpiece
-          </p>
         </div>
       </section>
 
