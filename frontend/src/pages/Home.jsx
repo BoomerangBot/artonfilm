@@ -192,34 +192,41 @@ const Home = () => {
               </Link>
             </div>
             
-            <div className="relative pl-6 border-l-4 border-amber-400/50 mb-10 backdrop-blur-sm bg-black/20 py-4 rounded-r-lg">
-              <p className="text-2xl md:text-3xl text-gray-100 mb-4 font-light italic">
+            <div className="relative pl-6 border-l-4 border-amber-400/50 mb-6 backdrop-blur-sm bg-black/20 py-4 rounded-r-lg">
+              <p className="text-2xl md:text-3xl text-gray-100 mb-4 font-light">
                 {heroData.subheadline}
               </p>
-              <p className="text-lg text-gray-200 leading-relaxed">
+              <p className="text-lg text-gray-200 leading-relaxed mb-4">
                 {heroData.description}
+              </p>
+            </div>
+
+            {/* Quote Section */}
+            <div className="mb-10 pl-6 border-l-4 border-amber-400/70 backdrop-blur-sm bg-gradient-to-r from-amber-500/10 to-transparent py-4 rounded-r-lg">
+              <p className="text-xl md:text-2xl text-amber-100 italic leading-relaxed font-light">
+                {heroData.quote}
               </p>
             </div>
 
             <div className="flex flex-wrap gap-4 justify-center sm:justify-start">
               <Link
-                to="/collection"
+                to="/programme"
                 className="group inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-300 hover:via-amber-400 hover:to-amber-500 transition-all duration-500 hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/30"
               >
-                Explore Collections
+                Explore Projects
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
-              </Link>
-              <Link
-                to="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all duration-500 hover:scale-105 active:scale-95 backdrop-blur-md shadow-xl"
-              >
-                Join the Movement
               </Link>
               <Link
                 to="/patrons"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all duration-500 hover:scale-105 active:scale-95 backdrop-blur-md shadow-xl"
               >
-                Contribute Today
+                Join Perks of Giving
+              </Link>
+              <Link
+                to="/contact"
+                className="inline-flex items-center justify-center px-8 py-4 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all duration-500 hover:scale-105 active:scale-95 backdrop-blur-md shadow-xl"
+              >
+                Contact Team
               </Link>
             </div>
           </div>
