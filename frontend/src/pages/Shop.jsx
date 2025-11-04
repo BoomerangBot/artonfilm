@@ -313,6 +313,18 @@ const Shop = () => {
           </div>
         </div>
       </section>
+
+      {/* The Unknown Salesman - Disclaimer Quote */}
+      <section className="py-16 bg-gradient-to-r from-amber-900/30 via-zinc-900 to-amber-900/30 border-t border-amber-500/20">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center">
+            <p className="text-lg md:text-xl text-amber-400 italic mb-2 leading-relaxed">
+              {quotes.unknownSalesman.disclaimer}
+            </p>
+            <p className="text-sm text-gray-400">— The Unknown Salesman</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
