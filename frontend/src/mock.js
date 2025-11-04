@@ -20,9 +20,17 @@ export const heroData = {
 };
 
 export const visionData = {
-  headline: 'An art and humanity platform built for people, by people.',
-  content: 'ArtOnFilm brings together art, cinema, design, and science through global collaboration. Its purpose — to turn creativity into contribution — drives every exhibition, event and film. We measure success not by what we sell but by what we change. Beauty belongs to everyone; giving is the purest artform.'
+  headline: 'An art company built for people, by people.',
+  content: 'ArtOnFilm Ltd (UK) forms part of AOF Group Ltd, uniting art, film, design and science under one ethical framework. We believe beauty belongs to everyone, and contribution is the highest form of creation. We measure success not by what we sell, but by what we change.'
 };
+
+export const keyPeople = [
+  { name: 'Chris D', role: 'Founder & Chairman' },
+  { name: 'Russell H', role: 'Director of Operations' },
+  { name: 'Natasha Kissell', role: 'Lead Artist / Director' },
+  { name: 'Dr Chris L (JustXR1)', role: 'Art Director & Health Lead lens2care' },
+  { name: 'Lt Thomas H (RAF & Navy Ret.)', role: 'GDPR Officer & Global Ambassador' }
+];
 
 export const programmeData = {
   headline: 'Through Our Eyes / One Frame Ahead',
