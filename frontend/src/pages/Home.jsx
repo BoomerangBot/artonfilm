@@ -330,7 +330,7 @@ const Home = () => {
                   
                   <p className="text-gray-300 italic mb-4">
                     Romance in architecture · Grace in modernity<br />
-                    Paintings that re-imagine skylines as stories of hope.
+                    Her Modern Eden collection transforms skylines into reflections of hope — bridging Chelsea rooftops, Warsaw courtyards and Singapore gardens.
                   </p>
                   
                   <div className="bg-gradient-to-br from-amber-500/10 to-amber-600/5 rounded-lg p-5 mb-4 border border-amber-500/20">
