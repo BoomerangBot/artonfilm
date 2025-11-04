@@ -272,16 +272,40 @@ const Home = () => {
               <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight font-serif">
                 {visionData.headline}
               </h2>
-              <p className="text-xl text-gray-300 leading-relaxed mb-8">
+              <p className="text-xl text-gray-300 leading-relaxed mb-10">
                 {visionData.content}
               </p>
-              <Link
-                to="/programme"
-                className="inline-flex items-center text-amber-400 hover:text-amber-300 transition-colors font-semibold text-lg group"
-              >
-                See the 2025–26 Tour
-                <ArrowRight className="ml-2 group-hover:translate-x-2 transition-transform" size={20} />
-              </Link>
+
+              {/* Key People Section */}
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-amber-400 mb-6">Key People</h3>
+                <div className="space-y-4">
+                  {keyPeople.map((person, index) => (
+                    <div key={index} className="border-l-2 border-amber-500/50 pl-4 py-2">
+                      <p className="text-white font-semibold text-lg">{person.name}</p>
+                      <p className="text-gray-400 text-sm">{person.role}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Buttons */}
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  to="/contact"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-amber-400 to-amber-600 text-black font-bold rounded-full hover:from-amber-300 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
+                >
+                  Meet the Team
+                  <ArrowRight size={18} />
+                </Link>
+                <Link
+                  to="/patrons"
+                  className="inline-flex items-center gap-2 px-6 py-3 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all hover:scale-105 active:scale-95"
+                >
+                  Get Involved
+                  <ArrowRight size={18} />
+                </Link>
+              </div>
             </div>
 
             {/* Artists Cards */}
