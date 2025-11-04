@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { membershipData } from '../mock';
+import { membershipData, quotes } from '../mock';
 import { ArrowRight, Crown, Gem, Award, Sparkles } from 'lucide-react';
 
 const Patrons = () => {
