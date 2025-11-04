@@ -1,6 +1,6 @@
 import React from 'react';
-import { programmeData } from '../mock';
-import { Calendar, MapPin, Users, Film, Download } from 'lucide-react';
+import { programmeData, galleryImages } from '../mock';
+import { Calendar, MapPin, Users, Film, Download, Image } from 'lucide-react';
 
 const Programme = () => {
   return (
