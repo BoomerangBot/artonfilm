@@ -943,6 +943,16 @@ export const chrisLeeArtworks = [
     category: 'Urban Chronicles',
     collection: 'urban',
     price: 'POA'
+  },
+  {
+    id: 'cl-6',
+    title: 'Big Ben Majesty',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/yudodqec_big%20ben.jpg',
+    description: 'London\'s timeless icon captured in stunning clarity, a celebration of British heritage and architectural grandeur.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
   }
 ];
 
