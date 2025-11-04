@@ -52,6 +52,11 @@ export const programmeData = {
       name: 'Berlin',
       image: 'https://images.pexels.com/photos/1128408/pexels-photo-1128408.jpeg?auto=compress&cs=tinysrgb&w=1200',
       date: 'March 2026'
+    },
+    {
+      name: 'Warsaw',
+      image: 'https://images.unsplash.com/photo-1679949180197-8f0d28abd3a3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHxXYXJzYXclMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzYyMjk3NzI0fDA&ixlib=rb-4.1.0&q=85',
+      date: 'Q4 2026'
     }
   ],
   partners: ['Hans Alf Gallery', 'Carnaby International', 'DHS Labs'],
