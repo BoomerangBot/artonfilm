@@ -23,6 +23,7 @@ import {
   partnersData,
   ethicsPrivacyData,
   contactData,
+  quotes,
   quotes
 } from '../mock';
 import { 
