@@ -967,6 +967,56 @@ export const chrisLeeMusicArtworks = [
     category: 'Soul & Strings',
     collection: 'music',
     price: 'POA'
+  },
+  {
+    id: 'clm-2',
+    title: 'Jazz Spirit',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/kg42jehx_NOM17-min.jpg',
+    description: 'The essence of New Orleans jazz captured through movement, passion, and musical heritage.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-3',
+    title: 'Street Serenade',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/ajdl2vq0_NOM18-min.jpg',
+    description: 'Where music meets the streets, a celebration of spontaneous artistry and cultural rhythm.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-4',
+    title: 'Bourbon Blues',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/qktaq7ds_NOM19-min.jpg',
+    description: 'The soul of the Quarter captured in a moment, where every note tells a story.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-5',
+    title: 'Melodic Streets',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/ctjy9xcr_NOM21-min.jpg',
+    description: 'Urban symphony unfolds as musicians breathe life into historic streets.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-6',
+    title: 'Heritage Harmony',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/mobc1pna_NOM22-min.jpg',
+    description: 'A testament to New Orleans\' enduring musical legacy and the artists who keep it alive.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
   }
 ];
 
