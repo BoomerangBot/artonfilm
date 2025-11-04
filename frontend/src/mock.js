@@ -360,6 +360,14 @@ export const quotes = {
     success: "Success is the maximum utilization of the ability that you have.",
     attitude: "Your attitude, not your aptitude, will determine your altitude.",
     together: "You don't build a business. You build people and people build the business."
+  },
+  unknownSalesman: {
+    artAndSales: "Sales is sales, art is art, first we must sell to allow art to JustGive back. Needs must when Art&Science combine.",
+    exposure: "There is no guarantee, no financial return on membership, there is just pretty pictures: Exposure is priceless.",
+    adventure: "Good, bad, win or lose. A feeling is not guaranteed. Adventure, Creation, JustArt. SILVER SCREEN & PERKS. WE aim to JustGive. Together we JustDo.",
+    life: "Death & Taxes...not today thanks. LIFE:1ST, together the world is yours.",
+    disclaimer: "Disclaimer: images maybe altered. Want ORIGINAL sure.. buy now.",
+    vision: "Love the idea, feel the concept, want to show us the way. Join today as Patron of Giving and we support your vision. Together creating tomorrow, today."
   }
 };
 
