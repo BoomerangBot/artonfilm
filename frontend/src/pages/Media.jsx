@@ -51,24 +51,63 @@ const Media = () => {
 
       {/* Video Section */}
       <section className="py-24">
-        <div className="max-w-3xl mx-auto px-6 lg:px-8">
-          <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-amber-500/10 mx-auto" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
-            <video 
-              className="w-full h-full object-cover"
-              controls
-              preload="metadata"
-              poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 960'%3E%3Crect fill='%23000000' width='540' height='960'/%3E%3C/svg%3E"
-            >
-              <source 
-                src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/i5qz746b_WhatsApp%20Video%202025-10-31%20at%2009.38.20_f37e7469.mp4" 
-                type="video/mp4" 
-              />
-              Your browser does not support the video tag.
-            </video>
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-6 py-3 mb-6 bg-gradient-to-r from-amber-500/20 to-purple-500/20 border border-amber-400/30 rounded-full backdrop-blur-md">
+              <Play size={20} className="text-amber-400" />
+              <span className="text-amber-400 text-sm font-semibold tracking-wider">VIDEO SHOWCASE</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold font-serif bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200 bg-clip-text text-transparent mb-4">
+              Featured Videos
+            </h2>
+            <p className="text-gray-400 text-lg max-w-3xl mx-auto">
+              Experience our cinematic journey through motion
+            </p>
           </div>
-          <p className="text-center text-sm text-gray-400 mt-4">
-            Cinematic showcase by Carnaby International
-          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {/* Video 1 */}
+            <div className="space-y-4">
+              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-amber-500/10 border-2 border-amber-500/20 hover:border-amber-500/40 transition-all mx-auto" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 960'%3E%3Crect fill='%23000000' width='540' height='960'/%3E%3C/svg%3E"
+                >
+                  <source 
+                    src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/i5qz746b_WhatsApp%20Video%202025-10-31%20at%2009.38.20_f37e7469.mp4" 
+                    type="video/mp4" 
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <p className="text-center text-sm text-gray-400">
+                Cinematic showcase by Carnaby International
+              </p>
+            </div>
+
+            {/* Video 2 - New */}
+            <div className="space-y-4">
+              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-purple-500/10 border-2 border-purple-500/20 hover:border-purple-500/40 transition-all mx-auto" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 960'%3E%3Crect fill='%23000000' width='540' height='960'/%3E%3C/svg%3E"
+                >
+                  <source 
+                    src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/jvtvbukl_WhatsApp%20Video%202025-11-04%20at%2016.11.02_65f0fa6b.mp4" 
+                    type="video/mp4" 
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <p className="text-center text-sm text-gray-400">
+                Artist showcase and exhibition highlights
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
