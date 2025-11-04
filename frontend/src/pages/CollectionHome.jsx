@@ -38,7 +38,7 @@ const CollectionHome = () => {
       path: '/collection/chris-lee',
       icon: Camera,
       available: true,
-      artworkCount: 36
+      artworkCount: 39
     },
     {
       id: 3,
