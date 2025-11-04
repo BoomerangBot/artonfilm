@@ -711,14 +711,14 @@ const Home = () => {
               </div>
               <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/w6zn765f_NOM11-min.jpg" 
-                  alt="Quarter Notes"
+                  src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/ysfmtzks_NOM22-min.jpg" 
+                  alt="Soulful Strings"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <p className="text-white font-bold text-xl mb-1">Quarter Notes</p>
-                    <p className="text-gray-300 text-sm">The French Quarter's musical soul</p>
+                    <p className="text-white font-bold text-xl mb-1">Soulful Strings</p>
+                    <p className="text-gray-300 text-sm">Every note carries weight, every string vibrates with stories</p>
                   </div>
                 </div>
               </div>
