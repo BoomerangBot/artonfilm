@@ -230,13 +230,6 @@ const Home = () => {
                 Contact Team
               </Link>
             </div>
-
-            {/* Motto Badge */}
-            <div className="mt-8 p-6 bg-gradient-to-r from-amber-500/5 to-transparent border-l-4 border-amber-500 rounded-r-lg">
-              <p className="text-gray-300 text-lg italic leading-relaxed">
-                "ArtOnFilm is not a charity — it's a movement that chooses to give."
-              </p>
-            </div>
           </div>
         </div>
 
