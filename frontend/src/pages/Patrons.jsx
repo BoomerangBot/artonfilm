@@ -216,6 +216,19 @@ const Patrons = () => {
           </div>
         </div>
       </section>
+
+      {/* The Unknown Salesman - Exposure Quote */}
+      <section className="py-20 bg-gradient-to-r from-purple-900/20 via-black to-amber-900/20 border-t border-amber-500/10">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center">
+            <div className="text-5xl text-amber-400 mb-4 font-serif">"</div>
+            <blockquote className="text-xl md:text-2xl font-light italic text-gray-200 mb-6 leading-relaxed">
+              {quotes.unknownSalesman.exposure}
+            </blockquote>
+            <p className="text-sm text-gray-400 uppercase tracking-wider">— The Unknown Salesman</p>
+          </div>
+        </div>
+      </section>
       
       <style>{`
         @keyframes float {
