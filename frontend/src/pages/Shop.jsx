@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { artworks } from '../mock';
+import { artworks, quotes } from '../mock';
 import { ShoppingBag, Film, Eye, Mail } from 'lucide-react';
 import { toast } from 'sonner';
 
