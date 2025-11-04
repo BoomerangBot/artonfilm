@@ -1029,16 +1029,6 @@ export const chrisLeeMusicArtworks = [
     price: 'POA'
   },
   {
-    id: 'clm-8',
-    title: 'Rhythm & Soul',
-    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/lt6lt49z_NOM3-min.jpg',
-    description: 'The heartbeat of New Orleans embodied in every strum, every note, every moment.',
-    medium: 'Fine Art Photography',
-    category: 'Soul & Strings',
-    collection: 'music',
-    price: 'POA'
-  },
-  {
     id: 'clm-9',
     title: 'Street Symphony',
     image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/gpmtilkq_NOM4-min.jpg',
