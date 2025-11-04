@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { toast } from 'sonner';
 import { 
   heroData, 
-  visionData, 
+  visionData,
+  keyPeople,
   galleryImages, 
   investmentData,
   impactTransparencyData,
