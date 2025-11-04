@@ -377,7 +377,7 @@ const Home = () => {
                     </div>
                     <div className="relative aspect-square rounded-lg overflow-hidden group/img">
                       <img 
-                        src="https://customer-assets.emergentagent.com/job_art-investor/artifacts/q53d24pp_12.jpeg" 
+                        src="https://customer-assets.emergentagent.com/job_art-investor/artifacts/g8idwuhn_18.jpeg" 
                         alt="Modern Eden artwork"
                         className="w-full h-full object-cover transition-transform group-hover/img:scale-110"
                       />
