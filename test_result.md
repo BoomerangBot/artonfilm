@@ -212,3 +212,5 @@ test_plan:
 agent_communication:
   - agent: "main"
     message: "All three tasks completed successfully. Scroll-to-top functionality working on all pages (verified scroll position = 0). Institutional page completely redesigned with professional layout and cinematic design. Four additional pages (Impact, Media, Partners, Patrons) enhanced with artistic hero sections using user-provided images. All changes verified via automated screenshot testing."
+  - agent: "main"
+    message: "Fixed broken patron tier card image and added 4 new promotional materials across the site. Updated Media page with enhanced 2x2 gallery layout, added 'Our Story in Motion' section to Home page with 4-column grid, and added 'Past Events & Materials' gallery to Programme page. All promotional materials displaying correctly with enhanced hover effects and cinematic styling."
