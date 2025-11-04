@@ -973,6 +973,56 @@ export const chrisLeeArtworks = [
     category: 'Urban Chronicles',
     collection: 'urban',
     price: 'POA'
+  },
+  {
+    id: 'cl-9',
+    title: 'Tiger & Turtle',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/xho0bx9q_tiger%20and%20turtle.jpg',
+    description: 'A stunning sculptural landmark where art meets architecture in a breathtaking walkable rollercoaster form.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-10',
+    title: 'Tower Ascension',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/7e9d957y_tower%20B2.jpg',
+    description: 'Urban verticality captured in dramatic perspective, reaching towards the heavens.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-11',
+    title: 'Watchful Gaze',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/wqpsg2bm_who%20you%20looking%20at.jpg',
+    description: 'An intimate encounter where curiosity meets lens, capturing raw emotion and connection.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-12',
+    title: 'Golden Hour',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/1fov7k8q_sunlight.jpg',
+    description: 'Sunlight transforms the ordinary into extraordinary, painting the world in liquid gold.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-13',
+    title: 'Endless Loop',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/fhyjxgmp_tiger%20and%20turtle%202.jpg',
+    description: 'Another perspective of the iconic sculpture, where boundaries between art and engineering blur.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
   }
 ];
 
