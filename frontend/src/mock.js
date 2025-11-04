@@ -12,9 +12,10 @@ export const navigation = [
 ];
 
 export const heroData = {
-  headline: 'The Silver Screen of Culture',
-  subheadline: 'Where art, film, science and human story meet — creating beauty that gives back.',
-  description: 'ArtOnFilm connects artists, filmmakers, designers and scientists who believe creativity is a public service. We aim to support giving and projects and established groups, every moment of every viewing, every sale, every moment of generosity supports education, mental health, and the patient voice.',
+  headline: 'Ethics Is Wealth · Contribution Not Content · Just Do',
+  subheadline: 'ArtOnFilm is the global promoter, curator, and connector of art, film, and human story.',
+  description: 'We don\'t sell art — we build the platforms that move it. From fine-art exhibitions and film festivals to charity events and education programmes, ArtOnFilm turns creativity into contribution.',
+  quote: '"Art washes away all sins. Together, art and science prove that even pretty pictures can be free. Eternal life is creation — JustArt."',
   backgroundImage: 'https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxicmlnaHQlMjBhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85'
 };
 
