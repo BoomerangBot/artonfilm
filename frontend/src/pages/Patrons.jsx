@@ -96,7 +96,7 @@ const Patrons = () => {
               const artworks = [
                 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg',
                 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/qktaq7ds_NOM19-min.jpg',
-                'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/xho0bx9q_tiger%20and%20turtle.jpg',
+                'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/24f3x6ro_shad2.jpg',
                 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/lfqa35q2_22.jpeg'
               ];
               return (
