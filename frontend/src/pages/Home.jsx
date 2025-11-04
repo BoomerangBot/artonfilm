@@ -365,6 +365,33 @@ const Home = () => {
                     </div>
                   </div>
                   
+                  {/* Artwork Thumbnails */}
+                  <div className="grid grid-cols-3 gap-2 mb-4">
+                    <div className="relative aspect-square rounded-lg overflow-hidden group/img">
+                      <img 
+                        src="https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg" 
+                        alt="Modern Eden artwork"
+                        className="w-full h-full object-cover transition-transform group-hover/img:scale-110"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity"></div>
+                    </div>
+                    <div className="relative aspect-square rounded-lg overflow-hidden group/img">
+                      <img 
+                        src="https://customer-assets.emergentagent.com/job_art-investor/artifacts/q53d24pp_12.jpeg" 
+                        alt="Modern Eden artwork"
+                        className="w-full h-full object-cover transition-transform group-hover/img:scale-110"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity"></div>
+                    </div>
+                    <div className="relative aspect-square rounded-lg overflow-hidden group/img">
+                      <img 
+                        src="https://customer-assets.emergentagent.com/job_art-investor/artifacts/1axxgyr7_20.jpeg" 
+                        alt="Modern Eden artwork"
+                        className="w-full h-full object-cover transition-transform group-hover/img:scale-110"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity"></div>
+                    </div>
+                  </div>
                   <Link
                     to="/collection/natasha-kissell"
                     className="inline-flex items-center justify-center w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-lg hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95"
