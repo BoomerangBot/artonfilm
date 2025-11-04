@@ -946,26 +946,6 @@ export const chrisLeeArtworks = [
     price: 'POA'
   },
   {
-    id: 'cl-6',
-    title: 'Big Ben Majesty',
-    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/yudodqec_big%20ben.jpg',
-    description: 'London\'s timeless icon captured in stunning clarity, a celebration of British heritage and architectural grandeur.',
-    medium: 'Fine Art Photography',
-    category: 'Urban Chronicles',
-    collection: 'urban',
-    price: 'POA'
-  },
-  {
-    id: 'cl-7',
-    title: 'Parliament\'s Pride',
-    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/i1b84mw3_big%20ben.jpg',
-    description: 'The Elizabeth Tower stands as a beacon of history, captured in exquisite detail against London\'s skyline.',
-    medium: 'Fine Art Photography',
-    category: 'Urban Chronicles',
-    collection: 'urban',
-    price: 'POA'
-  },
-  {
     id: 'cl-8',
     title: 'Urban Shadows',
     image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/24f3x6ro_shad2.jpg',
