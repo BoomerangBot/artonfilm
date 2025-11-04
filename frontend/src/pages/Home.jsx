@@ -373,8 +373,8 @@ const Home = () => {
                       <Camera size={24} className="text-purple-400" />
                     </div>
                     <div className="flex-1">
-                      <h4 className="text-2xl font-bold text-white mb-1">Dr Chris Lee</h4>
-                      <p className="text-purple-400 font-medium mb-3">JustXR1 / Big City Short Life</p>
+                      <h4 className="text-2xl font-bold text-white mb-1">Dr Chris Lee (JustXR1)</h4>
+                      <p className="text-purple-400 font-medium mb-3">Big City Short Life</p>
                     </div>
                   </div>
                   
