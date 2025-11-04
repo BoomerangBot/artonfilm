@@ -92,6 +92,17 @@ const Footer = () => {
             <p className="text-amber-400 text-lg font-light italic pt-4">
               Together, the World Is Yours.
             </p>
+            
+            {/* The Unknown Salesman Quotes */}
+            <div className="mt-8 pt-8 border-t border-white/10">
+              <p className="text-gray-400 text-sm italic mb-3 leading-relaxed">
+                {quotes.unknownSalesman.adventure}
+              </p>
+              <p className="text-gray-400 text-sm italic leading-relaxed">
+                {quotes.unknownSalesman.life}
+              </p>
+              <p className="text-xs text-gray-500 mt-3">— The Unknown Salesman</p>
+            </div>
           </div>
         </div>
       </div>
