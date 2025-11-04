@@ -1082,6 +1082,55 @@ export const chrisLeeMusicArtworks = [
 
 // Color Collection - Chromatic Visions (Ready for future additions)
 export const chrisLeeColorArtworks = [
-  // Color photographs to be added
+  {
+    id: 'clc-1',
+    title: 'Winter Serenity',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/89sw7x5n_Winter%209.jpg',
+    description: 'A peaceful winter landscape where nature\'s palette transforms into pure white tranquility.',
+    medium: 'Fine Art Photography',
+    category: 'Chromatic Visions',
+    collection: 'color',
+    price: 'POA'
+  },
+  {
+    id: 'clc-2',
+    title: 'Frozen Homestead',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/9bz6k7uj_Winter%2010.jpg',
+    description: 'Rural architecture embraced by winter\'s touch, a study in warmth against the cold.',
+    medium: 'Fine Art Photography',
+    category: 'Chromatic Visions',
+    collection: 'color',
+    price: 'POA'
+  },
+  {
+    id: 'clc-3',
+    title: 'Snow Blanket',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/oputyplw_Winter%2012.jpg',
+    description: 'Nature\'s pristine canvas, where every surface becomes a work of art in winter white.',
+    medium: 'Fine Art Photography',
+    category: 'Chromatic Visions',
+    collection: 'color',
+    price: 'POA'
+  },
+  {
+    id: 'clc-4',
+    title: 'Winter\'s Refuge',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/79u38y4r_Winter%206.jpg',
+    description: 'A barn stands resilient in the season\'s embrace, testament to endurance and shelter.',
+    medium: 'Fine Art Photography',
+    category: 'Chromatic Visions',
+    collection: 'color',
+    price: 'POA'
+  },
+  {
+    id: 'clc-5',
+    title: 'Seasonal Stillness',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/j8ws2nul_Winter%207.jpg',
+    description: 'Capturing the quiet beauty of winter, where time seems suspended in frozen grace.',
+    medium: 'Fine Art Photography',
+    category: 'Chromatic Visions',
+    collection: 'color',
+    price: 'POA'
+  }
 ];
 
