@@ -1251,6 +1251,56 @@ export const chrisLeeMusicArtworks = [
     category: 'Soul & Strings',
     collection: 'music',
     price: 'POA'
+  },
+  {
+    id: 'cl-37',
+    title: 'Eternal Rome',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/zu762v0z_rome-min.jpg',
+    description: 'The eternal city captured in monochrome majesty, where ancient architecture meets modern perspective.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-38',
+    title: 'Roman Perspectives',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/786wtg23_rome3-min.jpg',
+    description: 'Classical grandeur reimagined through contemporary eyes, a dialogue between past and present.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-39',
+    title: 'Scripps Serenity',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/8s4ixfho_scripps-min.jpg',
+    description: 'Architectural elegance meets coastal tranquility in this study of form and light.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'clc-7',
+    title: 'Winter Whispers',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/nl486scg_Winter%202-min.jpg',
+    description: 'Soft winter light filters through frozen landscapes, creating a symphony of subtle tones.',
+    medium: 'Fine Art Photography',
+    category: 'Chromatic Visions',
+    collection: 'color',
+    price: 'POA'
+  },
+  {
+    id: 'clc-8',
+    title: 'Frost & Fire',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/j5nt10iz_Winter%204-min.jpg',
+    description: 'Where winter\'s chill meets warm golden light, nature\'s contrasts create visual poetry.',
+    medium: 'Fine Art Photography',
+    category: 'Chromatic Visions',
+    collection: 'color',
+    price: 'POA'
   }
 ];
 
