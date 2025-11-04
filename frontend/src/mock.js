@@ -194,9 +194,10 @@ export const charityLogos = [
 ];
 
 export const galleryImages = [
-  'https://images.unsplash.com/photo-1518998053901-5348d3961a04',
-  'https://images.unsplash.com/photo-1600903781679-7ea3cbc564c3',
-  'https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3'
+  'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/58y94l1y_WhatsApp%20Image%202025-11-04%20at%2015.54.10_2957a125.jpg',
+  'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/2bpnyhod_WhatsApp%20Image%202025-11-04%20at%2015.54.10_b873aa06.jpg',
+  'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/7kzx68sh_WhatsApp%20Image%202025-11-04%20at%2015.54.11_5ece4d40.jpg',
+  'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/ccmtz23q_WhatsApp%20Image%202025-11-04%20at%2015.54.11_41037253.jpg'
 ];
 
 export const investmentData = {
