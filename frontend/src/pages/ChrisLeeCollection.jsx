@@ -275,17 +275,15 @@ const ChrisLeeCollection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-16 font-serif text-center">About the Artist</h2>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Artist Photo */}
+            {/* Artist Logo */}
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-red-500/20 to-red-600/20 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="relative aspect-square rounded-2xl overflow-hidden border-2 border-red-500/30 shadow-2xl bg-zinc-900 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-red-500/20 to-red-600/20 rounded-full flex items-center justify-center">
-                    <Camera size={64} className="text-red-400" />
-                  </div>
-                  <h3 className="text-3xl font-bold mb-2">JUSTXR1</h3>
-                  <p className="text-red-400 text-lg">Dr Chris Lee</p>
-                </div>
+              <div className="relative aspect-square rounded-2xl overflow-hidden border-2 border-red-500/30 shadow-2xl bg-black flex items-center justify-center p-8">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/1z5jlpab_file_00000000b81461f4a29365c740e75d5b%20%281%29.png"
+                  alt="JustXR1 Logo - Dr Chris Lee"
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
 
