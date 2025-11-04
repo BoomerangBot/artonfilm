@@ -792,6 +792,9 @@ const Home = () => {
         
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
           <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-5 py-2 mb-4 bg-gradient-to-r from-green-500/10 to-transparent border border-green-400/30 rounded-full backdrop-blur-sm">
+              <span className="text-green-400 text-xs font-semibold tracking-wider">Ethics & Wealth · Fortune Favours the Givers</span>
+            </div>
             <h2 className="text-5xl md:text-6xl font-bold mb-4 font-serif text-white">
               {exhibitionsToursData.headline}
             </h2>
