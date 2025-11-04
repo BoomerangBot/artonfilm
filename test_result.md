@@ -103,10 +103,12 @@
 #====================================================================================================
 
 user_problem_statement: |
-  User requested three improvements to the ArtOnFilm platform:
-  1. Fix navigation scrolling - ensure pages always open at the top when clicking nav menu items
-  2. Redesign Institutional page - improve layout and professionalism of text content
-  3. Add more artistic images across site pages using backgrounds and hero sections
+  User requested improvements to the ArtOnFilm platform:
+  1. Fix navigation scrolling - ensure pages always open at the top when clicking nav menu items [COMPLETED]
+  2. Redesign Institutional page - improve layout and professionalism of text content [COMPLETED]
+  3. Add more artistic images across site pages using backgrounds and hero sections [COMPLETED]
+  4. Fix broken image in patron tier card [COMPLETED]
+  5. Add 4 new promotional materials/posters to Media page and across the site [CURRENT]
 
 frontend:
   - task: "Scroll-to-top functionality for navigation"
