@@ -234,6 +234,46 @@ const Programme = () => {
             </div>
           </div>
 
+          {/* Event Gallery */}
+          <div className="mb-20">
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center gap-2 px-6 py-3 mb-6 bg-gradient-to-r from-amber-500/20 to-purple-500/20 border border-amber-400/30 rounded-full backdrop-blur-md">
+                <Image size={20} className="text-amber-400" />
+                <span className="text-amber-400 text-sm font-semibold tracking-wider">EVENT HIGHLIGHTS</span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold font-serif bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200 bg-clip-text text-transparent mb-4">
+                Past Events & Materials
+              </h2>
+              <p className="text-gray-400 text-lg max-w-3xl mx-auto">
+                A glimpse into our previous exhibitions and promotional campaigns
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {galleryImages.map((image, index) => (
+                <div
+                  key={index}
+                  className="relative aspect-[3/4] overflow-hidden rounded-2xl group cursor-pointer shadow-2xl shadow-black/50 border-2 border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105"
+                >
+                  <img
+                    src={image}
+                    alt={`Event highlight ${index + 1}`}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent group-hover:from-purple-900/60 transition-colors"></div>
+                  
+                  {/* Decorative overlay */}
+                  <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                    <div className="flex items-center gap-2">
+                      <div className="h-px w-8 bg-purple-400"></div>
+                      <span className="text-purple-400 text-xs font-semibold tracking-wider">VIEW</span>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* CTA */}
           <div className="text-center">
             <div className="inline-block bg-gradient-to-br from-zinc-900/90 to-black/90 backdrop-blur-md rounded-3xl p-12 border-2 border-white/20 hover:border-amber-500/40 transition-all duration-300 shadow-2xl">
