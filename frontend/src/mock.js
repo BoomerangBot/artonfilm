@@ -1017,6 +1017,56 @@ export const chrisLeeMusicArtworks = [
     category: 'Soul & Strings',
     collection: 'music',
     price: 'POA'
+  },
+  {
+    id: 'clm-7',
+    title: 'Crescendo Moment',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/su8z75du_NOM1-min.jpg',
+    description: 'Pure emotion captured at the peak of performance, where music becomes transcendent.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-8',
+    title: 'Rhythm & Soul',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/lt6lt49z_NOM3-min.jpg',
+    description: 'The heartbeat of New Orleans embodied in every strum, every note, every moment.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-9',
+    title: 'Street Symphony',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/gpmtilkq_NOM4-min.jpg',
+    description: 'Where the city becomes a stage and every corner holds a melody.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-10',
+    title: 'Jazz Legacy',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/84jwxfzk_NOM6-min.jpg',
+    description: 'Generations of musical tradition captured in a single powerful frame.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-11',
+    title: 'Quarter Notes',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/w6zn765f_NOM11-min.jpg',
+    description: 'The French Quarter\'s musical soul distilled into a moment of pure artistry.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
   }
 ];
 
