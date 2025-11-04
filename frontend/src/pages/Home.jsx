@@ -491,39 +491,41 @@ const Home = () => {
       <section className="py-20 bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-5 py-2 mb-4 bg-gradient-to-r from-amber-500/10 to-transparent border border-amber-400/30 rounded-full backdrop-blur-sm">
+              <span className="text-amber-400 text-xs font-semibold tracking-wider">GALLERY SHOWCASE</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-serif">
-              Featured Works
+              Featured Artworks
             </h2>
             <p className="text-gray-400 text-lg">
-              Explore stunning contemporary art from our collection
+              Curated selections from our acclaimed artists
             </p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg',
-              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/dxeheg2r_17.jpeg',
-              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/g8idwuhn_18.jpeg',
-              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/gwa5rbec_19.jpeg',
-              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/1axxgyr7_20.jpeg',
-              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/u6ykuo0g_21.jpeg',
-              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/lfqa35q2_22.jpeg',
-              'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2hukoy8z_23.jpeg'
-            ].map((img, index) => (
+              { img: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg', artist: 'Natasha Kissell', title: 'Urban Reverie', link: '/collection/natasha-kissell' },
+              { img: 'https://customer-assets.emergentagent.com/job_film-canvas/artifacts/5z2mwq5y_big%20ben.jpg', artist: 'Dr Chris Lee', title: 'Westminster Shadows', link: '/collection/chris-lee' },
+              { img: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/g8idwuhn_18.jpeg', artist: 'Natasha Kissell', title: 'Skyline Dreams', link: '/collection/natasha-kissell' },
+              { img: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/kg42jehx_NOM17-min.jpg', artist: 'Dr Chris Lee', title: 'Jazz Spirit', link: '/collection/chris-lee' },
+              { img: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/1axxgyr7_20.jpeg', artist: 'Natasha Kissell', title: 'Reflection', link: '/collection/natasha-kissell' },
+              { img: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/xho0bx9q_tiger%20and%20turtle.jpg', artist: 'Dr Chris Lee', title: 'Tiger & Turtle', link: '/collection/chris-lee' },
+              { img: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/lfqa35q2_22.jpeg', artist: 'Natasha Kissell', title: 'Modern Grace', link: '/collection/natasha-kissell' },
+              { img: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/89sw7x5n_Winter%209.jpg', artist: 'Dr Chris Lee', title: 'Winter Serenity', link: '/collection/chris-lee' }
+            ].map((artwork, index) => (
               <Link
                 key={index}
-                to="/collection/natasha-kissell"
+                to={artwork.link}
                 className="group relative aspect-square overflow-hidden rounded-lg"
               >
                 <img
-                  src={img}
-                  alt={`Artwork ${index + 1}`}
+                  src={artwork.img}
+                  alt={`${artwork.title} by ${artwork.artist}`}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center">
-                  <span className="text-white font-bold opacity-0 group-hover:opacity-100 transition-opacity">
-                    View Collection
-                  </span>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col items-start justify-end p-4">
+                  <p className="text-white font-bold text-sm mb-1">{artwork.title}</p>
+                  <p className="text-amber-400 text-xs">{artwork.artist}</p>
                 </div>
               </Link>
             ))}
