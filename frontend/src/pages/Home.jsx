@@ -306,12 +306,23 @@ const Home = () => {
                   <ArrowRight size={18} />
                 </Link>
               </div>
+
+              {/* Motto Badge */}
+              <div className="mt-8 p-6 bg-gradient-to-r from-amber-500/5 to-transparent border-l-4 border-amber-500 rounded-r-lg backdrop-blur-sm">
+                <p className="text-gray-300 text-lg italic leading-relaxed">
+                  "ArtOnFilm is not a charity — it's a movement that chooses to give."
+                </p>
+              </div>
             </div>
 
             {/* Artists Cards */}
             <div className="space-y-6">
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-amber-400 uppercase tracking-wider">Artists & Collections</h3>
+                {/* Modern motto badge */}
+                <div className="inline-flex items-center gap-2 px-4 py-2 mt-3 bg-gradient-to-r from-purple-500/10 to-blue-500/10 border border-purple-400/30 rounded-full">
+                  <span className="text-purple-400 text-xs font-semibold tracking-wider">JustArt · JustGive · JustDo</span>
+                </div>
               </div>
 
               {/* Natasha Kissell Card */}
