@@ -445,6 +445,34 @@ const Home = () => {
                     </div>
                   </div>
                   
+                  {/* Artwork Thumbnails */}
+                  <div className="grid grid-cols-3 gap-2 mb-4">
+                    <div className="relative aspect-square rounded-lg overflow-hidden group/img">
+                      <img 
+                        src="https://customer-assets.emergentagent.com/job_film-canvas/artifacts/5z2mwq5y_big%20ben.jpg" 
+                        alt="Urban Chronicles artwork"
+                        className="w-full h-full object-cover transition-transform group-hover/img:scale-110"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity"></div>
+                    </div>
+                    <div className="relative aspect-square rounded-lg overflow-hidden group/img">
+                      <img 
+                        src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/kg42jehx_NOM17-min.jpg" 
+                        alt="Soul & Strings artwork"
+                        className="w-full h-full object-cover transition-transform group-hover/img:scale-110"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity"></div>
+                    </div>
+                    <div className="relative aspect-square rounded-lg overflow-hidden group/img">
+                      <img 
+                        src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/xho0bx9q_tiger%20and%20turtle.jpg" 
+                        alt="Urban Chronicles artwork"
+                        className="w-full h-full object-cover transition-transform group-hover/img:scale-110"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity"></div>
+                    </div>
+                  </div>
+                  
                   <Link
                     to="/collection/chris-lee"
                     className="inline-flex items-center justify-center w-full px-6 py-3 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-bold rounded-lg hover:from-purple-400 hover:to-purple-500 transition-all hover:scale-105 active:scale-95"
