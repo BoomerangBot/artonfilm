@@ -1151,8 +1151,11 @@ const Home = () => {
                 {partnersData.headline}
               </span>
             </h2>
-            <p className="text-lg text-gray-400 italic">
+            <p className="text-lg text-gray-400 italic mb-2">
               Friends During ArtOnTour: Singapore:
+            </p>
+            <p className="text-base text-gray-400 italic">
+              Partners, Friends & Sponsors JUSTART together creating tomorrow, today. JUSTDO we JUSTGIVE
             </p>
           </div>
           
