@@ -1349,6 +1349,29 @@ const Home = () => {
         </div>
       </section>
 
+      {/* The Unknown Salesman - Quote 6 (Vision) */}
+      <section className="py-20 bg-gradient-to-r from-purple-900/20 via-black to-green-900/20 relative overflow-hidden">
+        <div className="absolute inset-0">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-gradient-radial from-green-500/10 via-transparent to-transparent blur-3xl"></div>
+        </div>
+        <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
+          <div className="text-center">
+            <div className="text-6xl text-green-400 mb-4 font-serif">"</div>
+            <blockquote className="text-2xl md:text-3xl font-light italic text-gray-200 mb-8 leading-relaxed">
+              {quotes.unknownSalesman.vision}
+            </blockquote>
+            <div className="flex items-center justify-center gap-4">
+              <div className="h-px w-12 bg-gradient-to-r from-transparent via-green-400 to-transparent"></div>
+              <div>
+                <p className="text-lg font-bold text-green-400">The Unknown Salesman</p>
+                <p className="text-sm text-gray-400 uppercase tracking-wider">Patron of Giving</p>
+              </div>
+              <div className="h-px w-12 bg-gradient-to-r from-transparent via-green-400 to-transparent"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* THE 5·5·5 MODEL — JustGive2Support™ */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
