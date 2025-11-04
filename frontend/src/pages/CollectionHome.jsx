@@ -43,8 +43,8 @@ const CollectionHome = () => {
     {
       id: 3,
       name: 'To Be Announced',
-      title: 'Lens2Care, Film4Fun & OneFrameAhead. Work-in-progress tour to begin soon.',
-      description: 'We are curating an exceptional new collection. Stay tuned for the reveal.',
+      title: 'Featured Artist',
+      description: 'Lens2Care, Film4Fun & OneFrameAhead. Work-in-progress tour to begin soon.',
       image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwzfHxhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85',
       path: '#',
       icon: Clock,
