@@ -1221,6 +1221,36 @@ export const chrisLeeMusicArtworks = [
     category: 'Soul & Strings',
     collection: 'music',
     price: 'POA'
+  },
+  {
+    id: 'clm-15',
+    title: 'Soulful Strings',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/ysfmtzks_NOM22-min.jpg',
+    description: 'Every note carries weight, every string vibrates with the stories of generations past.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-16',
+    title: 'Rhythm & Revelation',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/a02z70m2_NOM23-min.jpg',
+    description: 'In the heart of the performance, truth emerges through rhythm and raw emotion.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
+  },
+  {
+    id: 'clm-17',
+    title: 'Legacy in Motion',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/wu5a3vas_NOM24-min.jpg',
+    description: 'Music is movement, movement is life—captured in the timeless dance of jazz tradition.',
+    medium: 'Fine Art Photography',
+    category: 'Soul & Strings',
+    collection: 'music',
+    price: 'POA'
   }
 ];
 
