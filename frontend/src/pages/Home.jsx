@@ -894,7 +894,10 @@ const Home = () => {
             </div>
 
             <div className="relative">
-              <div className="relative aspect-video bg-zinc-900 rounded-2xl overflow-hidden group cursor-pointer">
+              <div 
+                className="relative aspect-video bg-zinc-900 rounded-2xl overflow-hidden group cursor-pointer"
+                onClick={() => setShowVideoModal(true)}
+              >
                 <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-purple-500/20 to-black/80 group-hover:from-purple-500/30 transition-colors">
                   <div className="w-24 h-24 rounded-full bg-white/90 flex items-center justify-center group-hover:bg-white transition-colors group-hover:scale-110 transition-transform">
                     <Play size={40} className="text-black ml-2" />
@@ -906,9 +909,6 @@ const Home = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <p className="text-center text-sm text-gray-500 mt-4">
-                Documentary teaser coming soon
-              </p>
             </div>
           </div>
         </div>
