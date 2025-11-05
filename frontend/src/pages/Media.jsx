@@ -49,6 +49,47 @@ const Media = () => {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent"></div>
       </section>
 
+      {/* Gallery - MOVED UP */}
+      <section className="py-24 bg-zinc-900">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-6 py-3 mb-6 bg-gradient-to-r from-amber-500/20 to-purple-500/20 border border-amber-400/30 rounded-full backdrop-blur-md">
+              <Film size={20} className="text-amber-400" />
+              <span className="text-amber-400 text-sm font-semibold tracking-wider">PROMOTIONAL MATERIALS</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold font-serif bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200 bg-clip-text text-transparent mb-4">
+              Behind the Scenes
+            </h2>
+            <p className="text-gray-400 text-lg max-w-3xl mx-auto">
+              Explore our cinematic journey through promotional artwork and event materials
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {galleryImages.map((image, index) => (
+              <div
+                key={index}
+                className="relative aspect-[3/4] overflow-hidden rounded-2xl group cursor-pointer shadow-2xl shadow-black/50 border-2 border-amber-500/20 hover:border-amber-500/50 transition-all bg-black"
+              >
+                <img
+                  src={image}
+                  alt={`Behind the scenes ${index + 1}`}
+                  className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+                
+                {/* Decorative overlay */}
+                <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <div className="flex items-center gap-2">
+                    <div className="h-px w-12 bg-amber-400"></div>
+                    <span className="text-amber-400 text-sm font-semibold tracking-wider">VIEW FULL SIZE</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Video Section */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
