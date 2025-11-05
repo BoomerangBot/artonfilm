@@ -480,7 +480,7 @@ export const exhibitionsToursData = {
 export const membershipData = {
   title: 'ArtOnGiving — Perks of Giving',
   subtitle: 'We\'re not a charity — we just choose to give.',
-  description: 'ArtOnFilm Ltd donates up to 15% of company income — and up to 30% from premium projects — directly to registered international charities supporting mental health, patient care, and diagnostic R&D.',
+  description: 'ArtOnFilm Ltd is Impact-Driven. We contribute substantially from our revenue directly to registered international charities supporting mental health, patient care, and diagnostic R&D. Premium projects create even greater Meaningful Impact for these vital causes.',
   quote: '"Art washes away all sins. Together, art and science might prove that even pretty pictures could be free."',
   subQuote: '° Ethics + Exposure + pretty pictures = who knows...let\'s find out °',
   attribution: '>Not quoted by Albert Einstein.',
