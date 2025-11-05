@@ -149,7 +149,7 @@ export const impactData = {
     },
     {
       area: 'Charity Support',
-      target: '15% of gross income',
+      target: 'Meaningful Impact',
       evidence: 'CSR report'
     },
     {
