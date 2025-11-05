@@ -50,6 +50,7 @@ const Home = () => {
   const [showHostEventModal, setShowHostEventModal] = useState(false);
   const [showInvitationModal, setShowInvitationModal] = useState(false);
   const [selectedPartner, setSelectedPartner] = useState(null);
+  const [showVideoModal, setShowVideoModal] = useState(false);
   
   const [journeyForm, setJourneyForm] = useState({ name: '', email: '', message: '' });
   const [hostEventForm, setHostEventForm] = useState({ name: '', email: '', organization: '', eventDetails: '' });
