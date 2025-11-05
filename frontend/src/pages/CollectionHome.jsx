@@ -14,7 +14,7 @@ const CollectionHome = () => {
         '✦ Original paintings & limited edition prints',
         '✦ Featured in international auctions & corporate collections',
         '✦ Private commissions available',
-        '30% of commission proceeds support charitable causes'
+        'Mission: Give — Commission proceeds create Meaningful Impact for charitable causes'
       ],
       image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg',
       path: '/collection/natasha-kissell',
