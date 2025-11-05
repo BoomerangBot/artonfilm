@@ -151,14 +151,14 @@ const Media = () => {
             {galleryImages.map((image, index) => (
               <div
                 key={index}
-                className="relative aspect-[3/4] overflow-hidden rounded-2xl group cursor-pointer shadow-2xl shadow-black/50 border-2 border-amber-500/20 hover:border-amber-500/50 transition-all"
+                className="relative aspect-[3/4] overflow-hidden rounded-2xl group cursor-pointer shadow-2xl shadow-black/50 border-2 border-amber-500/20 hover:border-amber-500/50 transition-all bg-black"
               >
                 <img
                   src={image}
                   alt={`Behind the scenes ${index + 1}`}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent group-hover:from-black/40 transition-colors"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
                 
                 {/* Decorative overlay */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
