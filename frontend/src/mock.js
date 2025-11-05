@@ -1306,6 +1306,56 @@ export const chrisLeeMusicArtworks = [
     category: 'Chromatic Visions',
     collection: 'color',
     price: 'POA'
+  },
+  {
+    id: 'clc-9',
+    title: 'Pink Blossoms',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/0yawklex_pimnk%20trees-min.jpg',
+    description: 'Spring awakens in a burst of delicate pink, nature\'s celebration captured in ethereal beauty.',
+    medium: 'Fine Art Photography',
+    category: 'Chromatic Visions',
+    collection: 'color',
+    price: 'POA'
+  },
+  {
+    id: 'cl-40',
+    title: 'Powerball Dreams',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/9qveln4i_Powerball-min.jpg',
+    description: 'Where hope and mortality intersect—a billboard of dreams towers over eternal rest.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'clc-10',
+    title: 'Provençal Fields',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/6p48hkhy_prvance-min.jpg',
+    description: 'Endless rows of lavender stretch toward the horizon, a symphony of purple in the French countryside.',
+    medium: 'Fine Art Photography',
+    category: 'Chromatic Visions',
+    collection: 'color',
+    price: 'POA'
+  },
+  {
+    id: 'cl-41',
+    title: 'Mirror City',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/sk3qxr9e_reflection-min.jpg',
+    description: 'Architecture doubled, reality questioned—the urban landscape reflects upon itself.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
+  },
+  {
+    id: 'cl-42',
+    title: 'Roman Arches',
+    image: 'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/wq96gb9m_rome2-min.jpg',
+    description: 'Ancient stone arches frame the eternal city, where history lives in every shadow.',
+    medium: 'Fine Art Photography',
+    category: 'Urban Chronicles',
+    collection: 'urban',
+    price: 'POA'
   }
 ];
 
