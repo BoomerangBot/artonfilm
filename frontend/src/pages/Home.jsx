@@ -361,7 +361,7 @@ const Home = () => {
                         ✦ Private commissions available
                       </p>
                       <p className="text-sm text-green-400 font-medium italic mt-3">
-                        30% of commission proceeds support charitable causes
+                        Mission: Give — Commissions create Meaningful Impact for charitable causes
                       </p>
                     </div>
                   </div>
