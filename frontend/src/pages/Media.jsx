@@ -108,7 +108,7 @@ const Media = () => {
               </p>
             </div>
 
-            {/* Video 3 - New */}
+            {/* Video 3 */}
             <div className="space-y-4">
               <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-amber-500/10 border-2 border-amber-500/20 hover:border-amber-500/40 transition-all mx-auto" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
                 <video 
@@ -126,6 +126,48 @@ const Media = () => {
               </div>
               <p className="text-center text-sm text-gray-400">
                 Collection highlights and artist insights
+              </p>
+            </div>
+
+            {/* Video 4 - NEW */}
+            <div className="space-y-4">
+              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-green-500/10 border-2 border-green-500/20 hover:border-green-500/40 transition-all mx-auto" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 960'%3E%3Crect fill='%23000000' width='540' height='960'/%3E%3C/svg%3E"
+                >
+                  <source 
+                    src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/fyfs8vn8_WhatsApp%20Video%202025-11-05%20at%2009.40.06_14b514f9.mp4" 
+                    type="video/mp4" 
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <p className="text-center text-sm text-gray-400">
+                Behind the scenes creative process
+              </p>
+            </div>
+
+            {/* Video 5 - NEW */}
+            <div className="space-y-4">
+              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-red-500/10 border-2 border-red-500/20 hover:border-red-500/40 transition-all mx-auto" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 960'%3E%3Crect fill='%23000000' width='540' height='960'/%3E%3C/svg%3E"
+                >
+                  <source 
+                    src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/wt03gnum_WhatsApp%20Video%202025-11-05%20at%2009.43.52_75b216e3.mp4" 
+                    type="video/mp4" 
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <p className="text-center text-sm text-gray-400">
+                Art in motion and exhibition moments
               </p>
             </div>
           </div>
