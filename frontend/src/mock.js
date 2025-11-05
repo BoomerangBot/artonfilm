@@ -245,9 +245,9 @@ export const impactTransparencyData = {
     },
     {
       icon: 'heart',
-      label: 'Charity Support',
-      value: '15% gross income',
-      description: 'Donated to health charities'
+      label: 'Charitable Giving',
+      value: 'Impact-Driven',
+      description: 'Supporting mental health & patient care'
     }
   ]
 };
