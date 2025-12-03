@@ -247,12 +247,12 @@ const Media = () => {
 
             {/* Video */}
             <div className="space-y-4">
-              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-red-500/10 border-2 border-red-500/20 hover:border-red-500/40 transition-all">
+              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-red-500/10 border-2 border-red-500/20 hover:border-red-500/40 transition-all group">
                 <video 
                   className="w-full h-full object-cover aspect-[4/3]"
                   controls
                   preload="metadata"
-                  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23000000' width='400' height='300'/%3E%3C/svg%3E"
+                  poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/6n5ovn3m_image.png"
                 >
                   <source 
                     src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/zi9t9y9u_ArtOnTourtag%20AsiaOnXmas_3.mp4" 
@@ -260,6 +260,12 @@ const Media = () => {
                   />
                   Your browser does not support the video tag.
                 </video>
+                {/* Play Button Overlay */}
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="bg-red-500/80 backdrop-blur-sm rounded-full p-6 shadow-2xl">
+                    <Play size={48} className="text-white" fill="white" />
+                  </div>
+                </div>
               </div>
             </div>
 
