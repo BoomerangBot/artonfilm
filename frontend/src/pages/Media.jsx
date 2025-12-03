@@ -284,6 +284,62 @@ const Media = () => {
                 />
               </div>
             </div>
+
+            {/* JustXR1JustJealous */}
+            <div className="space-y-4">
+              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-green-500/10 border-2 border-green-500/20 hover:border-green-500/40 transition-all">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/vy8n4mwy_JustXR1JustJealous.jpg"
+                  alt="JustXR1JustJealous"
+                  className="w-full h-full object-cover aspect-[4/3]"
+                />
+              </div>
+              <p className="text-center text-sm text-amber-400 font-semibold">
+                JustXR1JustJealous
+              </p>
+            </div>
+
+            {/* •JustArt•JustRoar•JustNuts• */}
+            <div className="space-y-4">
+              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-red-500/10 border-2 border-red-500/20 hover:border-red-500/40 transition-all">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/juc82dun_%E2%80%A2JustArt%E2%80%A2JustRoar%E2%80%A2JustNuts%E2%80%A2.jpg"
+                  alt="•JustArt•JustRoar•JustNuts•"
+                  className="w-full h-full object-cover aspect-[4/3]"
+                />
+              </div>
+              <p className="text-center text-sm text-amber-400 font-semibold">
+                •JustArt•JustRoar•JustNuts•
+              </p>
+            </div>
+
+            {/* DragonLadyorJustArt */}
+            <div className="space-y-4">
+              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-green-500/10 border-2 border-green-500/20 hover:border-green-500/40 transition-all">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/prppuz5u_DragonLadyorJustArt.jpg"
+                  alt="DragonLadyorJustArt"
+                  className="w-full h-full object-cover aspect-[4/3]"
+                />
+              </div>
+              <p className="text-center text-sm text-amber-400 font-semibold">
+                DragonLadyorJustArt
+              </p>
+            </div>
+
+            {/* GoldorLead */}
+            <div className="space-y-4">
+              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-red-500/10 border-2 border-red-500/20 hover:border-red-500/40 transition-all">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/2o3xhq03_GoldorLead.jpg"
+                  alt="GoldorLead"
+                  className="w-full h-full object-cover aspect-[4/3]"
+                />
+              </div>
+              <p className="text-center text-sm text-amber-400 font-semibold">
+                GoldorLead
+              </p>
+            </div>
           </div>
         </div>
       </section>
