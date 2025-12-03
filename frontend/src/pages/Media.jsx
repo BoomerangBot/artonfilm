@@ -189,16 +189,21 @@ const Media = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {/* Image 1 */}
-            <div className="space-y-4">
-              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-red-500/10 border-2 border-red-500/20 hover:border-red-500/40 transition-all">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/qnnko6sq_ArtOnTourtag%20AsiaOnXmas_1.jpg"
-                  alt="ArtOnTour Asia Christmas 1"
-                  className="w-full h-full object-cover aspect-[4/3]"
-                />
-              </div>
-            </div>
+            {/* Video 1 - New */}
+            <VideoPlayer
+              src="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/g386ry0d_WhatsApp%20Video%202025-12-03%20at%2015.12.30_cabfcbf9.mp4"
+              playButtonColor="#ef4444"
+              aspectRatio="4/3"
+              maxWidth="100%"
+            />
+
+            {/* Video 2 - New */}
+            <VideoPlayer
+              src="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/puihq7wq_WhatsApp%20Video%202025-12-03%20at%2015.12.56_99e117a8.mp4"
+              playButtonColor="#22c55e"
+              aspectRatio="4/3"
+              maxWidth="100%"
+            />
 
             {/* Image 2 */}
             <div className="space-y-4">
