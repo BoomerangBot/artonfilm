@@ -154,7 +154,7 @@ const Media = () => {
             {/* Video 1 */}
             <VideoPlayer
               src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/i5qz746b_WhatsApp%20Video%202025-10-31%20at%2009.38.20_f37e7469.mp4"
-              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
+              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/ny7nufym_Cinematic%20showcase%20by%20Carnaby%20International.png"
               playButtonColor="#f59e0b"
               caption="Cinematic showcase by Carnaby International"
             />
@@ -162,7 +162,7 @@ const Media = () => {
             {/* Video 2 */}
             <VideoPlayer
               src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/jvtvbukl_WhatsApp%20Video%202025-11-04%20at%2016.11.02_65f0fa6b.mp4"
-              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
+              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/rl2kqc7j_Artist%20showcase%20and%20exhibition%20highlights.png"
               playButtonColor="#a855f7"
               caption="Artist showcase and exhibition highlights"
             />
@@ -170,7 +170,7 @@ const Media = () => {
             {/* Video 3 */}
             <VideoPlayer
               src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/bxb8kaqz_WhatsApp%20Video%202025-11-04%20at%2016.48.13_5977d510.mp4"
-              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
+              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/yczax4f3_Collection%20highlights%20and%20artist%20insights.png"
               playButtonColor="#f59e0b"
               caption="Collection highlights and artist insights"
             />
@@ -178,7 +178,7 @@ const Media = () => {
             {/* Video 4 */}
             <VideoPlayer
               src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/fyfs8vn8_WhatsApp%20Video%202025-11-05%20at%2009.40.06_14b514f9.mp4"
-              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
+              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/7a466j07_Behind%20the%20scenes%20creative%20process.png"
               playButtonColor="#22c55e"
               caption="Behind the scenes creative process"
             />
@@ -186,7 +186,7 @@ const Media = () => {
             {/* Video 5 */}
             <VideoPlayer
               src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/wt03gnum_WhatsApp%20Video%202025-11-05%20at%2009.43.52_75b216e3.mp4"
-              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
+              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/5i4fqk9y_Art%20in%20motion%20and%20exhibition%20moments.png"
               playButtonColor="#ef4444"
               caption="Art in motion and exhibition moments"
             />
