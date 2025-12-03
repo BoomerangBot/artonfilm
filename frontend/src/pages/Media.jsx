@@ -1,6 +1,59 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import { mediaData, galleryImages } from '../mock';
 import { Film, Play } from 'lucide-react';
+
+const VideoPlayer = ({ src, poster, playButtonColor, caption, aspectRatio = '9/16', maxWidth = '540px' }) => {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef(null);
+
+  const handlePlay = () => setIsPlaying(true);
+  const handlePause = () => setIsPlaying(false);
+  const handleEnded = () => setIsPlaying(false);
+
+  return (
+    <div className="space-y-4">
+      <div 
+        className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl border-2 hover:border-opacity-100 transition-all mx-auto group cursor-pointer"
+        style={{ 
+          maxWidth: maxWidth,
+          aspectRatio: aspectRatio,
+          boxShadow: `0 20px 25px -5px ${playButtonColor}10, 0 8px 10px -6px ${playButtonColor}10`,
+          borderColor: `${playButtonColor}33`
+        }}
+      >
+        <video 
+          ref={videoRef}
+          className="w-full h-full object-cover"
+          controls
+          preload="metadata"
+          poster={poster}
+          onPlay={handlePlay}
+          onPause={handlePause}
+          onEnded={handleEnded}
+        >
+          <source src={src} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        {/* Play Button Overlay - Only visible when not playing */}
+        {!isPlaying && (
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div 
+              className="backdrop-blur-sm rounded-full p-5 shadow-2xl transform group-hover:scale-110 transition-transform duration-300"
+              style={{ backgroundColor: `${playButtonColor}E6` }}
+            >
+              <Play size={40} className="text-white" fill="white" />
+            </div>
+          </div>
+        )}
+      </div>
+      {caption && (
+        <p className="text-center text-sm text-gray-400">
+          {caption}
+        </p>
+      )}
+    </div>
+  );
+};
 
 const Media = () => {
   return (
