@@ -75,15 +75,6 @@ const Media = () => {
                   alt={`Behind the scenes ${index + 1}`}
                   className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
-                
-                {/* Decorative overlay */}
-                <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                  <div className="flex items-center gap-2">
-                    <div className="h-px w-12 bg-amber-400"></div>
-                    <span className="text-amber-400 text-sm font-semibold tracking-wider">VIEW FULL SIZE</span>
-                  </div>
-                </div>
               </div>
             ))}
           </div>
