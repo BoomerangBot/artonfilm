@@ -152,139 +152,44 @@ const Media = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {/* Video 1 */}
-            <div className="space-y-4">
-              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-amber-500/10 border-2 border-amber-500/20 hover:border-amber-500/40 transition-all mx-auto group cursor-pointer" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
-                <video 
-                  className="w-full h-full object-cover"
-                  controls
-                  preload="metadata"
-                  poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
-                >
-                  <source 
-                    src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/i5qz746b_WhatsApp%20Video%202025-10-31%20at%2009.38.20_f37e7469.mp4" 
-                    type="video/mp4" 
-                  />
-                  Your browser does not support the video tag.
-                </video>
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="bg-amber-500/90 backdrop-blur-sm rounded-full p-5 shadow-2xl transform group-hover:scale-110 transition-transform duration-300">
-                    <Play size={40} className="text-white" fill="white" />
-                  </div>
-                </div>
-              </div>
-              <p className="text-center text-sm text-gray-400">
-                Cinematic showcase by Carnaby International
-              </p>
-            </div>
+            <VideoPlayer
+              src="https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/i5qz746b_WhatsApp%20Video%202025-10-31%20at%2009.38.20_f37e7469.mp4"
+              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
+              playButtonColor="#f59e0b"
+              caption="Cinematic showcase by Carnaby International"
+            />
 
             {/* Video 2 */}
-            <div className="space-y-4">
-              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-purple-500/10 border-2 border-purple-500/20 hover:border-purple-500/40 transition-all mx-auto group cursor-pointer" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
-                <video 
-                  className="w-full h-full object-cover"
-                  controls
-                  preload="metadata"
-                  poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
-                >
-                  <source 
-                    src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/jvtvbukl_WhatsApp%20Video%202025-11-04%20at%2016.11.02_65f0fa6b.mp4" 
-                    type="video/mp4" 
-                  />
-                  Your browser does not support the video tag.
-                </video>
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="bg-purple-500/90 backdrop-blur-sm rounded-full p-5 shadow-2xl transform group-hover:scale-110 transition-transform duration-300">
-                    <Play size={40} className="text-white" fill="white" />
-                  </div>
-                </div>
-              </div>
-              <p className="text-center text-sm text-gray-400">
-                Artist showcase and exhibition highlights
-              </p>
-            </div>
+            <VideoPlayer
+              src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/jvtvbukl_WhatsApp%20Video%202025-11-04%20at%2016.11.02_65f0fa6b.mp4"
+              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
+              playButtonColor="#a855f7"
+              caption="Artist showcase and exhibition highlights"
+            />
 
             {/* Video 3 */}
-            <div className="space-y-4">
-              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-amber-500/10 border-2 border-amber-500/20 hover:border-amber-500/40 transition-all mx-auto group cursor-pointer" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
-                <video 
-                  className="w-full h-full object-cover"
-                  controls
-                  preload="metadata"
-                  poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
-                >
-                  <source 
-                    src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/bxb8kaqz_WhatsApp%20Video%202025-11-04%20at%2016.48.13_5977d510.mp4" 
-                    type="video/mp4" 
-                  />
-                  Your browser does not support the video tag.
-                </video>
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="bg-amber-500/90 backdrop-blur-sm rounded-full p-5 shadow-2xl transform group-hover:scale-110 transition-transform duration-300">
-                    <Play size={40} className="text-white" fill="white" />
-                  </div>
-                </div>
-              </div>
-              <p className="text-center text-sm text-gray-400">
-                Collection highlights and artist insights
-              </p>
-            </div>
+            <VideoPlayer
+              src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/bxb8kaqz_WhatsApp%20Video%202025-11-04%20at%2016.48.13_5977d510.mp4"
+              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
+              playButtonColor="#f59e0b"
+              caption="Collection highlights and artist insights"
+            />
 
-            {/* Video 4 - NEW */}
-            <div className="space-y-4">
-              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-green-500/10 border-2 border-green-500/20 hover:border-green-500/40 transition-all mx-auto group cursor-pointer" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
-                <video 
-                  className="w-full h-full object-cover"
-                  controls
-                  preload="metadata"
-                  poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
-                >
-                  <source 
-                    src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/fyfs8vn8_WhatsApp%20Video%202025-11-05%20at%2009.40.06_14b514f9.mp4" 
-                    type="video/mp4" 
-                  />
-                  Your browser does not support the video tag.
-                </video>
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="bg-green-500/90 backdrop-blur-sm rounded-full p-5 shadow-2xl transform group-hover:scale-110 transition-transform duration-300">
-                    <Play size={40} className="text-white" fill="white" />
-                  </div>
-                </div>
-              </div>
-              <p className="text-center text-sm text-gray-400">
-                Behind the scenes creative process
-              </p>
-            </div>
+            {/* Video 4 */}
+            <VideoPlayer
+              src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/fyfs8vn8_WhatsApp%20Video%202025-11-05%20at%2009.40.06_14b514f9.mp4"
+              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
+              playButtonColor="#22c55e"
+              caption="Behind the scenes creative process"
+            />
 
-            {/* Video 5 - NEW */}
-            <div className="space-y-4">
-              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-red-500/10 border-2 border-red-500/20 hover:border-red-500/40 transition-all mx-auto group cursor-pointer" style={{ maxWidth: '540px', aspectRatio: '9/16' }}>
-                <video 
-                  className="w-full h-full object-cover"
-                  controls
-                  preload="metadata"
-                  poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
-                >
-                  <source 
-                    src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/wt03gnum_WhatsApp%20Video%202025-11-05%20at%2009.43.52_75b216e3.mp4" 
-                    type="video/mp4" 
-                  />
-                  Your browser does not support the video tag.
-                </video>
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="bg-red-500/90 backdrop-blur-sm rounded-full p-5 shadow-2xl transform group-hover:scale-110 transition-transform duration-300">
-                    <Play size={40} className="text-white" fill="white" />
-                  </div>
-                </div>
-              </div>
-              <p className="text-center text-sm text-gray-400">
-                Art in motion and exhibition moments
-              </p>
-            </div>
+            {/* Video 5 */}
+            <VideoPlayer
+              src="https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/wt03gnum_WhatsApp%20Video%202025-11-05%20at%2009.43.52_75b216e3.mp4"
+              poster="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/m93gwvwh_image.png"
+              playButtonColor="#ef4444"
+              caption="Art in motion and exhibition moments"
+            />
           </div>
         </div>
       </section>
