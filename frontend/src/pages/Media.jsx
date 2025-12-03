@@ -374,34 +374,6 @@ const Media = () => {
                 GoldorLead
               </p>
             </div>
-
-            {/* Russ Thailand Video */}
-            <div className="space-y-4">
-              <div className="relative bg-zinc-900 rounded-2xl overflow-hidden shadow-2xl shadow-green-500/10 border-2 border-green-500/20 hover:border-green-500/40 transition-all group cursor-pointer">
-                <div className="relative">
-                  <video 
-                    className="w-full h-full object-cover aspect-[4/3]"
-                    controls
-                    preload="metadata"
-                  >
-                    <source 
-                      src="https://customer-assets.emergentagent.com/job_artonfilm-revamp/artifacts/92ynz877_russ%20thailand.mp4" 
-                      type="video/mp4" 
-                    />
-                    Your browser does not support the video tag.
-                  </video>
-                  {/* Centered Play Button Overlay */}
-                  <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                    <div className="bg-green-500/90 backdrop-blur-sm rounded-full p-5 shadow-2xl transform group-hover:scale-110 transition-transform duration-300">
-                      <Play size={40} className="text-white" fill="white" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <p className="text-center text-sm text-amber-400 font-semibold">
-                Russ Thailand
-              </p>
-            </div>
           </div>
         </div>
       </section>
