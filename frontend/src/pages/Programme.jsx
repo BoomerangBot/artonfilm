@@ -12,23 +12,22 @@ const Programme = () => {
         
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500/10 border border-amber-500/30 rounded-full mb-8">
-            <Film size={20} className="text-amber-400" />
-            <span className="text-amber-400 text-sm font-semibold tracking-widest">2025-26 EXHIBITION</span>
+            <ShoppingBag size={20} className="text-amber-400" />
+            <span className="text-amber-400 text-sm font-semibold tracking-widest">RETAIL PROGRAMME</span>
           </div>
           
           <h1 className="text-6xl md:text-7xl font-bold mb-6 font-serif leading-tight">
-            <span className="gradient-text">{programmeData.headline.split('/')[0]}</span>
-            <span className="text-gray-400 mx-4">/</span>
-            <span className="text-white">{programmeData.headline.split('/')[1]}</span>
+            <span className="gradient-text">{programmeData.headline}</span>
           </h1>
           
-          <p className="text-3xl text-gray-300 mb-8 font-light">
+          <p className="text-2xl text-gray-300 mb-8 font-light max-w-4xl mx-auto">
             {programmeData.subheadline}
           </p>
           
-          <div className="flex items-center justify-center gap-3 text-lg text-gray-300">
-            <Calendar size={24} className="text-amber-400" />
-            <span className="font-medium">{programmeData.tourDates}</span>
+          <div className="max-w-4xl mx-auto space-y-4 text-gray-300 text-lg leading-relaxed">
+            {programmeData.description.split('\n\n').map((para, index) => (
+              <p key={index}>{para}</p>
+            ))}
           </div>
         </div>
       </section>
