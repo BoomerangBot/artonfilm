@@ -246,14 +246,10 @@ const Programme = () => {
               </div>
             </div>
           </div>
-                    Creating lasting cultural legacy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+      </section>
 
-          {/* Event Gallery */}
+      {/* Event Gallery */}
           <div className="mb-20">
             <div className="text-center mb-12">
               <div className="inline-flex items-center gap-2 px-6 py-3 mb-6 bg-gradient-to-r from-amber-500/20 to-purple-500/20 border border-amber-400/30 rounded-full backdrop-blur-md">
