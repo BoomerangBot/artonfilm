@@ -96,9 +96,9 @@ export const keyPeople = [
 ];
 
 export const programmeData = {
-  headline: 'Through Our Eyes / One Frame Ahead',
-  subheadline: 'Fine art & social impact: Modern Eden Tour. Are you invited?',
-  tourDates: 'Nov 2025 to 2027. UK - ASIA - EU - UK. More TBC',
+  headline: 'Retail Activation Programme',
+  subheadline: 'Structured commercial activations across international markets',
+  description: 'ArtOnFilm delivers structured retail activations designed to showcase and sell commissioned contemporary artwork in targeted international markets.\n\nOur programme is not a series of isolated events; it forms part of an ongoing commercial trading cycle centered on commissioned inventory growth and repeatable sales channels.',
   cities: [
     {
       name: 'London',
@@ -122,11 +122,43 @@ export const programmeData = {
       date: 'Q4 2026'
     }
   ],
-  partners: ['Hans Alf Gallery', 'Carnaby International', 'DHS Labs'],
-  outcomes: [
-    'Touring exhibitions',
-    'Documentary film',
-    'Educational workshops'
+  partners: ['Hans Alf Gallery', 'Carnaby International', 'DHS Labs']
+};
+
+export const programmeProcessData = {
+  headline: 'How the Programme Works',
+  steps: [
+    {
+      number: 1,
+      title: 'Commission',
+      description: 'Artwork is commissioned under fixed-fee production agreements. Full ownership transfers to ArtOnFilm Ltd upon completion, and the work becomes company trading stock.'
+    },
+    {
+      number: 2,
+      title: 'Curated Activation',
+      description: 'Works are showcased within curated retail environments across selected cities, functioning as structured commercial sales channels.'
+    },
+    {
+      number: 3,
+      title: 'Retail Sale',
+      description: 'Artwork is sold directly to collectors, private clients, and corporate buyers within the normal course of retail trade.'
+    }
+  ]
+};
+
+export const continuousTradingData = {
+  headline: 'Continuous Trading Model',
+  content: 'Each activation supports the ongoing retail cycle of the company. Unsold works remain as company inventory and continue to be marketed through future activations and direct placements.\n\nThe programme represents a repeatable retail strategy rather than a discrete or standalone project.'
+};
+
+export const geographicExpansionData = {
+  headline: 'Geographic Expansion',
+  description: 'ArtOnFilm progressively extends its activation footprint to new cities and markets as inventory volume and demand increase. Growth is driven by:',
+  drivers: [
+    'Commissioned inventory scaling',
+    'Increased activation frequency',
+    'Strengthened sales infrastructure',
+    'Direct corporate engagement'
   ]
 };
 
