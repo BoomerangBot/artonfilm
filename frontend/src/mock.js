@@ -305,12 +305,12 @@ export const galleryImages = [
   'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/y1lraevv_1000054412.png'
 ];
 
-export const investmentData = {
-  headline: 'Building Cultural Capital',
-  subheadline: 'ArtOnFilm transforms creativity into long-term value.',
-  content: 'Each exhibition is built on a sustainable model where artistic merit, education, and brand visibility align. From limited-edition works and licensing to educational sponsorships, every partnership leaves a measurable legacy.',
+export const retailGrowthData = {
+  headline: 'Scalable Retail Operations',
+  subheadline: 'ArtOnFilm delivers contemporary artwork through structured commercial channels.',
+  content: 'Each activation is built on a sustainable retail model where commissioned inventory, curated presentations, and direct commercial sales align. From retail activations to corporate placements, every transaction supports ongoing inventory growth and business expansion.',
   stats: [
-    { label: '6+ Cities', sublabel: 'many more to be confirmed', value: '6+' },
+    { label: '6+ Cities', sublabel: 'expanding retail footprint', value: '6+' },
     { label: '10,000+ Visitors', value: '10K+' },
     { label: 'Global Reach', value: '100%' }
   ]
