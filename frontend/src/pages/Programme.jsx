@@ -189,17 +189,17 @@ const Programme = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <div className="inline-block px-6 py-2 bg-amber-500/10 border border-amber-500/30 rounded-full mb-6">
-              <span className="text-amber-400 text-sm font-bold tracking-wider uppercase">Programme Impact</span>
+              <span className="text-amber-400 text-sm font-bold tracking-wider uppercase">Strategic Partners</span>
             </div>
             <h2 className="text-5xl md:text-6xl font-bold mb-4 font-serif text-white">
-              Driving <span className="text-amber-400">Cultural Change</span>
+              Working With <span className="text-amber-400">Leading Partners</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Our exhibitions create lasting impact through strategic partnerships and measurable outcomes
+              Our activations are supported by established partners in art, film, and science
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20">
+          <div className="max-w-3xl mx-auto">
             {/* Partners Card - Enhanced Professional Design */}
             <div className="group relative">
               {/* Card Background with Gradient Border Effect */}
@@ -215,8 +215,8 @@ const Programme = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-3xl font-bold font-serif text-white mb-2">Strategic Partners</h3>
-                    <p className="text-gray-400 text-sm">Collaborating for cultural excellence</p>
+                    <h3 className="text-3xl font-bold font-serif text-white mb-2">Activation Partners</h3>
+                    <p className="text-gray-400 text-sm">Supporting our retail programme</p>
                   </div>
                 </div>
                 
@@ -240,54 +240,12 @@ const Programme = () => {
                 {/* Decorative Bottom Element */}
                 <div className="mt-8 pt-6 border-t border-amber-500/20">
                   <p className="text-center text-amber-400 text-sm font-medium">
-                    Building bridges through art and culture
+                    Collaborative retail activations
                   </p>
                 </div>
               </div>
             </div>
-
-            {/* Outcomes Card - Enhanced Professional Design */}
-            <div className="group relative">
-              {/* Card Background with Gradient Border Effect */}
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-3xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
-              
-              <div className="relative bg-gradient-to-br from-zinc-900/90 to-black/90 backdrop-blur-md rounded-3xl p-10 border-2 border-purple-500/30 hover:border-purple-500/50 transition-all duration-300">
-                {/* Header with Icon */}
-                <div className="flex items-start gap-4 mb-8 pb-6 border-b border-purple-500/20">
-                  <div className="relative">
-                    <div className="absolute inset-0 bg-purple-500/20 rounded-2xl blur-md"></div>
-                    <div className="relative w-16 h-16 bg-gradient-to-br from-purple-500/30 to-blue-500/30 rounded-2xl flex items-center justify-center border border-purple-500/40">
-                      <Film size={32} className="text-purple-400" />
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-3xl font-bold font-serif text-white mb-2">Expected Outcomes</h3>
-                    <p className="text-gray-400 text-sm">Measurable impact and deliverables</p>
-                  </div>
-                </div>
-                
-                {/* Outcomes List */}
-                <div className="space-y-4">
-                  {programmeData.outcomes.map((outcome, idx) => (
-                    <div 
-                      key={outcome}
-                      className="flex items-start gap-4 p-4 bg-black/30 rounded-xl border border-purple-500/10 hover:border-purple-500/30 hover:bg-black/40 transition-all group/item"
-                    >
-                      <div className="flex-shrink-0 w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center border border-purple-500/30 mt-0.5">
-                        <svg className="w-4 h-4 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                        </svg>
-                      </div>
-                      <p className="text-gray-200 text-lg font-medium leading-relaxed group-hover/item:text-white transition-colors">
-                        {outcome}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-                
-                {/* Decorative Bottom Element */}
-                <div className="mt-8 pt-6 border-t border-purple-500/20">
-                  <p className="text-center text-purple-400 text-sm font-medium">
+          </div>
                     Creating lasting cultural legacy
                   </p>
                 </div>
