@@ -250,6 +250,8 @@ const Programme = () => {
       </section>
 
       {/* Event Gallery */}
+      <section className="py-20 bg-black">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="mb-20">
             <div className="text-center mb-12">
               <div className="inline-flex items-center gap-2 px-6 py-3 mb-6 bg-gradient-to-r from-amber-500/20 to-purple-500/20 border border-amber-400/30 rounded-full backdrop-blur-md">
