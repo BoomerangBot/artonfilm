@@ -13,15 +13,78 @@ export const navigation = [
 
 export const heroData = {
   headline: 'Ethics Is Wealth · Contribution Not Content · Just Do',
-  subheadline: 'ArtOnFilm is the global promoter, curator, and connector of art, film, and human story.',
-  description: 'We don\'t sell art — we build the platforms that move it. From fine-art exhibitions and film festivals to charity events and education programmes, ArtOnFilm turns creativity into contribution.',
+  subheadline: 'Contemporary Art Retail Trading Company',
+  description: 'ArtOnFilm Ltd is a UK retail trading company that commissions and resells contemporary artwork through curated global sales activations and direct commercial placements.',
   quote: '"Art washes away all sins. Together, art and science prove that even pretty pictures can be free. Eternal life is creation — JustArt."',
   backgroundImage: 'https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxicmlnaHQlMjBhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85'
 };
 
 export const visionData = {
-  headline: 'An art company built for people, by people.',
-  content: 'ArtOnFilm Ltd (UK) forms part of AOF Group Ltd, uniting art, film, design and science under one ethical framework. We believe beauty belongs to everyone, and contribution is the highest form of creation. We measure success not by what we sell, but by what we change.'
+  headline: 'Our Business Model',
+  content: 'ArtOnFilm Ltd commissions original contemporary artwork through fixed-fee agreements with selected artists. Once completed, ownership fully transfers to the company, with each piece held as trading stock for resale as part of regular business operations.\n\nRevenue is generated exclusively through retail sales of owned inventory. ArtOnFilm does not function as an investment vehicle, fund, broker, or royalty-based enterprise.'
+};
+
+export const howWeOperateData = {
+  headline: 'HOW WE OPERATE',
+  sections: [
+    {
+      title: 'Commission',
+      content: 'We commission original works from both established and emerging artists under structured production agreements. Each commission contributes to a continuously expanding inventory cycle.'
+    },
+    {
+      title: 'Activate',
+      content: 'We execute curated retail activations in targeted international markets, serving as structured sales channels for company-owned inventory.'
+    },
+    {
+      title: 'Retail',
+      content: 'Artwork is sold directly to collectors, private buyers, and corporate clients, following the normal retail trading cycle of the business.'
+    }
+  ]
+};
+
+export const retailModelData = {
+  headline: 'OUR RETAIL MODEL',
+  content: 'ArtOnFilm employs a continuous retail model rather than isolated projects. The company\'s growth is driven by:',
+  points: [
+    'Ongoing commissioned inventory production',
+    'Repeatable activation-led sales channels',
+    'Expansion into new geographic markets',
+    'Direct commercial placements'
+  ],
+  footer: 'Each activation supports the ongoing retail trade of the company and contributes to recurring revenue generation.'
+};
+
+export const aboutCompanyData = {
+  headline: 'ABOUT ART ON FILM LTD',
+  content: 'ArtOnFilm Ltd is a UK-registered company dedicated to the commissioning, acquisition, and resale of contemporary artwork.\n\nThe business operates as a retail trading company. All artwork is acquired as trading stock and sold through structured retail channels. Media content produced by the company is solely for promotional purposes and does not generate licensing or royalty income.'
+};
+
+export const commissioningModelData = {
+  headline: 'COMMISSIONING MODEL',
+  content: 'ArtOnFilm commissions artwork under fixed production agreements.',
+  points: [
+    'Artists receive an agreed production fee',
+    'Ownership fully transfers to ArtOnFilm Ltd upon completion',
+    'Works are recorded as trading stock',
+    'Revenue is generated exclusively through retail resale'
+  ],
+  footer: 'The company does not derive income from licensing, intellectual property royalties, or distribution rights.'
+};
+
+export const activationsData = {
+  headline: 'ACTIVATIONS',
+  content: 'ArtOnFilm executes curated retail activations across selected international locations. Each activation:',
+  points: [
+    'Showcases commissioned works held as company inventory',
+    'Functions as a structured retail sales environment',
+    'Enhances brand visibility and fosters direct commercial engagement'
+  ],
+  footer: 'Activations are part of a continuous trading cycle and are not standalone or speculative projects.'
+};
+
+export const corporateClientsData = {
+  headline: 'CORPORATE & PRIVATE CLIENTS',
+  content: 'ArtOnFilm collaborates directly with corporate and private buyers seeking commissioned contemporary artwork.\n\nSales occur through direct placement agreements and activation-led retail environments. There are no revenue-sharing, royalty, or partnership structures associated with these sales.'
 };
 
 export const keyPeople = [
