@@ -76,15 +76,15 @@ const CollectionHome = () => {
         
         <div className="max-w-7xl mx-auto text-center relative z-10">
           <div className="inline-block mb-6 px-6 py-2 border border-amber-500/30 rounded-full bg-amber-500/5">
-            <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">Curated Collections</span>
+            <span className="text-amber-400 text-sm font-medium tracking-wider uppercase">Commissioned Inventory</span>
           </div>
           
           <h1 className="brand-display text-6xl md:text-7xl lg:text-8xl mb-6 bg-gradient-to-r from-white via-amber-100 to-gold bg-clip-text text-transparent">
-            Artist Collections
+            Commissioned Collections
           </h1>
           
           <p className="text-xl text-neutral-300 max-w-3xl mx-auto leading-relaxed">
-            Explore exceptional works from leading contemporary artists. Each collection tells a unique story through visual artistry.
+            Contemporary artwork commissioned and owned by ArtOnFilm Ltd as trading stock for retail sale through structured activations and direct placements.
           </p>
         </div>
       </section>
