@@ -909,19 +909,19 @@ const Home = () => {
             </div>
             
             <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif drop-shadow-lg">
-              {investmentData.headline}
+              {retailGrowthData.headline}
             </h2>
             <p className="text-2xl text-gray-300 mb-8 max-w-3xl mx-auto font-light drop-shadow-md">
-              {investmentData.subheadline}
+              {retailGrowthData.subheadline}
             </p>
             <p className="text-lg text-gray-200 leading-relaxed max-w-3xl mx-auto mb-12 drop-shadow-md">
-              {investmentData.content}
+              {retailGrowthData.content}
             </p>
           </div>
 
           {/* Stats Row */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            {investmentData.stats.map((stat, index) => (
+            {retailGrowthData.stats.map((stat, index) => (
               <div
                 key={index}
                 className="bg-gradient-to-br from-zinc-900/90 to-black/90 backdrop-blur-md rounded-2xl p-8 border border-amber-500/30 text-center group hover:border-amber-500/50 transition-all"
