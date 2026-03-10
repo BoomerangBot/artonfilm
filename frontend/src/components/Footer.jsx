@@ -52,6 +52,13 @@ const Footer = () => {
 
         {/* Legal Links & Copyright */}
         <div className="border-t border-white/10 pt-8">
+          {/* Disclaimer */}
+          <div className="mb-8 p-6 bg-gradient-to-r from-red-500/10 to-transparent border-l-4 border-red-500 rounded-r-lg">
+            <p className="text-gray-300 text-sm leading-relaxed">
+              <span className="font-semibold text-white">DISCLAIMER:</span> ArtOnFilm Ltd is a retail trading company. Artwork is commissioned and acquired as trading stock for resale through structured retail channels. The company does not operate as a financial investment vehicle, fund, broker, or film rights distributor.
+            </p>
+          </div>
+
           {/* Motto badges */}
           <div className="flex flex-wrap justify-center gap-3 mb-6">
             <div className="px-4 py-2 bg-gradient-to-r from-amber-500/10 to-transparent border border-amber-400/30 rounded-full">
