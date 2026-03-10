@@ -4,6 +4,12 @@ import { toast } from 'sonner';
 import { 
   heroData, 
   visionData,
+  howWeOperateData,
+  retailModelData,
+  aboutCompanyData,
+  commissioningModelData,
+  activationsData,
+  corporateClientsData,
   keyPeople,
   galleryImages, 
   investmentData,
