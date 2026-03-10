@@ -103,6 +103,68 @@ const Programme = () => {
         </div>
       </section>
 
+
+      {/* How the Programme Works */}
+      <section className="py-32 bg-zinc-950">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold mb-6 font-serif">{programmeProcessData.headline}</h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {programmeProcessData.steps.map((step, index) => (
+              <div key={index} className="relative">
+                <div className="absolute -inset-4 bg-gradient-to-br from-amber-500/10 to-transparent rounded-3xl blur-xl"></div>
+                <div className="relative bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-10 border border-white/10 hover:border-amber-500/30 transition-all h-full">
+                  <div className="w-16 h-16 bg-amber-500 rounded-full flex items-center justify-center text-black font-bold text-3xl mb-6">
+                    {step.number}
+                  </div>
+                  <h3 className="text-2xl font-bold text-amber-400 mb-4">{step.title}</h3>
+                  <p className="text-gray-300 leading-relaxed">{step.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Continuous Trading Model */}
+      <section className="py-32 bg-black">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-12 border border-white/10">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-serif text-center">
+              {continuousTradingData.headline}
+            </h2>
+            <div className="prose prose-invert max-w-none">
+              {continuousTradingData.content.split('\n\n').map((paragraph, index) => (
+                <p key={index} className="text-xl text-gray-300 leading-relaxed mb-6 text-center">{paragraph}</p>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Geographic Expansion */}
+      <section className="py-32 bg-zinc-950">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 font-serif text-center">
+            {geographicExpansionData.headline}
+          </h2>
+          <p className="text-xl text-gray-300 mb-8 text-center">{geographicExpansionData.description}</p>
+          
+          <div className="bg-gradient-to-br from-green-500/5 to-transparent rounded-2xl p-10 border border-green-500/20">
+            <div className="grid md:grid-cols-2 gap-6">
+              {geographicExpansionData.drivers.map((driver, index) => (
+                <div key={index} className="flex items-start gap-3">
+                  <TrendingUp size={24} className="text-green-400 flex-shrink-0 mt-1" />
+                  <span className="text-gray-200 text-lg">{driver}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Details - More Artistic with Background Image */}
       <section className="py-32 relative overflow-hidden">
         {/* Background Image with Overlays */}
