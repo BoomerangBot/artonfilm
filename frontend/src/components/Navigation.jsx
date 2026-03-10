@@ -12,7 +12,8 @@ const Navigation = () => {
 
   const mainNavigation = [
     { name: 'Home', path: '/' },
-    { name: 'Programme', path: '/programme' }
+    { name: 'Programme', path: '/programme' },
+    { name: 'About', path: '/about' }
   ];
 
   const supportItems = [
