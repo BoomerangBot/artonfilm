@@ -1160,7 +1160,7 @@ const Home = () => {
 
           <div className="text-center">
             <p className="text-gray-400 text-lg">
-              Every exhibition, every sale, every partnership contributes to these vital causes.
+              Every exhibition, every sale, every sponsorship contributes to these vital causes.
             </p>
           </div>
         </div>
