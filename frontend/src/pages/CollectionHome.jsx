@@ -7,14 +7,14 @@ const CollectionHome = () => {
     {
       id: 1,
       name: 'Natasha Kissell',
-      title: 'Award-Winning Artist',
-      description: 'Romance in architecture · Grace in modernity',
-      subtitle: 'Her Modern Eden collection transforms skylines into reflections of hope — bridging Chelsea rooftops, Warsaw courtyards and Singapore gardens.',
+      title: 'Commissioned Collection',
+      description: 'Contemporary artwork commissioned as part of company inventory',
+      subtitle: 'The Modern Eden series forms part of ArtOnFilm Ltd's commissioned retail inventory, produced under fixed-fee agreements and held as trading stock.',
       features: [
-        '✦ Original paintings & limited edition prints',
-        '✦ Featured in international auctions & corporate collections',
-        '✦ Private commissions available',
-        'Mission: Give — Commission proceeds create Meaningful Impact for charitable causes'
+        'Original paintings commissioned by ArtOnFilm Ltd',
+        'Owned outright as trading stock',
+        'Available through retail activations',
+        'Proceeds support ongoing inventory growth'
       ],
       image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg',
       path: '/collection/natasha-kissell',
@@ -25,14 +25,15 @@ const CollectionHome = () => {
     {
       id: 2,
       name: 'Dr Chris Lee',
-      subtitle: 'JustXR1 / Big City Short Life',
-      title: 'Urban Photographer',
-      description: 'The city breathes. We listen.',
-      subtitle2: 'Photography that captures the heartbeat between chaos and calm',
+      subtitle: 'JustXR1 – Commissioned Photography',
+      title: 'Urban Photography Collection',
+      description: 'Contemporary urban photography held as company inventory',
+      subtitle2: 'Commissioned photography series documenting contemporary urban life, produced under fixed-fee agreement and owned by ArtOnFilm Ltd as trading stock.',
       features: [
-        'Award-winning photography',
-        'Original and limited edition collections',
-        'All sales support the Lens2Care programme for youth and mental health'
+        'Photography commissioned by ArtOnFilm Ltd',
+        'Owned outright as trading stock',
+        'Available through retail channels',
+        'Part of continuous inventory cycle'
       ],
       image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/1z5jlpab_file_00000000b81461f4a29365c740e75d5b%20%281%29.png',
       path: '/collection/chris-lee',
@@ -42,9 +43,9 @@ const CollectionHome = () => {
     },
     {
       id: 3,
-      name: 'To Be Announced',
-      title: 'Featured Artist',
-      description: 'Lens2Care, Film4Fun & OneFrameAhead. Work-in-progress tour to begin soon.',
+      name: 'Future Commissions',
+      title: 'In Development',
+      description: 'Additional collections being commissioned as part of inventory growth strategy.',
       image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwzfHxhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85',
       path: '#',
       icon: Clock,
@@ -53,9 +54,9 @@ const CollectionHome = () => {
     },
     {
       id: 4,
-      name: 'To Be Announced',
-      title: 'Featured Artist',
-      description: 'Patron of Giving: Art wants YOU!! Sign up today & JUSTDo. ArtOnTour..',
+      name: 'Future Commissions',
+      title: 'In Development',
+      description: 'New works being commissioned to expand company inventory.',
       image: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHw1fHxhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85',
       path: '#',
       icon: Clock,
