@@ -74,7 +74,7 @@ const Footer = () => {
               &copy; 2025 ArtOnFilm.uk · All Rights Reserved
             </p>
             <p className="text-gray-300 text-sm font-medium">
-              Ethics Is Wealth · Contribution Not Content · Just Do
+              Ethics Is Wealth · Just Do
             </p>
             <p className="text-gray-400 text-sm italic max-w-2xl mx-auto">
               Join us to turn culture into contribution and light into legacy.
