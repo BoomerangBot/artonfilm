@@ -1756,7 +1756,7 @@ const Home = () => {
             </h3>
             <div className="space-y-3 text-gray-300 leading-relaxed">
               <p>Membership is commercial participation, not a charitable donation or financial promotion.</p>
-              <p>Event benefits subject to availability and partner approval.</p>
+              <p>Event benefits subject to availability and sponsor approval.</p>
               <p>All operations adhere to UK/EU GDPR.</p>
               <p className="text-amber-100 font-medium pt-3 border-t border-amber-500/20">
                 ArtOnFilm Ltd reserves the right to adjust benefits to maintain legal and ethical compliance.
