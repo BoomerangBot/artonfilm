@@ -12,7 +12,7 @@ export const navigation = [
 ];
 
 export const heroData = {
-  headline: 'Ethics Is Wealth · Contribution Not Content · Just Do',
+  headline: 'Ethics Is Wealth · Just Do',
   subheadline: 'Contemporary Art Retail Trading Company',
   description: 'ArtOnFilm Ltd is a UK retail trading company that commissions and resells contemporary artwork through curated global sales activations and direct commercial placements.',
   quote: '"Art washes away all sins. Together, art and science prove that even pretty pictures can be free. Eternal life is creation — JustArt."',
