@@ -16,6 +16,7 @@ import Contact from './pages/Contact';
 import Shop from './pages/Shop';
 import CollectionHome from './pages/CollectionHome';
 import ChrisLeeCollection from './pages/ChrisLeeCollection';
+import About from './pages/About';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import GDPRPolicy from './pages/GDPRPolicy';
 import Terms from './pages/Terms';
