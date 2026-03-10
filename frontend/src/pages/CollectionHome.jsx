@@ -9,7 +9,7 @@ const CollectionHome = () => {
       name: 'Natasha Kissell',
       title: 'Commissioned Collection',
       description: 'Contemporary artwork commissioned as part of company inventory',
-      subtitle: 'The Modern Eden series forms part of ArtOnFilm Ltd's commissioned retail inventory, produced under fixed-fee agreements and held as trading stock.',
+      subtitle: 'The Modern Eden series forms part of ArtOnFilm Ltd commissioned retail inventory, produced under fixed-fee agreements and held as trading stock.',
       features: [
         'Original paintings commissioned by ArtOnFilm Ltd',
         'Owned outright as trading stock',
