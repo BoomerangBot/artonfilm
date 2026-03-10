@@ -12,7 +12,7 @@ import {
   corporateClientsData,
   keyPeople,
   galleryImages, 
-  investmentData,
+  retailGrowthData,
   impactTransparencyData,
   partnersVenuesData,
   behindCameraData,
