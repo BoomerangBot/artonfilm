@@ -905,7 +905,7 @@ const Home = () => {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500/10 border border-amber-500/30 rounded-full mb-8 backdrop-blur-sm">
               <TrendingUp size={20} className="text-amber-400" />
-              <span className="text-amber-400 text-sm font-semibold tracking-widest">FOR PATRONS</span>
+              <span className="text-amber-400 text-sm font-semibold tracking-widest">Platform Supporters</span>
             </div>
             
             <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif drop-shadow-lg">
