@@ -13,10 +13,10 @@ const Contact = () => {
   });
 
   const subjects = [
-    'Founding Patron 2025',
-    'Corporate Partnership 2025',
-    'Embassy / Institute Support',
-    'Press / Media Inquiry',
+    'Artwork acquisition',
+    'Private viewings',
+    'Upcoming collection releases',
+    'Retail collaborations',
     'General Inquiry'
   ];
 
@@ -58,34 +58,37 @@ const Contact = () => {
             <MessageCircle size={40} className="text-black" />
           </div>
           
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 font-serif">
-            Get Involved
+          <h1 className="text-5xl md:text-6xl font-bold mb-8 font-serif">
+            Enquiries regarding:
           </h1>
           
-          <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Contact us to discuss partnership opportunities, patron membership, or media inquiries.
+          <ul className="text-xl text-gray-300 max-w-2xl mx-auto text-left space-y-2 mb-8">
+            <li className="flex items-start gap-3">
+              <span className="text-amber-500 mt-1">•</span>
+              <span>Artwork acquisition</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-amber-500 mt-1">•</span>
+              <span>Private viewings</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-amber-500 mt-1">•</span>
+              <span>Upcoming collection releases</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-amber-500 mt-1">•</span>
+              <span>Retail collaborations</span>
+            </li>
+          </ul>
+          
+          <p className="text-xl text-gray-400">
+            Contact ArtOnFilm Ltd directly.
           </p>
         </div>
       </section>
 
-      {/* Contact Info */}
+      {/* Contact Form */}
       <section className="py-16">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-8 border border-amber-500/20 text-center">
-            <Mail size={32} className="text-amber-400 mx-auto mb-4" />
-            <p className="text-gray-400 mb-2">Email us directly at</p>
-            <a
-              href="mailto:justart@artonfilm.uk"
-              className="text-2xl md:text-3xl font-semibold text-amber-400 hover:text-amber-300 transition-colors"
-            >
-              justart@artonfilm.uk
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Form - More Artistic */}
-      <section className="py-16 pb-32">
         <div className="max-w-3xl mx-auto px-6 lg:px-8">
           <div className="bg-gradient-to-br from-zinc-900 via-zinc-900 to-black rounded-3xl p-8 md:p-12 border border-white/10 shadow-2xl">
             <div className="text-center mb-10">
@@ -176,6 +179,22 @@ const Contact = () => {
                 Send Message
               </button>
             </form>
+          </div>
+        </div>
+      </section>
+
+      {/* Email Card - Bottom */}
+      <section className="pb-32">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-3xl p-8 border border-amber-500/20 text-center">
+            <Mail size={32} className="text-amber-400 mx-auto mb-4" />
+            <p className="text-gray-400 mb-2">Email us directly at</p>
+            <a
+              href="mailto:justart@artonfilm.uk"
+              className="text-2xl md:text-3xl font-semibold text-amber-400 hover:text-amber-300 transition-colors"
+            >
+              justart@artonfilm.uk
+            </a>
           </div>
         </div>
       </section>
