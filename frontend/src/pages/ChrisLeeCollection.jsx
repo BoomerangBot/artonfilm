@@ -57,6 +57,103 @@ const ChrisLeeCollection = () => {
         </div>
       </section>
 
+      {/* Collection Filter & Artwork Grid - Pictures First */}
+      <section className="py-20 bg-zinc-950">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 font-serif">
+              Current Inventory
+            </h2>
+            <p className="text-xl text-gray-400 mb-8">
+              {filteredArtworks.length} works available for retail sale
+            </p>
+
+            {/* Filter Buttons */}
+            <div className="flex flex-wrap gap-4 justify-center">
+              <button
+                onClick={() => setSelectedCollection('all')}
+                className={`px-6 py-3 rounded-full font-semibold transition-all ${
+                  selectedCollection === 'all'
+                    ? 'bg-amber-500 text-black'
+                    : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
+                }`}
+              >
+                All Works ({allArtworks.length})
+              </button>
+              <button
+                onClick={() => setSelectedCollection('urban')}
+                className={`px-6 py-3 rounded-full font-semibold transition-all ${
+                  selectedCollection === 'urban'
+                    ? 'bg-amber-500 text-black'
+                    : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
+                }`}
+              >
+                <Camera className="inline mr-2" size={18} />
+                Urban ({chrisLeeArtworks.length})
+              </button>
+              <button
+                onClick={() => setSelectedCollection('music')}
+                className={`px-6 py-3 rounded-full font-semibold transition-all ${
+                  selectedCollection === 'music'
+                    ? 'bg-amber-500 text-black'
+                    : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
+                }`}
+              >
+                Music ({chrisLeeMusicArtworks.length})
+              </button>
+              <button
+                onClick={() => setSelectedCollection('color')}
+                className={`px-6 py-3 rounded-full font-semibold transition-all ${
+                  selectedCollection === 'color'
+                    ? 'bg-amber-500 text-black'
+                    : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
+                }`}
+              >
+                Color ({chrisLeeColorArtworks.length})
+              </button>
+            </div>
+          </div>
+
+          {/* Artwork Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {filteredArtworks.map((artwork) => (
+              <div
+                key={artwork.id}
+                className="group relative bg-gradient-to-br from-zinc-900 to-black rounded-2xl overflow-hidden border border-white/10 hover:border-amber-500/30 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-500/10"
+              >
+                <div className="relative aspect-[3/4] overflow-hidden">
+                  <img
+                    src={artwork.image}
+                    alt={artwork.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                </div>
+
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">
+                    {artwork.title}
+                  </h3>
+                  <p className="text-sm text-gray-400 mb-4">
+                    {artwork.medium} • {artwork.dimensions}
+                  </p>
+                  <p className="text-gray-300 text-sm mb-4 line-clamp-2">
+                    {artwork.description}
+                  </p>
+                  
+                  <button
+                    onClick={() => handleInquiry(artwork)}
+                    className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/30"
+                  >
+                    Inquire About Purchase
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* About the Collection */}
       <section className="py-20 bg-zinc-950">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
@@ -203,103 +300,6 @@ const ChrisLeeCollection = () => {
                 <p className="font-semibold text-white">There are no revenue-sharing, royalty, or investment structures associated with artwork purchases.</p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Collection Filter */}
-      <section className="py-20 bg-zinc-950">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 font-serif">
-              Current Inventory
-            </h2>
-            <p className="text-xl text-gray-400 mb-8">
-              {filteredArtworks.length} works available for retail sale
-            </p>
-
-            {/* Filter Buttons */}
-            <div className="flex flex-wrap gap-4 justify-center">
-              <button
-                onClick={() => setSelectedCollection('all')}
-                className={`px-6 py-3 rounded-full font-semibold transition-all ${
-                  selectedCollection === 'all'
-                    ? 'bg-amber-500 text-black'
-                    : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
-                }`}
-              >
-                All Works ({allArtworks.length})
-              </button>
-              <button
-                onClick={() => setSelectedCollection('urban')}
-                className={`px-6 py-3 rounded-full font-semibold transition-all ${
-                  selectedCollection === 'urban'
-                    ? 'bg-amber-500 text-black'
-                    : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
-                }`}
-              >
-                <Camera className="inline mr-2" size={18} />
-                Urban ({chrisLeeArtworks.length})
-              </button>
-              <button
-                onClick={() => setSelectedCollection('music')}
-                className={`px-6 py-3 rounded-full font-semibold transition-all ${
-                  selectedCollection === 'music'
-                    ? 'bg-amber-500 text-black'
-                    : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
-                }`}
-              >
-                Music ({chrisLeeMusicArtworks.length})
-              </button>
-              <button
-                onClick={() => setSelectedCollection('color')}
-                className={`px-6 py-3 rounded-full font-semibold transition-all ${
-                  selectedCollection === 'color'
-                    ? 'bg-amber-500 text-black'
-                    : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
-                }`}
-              >
-                Color ({chrisLeeColorArtworks.length})
-              </button>
-            </div>
-          </div>
-
-          {/* Artwork Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredArtworks.map((artwork) => (
-              <div
-                key={artwork.id}
-                className="group relative bg-gradient-to-br from-zinc-900 to-black rounded-2xl overflow-hidden border border-white/10 hover:border-amber-500/30 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-500/10"
-              >
-                <div className="relative aspect-[3/4] overflow-hidden">
-                  <img
-                    src={artwork.image}
-                    alt={artwork.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                </div>
-
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">
-                    {artwork.title}
-                  </h3>
-                  <p className="text-sm text-gray-400 mb-4">
-                    {artwork.medium} • {artwork.dimensions}
-                  </p>
-                  <p className="text-gray-300 text-sm mb-4 line-clamp-2">
-                    {artwork.description}
-                  </p>
-                  
-                  <button
-                    onClick={() => handleInquiry(artwork)}
-                    className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/30"
-                  >
-                    Inquire About Purchase
-                  </button>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
