@@ -26,7 +26,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/patrons" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Become a Patron
+                  Become a Sponsor
                 </Link>
               </li>
               <li>

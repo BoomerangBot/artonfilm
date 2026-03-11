@@ -208,14 +208,14 @@ const Impact = () => {
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-5xl font-bold mb-6 font-serif text-white">Join the Movement</h2>
           <p className="text-xl text-gray-200 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Be part of something bigger. Every contribution supports education, mental health, and the patient voice.
+            Be part of something bigger. Support our retail activations and commissioned collections.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
               to="/patrons"
               className="inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-110 shadow-2xl shadow-amber-500/50"
             >
-              Become a Patron
+              Become a Sponsor
               <ArrowRight size={20} />
             </Link>
             <Link

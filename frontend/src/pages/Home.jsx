@@ -879,7 +879,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Patronage in Culture Section */}
+      {/* Platform Supporters Section */}
       <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
         {/* Background with Plane Image */}
         <div 
@@ -1070,16 +1070,16 @@ const Home = () => {
         
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-6 py-3 bg-red-500/10 border border-red-500/30 rounded-full mb-8">
-              <Heart size={20} className="text-red-400" />
-              <span className="text-red-400 text-sm font-semibold tracking-widest">GIVING BACK</span>
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500/10 border border-amber-500/30 rounded-full mb-8">
+              <Heart size={20} className="text-amber-400" />
+              <span className="text-amber-400 text-sm font-semibold tracking-widest">COMMUNITY</span>
             </div>
             
             <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif">
-              ArtOnFilm Family & Memberships
+              ArtOnFilm Network
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-12">
-              We aim to support vital charitable causes, making a difference beyond the gallery walls.
+              Our network of collaborators and supporters.
             </p>
           </div>
 
@@ -1326,7 +1326,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Membership with Patron Levels */}
+      {/* Quote Section */}
       {/* The Unknown Salesman - Quote 6 (Vision) */}
       <section className="py-20 bg-gradient-to-r from-purple-900/20 via-black to-green-900/20 relative overflow-hidden">
         <div className="absolute inset-0">
@@ -1342,7 +1342,7 @@ const Home = () => {
               <div className="h-px w-12 bg-gradient-to-r from-transparent via-green-400 to-transparent"></div>
               <div>
                 <p className="text-lg font-bold text-green-400">The Unknown Salesman</p>
-                <p className="text-sm text-gray-400 uppercase tracking-wider">Patron of Giving</p>
+                <p className="text-sm text-gray-400 uppercase tracking-wider">Art & Commerce</p>
               </div>
               <div className="h-px w-12 bg-gradient-to-r from-transparent via-green-400 to-transparent"></div>
             </div>
@@ -1524,7 +1524,7 @@ const Home = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">•</span>
-                  <span>Corporate memberships may qualify for tax relief under <span className="text-white font-semibold">HMRC BIM45045 / CTA 2009 s54</span></span>
+                  <span>Corporate sponsorships may qualify for tax relief under <span className="text-white font-semibold">HMRC BIM45045 / CTA 2009 s54</span></span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">•</span>
@@ -1545,7 +1545,7 @@ const Home = () => {
               Risk Notice
             </h3>
             <div className="space-y-3 text-gray-300 leading-relaxed">
-              <p>Membership is commercial participation, not a charitable donation or financial promotion.</p>
+              <p>Sponsorship is commercial participation, not a charitable donation or financial promotion.</p>
               <p>Event benefits subject to availability and sponsor approval.</p>
               <p>All operations adhere to UK/EU GDPR.</p>
               <p className="text-amber-100 font-medium pt-3 border-t border-amber-500/20">
@@ -1799,7 +1799,7 @@ const Home = () => {
               Stay in the Frame
             </h2>
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-              Join the ArtOnFilm Giving Circle for exhibition updates, patron opportunities, and early access to limited editions.
+              Join the ArtOnFilm mailing list for exhibition updates, new inventory releases, and early access to limited editions.
             </p>
 
             <form onSubmit={handleNewsletterSubmit} className="max-w-xl mx-auto">

@@ -3,7 +3,7 @@
 export const navigation = [
   { name: 'Home', path: '/' },
   { name: 'Programme', path: '/programme' },
-  { name: 'Patrons', path: '/patrons' },
+  { name: 'Sponsorship', path: '/patrons' },
   { name: 'Partners', path: '/partners' },
   { name: 'Institutional', path: '/institutional' },
   { name: 'Impact', path: '/impact' },
@@ -162,16 +162,15 @@ export const geographicExpansionData = {
 };
 
 export const patronData = {
-  headline: 'Become a Founding Patron',
-  subheadline: 'Join the circle that makes art diplomacy possible.',
-  contribution: 'GBP 2,000 to GBP 5,000 per year',
+  headline: 'Support Our Work',
+  subheadline: 'Become a sponsor of contemporary art retail.',
+  contribution: 'Various sponsorship levels available',
   benefits: [
-    'Recognition in catalogue and film credits',
-    'Private London preview',
-    'First access to new works and editions',
-    'Invitations to European openings and dinners',
-    'Annual Patron Forum in London',
-    'Signed Certificate of Founding Patronage'
+    'Recognition in promotional materials',
+    'Private viewing invitations',
+    'First access to new inventory',
+    'Invitations to retail activation events',
+    'Annual sponsor update'
   ]
 };
 
@@ -210,16 +209,16 @@ export const corporateData = {
       ]
     }
   ],
-  csrNote: 'Financial or in-kind support welcome. Every partnership funds accessibility, education, and health-charity programmes.'
+  csrNote: 'Financial or in-kind support welcome. Sponsorship supports retail activations and promotional activities.'
 };
 
 export const institutionalData = {
   headline: 'Cultural Collaboration Invitation',
-  content: 'ArtOnFilm invites embassies and cultural institutes to support the 2025-26 tour through endorsement, venue hosting, media collaboration, or introductions to local networks. No direct funding requested - only symbolic and logistical partnership.'
+  content: 'ArtOnFilm invites embassies and cultural institutes to support the 2025-26 tour through endorsement, venue hosting, media collaboration, or introductions to local networks. No direct funding requested - only symbolic and logistical collaboration.'
 };
 
 export const impactData = {
-  headline: 'Art That Gives Back',
+  headline: 'Our Reach',
   stats: [
     {
       area: 'Public Reach',
@@ -456,12 +455,12 @@ export const quotes = {
     together: "You don't build a business. You build people and people build the business."
   },
   unknownSalesman: {
-    artAndSales: "Sales is sales, art is art, first we must sell to allow art to JustGive back. Needs must when Art&Science combine.",
-    exposure: "There is no guarantee, no financial return on membership, there is just pretty pictures: Exposure is priceless.",
+    artAndSales: "Sales is sales, art is art, first we must sell. Needs must when Art&Science combine.",
+    exposure: "There is no guarantee, no financial return on sponsorship, there is just pretty pictures: Exposure is priceless.",
     adventure: "Good, bad, win or lose. A feeling is not guaranteed. Adventure, Creation, JustArt. SILVER SCREEN & PERKS. WE aim to JustGive. Together we JustDo.",
     life: "Death & Taxes...not today thanks. LIFE:1ST, together the world is yours.",
     disclaimer: "Disclaimer: images maybe altered. Want ORIGINAL sure.. buy now.",
-    vision: "Love the idea, feel the concept, want to show us the way. Join today as Patron of Giving and we support your vision. Together creating tomorrow, today."
+    vision: "Love the idea, feel the concept, want to show us the way. Join today as a supporter and we support your vision. Together creating tomorrow, today."
   }
 };
 
@@ -547,94 +546,71 @@ export const exhibitionsToursData = {
 };
 
 export const membershipData = {
-  title: 'ArtOnGiving — Perks of Giving',
-  subtitle: 'We\'re not a charity — we just choose to give.',
-  description: 'ArtOnFilm Ltd is Impact-Driven. We contribute substantially from our revenue directly to registered international charities supporting mental health, patient care, and diagnostic R&D. Premium projects create even greater Meaningful Impact for these vital causes.',
-  quote: '"Art washes away all sins. Together, art and science might prove that even pretty pictures could be free."',
-  subQuote: '° Ethics + Exposure + pretty pictures = who knows...let\'s find out °',
-  attribution: '>Not quoted by Albert Einstein.',
-  patronLevels: [
+  title: 'Sponsorship Tiers',
+  subtitle: 'Support contemporary art retail.',
+  description: 'ArtOnFilm Ltd offers sponsorship opportunities for individuals and businesses who wish to support our retail activations and promotional activities. Sponsorship is a commercial arrangement and does not constitute investment, donation, or charitable contribution.',
+  quote: '"Art washes away all sins."',
+  subQuote: '° Ethics + Exposure = Commercial Success °',
+  attribution: '',
+  sponsorLevels: [
     {
-      tier: '💠 £5 000 · Supporter of Light',
+      tier: '£5,000 · Bronze Sponsor',
       benefits: [
-        'Invitations to all UK events (space permitting)',
-        'Two guaranteed UK/EU events per year with basic travel & hospitality included',
-        'Access to 30 + ArtOnFilm & Friends of Giving experiences — red carpet, heritage, sports',
-        'Friends of Giving Network privileges + 10 % partner savings (partner & product terms may vary)',
-        'Optional art token: one signed 1/20 photograph by Dr Chris Lee (Lens2Care or Big City Short Life) or donate its value instead',
-        'Recognition on the Roll of Light'
+        'Invitations to UK retail activation events',
+        'Recognition in promotional materials',
+        'Access to sponsor networking events',
+        'Early access to new inventory releases'
       ],
-      tagline: 'You don\'t buy art — you buy into action.'
+      tagline: 'Support the art retail industry.'
     },
     {
-      tier: '💎 £15 000 · Patron of Grace',
+      tier: '£15,000 · Silver Sponsor',
       benefits: [
-        'All Supporter benefits + four guaranteed events per year',
-        'Flights + two nights hotel for two to any EU event',
-        'Invitations to Chelsea Art & Giving Gala and Copenhagen Modern Eden Dinner',
-        'Brand visibility at one ArtOnFilm / Kissell / Carnaby International showcase',
-        'Carnaby AV Privilege — festival access (Cannes · Berlinale · Raindance) + 15 % design discount',
-        'Optional token: one 1/10 or two 1/20 editions — or donate value directly',
-        'Listed as Patron of Grace in the Roll of Light and Annual Impact Report'
+        'All Bronze benefits plus priority event access',
+        'Brand visibility at retail activations',
+        'Networking opportunities with collectors',
+        'Recognition in annual sponsor report'
       ],
-      tagline: 'Grace is what you leave behind.'
+      tagline: 'Elevate your brand through art.'
     },
     {
-      tier: '👑 £25 000 + · Founder of Legacy',
+      tier: '£25,000+ · Gold Sponsor',
       benefits: [
-        'All Patron benefits + naming rights for one annual ArtOnGiving or Lens2Care initiative',
-        'Private charity/networking event arranged for you by ArtOnFilm at a premier venue',
-        'Invitations to global film & culture summits with flights + two-night EU hospitality for two',
-        'Carnaby Silver Screen VIP — red-carpet placement + festival credit',
-        '25 % partner discount on Carnaby AV & ArtOnDesign projects (terms my vary)',
-        'Lifetime inscription in the Legacy Circle of Light',
-        'Optional art token: one original (1/1) or three 1/10 editions — or convert to direct giving'
+        'All Silver benefits plus premium brand placement',
+        'Speaking opportunities at events',
+        'Custom collaboration opportunities',
+        'VIP access to international activations'
       ],
-      tagline: 'Legacy is not wealth — it\'s what you create for others.'
-    },
-    {
-      tier: '💎 £100 000 + · Founder of Grace & Giving',
-      headline: 'When giving becomes legacy, eternal life, is it creation?',
-      benefits: [
-        'All Founder benefits plus one exclusive Natasha Kissell "Just4You" commission, artist\'s vision preserved',
-        'Modern Eden Art & Science exhibition by Kissel brought to a city of your choice — curated and hosted by ArtOnFilm as part of the ArtOnTour programme',
-        'Full access to the ArtOnFilm network (Carnaby International, Carnaby AV, DHS Labs Berlin)',
-        'VIP invitations for Singapore 2025 and Copenhagen 2026 flagships',
-        'ArtOnFilm donates 30 % of its income from this tier directly to registered charities',
-        'Optional participation in Lens2Care and ArtOnTour education events'
-      ],
-      tagline: '•True wealth is the light you leave behind•'
+      tagline: 'Premium commercial exposure.'
     }
   ],
   closingStatements: [
-    '•True giving balance nor be bought.•',
-    '• Ethics is wealth & contribution not content offer a unique new membership platform that gives back.•',
-    '•JustArt•JustGive•JustDo•',
-    'Silver Screen & Glamorous',
-    'Grace by ArtOnFilm presents:'
+    'Sponsorship is a commercial arrangement.',
+    'All contributions support retail trading activities.',
+    'No investment returns or equity rights are created.'
   ]
 };
 
 export const artOnGivingData = {
-  headline: 'ART ON GIVING',
-  subheadline: 'The Festival of Humanity',
-  description: 'ArtOnGiving is the philanthropic heart of ArtOnFilm — linking art, film, academia and embassies to create projects that heal and teach.',
-  quote: 'You — the patron — have the power to shine the eternal light of creation.',
+  headline: 'COMMUNITY ENGAGEMENT',
+  subheadline: 'Art for Everyone',
+  description: 'ArtOnFilm supports community engagement through retail activations and educational programming.',
+  quote: 'Art has the power to inspire and connect.',
   author: 'Russell Hamilton',
   title: 'Co-Founder of ArtOnFilm'
 };
 
 export const givingModelData = {
-  headline: 'THE 5·5·5 MODEL',
-  subheadline: 'JustGive2Support™',
-  description: 'At every event, giving is shared fairly:',
-  breakdown: '£15 Ticket',
+  headline: 'OUR APPROACH',
+  subheadline: 'Retail-First Model',
+  description: 'ArtOnFilm operates as a retail trading company:',
+  breakdown: 'Business Model',
   breakdownDetails: [
-    { label: 'Host', amount: '£5' },
-    { label: 'Charity', amount: '£5' },
-    { label: 'ArtOnFilm', amount: '£5' }
+    { label: 'Commission', amount: 'Fixed-fee' },
+    { label: 'Own', amount: 'Trading stock' },
+    { label: 'Sell', amount: 'Retail' }
   ],
-  footer: 'A transparent cycle where culture and kindness grow together. Anyone may host an event within this model and earn while they give.'
+  footer: 'A straightforward retail trading cycle. All revenue is generated through artwork sales.'
 };
 
 export const partnersData = {
@@ -654,7 +630,7 @@ export const ethicsPrivacyData = {
   sections: [
     {
       title: 'Data Use',
-      content: 'Personal data is handled with respect and stored securely on UK / EU servers. We collect only what is necessary to manage membership, events and communications. You may request access or erasure at any time via privacy@artonfilm.uk.'
+      content: 'Personal data is handled with respect and stored securely on UK / EU servers. We collect only what is necessary to manage sponsorships, events and communications. You may request access or erasure at any time via privacy@artonfilm.uk.'
     },
     {
       title: 'Attendance & Liability',
@@ -662,7 +638,7 @@ export const ethicsPrivacyData = {
     },
     {
       title: 'Refunds & Sponsorship',
-      content: 'Contributions are voluntary donations or sponsorships; no profit or equity rights are created.'
+      content: 'Sponsorship contributions are commercial arrangements; no profit or equity rights are created.'
     },
     {
       title: 'Fair Use & Copyright',
