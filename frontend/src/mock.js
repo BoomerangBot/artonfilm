@@ -108,7 +108,7 @@ export const programmeData = {
       name: 'Copenhagen',
       image: 'https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=1200',
       date: 'February 2026',
-      subtitle: 'Hans Alf Gallery: Kissell Eternal & glamourous home of fine Art.'
+      subtitle: 'Carnaby AV: Kissell Eternal & glamourous home of fine Art.'
     },
     {
       name: 'Berlin',
@@ -121,7 +121,7 @@ export const programmeData = {
       date: 'Q4 2026'
     }
   ],
-  partners: ['Hans Alf Gallery', 'Carnaby International', 'DHS Labs']
+  partners: ['Carnaby AV', 'Carnaby International', 'DHS Labs']
 };
 
 export const programmeProcessData = {
@@ -341,13 +341,13 @@ export const partnersVenuesData = {
   content: 'Our partners span art, film, hospitality, and science - united by one belief: culture creates connection.',
   partners: [
     {
-      name: 'Hans Alf Gallery',
+      name: 'Carnaby AV',
       location: 'Copenhagen',
       logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/ryh5nhf5_hansalfgallery.jpeg',
       website: 'http://hansalf.com/',
       instagram: 'https://instagram.com/hansalfgallery',
       facebook: 'https://facebook.com/hansalfgallery',
-      description: 'Hans Alf Gallery is a premier contemporary art space in Copenhagen, showcasing exceptional works from international artists.'
+      description: 'Carnaby AV is a premier contemporary art space, showcasing exceptional works from international artists.'
     },
     {
       name: 'Carnaby International',
@@ -598,7 +598,7 @@ export const membershipData = {
       benefits: [
         'All Founder benefits plus one exclusive Natasha Kissell "Just4You" commission, artist\'s vision preserved',
         'Modern Eden Art & Science exhibition by Kissel brought to a city of your choice — curated and hosted by ArtOnFilm as part of the ArtOnTour programme',
-        'Full access to the ArtOnFilm network (Carnaby International, Hans Alf Gallery, DHS Labs Berlin)',
+        'Full access to the ArtOnFilm network (Carnaby International, Carnaby AV, DHS Labs Berlin)',
         'VIP invitations for Singapore 2025 and Copenhagen 2026 flagships',
         'ArtOnFilm donates 30 % of its income from this tier directly to registered charities',
         'Optional participation in Lens2Care and ArtOnTour education events'
