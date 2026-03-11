@@ -1445,64 +1445,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* THE 5·5·5 MODEL — JustGive2Support™ */}
-      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
-        {/* Bright colorful accent - bottom right */}
-        <div 
-          className="absolute bottom-0 right-0 w-80 h-80 opacity-15 mix-blend-screen"
-          style={{
-            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/lfqa35q2_22.jpeg)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            borderRadius: '50%',
-            transform: 'translate(25%, 25%)',
-            filter: 'saturate(1.4) brightness(1.2)'
-          }}
-        ></div>
-        <div className="absolute inset-0 soft-light-center"></div>
-        
-        <div className="relative max-w-5xl mx-auto px-6 lg:px-8 z-10">
-          <div className="bg-gradient-to-br from-green-900/20 to-black rounded-3xl p-12 md:p-16 border border-green-500/20 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif text-white">
-              {givingModelData.headline}
-            </h2>
-            <p className="text-2xl text-green-400 font-medium mb-8">
-              {givingModelData.subheadline}
-            </p>
-            
-            <p className="text-xl text-gray-300 mb-6">
-              {givingModelData.description}
-            </p>
-            
-            <div className="bg-black/40 rounded-2xl p-8 mb-8 border border-green-500/30">
-              <p className="text-3xl text-green-400 font-bold mb-6">
-                {givingModelData.breakdown}
-              </p>
-              <div className="space-y-3">
-                {givingModelData.breakdownDetails.map((item, index) => (
-                  <div key={index} className="flex justify-between items-center py-2 border-b border-green-500/20 last:border-0">
-                    <span className="text-xl text-white">{item.label}</span>
-                    <span className="text-2xl text-green-400 font-bold">{item.amount}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            
-            <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto mb-6">
-              {givingModelData.footer}
-            </p>
-            
-            {/* Additional Disclaimer at Bottom */}
-            <div className="mt-8 pt-6 border-t border-green-500/20">
-              <p className="text-sm text-gray-400 italic">
-                * Illustrative example only. Actual allocations may vary.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* PARTNERS - With Logos */}
       <section className="py-20 bg-black border-y border-white/5">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
