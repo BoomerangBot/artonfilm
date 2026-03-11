@@ -1075,11 +1075,19 @@ const Home = () => {
             </div>
             
             <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif">
-              ArtOnFilm Network
+              Charitable Support
             </h2>
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-12">
-              Our network of collaborators and supporters.
-            </p>
+            <div className="text-lg text-gray-400 max-w-4xl mx-auto mb-12 space-y-4">
+              <p>
+                ArtOnFilm Ltd endorses charitable initiatives and may highlight opportunities for direct donations to organizations like the British Red Cross.
+              </p>
+              <p>
+                All donations are made directly to the charity. ArtOnFilm Ltd does not receive, control, or manage any charitable funds and does not serve as a representative or agent for any charity.
+              </p>
+              <p className="text-sm text-gray-500 italic">
+                All charity names and logos are the property of their respective organizations.
+              </p>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
