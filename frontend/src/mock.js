@@ -89,8 +89,7 @@ export const corporateClientsData = {
 
 export const keyPeople = [
   { name: 'Chris D', role: 'Founder & Chairman' },
-  { name: 'Russell H', role: 'Director of Operations' },
-  { name: 'Natasha Kissell', role: 'Lead Artist / Director' },
+  { name: 'Russell H', role: 'Sales & Marketing' },
   { name: 'Dr Chris L (JustXR1)', role: 'Art Director & Health Lead lens2care' },
   { name: 'Lt Thomas H (RAF & Navy Ret.)', role: 'GDPR Officer & Global Ambassador' }
 ];
