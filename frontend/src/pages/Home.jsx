@@ -173,65 +173,46 @@ const Home = () => {
             {/* Hero Badge */}
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-amber-500/10 to-amber-600/10 backdrop-blur-md border border-amber-400/40 rounded-full mb-6 shadow-lg shadow-amber-500/10">
               <Heart size={20} className="text-amber-400" />
-              <span className="text-amber-400 text-sm font-semibold tracking-widest">Art can be Free · Exposure Is Priceless · Ethics & Wealth</span>
+              <span className="text-amber-400 text-sm font-semibold tracking-widest">CONTEMPORARY ART RETAIL</span>
             </div>
 
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-[0.95] font-serif text-shadow-lg">
               {heroData.headline}
             </h1>
             
-            {/* The World Is Yours - Cinematic Tagline */}
+            {/* Tagline */}
             <div className="mb-8">
-              <p className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 mb-4 font-serif italic" style={{ backgroundSize: '200% auto', animation: 'goldShimmer 4s ease-in-out infinite' }}>
-                The World Is Yours
+              <p className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 mb-4 font-serif" style={{ backgroundSize: '200% auto', animation: 'goldShimmer 4s ease-in-out infinite' }}>
+                {heroData.subheadline}
               </p>
               
-              {/* Shop Now button after "The World Is Yours" */}
+              {/* View Collection button */}
               <Link
                 to="/collection"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-300 hover:via-amber-400 hover:to-amber-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl shadow-amber-500/30"
               >
                 <Film size={20} />
-                Shop Now
+                View Collection
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
             
             <div className="relative pl-6 border-l-4 border-amber-400/50 mb-6 backdrop-blur-sm bg-black/20 py-4 rounded-r-lg">
-              <p className="text-2xl md:text-3xl text-gray-100 mb-4 font-light">
-                {heroData.subheadline}
-              </p>
-              <p className="text-lg text-gray-200 leading-relaxed mb-4">
+              <p className="text-xl md:text-2xl text-gray-100 mb-4 font-light">
                 {heroData.description}
               </p>
-            </div>
-
-            {/* Quote Section */}
-            <div className="mb-10 pl-6 border-l-4 border-amber-400/70 backdrop-blur-sm bg-gradient-to-r from-amber-500/10 to-transparent py-4 rounded-r-lg">
-              <p className="text-xl md:text-2xl text-amber-100 italic leading-relaxed font-light">
-                {heroData.quote}
+              <p className="text-lg text-amber-300 leading-relaxed italic">
+                {heroData.tagline}
               </p>
             </div>
 
             <div className="flex flex-wrap gap-4 justify-center sm:justify-start">
               <Link
-                to="/programme"
-                className="group inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-300 hover:via-amber-400 hover:to-amber-500 transition-all duration-500 hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/30"
-              >
-                Explore Projects
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
-              </Link>
-              <Link
-                to="/patrons"
-                className="inline-flex items-center justify-center px-8 py-4 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all duration-500 hover:scale-105 active:scale-95 backdrop-blur-md shadow-xl"
-              >
-                Join Perks of Giving
-              </Link>
-              <Link
                 to="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 border-2 border-amber-400/80 text-white font-bold rounded-full hover:bg-gradient-to-r hover:from-amber-400/20 hover:to-amber-500/20 hover:border-amber-300 transition-all duration-500 hover:scale-105 active:scale-95 backdrop-blur-md shadow-xl"
+                className="group inline-flex items-center justify-center px-8 py-4 border-2 border-amber-400/80 text-amber-100 font-bold rounded-full hover:bg-amber-400/20 backdrop-blur-md transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl"
               >
-                Contact Team
+                Enquire About Upcoming Releases
+                <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
           </div>
@@ -314,7 +295,7 @@ const Home = () => {
               {/* Motto Badge */}
               <div className="mt-8 p-6 bg-gradient-to-r from-amber-500/5 to-transparent border-l-4 border-amber-500 rounded-r-lg backdrop-blur-sm">
                 <p className="text-gray-300 text-lg italic leading-relaxed">
-                  "ArtOnFilm is not a charity — it's a movement that chooses to give."
+                  "Commission → Acquire → Hold as stock → Retail sell → Reinvest → Scale"
                 </p>
               </div>
             </div>

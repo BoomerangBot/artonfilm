@@ -12,16 +12,17 @@ export const navigation = [
 ];
 
 export const heroData = {
-  headline: 'Ethics Is Wealth · Just Do',
-  subheadline: 'Contemporary Art Retail Trading Company',
-  description: 'ArtOnFilm Ltd is a UK retail trading company that commissions and resells contemporary artwork through curated global sales activations and direct commercial placements.',
+  headline: 'ArtOnFilm Ltd',
+  subheadline: 'Commissioned Contemporary Art. Retailed Globally.',
+  description: 'ArtOnFilm Ltd commissions, acquires and resells contemporary artwork and design objects through curated exhibitions and direct online retail.',
+  tagline: 'Original works. Limited editions. Design-led collections.',
   quote: '"Art washes away all sins. Together, art and science prove that even pretty pictures can be free. Eternal life is creation — JustArt."',
   backgroundImage: 'https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxicmlnaHQlMjBhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85'
 };
 
 export const visionData = {
-  headline: 'Our Business Model',
-  content: 'ArtOnFilm Ltd commissions original contemporary artwork through fixed-fee agreements with selected artists. Once completed, ownership fully transfers to the company, with each piece held as trading stock for resale as part of regular business operations.\n\nRevenue is generated exclusively through retail sales of owned inventory. ArtOnFilm does not function as an investment vehicle, fund, broker, or royalty-based enterprise.'
+  headline: 'Our Trade',
+  content: 'ArtOnFilm Ltd is a UK retail trading company specialising in commissioned contemporary artwork.\n\nWe work directly with established and emerging artists to commission new original works, acquire selected inventory, hold artwork as trading stock, present collections through curated activation events, and resell through exhibitions and online channels.\n\nRevenue is generated exclusively through artwork and design resale.'
 };
 
 export const howWeOperateData = {
@@ -72,19 +73,50 @@ export const commissioningModelData = {
 };
 
 export const activationsData = {
-  headline: 'ACTIVATIONS',
-  content: 'ArtOnFilm executes curated retail activations across selected international locations. Each activation:',
+  headline: 'RETAIL ACTIVATION MODEL',
+  content: 'Curated Exhibition Environments - ArtOnFilm Ltd presents collections through:',
   points: [
-    'Showcases commissioned works held as company inventory',
-    'Functions as a structured retail sales environment',
-    'Enhances brand visibility and fosters direct commercial engagement'
+    'Private viewings',
+    'Gallery partnerships',
+    'Cultural venues',
+    'International retail activations'
   ],
-  footer: 'Activations are part of a continuous trading cycle and are not standalone or speculative projects.'
+  footer: 'Venues operate under standard commercial hire or hosting arrangements. All artwork sales remain contracted and invoiced by ArtOnFilm Ltd.'
 };
 
 export const corporateClientsData = {
   headline: 'CORPORATE & PRIVATE CLIENTS',
   content: 'ArtOnFilm collaborates directly with corporate and private buyers seeking commissioned contemporary artwork.\n\nSales occur through direct placement agreements and activation-led retail environments. There are no revenue-sharing, royalty, or partnership structures associated with these sales.'
+};
+
+export const creativeInitiativesData = {
+  headline: 'CREATIVE INITIATIVES',
+  subheadline: 'Supporting Creative Context',
+  description: 'Alongside its retail programme, ArtOnFilm Ltd supports selected creative initiatives that provide cultural and narrative context to its commissioned artists.',
+  note: 'These initiatives align with featured collections and may include:',
+  initiatives: [
+    {
+      title: 'Lens2Care',
+      description: 'Creative storytelling exploring visual culture and wellbeing themes.'
+    },
+    {
+      title: 'Film Documentation',
+      description: 'Short-form films documenting artist journeys and exhibitions.'
+    },
+    {
+      title: 'Art & Discussion Forums',
+      description: 'Occasional discussion events hosted alongside retail activations.'
+    }
+  ],
+  footer: 'These initiatives do not operate as separate trading divisions.'
+};
+
+export const partnersVenuesSection = {
+  headline: 'PARTNERS & HOST VENUES',
+  subheadline: 'Activation Venues & Commercial Hosts',
+  description: 'ArtOnFilm Ltd has presented collections at selected cultural venues and private locations.',
+  note: 'Each activation forms part of the company\'s ongoing retail trading activity.',
+  footer: 'No joint ventures or revenue-sharing trading arrangements exist with host organisations.'
 };
 
 export const keyPeople = [
@@ -696,27 +728,27 @@ export const artScienceData = {
 };
 
 export const shopData = {
-  headline: 'SHOP',
-  subheadline: 'Collect with Conscience',
-  description: 'Fine art & photography combine with AI & global promotions to create ethical wealth & opportunity creation for asset value change linked to established auction sale and existing collectors worldwide.',
-  categories: ['Originals', 'Prints', 'Photography', 'Design Objects']
+  headline: 'COLLECTION',
+  subheadline: 'Collect Contemporary Art',
+  description: 'Original paintings, photography and limited editions curated for collectors worldwide. Each piece is commissioned or acquired directly, held as inventory by ArtOnFilm Ltd, sold through exhibitions or direct retail, and fully invoiced and documented.',
+  categories: ['Originals', 'Limited Editions', 'Photography', 'Design Objects']
 };
 
 export const artOnDesignData = {
   headline: 'ART ON DESIGN',
-  subheadline: 'Where Art Meets Comfort',
-  description: 'Kissell\'s signature chairs, scarves and frames transform art into everyday beauty.',
-  details: 'European-made · ethically sourced · supporting creative scholarships.',
-  items: ['Chairs', 'Scarves', 'Frames'],
-  footer: 'Kissell & ArtOnGiving will look to launch a life style and living collection in 2026. We want YOU to help bring this modern eden style collection to life.'
+  subheadline: 'Art On Design',
+  description: 'A commercial design extension of selected artwork collections.',
+  details: 'Limited-run chairs, scarves and framed editions produced under supply agreements and held as retail inventory.',
+  items: ['Chairs', 'Scarves', 'Framed Editions'],
+  footer: 'All design objects are manufactured, stocked and sold by ArtOnFilm Ltd under its standard trading model. Future design releases follow the same commission and resale structure.'
 };
 
 export const carnabyFilmsData = {
-  headline: 'CARNABY INTERNATIONAL',
-  subheadline: 'The Silver Screen of Giving',
-  description: 'From Chelsea to Cannes, Carnaby International brings ArtOnFilm\'s stories to life. Each project pairs elegance with empathy — proof that cinema can change the world.',
-  additional: 'Carnaby AV & Comfort design the spaces where film is felt — luxury viewing rooms and immersive galleries.',
-  quote: 'ArtOnFilm builds the dream; Carnaby brings it to life — glamorous, gracious and global.'
+  headline: 'MEDIA & FILM COLLABORATIONS',
+  subheadline: 'Brand Growth Through Media',
+  description: 'ArtOnFilm Ltd may engage established production and distribution companies under standard commercial agreements to document selected projects.',
+  additional: 'Film and media output supports brand growth and audience development.',
+  quote: 'All artwork sales remain directly contracted through ArtOnFilm Ltd as part of its core retail activity.'
 };
 
 export const artworks = [
