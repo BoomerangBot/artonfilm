@@ -630,7 +630,7 @@ export const ethicsPrivacyData = {
   sections: [
     {
       title: 'Data Use',
-      content: 'Personal data is handled with respect and stored securely on UK / EU servers. We collect only what is necessary to manage sponsorships, events and communications. You may request access or erasure at any time via privacy@artonfilm.uk.'
+      content: 'Personal data is handled with respect and stored securely on UK / EU servers. We collect only what is necessary to manage sponsorships, events and communications. You may request access or erasure at any time via justart@artonfilm.uk.'
     },
     {
       title: 'Attendance & Liability',
@@ -650,8 +650,8 @@ export const ethicsPrivacyData = {
 export const contactData = {
   emails: [
     { label: 'General', email: 'justart@artonfilm.uk' },
-    { label: 'Press', email: 'press@artonfilm.uk' },
-    { label: 'Partners', email: 'artontour@artonfilm.uk' }
+    { label: 'Press', email: 'justart@artonfilm.uk' },
+    { label: 'Partners', email: 'justart@artonfilm.uk' }
   ]
 };
 
