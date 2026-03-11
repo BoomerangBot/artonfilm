@@ -412,6 +412,13 @@ Together, they embody the conscience of AOF's medical and creative collaboration
       description: 'Singapore\'s premier champagne house, bringing elegance and celebration to cultural events and exhibitions.'
     },
     {
+      name: 'STUDIO Vellari',
+      location: 'Singapore',
+      logo: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/49hwqch5_logo.jpeg',
+      website: '#',
+      description: 'A creative studio known for sophisticated artistry and bespoke design services.'
+    },
+    {
       name: 'Swiss Club Singapore',
       location: 'Singapore',
       logo: 'https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/w4ge5kno_SWISS%20CLUB.jpg',
