@@ -475,29 +475,14 @@ export const exhibitionsToursData = {
       date: 'November 2025'
     },
     {
-      city: 'Inverness',
-      project: 'Modern Eden Collection',
-      date: 'November 2025'
-    },
-    {
       city: 'London',
-      project: 'Winter Exhibition',
+      project: 'Xmas Dinner',
       date: 'January 2026'
     },
     {
       city: 'Copenhagen',
-      project: 'Eternal Grace at Hans Alf Gallery',
+      project: 'Beautiful Light',
       date: 'February 2026'
-    },
-    {
-      city: 'Berlin',
-      project: 'Art & Science Forum / Berlinale',
-      date: 'February 2026'
-    },
-    {
-      city: 'Brighton',
-      project: 'Modern Eden Collection',
-      date: 'April/May 2026'
     },
     {
       city: 'BlueBird London',
@@ -506,7 +491,7 @@ export const exhibitionsToursData = {
     },
     {
       city: 'Warsaw',
-      project: 'Showroom & Boutique Cinema',
+      project: 'Modern Eden Expo',
       date: 'August/September 2026'
     }
   ],
