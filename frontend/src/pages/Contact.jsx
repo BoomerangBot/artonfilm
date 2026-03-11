@@ -134,7 +134,7 @@ const Contact = () => {
               {/* Subject */}
               <div>
                 <label htmlFor="subject" className="block text-sm font-semibold mb-3 text-gray-300">
-                  Inquiry Subject *
+                  Enquiries regarding: *
                 </label>
                 <select
                   id="subject"
