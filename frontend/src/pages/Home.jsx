@@ -24,8 +24,6 @@ import {
   shopData,
   artOnDesignData,
   carnabyFilmsData,
-  artOnGivingData,
-  givingModelData,
   partnersData,
   ethicsPrivacyData,
   contactData,
