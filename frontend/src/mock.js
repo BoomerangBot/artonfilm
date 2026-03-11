@@ -272,16 +272,6 @@ export const charityLogos = [
     }
   },
   { 
-    name: 'Cancer Research UK', 
-    url: 'https://www.cancerresearchuk.org',
-    logo: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/gy6qkv2h_cancerresearchuk.png',
-    social: {
-      twitter: 'https://twitter.com/CR_UK',
-      facebook: 'https://facebook.com/cancerresearchuk',
-      instagram: 'https://instagram.com/cr_uk'
-    }
-  },
-  { 
     name: 'ArtOnGiving', 
     url: 'https://artofgivingfoundation.org',
     logo: 'https://customer-assets.emergentagent.com/job_film-canvas/artifacts/ccjapidt_Art_on_giving.jpg',
