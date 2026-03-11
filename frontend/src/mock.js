@@ -801,6 +801,26 @@ export const artworks = [
     description: 'The culmination of the Modern Eden series, this piece embodies the collection\'s themes of beauty and contemporary expression.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0z3071fo_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%286%29.jpeg',
     price: 'POA'
+  },
+  {
+    id: 6,
+    title: 'Modern Eden VI',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'A captivating addition to the Modern Eden series, showcasing architectural elegance and vibrant color harmony.',
+    image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/maokeytm_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%281%29.jpeg',
+    price: 'POA'
+  },
+  {
+    id: 7,
+    title: 'Modern Eden VII',
+    artist: 'Natasha Kissell',
+    medium: 'Oil on Canvas',
+    year: '2024',
+    description: 'A stunning piece completing the Modern Eden collection, blending contemporary vision with timeless artistic expression.',
+    image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/bp6xiomv_WhatsApp%20Image%202026-03-11%20at%2013.56.33.jpeg',
+    price: 'POA'
   }
 ];
 
