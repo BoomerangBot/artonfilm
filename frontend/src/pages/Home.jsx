@@ -613,13 +613,13 @@ const Home = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { img: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0o11iz4d_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%285%29.jpeg', artist: 'Natasha Kissell', title: 'Modern Eden I', link: '/collection/natasha-kissell' },
+              { img: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0o11iz4d_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%285%29.jpeg', artist: 'Natasha Kissell', title: 'Pacific Heights Reverie', link: '/collection/natasha-kissell' },
               { img: 'https://customer-assets.emergentagent.com/job_film-canvas/artifacts/5z2mwq5y_big%20ben.jpg', artist: 'Dr Chris Lee', title: 'Westminster Shadows', link: '/collection/chris-lee' },
-              { img: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/xdx1epeu_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%284%29.jpeg', artist: 'Natasha Kissell', title: 'Modern Eden II', link: '/collection/natasha-kissell' },
+              { img: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/xdx1epeu_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%284%29.jpeg', artist: 'Natasha Kissell', title: 'Alpine Sanctuary', link: '/collection/natasha-kissell' },
               { img: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/kg42jehx_NOM17-min.jpg', artist: 'Dr Chris Lee', title: 'Jazz Spirit', link: '/collection/chris-lee' },
-              { img: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/i8bql4b4_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%283%29.jpeg', artist: 'Natasha Kissell', title: 'Modern Eden III', link: '/collection/natasha-kissell' },
+              { img: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/i8bql4b4_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%283%29.jpeg', artist: 'Natasha Kissell', title: 'Flamingo Deco', link: '/collection/natasha-kissell' },
               { img: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/xho0bx9q_tiger%20and%20turtle.jpg', artist: 'Dr Chris Lee', title: 'Tiger & Turtle', link: '/collection/chris-lee' },
-              { img: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/alt9k4cw_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%282%29.jpeg', artist: 'Natasha Kissell', title: 'Modern Eden IV', link: '/collection/natasha-kissell' },
+              { img: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/alt9k4cw_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%282%29.jpeg', artist: 'Natasha Kissell', title: 'Desert Moderne', link: '/collection/natasha-kissell' },
               { img: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/89sw7x5n_Winter%209.jpg', artist: 'Dr Chris Lee', title: 'Winter Serenity', link: '/collection/chris-lee' }
             ].map((artwork, index) => (
               <Link
@@ -741,39 +741,39 @@ const Home = () => {
               <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
                 <img 
                   src="https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0o11iz4d_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%285%29.jpeg" 
-                  alt="Modern Eden I"
+                  alt="Pacific Heights Reverie"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <p className="text-white font-bold text-xl mb-1">Modern Eden I</p>
-                    <p className="text-gray-300 text-sm">Contemporary expression in vibrant form</p>
+                    <p className="text-white font-bold text-xl mb-1">Pacific Heights Reverie</p>
+                    <p className="text-gray-300 text-sm">Mid-century modernism meets California dreams</p>
                   </div>
                 </div>
               </div>
               <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
                 <img 
                   src="https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/xdx1epeu_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%284%29.jpeg" 
-                  alt="Modern Eden II"
+                  alt="Alpine Sanctuary"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <p className="text-white font-bold text-xl mb-1">Modern Eden II</p>
-                    <p className="text-gray-300 text-sm">Light and form in artistic dialogue</p>
+                    <p className="text-white font-bold text-xl mb-1">Alpine Sanctuary</p>
+                    <p className="text-gray-300 text-sm">Where wilderness meets refined comfort</p>
                   </div>
                 </div>
               </div>
               <div className="group relative rounded-xl overflow-hidden aspect-[4/5]">
                 <img 
                   src="https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/i8bql4b4_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%283%29.jpeg" 
-                  alt="Modern Eden III"
+                  alt="Flamingo Deco"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all">
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <p className="text-white font-bold text-xl mb-1">Modern Eden III</p>
-                    <p className="text-gray-300 text-sm">Dynamic composition and striking color</p>
+                    <p className="text-white font-bold text-xl mb-1">Flamingo Deco</p>
+                    <p className="text-gray-300 text-sm">Art Deco glamour in pastel perfection</p>
                   </div>
                 </div>
               </div>

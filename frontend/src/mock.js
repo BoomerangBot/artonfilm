@@ -754,71 +754,71 @@ export const carnabyFilmsData = {
 export const artworks = [
   {
     id: 1,
-    title: 'Modern Eden I',
+    title: 'Pacific Heights Reverie',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'A stunning contemporary piece from the Modern Eden collection, capturing architectural beauty with vibrant colors and bold brushstrokes.',
+    description: 'A luminous mid-century modern residence cascades down a hillside, its cantilevered roof and floor-to-ceiling glass walls framing a panoramic vista of city and sea. The turquoise infinity pool reflects California\'s eternal blue sky in this celebration of architectural harmony and aspirational living.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0o11iz4d_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%285%29.jpeg',
     price: 'POA'
   },
   {
     id: 2,
-    title: 'Modern Eden II',
+    title: 'Alpine Sanctuary',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'An exploration of light and form through contemporary artistic expression. Part of the exclusive Modern Eden series.',
+    description: 'Majestic snow-capped peaks rise beyond a heated infinity pool where a solitary fire burns against the alpine chill. This striking juxtaposition of wilderness grandeur and refined comfort captures the essence of elevated mountain living at its most dramatic.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/xdx1epeu_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%284%29.jpeg',
     price: 'POA'
   },
   {
     id: 3,
-    title: 'Modern Eden III',
+    title: 'Flamingo Deco',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'Vibrant colors and dynamic composition define this striking piece from the Modern Eden collection.',
+    description: 'A pink Art Deco masterpiece rises amid swaying palms and crystalline waters. Turquoise balconies and stone terraces descend to a pristine pool, evoking the timeless glamour of Miami Beach\'s golden age in a symphony of pastel sophistication.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/i8bql4b4_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%283%29.jpeg',
     price: 'POA'
   },
   {
     id: 4,
-    title: 'Modern Eden IV',
+    title: 'Desert Moderne',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'A masterful study of contemporary aesthetics, showcasing Kissell\'s signature style and artistic vision.',
+    description: 'Geometric breeze blocks and candy-coloured doors define this quintessential Palm Springs residence. The curved azure pool reflects towering palms as vibrant pinks, teals, and yellows celebrate the playful exuberance of mid-century desert modernism.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/alt9k4cw_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%282%29.jpeg',
     price: 'POA'
   },
   {
     id: 5,
-    title: 'Modern Eden V',
+    title: 'Portofino Dreams',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'The culmination of the Modern Eden series, this piece embodies the collection\'s themes of beauty and contemporary expression.',
+    description: 'A sleek superyacht glides through the turquoise waters of an Italian Riviera bay, framed by cypress-studded hillsides and terracotta villas. The foreground infinity pool invites the viewer into this vision of Mediterranean luxury and serene escapism.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0z3071fo_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%286%29.jpeg',
     price: 'POA'
   },
   {
     id: 6,
-    title: 'Modern Eden VI',
+    title: 'South Beach Daybreak',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'A captivating addition to the Modern Eden series, showcasing architectural elegance and vibrant color harmony.',
+    description: 'Vivid surfboards stand sentinel before Miami\'s iconic pastel lifeguard station as dawn paints the sky in lavender and coral. This celebration of beach culture captures the electric energy and chromatic joy of America\'s most stylish shoreline.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/maokeytm_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%281%29.jpeg',
     price: 'POA'
   },
   {
     id: 7,
-    title: 'Modern Eden VII',
+    title: 'Côte d\'Azur Afternoon',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'A stunning piece completing the Modern Eden collection, blending contemporary vision with timeless artistic expression.',
+    description: 'Striped umbrellas in warm tangerine crown a sunlit terrace overlooking a bay where yachts dance on sapphire waters. Verdant hillsides embrace this vision of the French Riviera, capturing the eternal allure of Mediterranean summers.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/bp6xiomv_WhatsApp%20Image%202026-03-11%20at%2013.56.33.jpeg',
     price: 'POA'
   }
