@@ -22,7 +22,6 @@ import {
   membershipData,
   artScienceData,
   shopData,
-  artOnDesignData,
   carnabyFilmsData,
   partnersData,
   ethicsPrivacyData,
@@ -1677,57 +1676,6 @@ const Home = () => {
             Shop NOW
             <ArrowRight className="ml-2" size={20} />
           </Link>
-        </div>
-      </section>
-
-      {/* ART ON DESIGN — Where Art Meets Comfort */}
-      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
-        <div className="absolute top-20 left-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
-        
-        <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="inline-block mb-6 px-6 py-2 border border-purple-500/30 rounded-full bg-purple-500/5">
-              <span className="text-purple-400 text-sm font-medium tracking-wider uppercase">{artOnDesignData.headline}</span>
-            </div>
-            
-            <h2 className="text-5xl md:text-6xl font-bold mb-6 font-serif text-white">
-              {artOnDesignData.subheadline}
-            </h2>
-            
-            <p className="text-2xl text-gray-300 mb-4 max-w-3xl mx-auto leading-relaxed">
-              {artOnDesignData.description}
-            </p>
-            
-            <p className="text-lg text-amber-400 italic mb-12">
-              {artOnDesignData.details}
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-            {artOnDesignData.items.map((item, index) => (
-              <div
-                key={index}
-                className="bg-gradient-to-br from-zinc-900/50 to-black/50 rounded-2xl p-8 border border-white/10 hover:border-purple-500/30 transition-all text-center backdrop-blur-sm"
-              >
-                <h3 className="text-2xl font-bold text-white">{item}</h3>
-              </div>
-            ))}
-          </div>
-          
-          <div className="text-center">
-            <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mb-8">
-              {artOnDesignData.footer}
-            </p>
-            
-            <Link
-              to="/contact"
-              className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-bold rounded-full hover:from-purple-400 hover:to-purple-500 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-purple-500/30"
-            >
-              Get Involved
-              <ArrowRight className="ml-2" size={20} />
-            </Link>
-          </div>
         </div>
       </section>
 
