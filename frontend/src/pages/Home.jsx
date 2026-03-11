@@ -1248,7 +1248,7 @@ const Home = () => {
 
             {/* Partners */}
             <div className="bg-gradient-to-br from-zinc-900/70 to-black/70 rounded-2xl border border-amber-500/20 p-8 backdrop-blur-md">
-              <h3 className="text-2xl font-bold text-amber-400 mb-6">Sponsors & Supporters on Tour</h3>
+              <h3 className="text-2xl font-bold text-amber-400 mb-6">Sponsors & Supporters on Tour so far...</h3>
               <div className="grid grid-cols-2 gap-4">
                 {exhibitionsToursData.partners.map((partner, idx) => (
                   <div key={idx} className="bg-black/40 rounded-lg p-4 border border-white/10 text-center">
