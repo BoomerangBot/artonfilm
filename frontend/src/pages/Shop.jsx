@@ -122,6 +122,74 @@ const Shop = () => {
         </div>
       </section>
 
+      {/* How to Purchase / Shop Section */}
+      <section className="py-20 bg-black">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-5 py-2 mb-4 bg-gradient-to-r from-amber-500/10 to-transparent border border-amber-400/30 rounded-full backdrop-blur-sm">
+              <ShoppingBag size={18} className="text-amber-400" />
+              <span className="text-amber-400 text-xs font-semibold tracking-wider">RETAIL SALES</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-serif">
+              Shop
+            </h2>
+          </div>
+
+          <div className="space-y-8">
+            {/* Main Statement */}
+            <div className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-10 border border-white/10">
+              <p className="text-xl text-gray-300 leading-relaxed mb-6">
+                ArtOnFilm Ltd commissions and acquires contemporary artwork as trading stock for resale through structured retail channels.
+              </p>
+              <p className="text-xl text-gray-300 leading-relaxed">
+                All works available for purchase are owned outright by ArtOnFilm Ltd and are offered for sale in the ordinary course of business.
+              </p>
+            </div>
+
+            {/* How Purchasing Works */}
+            <div className="bg-gradient-to-br from-purple-500/5 to-transparent rounded-2xl p-10 border border-purple-500/20">
+              <h3 className="text-2xl font-bold text-white mb-6">How Purchasing Works</h3>
+              <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
+                <p>Each artwork has been commissioned under a fixed-fee agreement. Ownership transfers fully to ArtOnFilm Ltd upon completion. The work is offered as part of the company's retail inventory. Sales are completed directly with the buyer through standard commercial transactions.</p>
+                <p className="font-semibold text-white">ArtOnFilm does not act as a broker or intermediary. All listed works are company-owned inventory.</p>
+              </div>
+            </div>
+
+            {/* Pricing & Availability */}
+            <div className="bg-gradient-to-br from-amber-500/5 to-transparent rounded-2xl p-10 border border-amber-500/20">
+              <h3 className="text-2xl font-bold text-white mb-6">Pricing & Availability</h3>
+              <p className="text-gray-300 text-lg mb-6">Artwork pricing reflects:</p>
+              <div className="space-y-3 mb-6">
+                <div className="flex items-start gap-3 p-4 bg-black/30 rounded-xl border border-amber-500/10">
+                  <div className="w-2 h-2 rounded-full bg-amber-400 mt-3 flex-shrink-0"></div>
+                  <p className="text-gray-200 text-lg">Commission production costs</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 bg-black/30 rounded-xl border border-amber-500/10">
+                  <div className="w-2 h-2 rounded-full bg-amber-400 mt-3 flex-shrink-0"></div>
+                  <p className="text-gray-200 text-lg">Activation and presentation expenses</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 bg-black/30 rounded-xl border border-amber-500/10">
+                  <div className="w-2 h-2 rounded-full bg-amber-400 mt-3 flex-shrink-0"></div>
+                  <p className="text-gray-200 text-lg">Commercial retail margin</p>
+                </div>
+              </div>
+              <p className="text-gray-300 text-lg italic">
+                Prices are set as part of the company's retail trading strategy and may adjust in line with market demand and activation cycle positioning.
+              </p>
+            </div>
+
+            {/* Corporate & Private Sales */}
+            <div className="bg-gradient-to-br from-green-500/5 to-transparent rounded-2xl p-10 border border-green-500/20">
+              <h3 className="text-2xl font-bold text-white mb-6">Corporate & Private Sales</h3>
+              <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
+                <p>ArtOnFilm collaborates directly with private collectors and corporate clients seeking commissioned contemporary works. Corporate placements are completed through direct purchase agreements and remain standard retail transactions.</p>
+                <p className="font-semibold text-white">There are no revenue-sharing, royalty, or investment structures associated with artwork purchases.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Artwork Grid */}
       <section className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
