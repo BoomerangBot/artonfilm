@@ -145,7 +145,7 @@ const ChrisLeeCollection = () => {
                     onClick={() => handleInquiry(artwork)}
                     className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/30"
                   >
-                    Inquire About Purchase
+                    Enquire
                   </button>
                 </div>
               </div>

@@ -82,7 +82,7 @@ const Shop = () => {
                     onClick={() => handleInquiry(artwork)}
                     className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/30"
                   >
-                    Inquire About Purchase
+                    Enquire
                   </button>
                 </div>
               </div>
@@ -152,7 +152,7 @@ const Shop = () => {
         </div>
       </section>
 
-      {/* How to Purchase / Shop Section */}
+      {/* Acquisition Process */}
       <section className="py-20 bg-zinc-950">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
