@@ -754,242 +754,52 @@ export const carnabyFilmsData = {
 export const artworks = [
   {
     id: 1,
-    title: 'Mountain Villa with Pool',
+    title: 'Modern Eden I',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'A stunning contemporary piece capturing the serene beauty of modern architecture nestled in mountain landscapes. The vibrant colors and bold brushstrokes create a sense of tranquility and luxury.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/m5z5gyle_1.jpeg',
+    description: 'A stunning contemporary piece from the Modern Eden collection, capturing architectural beauty with vibrant colors and bold brushstrokes.',
+    image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0o11iz4d_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%285%29.jpeg',
     price: 'POA'
   },
   {
     id: 2,
-    title: 'Modernist Poolside',
+    title: 'Modern Eden II',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'An exploration of light and reflection through the lens of mid-century modern architecture. The interplay between the pool and surrounding structure creates a captivating visual dialogue.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/s0yg3lwq_2.jpeg',
+    description: 'An exploration of light and form through contemporary artistic expression. Part of the exclusive Modern Eden series.',
+    image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/xdx1epeu_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%284%29.jpeg',
     price: 'POA'
   },
   {
     id: 3,
-    title: 'Desert Oasis',
+    title: 'Modern Eden III',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'Vibrant colors dance across the canvas in this celebration of Palm Springs modernism. The playful patterns in the pool contrast beautifully with the desert landscape and palm trees.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/q8bw9otk_3.jpeg',
+    description: 'Vibrant colors and dynamic composition define this striking piece from the Modern Eden collection.',
+    image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/i8bql4b4_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%283%29.jpeg',
     price: 'POA'
   },
   {
     id: 4,
-    title: 'Alpine Reflection',
+    title: 'Modern Eden IV',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'Majestic mountain peaks frame this serene poolside scene. The crystal-clear water reflects the grandeur of the alpine landscape, creating a harmonious blend of luxury and nature.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/1o4c82hd_4.jpeg',
+    description: 'A masterful study of contemporary aesthetics, showcasing Kissell\'s signature style and artistic vision.',
+    image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/alt9k4cw_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%282%29.jpeg',
     price: 'POA'
   },
   {
     id: 5,
-    title: 'Snowscape Sanctuary',
+    title: 'Modern Eden V',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     year: '2024',
-    description: 'A masterful study of winter light and architectural form. The snow-covered mountains provide a dramatic backdrop to this contemplative poolside composition.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/3tdybigr_5.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 6,
-    title: 'Coastal Retreat',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Capturing the essence of coastal luxury, this piece explores the relationship between modern architecture and the Mediterranean landscape. Warm tones and bold strokes evoke the timeless charm of seaside living.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/mtsu0dfm_6.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 7,
-    title: 'Summer Solace',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Vibrant blues and greens dance across this celebration of summer leisure. The composition invites viewers to experience the tranquility of a perfect afternoon by the pool.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/wr8z9n3w_7.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 8,
-    title: 'Modernist Haven',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'An homage to mid-century modern architecture, this work captures the clean lines and geometric precision of the era while infusing it with contemporary color and energy.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/7jxr23el_8.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 9,
-    title: 'Twilight Reflection',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'The golden hour transforms this architectural scene into a study of light and shadow. The interplay between natural and artificial elements creates a mesmerizing visual harmony.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/8kjbhdng_9.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 10,
-    title: 'Panoramic Paradise',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Sweeping views and dramatic skies frame this expansive poolside vista. The painting celebrates the grandeur of architectural design set against the majesty of the natural world.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/fvuht8kh_10.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 11,
-    title: 'Urban Oasis',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'A stunning juxtaposition of city life and leisure. The rooftop pool becomes a serene escape, floating above the urban landscape. Bold colors capture the energy of modern metropolitan living.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/fsw2bbqf_11.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 12,
-    title: 'Mediterranean Dream',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Sun-drenched terraces and azure waters define this celebration of coastal architecture. The warm palette evokes the timeless beauty of Mediterranean villas and endless summer days.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/9acadqpl_12.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 13,
-    title: 'Skyline Serenity',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Twilight descends on this elevated sanctuary. The interplay of interior and exterior spaces creates a contemplative dialogue between urban sophistication and natural beauty.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/b0gchrbv_13.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 14,
-    title: 'Architectural Harmony',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Clean lines and geometric forms compose this ode to modernist design. The pool serves as a mirror, reflecting the careful balance between structure and nature.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/cnvu54te_14.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 15,
-    title: 'Infinity Edge',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Where water meets sky in perfect unity. This piece explores the concept of boundless horizons through the lens of contemporary pool design and spectacular natural vistas.',
-    image: 'https://customer-assets.emergentagent.com/job_culturescreen/artifacts/qwvztiqx_15.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 16,
-    title: 'Tropical Sanctuary',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Pink-draped pavilions and heart-shaped floats create a dreamlike tropical escape. This vibrant composition celebrates leisure and luxury in a lush, colorful paradise.',
-    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2bg4klwl_16.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 17,
-    title: 'Desert Modernism',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'A masterful exploration of mid-century architecture against desert palms. The painted pool floor adds a kaleidoscope of color to this celebration of Palm Springs style.',
-    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/dxeheg2r_17.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 18,
-    title: 'Coastal Promenade',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Where sea meets shore in a symphony of blues and yellows. This seaside pool captures the joy and vitality of coastal living with bold, expressive brushwork.',
-    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/g8idwuhn_18.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 19,
-    title: 'Palm Springs Elegance',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Towering palms frame this quintessential desert retreat. The crystalline pool and manicured grounds exemplify the refined aesthetic of California modernism.',
-    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/gwa5rbec_19.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 20,
-    title: 'Poolside Tranquility',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Sunlit decking and azure waters invite contemplation in this serene composition. The interplay of light on water creates a meditative atmosphere of timeless elegance.',
-    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/1axxgyr7_20.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 21,
-    title: 'Seaside Perspective',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'A unique vantage point overlooking the sea, where architectural geometry meets coastal beauty. The painting captures a moment of tranquil observation from an elevated terrace.',
-    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/u6ykuo0g_21.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 22,
-    title: 'Art Deco Elegance',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Pink and white umbrellas dot a checkered poolside in this celebration of vintage glamour. The composition evokes the timeless sophistication of mid-century resort living.',
-    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/lfqa35q2_22.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 23,
-    title: 'Mountain Villa Retreat',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Nestled against dramatic mountain peaks, this architectural study explores the harmony between modern design and natural grandeur. Warm tones contrast beautifully with the cool alpine backdrop.',
-    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/2hukoy8z_23.jpeg',
-    price: 'POA'
-  },
-  {
-    id: 24,
-    title: 'Canyon Vista',
-    artist: 'Natasha Kissell',
-    medium: 'Oil on Canvas',
-    year: '2024',
-    description: 'Overlooking a vast urban landscape, this piece captures the serenity of a poolside sanctuary high above the city. The hazy atmosphere creates a dreamlike quality of peaceful isolation.',
-    image: 'https://customer-assets.emergentagent.com/job_art-investor/artifacts/qrefteba_24.jpeg',
+    description: 'The culmination of the Modern Eden series, this piece embodies the collection\'s themes of beauty and contemporary expression.',
+    image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0z3071fo_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%286%29.jpeg',
     price: 'POA'
   }
 ];
