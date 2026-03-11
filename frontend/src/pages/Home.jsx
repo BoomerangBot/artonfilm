@@ -1824,6 +1824,54 @@ const Home = () => {
         </div>
       </section>
 
+      {/* LEGAL & COMMERCIAL FRAMEWORK */}
+      <section className="py-24 bg-black border-t border-white/5">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-serif">
+              LEGAL & COMMERCIAL FRAMEWORK
+            </h2>
+          </div>
+          
+          <div className="bg-gradient-to-br from-zinc-900/50 to-black rounded-2xl p-8 border border-amber-500/20">
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
+                <span className="text-gray-300">Operated by ArtOnFilm Ltd (UK), a retail trading company.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
+                <span className="text-gray-300">Primary activity: Commissioning, acquisition and resale of contemporary artwork and design objects.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
+                <span className="text-gray-300">Artwork is held as trading stock and sold in the ordinary course of business.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
+                <span className="text-gray-300">Retail activations function as commercial sales environments.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
+                <span className="text-gray-300">Optional access benefits are commercial privileges only and do not constitute investments.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
+                <span className="text-gray-300">VAT applied where applicable.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
+                <span className="text-gray-300">Official invoices issued.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
+                <span className="text-gray-300">Annual trading summary published.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* CONTACT - Simple Bottom Section */}
       <section className="py-20 bg-zinc-950 border-t border-white/5">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
