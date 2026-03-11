@@ -1305,63 +1305,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ART ON GIVING — The Festival of Humanity */}
-      <section className="py-32 relative overflow-hidden fade-on-scroll opacity-0 transition-all duration-[1500ms]">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-950 to-black"></div>
-        <div className="absolute inset-0">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-radial from-red-500/10 via-transparent to-transparent blur-3xl"></div>
-        </div>
-        
-        <div className="relative max-w-5xl mx-auto px-6 lg:px-8 text-center">
-          <div className="inline-block mb-6 px-6 py-2 border border-red-500/30 rounded-full bg-red-500/5">
-            <Heart size={20} className="inline-block mr-2 text-red-400" />
-            <span className="text-red-400 text-sm font-medium tracking-wider uppercase">{artOnGivingData.headline}</span>
-          </div>
-          
-          <h2 className="text-5xl md:text-6xl font-bold mb-8 font-serif text-white">
-            {artOnGivingData.subheadline}
-          </h2>
-          
-          {/* ArtOnGiving Logo */}
-          <div className="mb-12 flex justify-center">
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-red-500/20 to-amber-500/20 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="relative bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-red-500/30">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_film-canvas/artifacts/5b3ww1e1_Art_on_giving.jpg"
-                  alt="ArtOnGiving"
-                  className="h-32 w-auto object-contain"
-                />
-              </div>
-            </div>
-          </div>
-          
-          <p className="text-2xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
-            {artOnGivingData.description}
-          </p>
-          
-          <div className="bg-gradient-to-r from-red-500/10 to-amber-500/10 rounded-2xl p-8 border border-red-500/20 mb-12">
-            <p className="text-2xl text-amber-400 italic font-light leading-relaxed mb-4">
-              "{artOnGivingData.quote}"
-            </p>
-            <div className="text-right">
-              <p className="text-white font-semibold">— {artOnGivingData.author}</p>
-              <p className="text-gray-400 text-sm">{artOnGivingData.title}</p>
-            </div>
-          </div>
-
-          {/* Modern motto badges */}
-          <div className="flex flex-wrap justify-center gap-3 mb-8">
-            <div className="px-5 py-2.5 bg-gradient-to-r from-red-500/10 to-transparent border border-red-400/30 rounded-full backdrop-blur-sm">
-              <span className="text-red-400 text-sm font-semibold">We remember the brave</span>
-            </div>
-            <div className="px-5 py-2.5 bg-gradient-to-r from-amber-500/10 to-transparent border border-amber-400/30 rounded-full backdrop-blur-sm">
-              <span className="text-amber-400 text-sm font-semibold">Creation is life</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Andrew Carnegie Quote - On Philanthropy */}
       <section className="py-24 bg-gradient-to-r from-amber-500/10 via-amber-600/10 to-amber-500/10 fade-on-scroll opacity-0 transition-all duration-[1500ms] relative overflow-hidden">
         <div className="absolute inset-0">
