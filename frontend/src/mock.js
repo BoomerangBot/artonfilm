@@ -318,12 +318,7 @@ export const galleryImages = [
   'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/58y94l1y_WhatsApp%20Image%202025-11-04%20at%2015.54.10_2957a125.jpg',
   'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/2bpnyhod_WhatsApp%20Image%202025-11-04%20at%2015.54.10_b873aa06.jpg',
   'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/7kzx68sh_WhatsApp%20Image%202025-11-04%20at%2015.54.11_5ece4d40.jpg',
-  'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/ccmtz23q_WhatsApp%20Image%202025-11-04%20at%2015.54.11_41037253.jpg',
-  'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/vu7v6j4u_1000054395.png',
-  'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/6t67vxuq_1000054397.png',
-  'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/vpfcuwgi_1000054402.png',
-  'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/5h11q6m8_1000054409.png',
-  'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/y1lraevv_1000054412.png'
+  'https://customer-assets.emergentagent.com/job_art-platform-revamp-1/artifacts/ccmtz23q_WhatsApp%20Image%202025-11-04%20at%2015.54.11_41037253.jpg'
 ];
 
 export const retailGrowthData = {
