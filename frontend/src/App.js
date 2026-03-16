@@ -14,9 +14,13 @@ import Impact from './pages/Impact';
 import Media from './pages/Media';
 import Contact from './pages/Contact';
 import Shop from './pages/Shop';
+import ShopPage from './pages/ShopPage';
 import CollectionHome from './pages/CollectionHome';
 import ChrisLeeCollection from './pages/ChrisLeeCollection';
 import About from './pages/About';
+import Artists from './pages/Artists';
+import ArtistCV from './pages/ArtistCV';
+import Invest from './pages/Invest';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import GDPRPolicy from './pages/GDPRPolicy';
 import Terms from './pages/Terms';
@@ -32,6 +36,8 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/artists" element={<Artists />} />
+          <Route path="/artist-cv" element={<ArtistCV />} />
           <Route path="/programme" element={<Programme />} />
           <Route path="/about" element={<About />} />
           <Route path="/patrons" element={<Patrons />} />
@@ -43,6 +49,8 @@ function App() {
           <Route path="/collection" element={<CollectionHome />} />
           <Route path="/collection/natasha-kissell" element={<Shop />} />
           <Route path="/collection/chris-lee" element={<ChrisLeeCollection />} />
+          <Route path="/shop" element={<ShopPage />} />
+          <Route path="/invest" element={<Invest />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/gdpr-policy" element={<GDPRPolicy />} />
           <Route path="/terms" element={<Terms />} />

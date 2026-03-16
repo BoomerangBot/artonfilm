@@ -73,13 +73,16 @@ const Footer = () => {
             <p className="text-gray-400 text-sm">
               &copy; 2025 ArtOnFilm.uk · All Rights Reserved
             </p>
-            <p className="text-gray-300 text-sm font-medium">
-              Ethics Is Wealth · Just Do
+            
+            {/* Trust Line */}
+            <p className="text-white text-sm font-medium">
+              ArtOnFilm Ltd — United Kingdom
             </p>
-            <p className="text-gray-400 text-sm italic max-w-2xl mx-auto">
-              Join us to turn culture into contribution and light into legacy.
+            <p className="text-amber-400 text-xs tracking-wider">
+              Creative IP Production & Advertising
             </p>
-            <div className="flex flex-wrap justify-center items-center gap-3 text-sm">
+            
+            <div className="flex flex-wrap justify-center items-center gap-3 text-sm mt-4">
               <Link to="/privacy-policy" className="text-gray-400 hover:text-amber-400 transition-colors">
                 Privacy Policy
               </Link>

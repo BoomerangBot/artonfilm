@@ -2,12 +2,13 @@
 
 export const navigation = [
   { name: 'Home', path: '/' },
-  { name: 'Programme', path: '/programme' },
-  { name: 'Sponsorship', path: '/patrons' },
-  { name: 'Partners', path: '/partners' },
-  { name: 'Institutional', path: '/institutional' },
-  { name: 'Impact', path: '/impact' },
-  { name: 'Media', path: '/media' },
+  { name: 'Artists', path: '/artists' },
+  { name: 'Artist CV', path: '/artist-cv' },
+  { name: 'Collections', path: '/collection' },
+  { name: 'Tour', path: '/programme' },
+  { name: 'Shop', path: '/shop' },
+  { name: 'Invest', path: '/invest' },
+  { name: 'About', path: '/about' },
   { name: 'Contact', path: '/contact' }
 ];
 
@@ -57,7 +58,7 @@ export const retailModelData = {
 
 export const aboutCompanyData = {
   headline: 'ABOUT ART ON FILM LTD',
-  content: 'ArtOnFilm Ltd is a UK-registered company dedicated to the commissioning, acquisition, and resale of contemporary artwork.\n\nThe business operates as a retail trading company. All artwork is acquired as trading stock and sold through structured retail channels. Media content produced by the company is solely for promotional purposes and does not generate licensing or royalty income.'
+  content: 'ArtOnFilm Ltd is a UK-registered company dedicated to commissioning and producing contemporary art collections for exhibition and sale.\n\nThe business operates as a retail trading company. All artwork is acquired as trading stock and sold through structured retail channels. Media content produced by the company is solely for promotional purposes and does not generate licensing or royalty income.'
 };
 
 export const commissioningModelData = {

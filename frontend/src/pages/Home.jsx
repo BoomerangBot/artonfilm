@@ -1778,7 +1778,7 @@ const Home = () => {
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-300">Primary activity: Commissioning, acquisition and resale of contemporary artwork and design objects.</span>
+                <span className="text-gray-300">Primary activity: Commissioning and producing contemporary art collections for exhibition and sale.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
