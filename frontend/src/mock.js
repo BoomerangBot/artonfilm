@@ -13,9 +13,9 @@ export const navigation = [
 ];
 
 export const heroData = {
-  headline: 'ArtOnFilm Ltd',
+  headline: 'ART ON FILM',
   subheadline: 'Commissioned Contemporary Art. Retailed Globally.',
-  description: 'ArtOnFilm Ltd commissions, acquires and resells contemporary artwork and design objects through curated exhibitions and direct online retail.',
+  description: 'ArtOnFilm commissions and releases original contemporary art collections through exhibitions, film and global campaigns.',
   tagline: 'Original works. Limited editions. Design-led collections.',
   quote: '"Art washes away all sins. Together, art and science prove that even pretty pictures can be free. Eternal life is creation — JustArt."',
   backgroundImage: 'https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxicmlnaHQlMjBhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85'

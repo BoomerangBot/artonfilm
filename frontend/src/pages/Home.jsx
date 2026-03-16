@@ -187,14 +187,23 @@ const Home = () => {
               </p>
               
               {/* View Collection button */}
-              <Link
-                to="/collection"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-300 hover:via-amber-400 hover:to-amber-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl shadow-amber-500/30"
-              >
-                <Film size={20} />
-                View Collection
-                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-              </Link>
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  to="/collection"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-300 hover:via-amber-400 hover:to-amber-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl shadow-amber-500/30"
+                >
+                  <Film size={20} />
+                  View Collection
+                  <ArrowRight size={18} />
+                </Link>
+                <Link
+                  to="/shop"
+                  className="inline-flex items-center gap-2 px-6 py-3 border-2 border-amber-400/80 text-amber-100 font-bold rounded-full hover:bg-amber-400/20 backdrop-blur-md transition-all duration-300 hover:scale-105 active:scale-95"
+                >
+                  Acquire Works
+                  <ArrowRight size={18} />
+                </Link>
+              </div>
             </div>
             
             <div className="relative pl-6 border-l-4 border-amber-400/50 mb-6 backdrop-blur-sm bg-black/20 py-4 rounded-r-lg">
@@ -596,18 +605,18 @@ const Home = () => {
       </section>
 
 
-      {/* Featured Artworks Showcase */}
+      {/* Featured Works */}
       <section className="py-20 bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-5 py-2 mb-4 bg-gradient-to-r from-amber-500/10 to-transparent border border-amber-400/30 rounded-full backdrop-blur-sm">
-              <span className="text-amber-400 text-xs font-semibold tracking-wider">GALLERY SHOWCASE</span>
+              <span className="text-amber-400 text-xs font-semibold tracking-wider">AVAILABLE NOW</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-serif">
-              Featured Artworks
+              Featured Works
             </h2>
             <p className="text-gray-400 text-lg">
-              Curated selections from our acclaimed artists
+              Original paintings and exhibition photography currently available.
             </p>
           </div>
 
@@ -642,10 +651,10 @@ const Home = () => {
 
           <div className="text-center mt-8">
             <Link
-              to="/collection"
+              to="/shop"
               className="inline-flex items-center gap-2 px-8 py-4 bg-amber-500 text-black font-bold rounded-full hover:bg-amber-400 transition-all hover:scale-105"
             >
-              Explore Full Collection
+              View Shop
               <ArrowRight size={20} />
             </Link>
           </div>
@@ -1723,7 +1732,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Newsletter / Insider Circle */}
+      {/* Collector Access */}
       <section className="py-32 bg-black fade-on-scroll opacity-0 transition-all duration-[1500ms] relative overflow-hidden">
         <div className="absolute inset-0 soft-light-center"></div>
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -1733,30 +1742,36 @@ const Home = () => {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold mb-6 font-serif">
-              Stay in the Frame
+              Collector Access
             </h2>
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-              Join the ArtOnFilm mailing list for exhibition updates, new inventory releases, and early access to limited editions.
+              Collectors may request: early access to works, private viewings, exhibition invitations.
             </p>
 
-            <form onSubmit={handleNewsletterSubmit} className="max-w-xl mx-auto">
-              <div className="flex flex-col sm:flex-row gap-4">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email"
-                  required
-                  className="flex-1 px-6 py-4 bg-black/50 border border-white/20 rounded-full focus:outline-none focus:border-amber-500/50 focus:ring-2 focus:ring-amber-500/20 transition-all text-white placeholder-gray-500"
-                />
-                <button
-                  type="submit"
-                  className="px-10 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20 whitespace-nowrap"
-                >
-                  Subscribe
-                </button>
-              </div>
-            </form>
+            <Link
+              to="/contact?subject=Collector%20List"
+              className="inline-flex items-center gap-2 px-10 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
+            >
+              Join Collector List
+              <ArrowRight size={20} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* How ArtOnFilm Operates */}
+      <section className="py-24 bg-zinc-950 border-t border-white/5">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-serif">
+              How ArtOnFilm Operates
+            </h2>
+          </div>
+          
+          <div className="bg-gradient-to-br from-zinc-900/50 to-black rounded-2xl p-8 border border-amber-500/20">
+            <p className="text-xl text-gray-300 leading-relaxed text-center">
+              ArtOnFilm commissions artists to produce original works which are released through exhibitions and the ArtOnFilm website. Revenue is generated through artwork sales, limited editions and exhibitions.
+            </p>
           </div>
         </div>
       </section>
@@ -1806,6 +1821,25 @@ const Home = () => {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      {/* Investment - Final Section */}
+      <section className="py-24 bg-black border-t border-white/5">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 font-serif">
+            Investment
+          </h2>
+          <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
+            ArtOnFilm is expanding its exhibition programme and creative production schedule.
+          </p>
+          <Link
+            to="/invest"
+            className="inline-flex items-center gap-2 px-10 py-4 border-2 border-amber-400/80 text-amber-100 font-bold rounded-full hover:bg-amber-400/20 transition-all hover:scale-105 active:scale-95"
+          >
+            Investor Information
+            <ArrowRight size={20} />
+          </Link>
         </div>
       </section>
 
