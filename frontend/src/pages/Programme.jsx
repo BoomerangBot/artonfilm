@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { programmeData, programmeProcessData, continuousTradingData, geographicExpansionData, galleryImages } from '../mock';
 import { Calendar, MapPin, Users, Film, Download, Image, ShoppingBag, TrendingUp } from 'lucide-react';
 
@@ -302,10 +303,13 @@ const Programme = () => {
               <p className="text-gray-300 mb-8 max-w-md mx-auto leading-relaxed">
                 Download the complete exhibition programme with dates, venues, and artist information
               </p>
-              <button className="inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/30">
+              <Link
+                to="/contact?subject=Programme%20Information%20Request"
+                className="inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/30"
+              >
                 <Download size={20} />
-                Download Programme PDF
-              </button>
+                Request Programme Details
+              </Link>
             </div>
           </div>
         </div>

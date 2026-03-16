@@ -81,9 +81,12 @@ const ShopPage = () => {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">
+                  <h3 className="text-xl font-bold text-white mb-1 group-hover:text-amber-400 transition-colors">
                     {artwork.title}
                   </h3>
+                  <p className="text-xs text-amber-400/70 italic mb-2">
+                    This work forms part of the ArtOnFilm curated programme.
+                  </p>
                   <p className="text-amber-400 text-sm mb-2">{artwork.artist}</p>
                   <p className="text-gray-400 text-sm mb-4">
                     {artwork.medium} · {artwork.year}

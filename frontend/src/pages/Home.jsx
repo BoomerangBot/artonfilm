@@ -925,10 +925,13 @@ const Home = () => {
           </div>
 
           <div className="text-center">
-            <button className="inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20">
-              View Asset & Art Opportunities
+            <Link
+              to="/shop"
+              className="inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
+            >
+              View Available Works
               <ArrowRight size={20} />
-            </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -965,10 +968,13 @@ const Home = () => {
           </div>
 
           <div className="text-center">
-            <button className="inline-flex items-center gap-2 px-10 py-5 border-2 border-amber-500/50 text-amber-400 font-bold rounded-full hover:bg-amber-500 hover:text-black transition-all hover:scale-105 active:scale-95">
-              Download Impact Report
+            <Link
+              to="/contact?subject=Impact%20Report%20Request"
+              className="inline-flex items-center gap-2 px-10 py-5 border-2 border-amber-500/50 text-amber-400 font-bold rounded-full hover:bg-amber-500 hover:text-black transition-all hover:scale-105 active:scale-95"
+            >
+              Request Impact Report
               <ArrowRight size={20} />
-            </button>
+            </Link>
           </div>
         </div>
       </section>

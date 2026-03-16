@@ -25,14 +25,16 @@ const Shop = () => {
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500/10 border border-amber-500/30 rounded-full mb-8">
             <Package size={20} className="text-amber-400" />
-            <span className="text-amber-400 text-sm font-semibold tracking-widest">COMMISSIONED COLLECTION</span>
+            <span className="text-amber-400 text-sm font-semibold tracking-widest">PAINTING PROGRAMME</span>
           </div>
           
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 font-serif leading-tight">
-            <span className="gradient-text">Natasha Kissell</span>
-            <br />
-            <span className="text-white text-4xl">Commissioned Collection</span>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 font-serif leading-tight">
+            <span className="gradient-text">Collection 1: Modern Eden</span>
           </h1>
+          
+          <p className="text-xl text-gray-400 mb-4">
+            Collection 2 coming soon
+          </p>
           
           <p className="text-2xl text-gray-300 max-w-3xl mx-auto">
             This collection forms part of ArtOnFilm Ltd commissioned retail inventory.
@@ -68,9 +70,12 @@ const Shop = () => {
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">
+                  <h3 className="text-xl font-bold text-white mb-1 group-hover:text-amber-400 transition-colors">
                     {artwork.title}
                   </h3>
+                  <p className="text-xs text-amber-400/70 italic mb-3">
+                    This work forms part of the ArtOnFilm curated programme.
+                  </p>
                   <p className="text-sm text-gray-400 mb-4">
                     {artwork.medium} • {artwork.dimensions}
                   </p>
