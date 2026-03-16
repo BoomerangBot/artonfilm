@@ -59,6 +59,27 @@ ArtOnFilm is a sophisticated digital presence for art investors and enthusiasts.
   - Chevron icon indicates dropdown
   - Works on both desktop and mobile
 
+- **FAQ Page (Standalone)**: New page linked from About dropdown with:
+  - Hero section with "FAQ" badge and description
+  - Quick links to Collector FAQ and Investor FAQ pages
+  - All 10 General FAQ questions as expandable accordions:
+    1. What is ArtOnFilm?
+    2. How does ArtOnFilm work?
+    3. How can collectors acquire artwork?
+    4. What types of artwork does ArtOnFilm present?
+    5. Are artworks supplied with documentation?
+    6. How are artworks delivered?
+    7. What is the ArtOnFilm exhibition programme?
+    8. Can collectors receive early access to new works?
+    9. How does ArtOnFilm generate revenue?
+    10. Is ArtOnFilm open to investment?
+  - "Our Creative Programmes" section with Painting and Photography cards
+  - Contact CTA section
+
+- **About Dropdown**: Navigation now has About dropdown with:
+  - "About ArtOnFilm" → /about
+  - "FAQ" → /faq
+
 ### Previously Completed
 - SEIS compliance overhaul (site-wide term replacement)
 - Navigation restructure: Home | Artists | Artist CV | Collections | Tour | Shop | Invest | About | Contact

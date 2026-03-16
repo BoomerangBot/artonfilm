@@ -21,6 +21,7 @@ import About from './pages/About';
 import Artists from './pages/Artists';
 import ArtistCV from './pages/ArtistCV';
 import Invest from './pages/Invest';
+import FAQ from './pages/FAQ';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import GDPRPolicy from './pages/GDPRPolicy';
 import Terms from './pages/Terms';
@@ -51,6 +52,7 @@ function App() {
           <Route path="/collection/chris-lee" element={<ChrisLeeCollection />} />
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/invest" element={<Invest />} />
+          <Route path="/faq" element={<FAQ />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/gdpr-policy" element={<GDPRPolicy />} />
           <Route path="/terms" element={<Terms />} />
