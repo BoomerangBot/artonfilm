@@ -44,6 +44,21 @@ ArtOnFilm is a sophisticated digital presence for art investors and enthusiasts.
   - Legal disclaimer footer
   - No forbidden language (art returns, price growth, art investment)
 
+- **Artist CV Page Enhancement**: Professional credentials page with:
+  - Hero section with "Professional Credentials" heading
+  - Quick navigation buttons to jump to each artist
+  - For each artist: name, discipline badge, alias (if applicable), bio, "View Collection" button
+  - Education section: year, degree, institution
+  - Collections section: where works are held
+  - Selected Exhibitions: year, title, venue, location
+  - CTA to shop and view all artists
+
+- **Navigation Dropdown**: Added dropdown under "Artists" with:
+  - "Our Artists" → /artists
+  - "Artist CV" → /artist-cv
+  - Chevron icon indicates dropdown
+  - Works on both desktop and mobile
+
 ### Previously Completed
 - SEIS compliance overhaul (site-wide term replacement)
 - Navigation restructure: Home | Artists | Artist CV | Collections | Tour | Shop | Invest | About | Contact
