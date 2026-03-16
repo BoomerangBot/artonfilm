@@ -35,6 +35,15 @@ ArtOnFilm is a sophisticated digital presence for art investors and enthusiasts.
   - Acquisition & Delivery section with 4 checkmark items
   - Collection CTA links to artist pages
 
+- **New Invest Page (SEIS Compliant)**: Complete rebuild with all required sections
+  - Section 1: Invest Introduction - company description as UK creative IP and advertising firm
+  - Section 2: How ArtOnFilm Operates - revenue model (artwork sales, limited editions, exhibitions)
+  - Section 3: What Investment Supports - 4 items (commissioning, exhibitions, media campaigns, international expansion)
+  - Section 4: Investor FAQ - 5 expandable accordion questions
+  - Section 5: Request Investor Information CTA with green button
+  - Legal disclaimer footer
+  - No forbidden language (art returns, price growth, art investment)
+
 ### Previously Completed
 - SEIS compliance overhaul (site-wide term replacement)
 - Navigation restructure: Home | Artists | Artist CV | Collections | Tour | Shop | Invest | About | Contact
