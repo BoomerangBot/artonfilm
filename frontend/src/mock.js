@@ -758,70 +758,208 @@ export const artworks = [
     title: 'Pacific Heights Reverie',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
+    size: '90 x 120 cm',
     year: '2024',
+    series: 'Series II',
+    status: 'available',
     description: 'A luminous mid-century modern residence cascades down a hillside, its cantilevered roof and floor-to-ceiling glass walls framing a panoramic vista of city and sea. The turquoise infinity pool reflects California\'s eternal blue sky in this celebration of architectural harmony and aspirational living.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0o11iz4d_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%285%29.jpeg',
-    price: 'POA'
+    price: '£4,500'
   },
   {
     id: 2,
     title: 'Alpine Sanctuary',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
+    size: '100 x 150 cm',
     year: '2024',
+    series: 'Series III',
+    status: 'reserved',
     description: 'Majestic snow-capped peaks rise beyond a heated infinity pool where a solitary fire burns against the alpine chill. This striking juxtaposition of wilderness grandeur and refined comfort captures the essence of elevated mountain living at its most dramatic.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/xdx1epeu_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%284%29.jpeg',
-    price: 'POA'
+    price: '£6,500'
   },
   {
     id: 3,
     title: 'Flamingo Deco',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
+    size: '80 x 100 cm',
     year: '2024',
+    series: 'Series I',
+    status: 'available',
     description: 'A pink Art Deco masterpiece rises amid swaying palms and crystalline waters. Turquoise balconies and stone terraces descend to a pristine pool, evoking the timeless glamour of Miami Beach\'s golden age in a symphony of pastel sophistication.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/i8bql4b4_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%283%29.jpeg',
-    price: 'POA'
+    price: '£3,200'
   },
   {
     id: 4,
     title: 'Desert Moderne',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
+    size: '70 x 90 cm',
     year: '2024',
+    series: 'Series I',
+    status: 'sold',
     description: 'Geometric breeze blocks and candy-coloured doors define this quintessential Palm Springs residence. The curved azure pool reflects towering palms as vibrant pinks, teals, and yellows celebrate the playful exuberance of mid-century desert modernism.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/alt9k4cw_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%282%29.jpeg',
-    price: 'POA'
+    price: '£2,800'
   },
   {
     id: 5,
     title: 'Portofino Dreams',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
+    size: '100 x 150 cm',
     year: '2024',
+    series: 'Series III',
+    status: 'available',
     description: 'A sleek superyacht glides through the turquoise waters of an Italian Riviera bay, framed by cypress-studded hillsides and terracotta villas. The foreground infinity pool invites the viewer into this vision of Mediterranean luxury and serene escapism.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0z3071fo_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%286%29.jpeg',
-    price: 'POA'
+    price: '£7,500'
   },
   {
     id: 6,
     title: 'South Beach Daybreak',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
+    size: '80 x 100 cm',
     year: '2024',
+    series: 'Series II',
+    status: 'available',
     description: 'Vivid surfboards stand sentinel before Miami\'s iconic pastel lifeguard station as dawn paints the sky in lavender and coral. This celebration of beach culture captures the electric energy and chromatic joy of America\'s most stylish shoreline.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/maokeytm_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%281%29.jpeg',
-    price: 'POA'
+    price: '£3,800'
   },
   {
     id: 7,
     title: 'Côte d\'Azur Afternoon',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
+    size: '90 x 120 cm',
     year: '2024',
+    series: 'Series II',
+    status: 'available',
     description: 'Striped umbrellas in warm tangerine crown a sunlit terrace overlooking a bay where yachts dance on sapphire waters. Verdant hillsides embrace this vision of the French Riviera, capturing the eternal allure of Mediterranean summers.',
     image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/bp6xiomv_WhatsApp%20Image%202026-03-11%20at%2013.56.33.jpeg',
-    price: 'POA'
+    price: '£4,200'
+  }
+];
+
+// Shop Page Data
+export const shopPricingLadder = [
+  { category: 'Paintings Series I', range: '£1,500 – £4,000' },
+  { category: 'Paintings Series II', range: '£2,500 – £6,000' },
+  { category: 'Paintings Series III', range: '£4,000 – £9,000' },
+  { category: 'Photography Edition of 20', range: '£450' },
+  { category: 'Photography Edition of 15', range: '£650' },
+  { category: 'Photography Edition of 10', range: '£900' },
+  { category: 'Photography Edition of 5', range: '£1,800+' },
+  { category: 'Original Exhibition Photography', range: '£2,500 – £4,000' }
+];
+
+export const collectorFAQ = [
+  {
+    question: 'How do I acquire an artwork?',
+    answer: 'Works may be acquired through the ArtOnFilm website or via private viewing appointment. Collectors can submit an acquisition request directly from each artwork listing.'
+  },
+  {
+    question: 'Are artworks unique?',
+    answer: 'Original paintings and exhibition photographic works are unique pieces. Limited edition photographs are released in small signed editions.'
+  },
+  {
+    question: 'Do artworks come with documentation?',
+    answer: 'Yes. All works released through the ArtOnFilm programme include: certificate of authenticity, artwork documentation, collection reference.'
+  },
+  {
+    question: 'How is artwork delivered?',
+    answer: 'ArtOnFilm organises secure packaging and insured shipping, with international delivery available. Collectors are contacted directly post-acquisition to arrange delivery.'
+  },
+  {
+    question: 'Can I see artworks before purchasing?',
+    answer: 'Yes. Private viewings and exhibition presentations can be arranged. Collectors may sign up for invitations to future exhibitions.'
+  }
+];
+
+// Photography works for Shop with status and pricing
+export const photographyShopWorks = [
+  {
+    id: 'photo-1',
+    title: 'Westminster Shadows',
+    artist: 'Dr Chris Lee (JustXR1)',
+    medium: 'Fine Art Photography',
+    size: '60 x 90 cm',
+    year: '2024',
+    edition: 'Edition of 10',
+    status: 'available',
+    description: 'London\'s iconic clock tower captured in dramatic chiaroscuro, a testament to time and architecture.',
+    image: 'https://customer-assets.emergentagent.com/job_film-canvas/artifacts/5z2mwq5y_big%20ben.jpg',
+    price: '£900'
+  },
+  {
+    id: 'photo-2',
+    title: 'Tiger & Turtle',
+    artist: 'Dr Chris Lee (JustXR1)',
+    medium: 'Fine Art Photography',
+    size: '80 x 120 cm',
+    year: '2024',
+    edition: 'Edition of 5',
+    status: 'available',
+    description: 'A stunning sculptural landmark where art meets architecture in a breathtaking walkable rollercoaster form.',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/xho0bx9q_tiger%20and%20turtle.jpg',
+    price: '£1,800'
+  },
+  {
+    id: 'photo-3',
+    title: 'Jazz Spirit',
+    artist: 'Dr Chris Lee (JustXR1)',
+    medium: 'Fine Art Photography',
+    size: '50 x 75 cm',
+    year: '2024',
+    edition: 'Edition of 15',
+    status: 'reserved',
+    description: 'The essence of New Orleans jazz captured in a single frame, where music becomes visual poetry.',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/kg42jehx_NOM17-min.jpg',
+    price: '£650'
+  },
+  {
+    id: 'photo-4',
+    title: 'Golden Hour',
+    artist: 'Dr Chris Lee (JustXR1)',
+    medium: 'Fine Art Photography',
+    size: '60 x 90 cm',
+    year: '2024',
+    edition: 'Edition of 20',
+    status: 'available',
+    description: 'Sunlight transforms the ordinary into extraordinary, painting the world in liquid gold.',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/1fov7k8q_sunlight.jpg',
+    price: '£450'
+  },
+  {
+    id: 'photo-5',
+    title: 'Winter Serenity',
+    artist: 'Dr Chris Lee (JustXR1)',
+    medium: 'Fine Art Photography',
+    size: '100 x 150 cm',
+    year: '2024',
+    edition: 'Original Exhibition Print',
+    status: 'available',
+    description: 'A contemplative winter landscape where silence speaks and nature reveals its quiet majesty.',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/89sw7x5n_Winter%209.jpg',
+    price: '£3,200'
+  },
+  {
+    id: 'photo-6',
+    title: 'Bourbon Blues',
+    artist: 'Dr Chris Lee (JustXR1)',
+    medium: 'Fine Art Photography',
+    size: '50 x 75 cm',
+    year: '2024',
+    edition: 'Edition of 10',
+    status: 'sold',
+    description: 'Where every note tells a story, captured in the heart of New Orleans\' legendary music scene.',
+    image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/qktaq7ds_NOM19-min.jpg',
+    price: '£900'
   }
 ];
 

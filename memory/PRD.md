@@ -23,6 +23,18 @@ ArtOnFilm is a sophisticated digital presence for art investors and enthusiasts.
   - Home.jsx: "Download Impact Report" -> "Request Impact Report" (links to contact form)
   - Programme.jsx: "Download Programme PDF" -> "Request Programme Details" (links to contact form)
 
+- **New Shop/Acquire Works Page**: Complete rebuild with all required sections
+  - Hero with status summary (Available/Reserved/Sold counts)
+  - "How It Works" section (Direct Ownership, Full Documentation, Private Viewings)
+  - Pricing Guide with 8-tier ladder (Paintings Series I-III, Photography Editions)
+  - Artwork Listings with filter tabs (All Works, Paintings, Photography)
+    - Each artwork shows: title, medium, size, year, status badge, price, curatorial line
+    - Status system: Available (green), Reserved (amber), Sold (red with overlay)
+    - "Request Acquisition" button links to contact form
+  - Collector FAQ (5 expandable accordion questions)
+  - Acquisition & Delivery section with 4 checkmark items
+  - Collection CTA links to artist pages
+
 ### Previously Completed
 - SEIS compliance overhaul (site-wide term replacement)
 - Navigation restructure: Home | Artists | Artist CV | Collections | Tour | Shop | Invest | About | Contact
