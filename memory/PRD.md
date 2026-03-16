@@ -80,6 +80,16 @@ ArtOnFilm is a sophisticated digital presence for art investors and enthusiasts.
   - "About ArtOnFilm" → /about
   - "FAQ" → /faq
 
+- **Global Tone & Messaging Update (SEIS Compliance)**:
+  - **About Page**: Updated hero to Companies House description: "Creative intellectual property and advertising company commissioning and selling contemporary artworks through exhibitions and media programmes."
+  - Added key trading statement: "ArtOnFilm Ltd operates as a trading company commissioning, producing and selling contemporary artworks through exhibitions and its website."
+  - Updated Business Type to "Creative Intellectual Property & Advertising"
+  - **Footer**: Updated disclaimer to use compliant language, removed patron/sponsor links, reordered Quick Links (artwork sales first)
+  - **mock.js**: Replaced "resale" with "sales", updated visionData and commissioningModelData
+  - **Shop.jsx & ChrisLeeCollection.jsx**: Updated all "resale" and "trading stock" language to "commissions and releases artworks through its programme"
+  - **Forbidden terms removed**: "acquisition and resale", "art marketplace", "reselling", "trading stock for resale"
+  - **Always use**: "commissions and releases artworks through its programme"
+
 ### Previously Completed
 - SEIS compliance overhaul (site-wide term replacement)
 - Navigation restructure: Home | Artists | Artist CV | Collections | Tour | Shop | Invest | About | Contact

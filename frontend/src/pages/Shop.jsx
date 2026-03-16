@@ -143,11 +143,11 @@ const Shop = () => {
             </div>
             <div className="flex items-start gap-3 p-4 bg-black/30 rounded-xl border border-amber-500/10">
               <div className="w-2 h-2 rounded-full bg-amber-400 mt-3 flex-shrink-0"></div>
-              <p className="text-gray-200 text-lg">Works are recorded as trading stock.</p>
+              <p className="text-gray-200 text-lg">Works are released through the ArtOnFilm programme.</p>
             </div>
             <div className="flex items-start gap-3 p-4 bg-black/30 rounded-xl border border-amber-500/10">
               <div className="w-2 h-2 rounded-full bg-amber-400 mt-3 flex-shrink-0"></div>
-              <p className="text-gray-200 text-lg">Revenue is generated solely through retail resale.</p>
+              <p className="text-gray-200 text-lg">Revenue is generated through artwork sales and exhibitions.</p>
             </div>
             <div className="flex items-start gap-3 p-4 bg-black/30 rounded-xl border border-amber-500/10">
               <div className="w-2 h-2 rounded-full bg-amber-400 mt-3 flex-shrink-0"></div>
@@ -173,7 +173,7 @@ const Shop = () => {
           <div className="space-y-8">
             <div className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-10 border border-white/10">
               <p className="text-xl text-gray-300 leading-relaxed mb-6">
-                ArtOnFilm Ltd commissions and acquires contemporary artwork as trading stock for resale through structured retail channels.
+                ArtOnFilm Ltd commissions and releases artworks through its programme. Works are available through exhibitions and the ArtOnFilm website.
               </p>
               <p className="text-xl text-gray-300 leading-relaxed">
                 All works available for purchase are owned outright by ArtOnFilm Ltd and are offered for sale in the ordinary course of business.
@@ -195,7 +195,7 @@ const Shop = () => {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="bg-gradient-to-br from-blue-500/5 to-transparent rounded-2xl p-8 border-l-4 border-blue-500">
             <p className="text-lg text-gray-300 text-center leading-relaxed">
-              <span className="font-semibold text-white">ArtOnFilm Ltd operates solely as a retail trading company.</span> Artwork is commissioned and acquired as trading stock for resale through structured commercial channels.
+              <span className="font-semibold text-white">ArtOnFilm Ltd operates as a trading company</span> commissioning, producing and selling contemporary artworks through exhibitions and its website.
             </p>
           </div>
         </div>

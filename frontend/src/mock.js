@@ -23,7 +23,7 @@ export const heroData = {
 
 export const visionData = {
   headline: 'Our Trade',
-  content: 'ArtOnFilm Ltd is a UK retail trading company specialising in commissioned contemporary artwork.\n\nWe work directly with established and emerging artists to commission new original works, acquire selected inventory, hold artwork as trading stock, present collections through curated activation events, and resell through exhibitions and online channels.\n\nRevenue is generated exclusively through artwork and design resale.'
+  content: 'ArtOnFilm Ltd is a UK creative intellectual property and advertising company commissioning and selling contemporary artworks through exhibitions and media programmes.\n\nWe commission artists to create original works as part of our creative programme. Collections are curated for exhibitions, media documentation, and promotional campaigns. Works are released through exhibitions and the ArtOnFilm website.\n\nRevenue is generated through sale of artworks, limited editions, and exhibitions.'
 };
 
 export const howWeOperateData = {
@@ -67,8 +67,8 @@ export const commissioningModelData = {
   points: [
     'Artists receive an agreed production fee',
     'Ownership fully transfers to ArtOnFilm Ltd upon completion',
-    'Works are recorded as trading stock',
-    'Revenue is generated exclusively through retail resale'
+    'Works are released through the ArtOnFilm programme',
+    'Revenue is generated through artwork sales and exhibitions'
   ],
   footer: 'The company does not derive income from licensing, intellectual property royalties, or distribution rights.'
 };
@@ -741,7 +741,7 @@ export const artOnDesignData = {
   description: 'A commercial design extension of selected artwork collections.',
   details: 'Limited-run chairs, scarves and framed editions produced under supply agreements and held as retail inventory.',
   items: ['Chairs', 'Scarves', 'Framed Editions'],
-  footer: 'All design objects are manufactured, stocked and sold by ArtOnFilm Ltd under its standard trading model. Future design releases follow the same commission and resale structure.'
+  footer: 'All design objects are manufactured, stocked and sold by ArtOnFilm Ltd. Future design releases follow the same commission and sales structure.'
 };
 
 export const carnabyFilmsData = {

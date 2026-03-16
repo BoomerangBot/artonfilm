@@ -20,18 +20,18 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
+                <Link to="/shop" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Acquire Works
+                </Link>
+              </li>
+              <li>
+                <Link to="/collection" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Collections
+                </Link>
+              </li>
+              <li>
                 <Link to="/programme" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Programme
-                </Link>
-              </li>
-              <li>
-                <Link to="/patrons" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Become a Sponsor
-                </Link>
-              </li>
-              <li>
-                <Link to="/partners" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Corporate Partnership
+                  Tour Programme
                 </Link>
               </li>
               <li>
@@ -55,7 +55,7 @@ const Footer = () => {
           {/* Disclaimer */}
           <div className="mb-8 p-6 bg-gradient-to-r from-red-500/10 to-transparent border-l-4 border-red-500 rounded-r-lg">
             <p className="text-gray-300 text-sm leading-relaxed">
-              <span className="font-semibold text-white">DISCLAIMER:</span> ArtOnFilm Ltd is a retail trading company. Artwork is commissioned and acquired as trading stock for resale through structured retail channels. The company does not operate as a financial investment vehicle, fund, broker, or film rights distributor.
+              <span className="font-semibold text-white">DISCLAIMER:</span> ArtOnFilm Ltd is a creative intellectual property and advertising company that commissions and releases artworks through its programme. The company does not operate as a financial investment vehicle, fund, broker, or art marketplace.
             </p>
           </div>
 

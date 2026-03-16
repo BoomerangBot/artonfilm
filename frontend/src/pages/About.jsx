@@ -40,7 +40,7 @@ const About = () => {
           </h1>
           
           <p className="text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            ArtOnFilm Ltd is a UK-registered retail trading company focused on commissioning, acquiring, and reselling contemporary artwork.
+            Creative intellectual property and advertising company commissioning and selling contemporary artworks through exhibitions and media programmes.
           </p>
         </div>
       </section>
@@ -158,6 +158,13 @@ const About = () => {
       {/* Company Details Section */}
       <section className="py-20 bg-black">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          {/* Trading Statement */}
+          <div className="bg-gradient-to-br from-green-500/5 to-transparent rounded-2xl p-10 border border-green-500/20 mb-8">
+            <p className="text-xl text-gray-300 leading-relaxed text-center">
+              <span className="text-green-400 font-semibold">ArtOnFilm Ltd operates as a trading company</span> commissioning, producing and selling contemporary artworks through exhibitions and its website.
+            </p>
+          </div>
+
           <div className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-12 border-2 border-white/10">
             <div className="flex items-center justify-center gap-4 mb-8">
               <FileText size={40} className="text-amber-400" />
@@ -171,7 +178,10 @@ const About = () => {
                 <span className="font-semibold text-white">Jurisdiction:</span> United Kingdom
               </p>
               <p className="text-lg text-gray-300">
-                <span className="font-semibold text-white">Business Type:</span> Retail Trading Company
+                <span className="font-semibold text-white">Business Type:</span> Creative Intellectual Property & Advertising
+              </p>
+              <p className="text-sm text-gray-400 mt-6 italic">
+                Commissioning and selling contemporary artworks through exhibitions and media programmes.
               </p>
             </div>
           </div>
