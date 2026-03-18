@@ -302,15 +302,6 @@ export const charityLogos = [
       facebook: 'https://facebook.com/redcross',
       instagram: 'https://instagram.com/americanredcross'
     }
-  },
-  { 
-    name: 'ArtOnGiving', 
-    url: 'https://artofgivingfoundation.org',
-    logo: 'https://customer-assets.emergentagent.com/job_film-canvas/artifacts/ccjapidt_Art_on_giving.jpg',
-    social: {
-      facebook: 'https://facebook.com/artofgivingfoundation',
-      instagram: 'https://instagram.com/artofgivingfoundation'
-    }
   }
 ];
 
@@ -573,7 +564,7 @@ export const exhibitionsToursData = {
     ]
   },
   partners: [
-    'KISSELL',
+    'DHS Labs',
     'Swiss Club Singapore',
     'Simply Champagne',
     'Tangling Trust School',
