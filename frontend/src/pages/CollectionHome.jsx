@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Film, Camera, Clock, Palette } from 'lucide-react';
+import { Film, Camera, Clock, Palette, Building2 } from 'lucide-react';
 
 const CollectionHome = () => {
   const collections = [
@@ -42,22 +42,28 @@ const CollectionHome = () => {
       artworkCount: 49
     },
     {
+      id: 5,
+      name: 'Tanglin Trust School',
+      subtitle: 'Singapore – 100 Years Celebration',
+      title: 'Exhibition Collection',
+      description: 'Curated exhibition celebrating 100 years of Tanglin Trust School, Singapore.',
+      features: [
+        'Exhibition partnership with Tanglin Trust School',
+        'Curated collection for centenary celebration',
+        'Singapore-based exhibition programme'
+      ],
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/q053ny3t_Main%20Image.png',
+      path: '/collection/tanglin-trust',
+      icon: Building2,
+      available: false,
+      comingSoon: true
+    },
+    {
       id: 3,
       name: 'Future Commissions',
       title: 'In Development',
       description: 'Additional collections being commissioned as part of inventory growth strategy.',
       image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwzfHxhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85',
-      path: '#',
-      icon: Clock,
-      available: false,
-      tba: true
-    },
-    {
-      id: 4,
-      name: 'Future Commissions',
-      title: 'In Development',
-      description: 'New works being commissioned to expand company inventory.',
-      image: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHw1fHxhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85',
       path: '#',
       icon: Clock,
       available: false,
