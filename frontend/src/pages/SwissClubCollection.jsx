@@ -297,6 +297,36 @@ const SwissClubCollection = () => {
       title: 'Singapore Skyline',
       description: 'Marina Bay and Singapore Flyer - backdrop to the World Tour',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/xhd6810a_IMG20251126173402.jpg'
+    },
+    {
+      id: 50,
+      title: 'Alpine Canvas',
+      description: 'Mountain pool painting with artist business card on marble display',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/81ohj6s8_IMG20251124162614.jpg'
+    },
+    {
+      id: 51,
+      title: 'South Beach Surfboards',
+      description: 'Colourful surfboards and lifeguard tower in the heritage room',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/z8xlx1et_IMG20251124162630.jpg'
+    },
+    {
+      id: 52,
+      title: 'Reception Ready',
+      description: 'Champagne reception setup in the heritage room',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/xt742tcj_IMG20251124162651.jpg'
+    },
+    {
+      id: 53,
+      title: 'World Tour Signage',
+      description: 'Exhibition directional poster with event sponsors and partners',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/17x22zq4_IMG20251124175515.jpg'
+    },
+    {
+      id: 54,
+      title: 'Après-Ski',
+      description: 'Winter chalet scene with fur chairs and champagne service',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/j5sx2rov_IMG20251124162611.jpg'
     }
   ];
 
