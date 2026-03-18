@@ -73,7 +73,7 @@ const CollectionHome = () => {
       path: '/collection/swiss-club',
       icon: Building2,
       available: true,
-      artworkCount: 9
+      artworkCount: 14
     },
     {
       id: 3,

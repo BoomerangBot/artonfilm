@@ -57,6 +57,36 @@ const SwissClubCollection = () => {
       title: 'Swiss Club Singapore',
       description: 'The stunning venue poolside setting for the Modern Eden exhibition',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/vxlnvtj8_IMG-20251127-WA0028.jpg'
+    },
+    {
+      id: 10,
+      title: 'Exhibition Display',
+      description: 'Miami Beach lifeguard tower and poolside paintings on easels',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/7pbwp3ax_IMG-20251127-WA0029.jpg'
+    },
+    {
+      id: 11,
+      title: 'Evening Reception',
+      description: 'Guests enjoying the collection during the fine dining experience',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/drm7y7jo_IMG-20251127-WA0034.jpg'
+    },
+    {
+      id: 12,
+      title: 'Collection Preview',
+      description: 'Modern Eden paintings displayed for collectors at the Swiss Club',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/7yrlszss_IMG-20251127-WA0036.jpg'
+    },
+    {
+      id: 13,
+      title: 'Artist at Work',
+      description: 'Natasha Kissell presenting her work at the Swiss Club heritage room',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/6on7ykyo_IMG-20251209-WA0000.jpg'
+    },
+    {
+      id: 14,
+      title: 'Miami Beach Sunset',
+      description: 'Framed lifeguard tower painting with surfboards at golden hour',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/0n80dgoj_IMG-20251209-WA0002.jpg'
     }
   ];
 
