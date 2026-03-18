@@ -117,6 +117,36 @@ const SwissClubCollection = () => {
       title: 'Champagne Reception',
       description: 'Event setup with Modern Eden brochures and champagne service',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/v9popxjx_IMG20251124162446.jpg'
+    },
+    {
+      id: 20,
+      title: 'Tropical Trio',
+      description: 'Beach scenes featuring lifeguard tower, resort pool and cabana with hibiscus',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/glet70ey_IMG20251124162452.jpg'
+    },
+    {
+      id: 21,
+      title: 'Laguna Beach',
+      description: 'California coastal garden with cacti, bougainvillea and ocean view',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/8u2yy4zj_IMG20251124162502.jpg'
+    },
+    {
+      id: 22,
+      title: 'Beach & Bay',
+      description: 'Striped beach tent and Caribbean villa with infinity pool views',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/6mw58n7n_IMG20251124162510.jpg'
+    },
+    {
+      id: 23,
+      title: 'Exhibition Materials',
+      description: 'Catalogues, investor packs and promotional materials for the World Tour',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/2f04oa64_IMG20251124162521.jpg'
+    },
+    {
+      id: 24,
+      title: 'Palm Springs & Paradise',
+      description: 'Mid-century modernist pool and tropical bay resort paintings',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/0r7djo8t_IMG20251124162532.jpg'
     }
   ];
 
