@@ -27,6 +27,36 @@ const SwissClubCollection = () => {
       title: 'Champagne in the Snow',
       description: 'Alpine luxury with candlelit chalets and mountain backdrop',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/c9yavl7b_IMG_4338.jpeg'
+    },
+    {
+      id: 5,
+      title: 'Mountain Spa',
+      description: 'Heated pool with panoramic views of snow-capped peaks',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/49bgandq_IMG_4340.jpeg'
+    },
+    {
+      id: 6,
+      title: 'Portofino View',
+      description: 'Italian Riviera infinity pool with superyacht and Mediterranean coast',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/8tnhnzt0_IMG_4343.jpeg'
+    },
+    {
+      id: 7,
+      title: 'Côte d\'Azur Interior',
+      description: 'Elegant dining room with striped silk curtains and sea view',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/pkxnvkj9_IMG_4432.jpeg'
+    },
+    {
+      id: 8,
+      title: 'Modern Eden World Tour',
+      description: 'Official event poster for the Swiss Club Singapore exhibition',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/fdh00m3q_IMG-20251117-WA0107.jpg'
+    },
+    {
+      id: 9,
+      title: 'Swiss Club Singapore',
+      description: 'The stunning venue poolside setting for the Modern Eden exhibition',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/vxlnvtj8_IMG-20251127-WA0028.jpg'
     }
   ];
 
@@ -47,26 +77,26 @@ const SwissClubCollection = () => {
           </div>
           
           <h1 className="text-5xl md:text-6xl font-bold mb-6 font-serif leading-tight">
-            <span className="gradient-text">Swiss Club</span>
+            <span className="gradient-text">Swiss Club Singapore</span>
           </h1>
           
           <p className="text-2xl text-amber-400 mb-4 font-medium">
-            Natasha Kissell Exhibition
+            Modern Eden World Tour
           </p>
           
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            A curated exhibition of contemporary paintings from the Natasha Kissell collection, presented at the prestigious Swiss Club.
+            A curated exhibition of contemporary paintings from the Natasha Kissell collection, presented at the prestigious Swiss Club Singapore as part of the Modern Eden World Tour.
           </p>
 
           {/* Exhibition Details */}
           <div className="flex flex-wrap justify-center gap-6 text-gray-400">
             <div className="flex items-center gap-2">
               <MapPin size={18} className="text-amber-400" />
-              <span>Swiss Club</span>
+              <span>Swiss Club Singapore</span>
             </div>
             <div className="flex items-center gap-2">
               <Calendar size={18} className="text-amber-400" />
-              <span>2025</span>
+              <span>November 2025</span>
             </div>
             <div className="flex items-center gap-2">
               <Palette size={18} className="text-amber-400" />
@@ -141,10 +171,10 @@ const SwissClubCollection = () => {
 
           <div className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-10 border border-white/10 mb-8">
             <p className="text-xl text-gray-300 leading-relaxed mb-6">
-              ArtOnFilm presented a curated exhibition of contemporary paintings from the Natasha Kissell collection at the Swiss Club. The exhibition showcased vibrant works exploring themes of architecture, coastal living, and mid-century modernism.
+              ArtOnFilm presented a curated exhibition of contemporary paintings from the Natasha Kissell collection at the Swiss Club Singapore as part of the Modern Eden World Tour. The exhibition showcased vibrant works exploring themes of architecture, coastal living, alpine luxury, and mid-century modernism.
             </p>
             <p className="text-xl text-gray-300 leading-relaxed">
-              The Swiss Club provided an elegant setting for collectors and art enthusiasts to experience the Modern Eden series, with works available for acquisition through ArtOnFilm's retail programme.
+              Hosted over two exclusive evenings on 24th and 25th November 2025, guests enjoyed champagne receptions, meet-the-artist sessions, and fine dining experiences alongside the collection, with works available for acquisition through ArtOnFilm's retail programme.
             </p>
           </div>
 
