@@ -237,6 +237,36 @@ const SwissClubCollection = () => {
       title: 'Host Address',
       description: 'Event host addressing guests at the garden dinner',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/khg2h00d_Screenshot_2026-01-13-21-28-53-97_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 40,
+      title: 'Poolside Evening',
+      description: 'Swiss Club pool illuminated for the evening reception',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/rd11024s_IMG20251125230506.jpg'
+    },
+    {
+      id: 41,
+      title: 'Night at the Club',
+      description: 'The iconic Swiss Club pool terrace after dark',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/d03uum6r_IMG20251125230510.jpg'
+    },
+    {
+      id: 42,
+      title: 'Singapore Setting',
+      description: 'City backdrop during the Modern Eden World Tour',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/fsyw0s05_IMG20251126121147.jpg'
+    },
+    {
+      id: 43,
+      title: 'Tropical Beach Scene',
+      description: 'Vibrant painting featuring palm trees and beachfront resort',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/1gr5rdcl_IMG20251127170952_01.jpg'
+    },
+    {
+      id: 44,
+      title: 'Desert Modern',
+      description: 'Palm Springs inspired painting with mid-century architecture',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/n0e3ozcb_IMG20251127171101.jpg'
     }
   ];
 
