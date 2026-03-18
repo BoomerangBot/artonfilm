@@ -17,6 +17,7 @@ import Shop from './pages/Shop';
 import ShopPage from './pages/ShopPage';
 import CollectionHome from './pages/CollectionHome';
 import ChrisLeeCollection from './pages/ChrisLeeCollection';
+import TanglinTrustCollection from './pages/TanglinTrustCollection';
 import About from './pages/About';
 import Artists from './pages/Artists';
 import ArtistCV from './pages/ArtistCV';
@@ -51,6 +52,7 @@ function App() {
           <Route path="/collection" element={<CollectionHome />} />
           <Route path="/collection/natasha-kissell" element={<Shop />} />
           <Route path="/collection/chris-lee" element={<ChrisLeeCollection />} />
+          <Route path="/collection/tanglin-trust" element={<TanglinTrustCollection />} />
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/invest" element={<Invest />} />
           <Route path="/faq" element={<FAQ />} />

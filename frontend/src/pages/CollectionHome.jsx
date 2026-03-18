@@ -55,8 +55,8 @@ const CollectionHome = () => {
       image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/q053ny3t_Main%20Image.png',
       path: '/collection/tanglin-trust',
       icon: Building2,
-      available: false,
-      comingSoon: true
+      available: true,
+      artworkCount: 5
     },
     {
       id: 3,
