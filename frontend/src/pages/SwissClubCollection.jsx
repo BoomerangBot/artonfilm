@@ -267,6 +267,36 @@ const SwissClubCollection = () => {
       title: 'Desert Modern',
       description: 'Palm Springs inspired painting with mid-century architecture',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/n0e3ozcb_IMG20251127171101.jpg'
+    },
+    {
+      id: 45,
+      title: 'Simply Champagne Partnership',
+      description: 'Modern Eden painting alongside champagne sponsor at the heritage room',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/8igp2jrn_IMG20251124194215.jpg'
+    },
+    {
+      id: 46,
+      title: 'Tropical Gardens',
+      description: 'Evening view of the Swiss Club tropical pool gardens',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/vp7xep7c_IMG20251124214053.jpg'
+    },
+    {
+      id: 47,
+      title: 'Collection Spread',
+      description: 'Full range of Modern Eden paintings on display for collectors',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/wumf8tcj_IMG20251125230453.jpg'
+    },
+    {
+      id: 48,
+      title: 'Miami Beach Feature',
+      description: 'Large-scale lifeguard tower painting with poolside companion piece',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/4ao9fuuj_IMG20251125230458.jpg'
+    },
+    {
+      id: 49,
+      title: 'Singapore Skyline',
+      description: 'Marina Bay and Singapore Flyer - backdrop to the World Tour',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/xhd6810a_IMG20251126173402.jpg'
     }
   ];
 
