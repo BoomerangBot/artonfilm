@@ -93,6 +93,36 @@ const TanglinTrustCollection = () => {
       title: 'Workshop - Nature Studies',
       description: 'Botanical collage with leaf forms',
       image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/d2h720fr_IMG-20251127-WA0076.jpg'
+    },
+    {
+      id: 16,
+      title: 'Workshop - Landscape Collage',
+      description: 'Completed landscape with cityscape and water elements',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/4t8pkd5i_IMG-20251127-WA0080.jpg'
+    },
+    {
+      id: 17,
+      title: 'Workshop - Abstract Seascape',
+      description: 'Turquoise and blue mixed media seascape',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/qwy6a5nv_IMG-20251127-WA0082.jpg'
+    },
+    {
+      id: 18,
+      title: 'Artist in Residence',
+      description: 'Natasha Kissell guiding students through technique',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/upa4sash_IMG-20251127-WA0084.jpg'
+    },
+    {
+      id: 19,
+      title: 'Workshop Session',
+      description: 'Artist engaging with students during workshop',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/6qmg1exz_IMG-20251127-WA0085.jpg'
+    },
+    {
+      id: 20,
+      title: 'Workshop - Texture Detail',
+      description: 'Close-up of texture techniques on monochrome work',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/9t1mv9iw_IMG-20251127-WA0086.jpg'
     }
   ];
 
