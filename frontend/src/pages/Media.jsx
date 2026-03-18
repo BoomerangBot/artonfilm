@@ -42,7 +42,7 @@ const Media = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/6ls4mrvv_file_00000000aa6c6246b72a85fdcf36d7d0.png')`
+            backgroundImage: `url('https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/sw1x9f68_IMG20251124162604.jpg')`
           }}
         >
           {/* Gradient Overlays */}

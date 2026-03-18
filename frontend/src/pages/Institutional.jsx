@@ -12,7 +12,7 @@ const Institutional = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/dnto9g65_file_00000000b1f0624697fec431faf3e5bb.png')`
+            backgroundImage: `url('https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/49bgandq_IMG_4340.jpeg')`
           }}
         >
           {/* Gradient Overlays for Cinematic Effect */}

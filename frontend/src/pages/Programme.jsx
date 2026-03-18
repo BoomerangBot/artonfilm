@@ -172,7 +172,7 @@ const Programme = () => {
         <div 
           className="absolute inset-0"
           style={{
-            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/19lhfee4_file_00000000820061f9927fb678fcdac653.png)',
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/n7u90r5v_IMG20251124162608.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}

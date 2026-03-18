@@ -143,7 +143,7 @@ const Home = () => {
           <div 
             className="absolute inset-0 opacity-20 mix-blend-screen"
             style={{
-              backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/gvberlem_file_000000004fbc62468d23486c88f5cf8f.png)',
+              backgroundImage: 'url(https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/8entc84z_IMG_1191.jpeg)',
               backgroundSize: '40%',
               backgroundPosition: 'bottom right',
               backgroundRepeat: 'no-repeat'
@@ -244,7 +244,7 @@ const Home = () => {
         <div 
           className="absolute top-0 right-0 w-1/3 h-full opacity-10 mix-blend-luminosity"
           style={{
-            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/3s22vv51_file_000000000af061f494311e2844019cdb.png)',
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/8p1mj2g6_IMG_3882.jpeg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             maskImage: 'linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)',
@@ -1173,7 +1173,7 @@ const Home = () => {
         <div 
           className="absolute inset-0"
           style={{
-            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/yx1o440r_file_00000000314461f7b345efec99445794.png)',
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/c9yavl7b_IMG_4338.jpeg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
@@ -1403,7 +1403,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 opacity-15 mix-blend-lighten"
           style={{
-            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/wjv5gir6_file_0000000005746246ab1b470ae83bcdc9.png)',
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/8tnhnzt0_IMG_4343.jpeg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             filter: 'hue-rotate(30deg)'
@@ -1512,7 +1512,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 opacity-25 mix-blend-overlay"
           style={{
-            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_art-investor/artifacts/4qv6n410_file_000000006a2461f7b89e4e2f623440d7.png)',
+            backgroundImage: 'url(https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/pkxnvkj9_IMG_4432.jpeg)',
             backgroundSize: '50%',
             backgroundPosition: 'center left',
             backgroundRepeat: 'no-repeat'

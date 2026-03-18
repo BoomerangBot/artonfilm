@@ -35,7 +35,7 @@ const CollectionHome = () => {
         'Available through retail channels',
         'Part of continuous inventory cycle'
       ],
-      image: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/1z5jlpab_file_00000000b81461f4a29365c740e75d5b%20%281%29.png',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/zy91c2da_IMG_1146.jpeg',
       path: '/collection/chris-lee',
       icon: Camera,
       available: true,
@@ -74,17 +74,6 @@ const CollectionHome = () => {
       icon: Building2,
       available: true,
       artworkCount: 59
-    },
-    {
-      id: 3,
-      name: 'Future Commissions',
-      title: 'In Development',
-      description: 'Additional collections being commissioned as part of inventory growth strategy.',
-      image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwzfHxhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85',
-      path: '#',
-      icon: Clock,
-      available: false,
-      tba: true
     }
   ];
 

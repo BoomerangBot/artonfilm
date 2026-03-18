@@ -18,7 +18,7 @@ export const heroData = {
   description: 'ArtOnFilm commissions and releases original contemporary art collections through exhibitions, film and global campaigns.',
   tagline: 'Original works. Limited editions. Design-led collections.',
   quote: '"Art washes away all sins. Together, art and science prove that even pretty pictures can be free. Eternal life is creation — JustArt."',
-  backgroundImage: 'https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxicmlnaHQlMjBhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2MTIyNTI0NHww&ixlib=rb-4.1.0&q=85'
+  backgroundImage: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/9fhxcanm_IMG20251124162559.jpg'
 };
 
 export const visionData = {
@@ -134,23 +134,23 @@ export const programmeData = {
   cities: [
     {
       name: 'London',
-      image: 'https://images.unsplash.com/photo-1654271166015-d87ab7097752?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxMb25kb24lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzYxMjIxMTM2fDA&ixlib=rb-4.1.0&q=85',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/zy91c2da_IMG_1146.jpeg',
       date: 'December 2025'
     },
     {
       name: 'Copenhagen',
-      image: 'https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=1200',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/8entc84z_IMG_1191.jpeg',
       date: 'February 2026',
       subtitle: 'Carnaby AV: Kissell Eternal & glamourous home of fine Art.'
     },
     {
       name: 'Berlin',
-      image: 'https://images.pexels.com/photos/1128408/pexels-photo-1128408.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/8p1mj2g6_IMG_3882.jpeg',
       date: 'March 2026'
     },
     {
       name: 'Warsaw',
-      image: 'https://images.unsplash.com/photo-1679949180197-8f0d28abd3a3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHxXYXJzYXclMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzYyMjk3NzI0fDA&ixlib=rb-4.1.0&q=85',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/c9yavl7b_IMG_4338.jpeg',
       date: 'Q4 2026'
     }
   ],
