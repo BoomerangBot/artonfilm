@@ -59,6 +59,23 @@ const CollectionHome = () => {
       artworkCount: 37
     },
     {
+      id: 6,
+      name: 'Swiss Club',
+      subtitle: 'Natasha Kissell Exhibition',
+      title: 'Exhibition Collection',
+      description: 'Curated exhibition of contemporary paintings at the prestigious Swiss Club.',
+      features: [
+        'Exclusive members\' club venue',
+        'Natasha Kissell Modern Eden series',
+        'Works available for acquisition'
+      ],
+      image: 'https://customer-assets.emergentagent.com/job_filmartgallery/artifacts/w4ge5kno_SWISS%20CLUB.jpg',
+      path: '/collection/swiss-club',
+      icon: Building2,
+      available: true,
+      artworkCount: 0
+    },
+    {
       id: 3,
       name: 'Future Commissions',
       title: 'In Development',
