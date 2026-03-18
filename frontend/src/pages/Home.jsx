@@ -1720,9 +1720,15 @@ const Home = () => {
             </h2>
           </div>
           
-          <div className="bg-gradient-to-br from-zinc-900/50 to-black rounded-2xl p-8 border border-amber-500/20">
+          <div className="bg-gradient-to-br from-zinc-900/50 to-black rounded-2xl p-8 border border-amber-500/20 space-y-6">
             <p className="text-xl text-gray-300 leading-relaxed text-center">
-              ArtOnFilm commissions artists to produce original works which are released through exhibitions and the ArtOnFilm website. Revenue is generated through artwork sales, limited editions and exhibitions.
+              ArtOnFilm operates as a retail trading business, acquiring and holding artwork as stock for structured resale through exhibitions, media, and events.
+            </p>
+            <p className="text-lg text-gray-300 leading-relaxed text-center">
+              ArtOnFilm commissions and acquires artwork as owned trading stock. Works are released through exhibitions and the ArtOnFilm website. Revenue is generated through artwork sales, limited editions and exhibitions.
+            </p>
+            <p className="text-base text-gray-400 leading-relaxed text-center italic">
+              Media and film content are used solely to support the commercial resale of owned artwork.
             </p>
           </div>
         </div>
@@ -1745,11 +1751,15 @@ const Home = () => {
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-300">Primary activity: Commissioning and producing contemporary art collections for exhibition and sale.</span>
+                <span className="text-gray-300">Primary activity: Commissioning and acquiring contemporary art as owned trading stock for exhibition and sale.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
                 <span className="text-gray-300">Artwork is held as trading stock and sold in the ordinary course of business.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>
+                <span className="text-gray-300">The company assumes full commercial risk on all inventory acquired.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-amber-400 mt-2 flex-shrink-0"></div>

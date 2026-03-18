@@ -23,7 +23,7 @@ export const heroData = {
 
 export const visionData = {
   headline: 'Our Trade',
-  content: 'ArtOnFilm Ltd is a UK creative intellectual property and advertising company commissioning and selling contemporary artworks through exhibitions and media programmes.\n\nWe commission artists to create original works as part of our creative programme. Collections are curated for exhibitions, media documentation, and promotional campaigns. Works are released through exhibitions and the ArtOnFilm website.\n\nRevenue is generated through sale of artworks, limited editions, and exhibitions.'
+  content: 'ArtOnFilm operates as a retail trading business, acquiring and holding artwork as stock for structured resale through exhibitions, media, and events.\n\nWe commission and acquire artwork as owned trading stock. Collections are curated for exhibitions, media documentation, and promotional campaigns. Works are released through exhibitions and the ArtOnFilm website.\n\nMedia and film content are used solely to support the commercial resale of owned artwork. The company assumes full commercial risk on all inventory acquired.'
 };
 
 export const howWeOperateData = {
@@ -63,12 +63,12 @@ export const aboutCompanyData = {
 
 export const commissioningModelData = {
   headline: 'COMMISSIONING MODEL',
-  content: 'ArtOnFilm commissions artwork under fixed production agreements.',
+  content: 'ArtOnFilm commissions and acquires artwork as owned trading stock under fixed production agreements.',
   points: [
     'Artists receive an agreed production fee',
     'Ownership fully transfers to ArtOnFilm Ltd upon completion',
-    'Works are released through the ArtOnFilm programme',
-    'Revenue is generated through artwork sales and exhibitions'
+    'Works are recorded as trading stock',
+    'The company assumes full commercial risk on all inventory acquired'
   ],
   footer: 'The company does not derive income from licensing, intellectual property royalties, or distribution rights.'
 };

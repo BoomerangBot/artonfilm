@@ -82,10 +82,20 @@ const About = () => {
             {/* Main Trade Description */}
             <div className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-10 border border-white/10">
               <p className="text-xl text-gray-300 leading-relaxed mb-6">
-                ArtOnFilm commissions artwork through fixed-fee agreements with selected artists. Ownership fully transfers to the company upon completion.
+                ArtOnFilm operates as a retail trading business, acquiring and holding artwork as stock for structured resale through exhibitions, media, and events.
+              </p>
+              <p className="text-xl text-gray-300 leading-relaxed mb-6">
+                ArtOnFilm commissions and acquires artwork as owned trading stock through fixed-fee agreements with selected artists. Ownership fully transfers to the company upon completion.
               </p>
               <p className="text-xl text-gray-300 leading-relaxed">
-                All commissioned works are recorded as trading stock and sold through structured retail channels in the ordinary course of business. Revenue is generated exclusively from retail sales of owned artwork.
+                All acquired works are recorded as trading stock and sold through structured retail channels in the ordinary course of business. The company assumes full commercial risk on all inventory acquired.
+              </p>
+            </div>
+
+            {/* Trading Model */}
+            <div className="bg-gradient-to-br from-green-500/5 to-transparent rounded-2xl p-10 border border-green-500/20">
+              <p className="text-xl text-gray-300 leading-relaxed">
+                ArtOnFilm was established as a new trading model combining art acquisition, media, and event-led sales, rather than operating as a traditional gallery or marketplace.
               </p>
             </div>
 
@@ -109,7 +119,7 @@ const About = () => {
             {/* Media Notice */}
             <div className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl p-8 border border-white/10">
               <p className="text-lg text-gray-300 italic text-center">
-                Media content created by ArtOnFilm serves promotional purposes only and does not generate separate income streams.
+                Media and film content are used solely to support the commercial resale of owned artwork.
               </p>
             </div>
           </div>
