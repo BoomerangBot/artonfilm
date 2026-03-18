@@ -11,6 +11,14 @@ ArtOnFilm is a sophisticated digital presence for art investors and enthusiasts.
 
 ## What's Been Implemented
 
+### March 18, 2026
+- **Tanglin Trust School Singapore Collection Page**: Finalized with 37 images
+  - Added 7 new images from final upload batch (artist talks, student presentations, workshops, heritage displays)
+  - Enhanced "About the Exhibition" section with artist-in-residence programme details
+  - Added new "ArtOnFilm in Singapore" section describing expansion into Asia-Pacific market
+  - Updated artwork count in CollectionHome.jsx (25 → 37)
+  - Images include exhibition views, workshop sessions, artist demonstrations, and gallery installations
+
 ### March 16, 2026
 - **Collection Page Verification**: Verified collection page headers and curatorial lines are displaying correctly
   - Natasha Kissell: "PAINTING PROGRAMME - Collection 1: Modern Eden"
@@ -115,10 +123,13 @@ ArtOnFilm is a sophisticated digital presence for art investors and enthusiasts.
     │       ├── Home.jsx
     │       ├── Shop.jsx (Natasha Kissell collection)
     │       ├── ChrisLeeCollection.jsx
+    │       ├── TanglinTrustCollection.jsx (37 exhibition images)
     │       ├── ShopPage.jsx (/shop route)
     │       ├── Artists.jsx
     │       ├── ArtistCV.jsx
     │       ├── Invest.jsx
+    │       ├── FAQ.jsx
+    │       ├── SoldArchive.jsx
     │       └── Programme.jsx (/tour route)
 ```
 

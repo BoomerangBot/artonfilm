@@ -153,6 +153,78 @@ const TanglinTrustCollection = () => {
       title: 'Workshop Critique',
       description: 'Artist reviewing student work during workshop session',
       image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/usid5kv6_IMG-20251127-WA0091.jpg'
+    },
+    {
+      id: 26,
+      title: 'Exhibition Setup - Entrance',
+      description: 'Gallery panels with promotional signage in school entrance',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/d0ojet8v_PHOTO-2025-11-21-11-06-26%20%281%29.jpg'
+    },
+    {
+      id: 27,
+      title: 'Heritage Space',
+      description: 'Exhibition integrated with school heritage displays and uniforms collection',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/7c9ytdkz_PHOTO-2025-11-21-11-06-26.jpg'
+    },
+    {
+      id: 28,
+      title: 'Gallery Corridor',
+      description: 'Exhibition panels positioned in main corridor with school photography',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/i6n1hnds_PHOTO-2025-11-21-11-06-27.jpg'
+    },
+    {
+      id: 29,
+      title: 'Main Exhibition Display',
+      description: 'Collection featuring tropical gardens, Mediterranean views and poolside scenes',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/kj0mx8va_IMG-20251127-WA0092.jpg'
+    },
+    {
+      id: 30,
+      title: 'Workshop - Composition Assembly',
+      description: 'Student hands assembling landscape collage elements',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/sia1wsew_IMG-20251209-WA0045.jpg'
+    },
+    {
+      id: 31,
+      title: 'Artist Talk - Introduction',
+      description: 'Natasha Kissell presenting her artistic vision to the school community',
+      image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/bp6xiomv_WhatsApp%20Image%202026-03-11%20at%2013.56.33.jpeg'
+    },
+    {
+      id: 32,
+      title: 'Student Presentation',
+      description: 'Engaging the next generation of art enthusiasts',
+      image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/maokeytm_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%281%29.jpeg'
+    },
+    {
+      id: 33,
+      title: 'Workshop Collaboration',
+      description: 'Hands-on creative session with students',
+      image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/alt9k4cw_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%282%29.jpeg'
+    },
+    {
+      id: 34,
+      title: 'Exhibition Tour',
+      description: 'Guided tour through the curated collection',
+      image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/i8bql4b4_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%283%29.jpeg'
+    },
+    {
+      id: 35,
+      title: 'Heritage Hall Display',
+      description: 'Exhibition installation in the school heritage space',
+      image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/xdx1epeu_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%284%29.jpeg'
+    },
+    {
+      id: 36,
+      title: 'Creative Workshop Session',
+      description: 'Students exploring artistic techniques under artist guidance',
+      image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0o11iz4d_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%285%29.jpeg'
+    },
+    {
+      id: 37,
+      title: 'Gallery Overview',
+      description: 'Panoramic view of the complete exhibition installation',
+      image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0z3071fo_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%286%29.jpeg'
     }
   ];
 
@@ -259,8 +331,22 @@ const TanglinTrustCollection = () => {
             <p className="text-xl text-gray-300 leading-relaxed mb-6">
               In celebration of Tanglin Trust School's centenary, ArtOnFilm presented a curated exhibition of contemporary paintings from the Natasha Kissell collection. The exhibition was displayed in the school's heritage space, bringing vibrant contemporary art to students, staff and visitors.
             </p>
-            <p className="text-xl text-gray-300 leading-relaxed">
+            <p className="text-xl text-gray-300 leading-relaxed mb-6">
               The collection features works exploring themes of architecture, coastal living, and mid-century modernism – providing an inspiring visual experience within the educational environment.
+            </p>
+            <p className="text-xl text-gray-300 leading-relaxed">
+              Beyond the exhibition, ArtOnFilm delivered an immersive artist-in-residence programme, with Natasha Kissell leading hands-on workshops for students. These creative sessions introduced young learners to collage, mixed media and texture techniques, fostering artistic exploration and expression. The programme exemplifies ArtOnFilm's commitment to bringing world-class contemporary art into educational spaces across Asia.
+            </p>
+          </div>
+
+          {/* ArtOnFilm in Singapore */}
+          <div className="bg-gradient-to-br from-amber-500/5 to-purple-500/5 rounded-2xl p-10 border border-amber-500/20 mb-8">
+            <h3 className="text-2xl font-bold text-amber-400 mb-4 font-serif">ArtOnFilm in Singapore</h3>
+            <p className="text-lg text-gray-300 leading-relaxed mb-4">
+              Singapore represents a key market for ArtOnFilm's expansion into Asia-Pacific. The Tanglin Trust School exhibition marks a significant milestone in bringing our curated collections to one of the world's most dynamic art markets.
+            </p>
+            <p className="text-lg text-gray-300 leading-relaxed">
+              Through partnerships with prestigious educational institutions and cultural venues, ArtOnFilm continues to establish its presence across the region, connecting contemporary British art with discerning collectors and audiences throughout Southeast Asia.
             </p>
           </div>
 
