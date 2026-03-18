@@ -225,6 +225,18 @@ const TanglinTrustCollection = () => {
       title: 'Gallery Overview',
       description: 'Panoramic view of the complete exhibition installation',
       image: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/0z3071fo_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%286%29.jpeg'
+    },
+    {
+      id: 38,
+      title: 'School Noticeboard',
+      description: 'Tanglin Trust School noticeboard featuring Natasha Kissell exhibition poster',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/1gr5rdcl_IMG20251127170952_01.jpg'
+    },
+    {
+      id: 39,
+      title: 'Butterfly Union Jack',
+      description: 'Artistic butterfly installation in the school celebrating British heritage',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/n0e3ozcb_IMG20251127171101.jpg'
     }
   ];
 

@@ -257,18 +257,6 @@ const SwissClubCollection = () => {
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/fsyw0s05_IMG20251126121147.jpg'
     },
     {
-      id: 43,
-      title: 'Tropical Beach Scene',
-      description: 'Vibrant painting featuring palm trees and beachfront resort',
-      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/1gr5rdcl_IMG20251127170952_01.jpg'
-    },
-    {
-      id: 44,
-      title: 'Desert Modern',
-      description: 'Palm Springs inspired painting with mid-century architecture',
-      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/n0e3ozcb_IMG20251127171101.jpg'
-    },
-    {
       id: 45,
       title: 'Simply Champagne Partnership',
       description: 'Modern Eden painting alongside champagne sponsor at the heritage room',

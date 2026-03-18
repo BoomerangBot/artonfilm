@@ -56,7 +56,7 @@ const CollectionHome = () => {
       path: '/collection/tanglin-trust',
       icon: Building2,
       available: true,
-      artworkCount: 37
+      artworkCount: 39
     },
     {
       id: 6,
@@ -73,7 +73,7 @@ const CollectionHome = () => {
       path: '/collection/swiss-club',
       icon: Building2,
       available: true,
-      artworkCount: 59
+      artworkCount: 57
     }
   ];
 
