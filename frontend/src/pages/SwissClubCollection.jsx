@@ -4,14 +4,30 @@ import { Building2, Calendar, MapPin, ArrowRight, Image, Palette } from 'lucide-
 
 const SwissClubCollection = () => {
   const exhibitionImages = [
-    // Event photos and artwork images will be added here
-    // Example structure:
-    // {
-    //   id: 1,
-    //   title: 'Exhibition Opening',
-    //   description: 'Swiss Club exhibition opening night',
-    //   image: 'URL_HERE'
-    // }
+    {
+      id: 1,
+      title: 'Stahl House',
+      description: 'Mid-century modern architecture overlooking the city, iconic poolside living',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/zy91c2da_IMG_1146.jpeg'
+    },
+    {
+      id: 2,
+      title: 'Palm Springs Doors',
+      description: 'Desert modernism with vibrant doorways and decorative breeze blocks',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/8entc84z_IMG_1191.jpeg'
+    },
+    {
+      id: 3,
+      title: 'Alpine Pool',
+      description: 'Winter retreat with heated pool and mountain chalet views',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/8p1mj2g6_IMG_3882.jpeg'
+    },
+    {
+      id: 4,
+      title: 'Champagne in the Snow',
+      description: 'Alpine luxury with candlelit chalets and mountain backdrop',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/c9yavl7b_IMG_4338.jpeg'
+    }
   ];
 
   return (
