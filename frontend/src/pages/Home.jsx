@@ -1671,15 +1671,35 @@ const Home = () => {
               </p>
             </div>
             
-            <a
-              href="http://www.carnabysales.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-amber-500/30"
-            >
-              Visit Carnaby International
-              <ArrowRight className="ml-2" size={20} />
-            </a>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <a
+                href="http://www.carnabysales.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/20"
+              >
+                Carnaby International
+                <ArrowRight className="ml-2" size={18} />
+              </a>
+              <a
+                href="https://www.studiovellari.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 border-2 border-amber-500/50 text-white font-bold rounded-full hover:bg-amber-500/10 hover:border-amber-400 transition-all hover:scale-105 active:scale-95"
+              >
+                Studio Vellari
+                <ArrowRight className="ml-2" size={18} />
+              </a>
+              <a
+                href="https://dhs-lab.de/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 border-2 border-amber-500/50 text-white font-bold rounded-full hover:bg-amber-500/10 hover:border-amber-400 transition-all hover:scale-105 active:scale-95"
+              >
+                DHS Labs
+                <ArrowRight className="ml-2" size={18} />
+              </a>
+            </div>
           </div>
         </div>
       </section>
