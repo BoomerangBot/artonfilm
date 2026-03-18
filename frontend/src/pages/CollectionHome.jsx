@@ -56,7 +56,7 @@ const CollectionHome = () => {
       path: '/collection/tanglin-trust',
       icon: Building2,
       available: true,
-      artworkCount: 5
+      artworkCount: 10
     },
     {
       id: 3,

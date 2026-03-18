@@ -33,6 +33,36 @@ const TanglinTrustCollection = () => {
       title: 'Exhibition View - Corner Display',
       description: 'Alpine and architectural series on display',
       image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/u16cwv62_IMG-20251127-WA0065.jpg'
+    },
+    {
+      id: 6,
+      title: 'Alpine Collection',
+      description: 'Mountain pool and chalet scenes from the Alpine series',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/ttomb3q9_IMG-20251127-WA0067.jpg'
+    },
+    {
+      id: 7,
+      title: 'Alpine Trio',
+      description: 'Winter landscapes with pool and mountain views',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/3q1pvkup_IMG-20251127-WA0068.jpg'
+    },
+    {
+      id: 8,
+      title: 'California Modern',
+      description: 'Mid-century modern architecture and poolside living',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/6rq97d9f_IMG-20251127-WA0069.jpg'
+    },
+    {
+      id: 9,
+      title: 'Coastal Paradise',
+      description: 'Tropical beach views and Mediterranean villa scenes',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/pixgwils_IMG-20251127-WA0070.jpg'
+    },
+    {
+      id: 10,
+      title: 'Palm Springs & Portofino',
+      description: 'Desert modernism and Italian Riviera luxury',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/7wflp6ll_IMG-20251127-WA0071.jpg'
     }
   ];
 
