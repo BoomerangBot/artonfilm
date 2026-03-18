@@ -123,6 +123,36 @@ const TanglinTrustCollection = () => {
       title: 'Workshop - Texture Detail',
       description: 'Close-up of texture techniques on monochrome work',
       image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/9t1mv9iw_IMG-20251127-WA0086.jpg'
+    },
+    {
+      id: 21,
+      title: 'Heritage Gallery Installation',
+      description: 'Full exhibition view in the school heritage space',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/dih2ia96_IMG-20251127-WA0087.jpg'
+    },
+    {
+      id: 22,
+      title: 'Artist Demonstration',
+      description: 'Natasha Kissell demonstrating canvas technique',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/f3br4qy5_IMG-20251127-WA0088.jpg'
+    },
+    {
+      id: 23,
+      title: 'Workshop - Colour Exploration',
+      description: 'Student working with pink and purple paint textures',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/hnhppsd5_IMG-20251127-WA0089.jpg'
+    },
+    {
+      id: 24,
+      title: 'Exhibition Poster',
+      description: 'Official Natasha Kissell exhibition poster at Tanglin Trust',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/v4v31l7j_IMG-20251127-WA0090.jpg'
+    },
+    {
+      id: 25,
+      title: 'Workshop Critique',
+      description: 'Artist reviewing student work during workshop session',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/usid5kv6_IMG-20251127-WA0091.jpg'
     }
   ];
 
