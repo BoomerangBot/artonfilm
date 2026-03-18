@@ -147,6 +147,36 @@ const SwissClubCollection = () => {
       title: 'Palm Springs & Paradise',
       description: 'Mid-century modernist pool and tropical bay resort paintings',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/0r7djo8t_IMG20251124162532.jpg'
+    },
+    {
+      id: 25,
+      title: 'Artist & Guest',
+      description: 'Natasha Kissell in conversation during the dinner reception',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/i8rz1zzi_Screenshot_2026-01-13-21-35-03-98_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 26,
+      title: 'Evening Conversation',
+      description: 'Animated discussions at the private collectors dinner',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/88vk9ujj_Screenshot_2026-01-13-21-35-14-90_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 27,
+      title: 'Collectors Dinner',
+      description: 'Guests enjoying fine dining and art discussions',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/mj3sw0uf_Screenshot_2026-01-13-21-35-35-89_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 28,
+      title: 'New Home',
+      description: 'Collectors installing their Laguna Beach acquisition',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/mphmimg0_Screenshot_2026-01-14-13-22-41-21_6012fa4d4ddec268fc5c7112cbb265e7.jpg'
+    },
+    {
+      id: 29,
+      title: 'Terrace Dinner',
+      description: 'Evening reception on the Swiss Club terrace',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/15y1advu_Screenshot_2026-01-13-21-34-12-84_1843fd3f74f49144123f76a000cd5e7e.jpg'
     }
   ];
 
