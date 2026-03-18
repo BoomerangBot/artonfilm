@@ -177,6 +177,36 @@ const SwissClubCollection = () => {
       title: 'Terrace Dinner',
       description: 'Evening reception on the Swiss Club terrace',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/15y1advu_Screenshot_2026-01-13-21-34-12-84_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 30,
+      title: 'Wine Cellar Reception',
+      description: 'Guests enjoying champagne in the Swiss Club wine cellar',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/mjko0scl_Screenshot_2026-01-13-21-32-46-32_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 31,
+      title: 'Artist Moment',
+      description: 'Natasha Kissell sharing stories with collectors',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/jci6ngc8_Screenshot_2026-01-13-21-33-47-78_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 32,
+      title: 'Terrace Gathering',
+      description: 'Guests at the evening reception under tropical palms',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/xegiikrw_Screenshot_2026-01-13-21-30-30-25_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 33,
+      title: 'Art & Conversations',
+      description: 'Natasha Kissell with collectors discussing the Modern Eden series',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/d3376yuh_Screenshot_2026-01-13-21-30-53-54_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 34,
+      title: 'Collector Evening',
+      description: 'Distinguished guests in the wine cellar dining room',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/gj6rewoe_Screenshot_2026-01-13-21-32-20-65_1843fd3f74f49144123f76a000cd5e7e.jpg'
     }
   ];
 
