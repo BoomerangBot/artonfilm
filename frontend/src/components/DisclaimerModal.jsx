@@ -65,17 +65,11 @@ const DisclaimerModal = () => {
             </p>
 
             <div className="space-y-3 sm:space-y-4">
-              {/* HNWI Declaration - Primary Section */}
-              <div className="bg-amber-500/10 border border-amber-500/30 rounded-xl p-4">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold text-amber-400 mb-2">High Net Worth Individual Declaration</h3>
-                <p className="leading-relaxed text-sm sm:text-base mb-3">
-                  By entering this website, you confirm that you qualify as a <strong className="text-white">High Net Worth Individual (HNWI)</strong> or <strong className="text-white">Sophisticated Investor</strong> under the UK Financial Services and Markets Act 2000 (Financial Promotion) Order 2005, meaning you meet at least one of the following criteria:
+              <div>
+                <h3 className="text-base sm:text-lg md:text-xl font-bold text-amber-400 mb-2">Investor Status</h3>
+                <p className="leading-relaxed text-sm sm:text-base">
+                  By entering this website, you confirm that you are a High Net Worth Individual or Sophisticated Investor as defined under applicable UK financial regulations.
                 </p>
-                <ul className="list-disc list-inside text-sm sm:text-base space-y-1 text-gray-300 ml-2">
-                  <li>Annual income of £100,000 or more; or</li>
-                  <li>Net assets of £250,000 or more (excluding primary residence, pension, and insurance benefits); or</li>
-                  <li>Certified as a Sophisticated Investor by an authorised person</li>
-                </ul>
               </div>
 
               <div>
@@ -109,7 +103,7 @@ const DisclaimerModal = () => {
               <div>
                 <h3 className="text-base sm:text-lg md:text-xl font-bold text-amber-400 mb-2">Acceptance of Terms</h3>
                 <p className="leading-relaxed text-sm sm:text-base">
-                  By clicking "I Agree – Enter Site", you confirm that you meet the HNWI or Sophisticated Investor criteria stated above, and that you understand and accept these terms in full. If you do not agree or do not meet these criteria, please exit this website immediately.
+                  By clicking "I Agree – Enter Site", you acknowledge that you understand and accept these terms in full. If you do not agree, please exit this website immediately.
                 </p>
               </div>
             </div>
