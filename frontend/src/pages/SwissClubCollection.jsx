@@ -327,6 +327,36 @@ const SwissClubCollection = () => {
       title: 'Après-Ski',
       description: 'Winter chalet scene with fur chairs and champagne service',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/j5sx2rov_IMG20251124162611.jpg'
+    },
+    {
+      id: 55,
+      title: 'Riviera Suite',
+      description: 'Elegant interior with striped silk curtains and Mediterranean view',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/9fhxcanm_IMG20251124162559.jpg'
+    },
+    {
+      id: 56,
+      title: 'Portofino Bay',
+      description: 'Italian Riviera with superyacht and infinity pool overlooking the harbour',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/sw1x9f68_IMG20251124162604.jpg'
+    },
+    {
+      id: 57,
+      title: 'Alpine Infinity',
+      description: 'Dramatic mountain spa with heated pool and panoramic peaks',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/n7u90r5v_IMG20251124162608.jpg'
+    },
+    {
+      id: 58,
+      title: 'Mediterranean Collection',
+      description: 'Portofino bay and Riviera interior paintings on marble display',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/fn9h63iv_IMG20251124162555.jpg'
+    },
+    {
+      id: 59,
+      title: 'Alpine Duo',
+      description: 'Winter pool and après-ski scenes displayed on marble',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/5jz7p05i_IMG20251124162546.jpg'
     }
   ];
 
