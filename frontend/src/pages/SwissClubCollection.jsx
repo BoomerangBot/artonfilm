@@ -357,6 +357,36 @@ const SwissClubCollection = () => {
       title: 'Alpine Duo',
       description: 'Winter pool and après-ski scenes displayed on marble',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/5jz7p05i_IMG20251124162546.jpg'
+    },
+    {
+      id: 60,
+      title: 'World Tour Materials',
+      description: 'Complete marketing suite - brochures, investor packs, calendars and postcards',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/2218pnb2_IMG20251124162521.jpg'
+    },
+    {
+      id: 61,
+      title: 'Tropical & Modern',
+      description: 'Caribbean resort and Palm Springs breeze block pool on easels',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/n55jyrn8_IMG20251124162532.jpg'
+    },
+    {
+      id: 62,
+      title: 'Beach Life Trio',
+      description: 'Miami surfboards, resort pool and beach cabana with hibiscus',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/jfreenl1_IMG20251124162452.jpg'
+    },
+    {
+      id: 63,
+      title: 'Laguna Bloom',
+      description: 'Large-scale California coastal garden with cacti and bougainvillea',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/oelqc991_IMG20251124162502.jpg'
+    },
+    {
+      id: 64,
+      title: 'Beach & Bay',
+      description: 'Striped beach tent and Caribbean infinity pool with tropical bay',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/o99ug4sr_IMG20251124162510.jpg'
     }
   ];
 
