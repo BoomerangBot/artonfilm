@@ -87,6 +87,36 @@ const SwissClubCollection = () => {
       title: 'Miami Beach Sunset',
       description: 'Framed lifeguard tower painting with surfboards at golden hour',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/0n80dgoj_IMG-20251209-WA0002.jpg'
+    },
+    {
+      id: 15,
+      title: 'Heritage Room Display',
+      description: 'Miami Beach painting in the colonial heritage room with red shutters',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/r08r0phc_IMG-20251209-WA0003.jpg'
+    },
+    {
+      id: 16,
+      title: 'Monte Carlo Gardens',
+      description: 'Lush palm-lined grounds of the Casino de Monte-Carlo',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/5koi0bgz_IMG-20251209-WA0043.jpg'
+    },
+    {
+      id: 17,
+      title: 'Coastal Watercolour',
+      description: 'Rugged clifftop seascape with wild coastal vegetation',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/3y8recun_IMG-20251209-WA0044.jpg'
+    },
+    {
+      id: 18,
+      title: 'Octagonal Gallery',
+      description: 'Miami Beach painting showcased in the Swiss Club heritage gallery',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/pqgf7hil_IMG20251124162430.jpg'
+    },
+    {
+      id: 19,
+      title: 'Champagne Reception',
+      description: 'Event setup with Modern Eden brochures and champagne service',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/v9popxjx_IMG20251124162446.jpg'
     }
   ];
 
