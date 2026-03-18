@@ -1027,7 +1027,7 @@ const Home = () => {
                   </div>
                 </div>
                 <img
-                  src={galleryImages[1]}
+                  src="https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/zy91c2da_IMG_1146.jpeg"
                   alt="Documentary Preview"
                   className="w-full h-full object-cover"
                 />
