@@ -207,6 +207,36 @@ const SwissClubCollection = () => {
       title: 'Collector Evening',
       description: 'Distinguished guests in the wine cellar dining room',
       image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/gj6rewoe_Screenshot_2026-01-13-21-32-20-65_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 35,
+      title: 'Natasha at Dinner',
+      description: 'The artist enjoying the evening with collectors',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/f00ieocm_Screenshot_2026-01-13-21-27-03-66_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 36,
+      title: 'Artist & Collector',
+      description: 'Natasha Kissell with guests during the fine dining experience',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/jfl2uwpf_Screenshot_2026-01-13-21-27-24-74_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 37,
+      title: 'Bar Conversations',
+      description: 'Collectors discussing art over champagne at the bar',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/rxgznbsm_Screenshot_2026-01-13-21-28-12-00_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 38,
+      title: 'Garden Dinner',
+      description: 'Tropical garden setting for the exclusive collectors dinner',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/euhzfj6q_Screenshot_2026-01-13-21-28-41-73_1843fd3f74f49144123f76a000cd5e7e.jpg'
+    },
+    {
+      id: 39,
+      title: 'Host Address',
+      description: 'Event host addressing guests at the garden dinner',
+      image: 'https://customer-assets.emergentagent.com/job_a2dbd1c3-87a8-4e60-848a-2695f8789049/artifacts/khg2h00d_Screenshot_2026-01-13-21-28-53-97_1843fd3f74f49144123f76a000cd5e7e.jpg'
     }
   ];
 
