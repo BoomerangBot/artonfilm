@@ -63,6 +63,36 @@ const TanglinTrustCollection = () => {
       title: 'Palm Springs & Portofino',
       description: 'Desert modernism and Italian Riviera luxury',
       image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/7wflp6ll_IMG-20251127-WA0071.jpg'
+    },
+    {
+      id: 11,
+      title: 'Workshop - Collage Creation',
+      description: 'Student creating nature-inspired collage artwork',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/qw4vit3y_IMG-20251127-WA0079.jpg'
+    },
+    {
+      id: 12,
+      title: 'Workshop - Hands-On Learning',
+      description: 'Student hands shaping landscape collage',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/g1id4lbn_IMG-20251127-WA0072.jpg'
+    },
+    {
+      id: 13,
+      title: 'Workshop - Mixed Media',
+      description: 'Vibrant paint palette and texture experimentation',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/o6rpxpza_IMG-20251127-WA0073.jpg'
+    },
+    {
+      id: 14,
+      title: 'Workshop - Pattern Work',
+      description: 'Abstract pattern composition in warm tones',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/lf43srx2_IMG-20251127-WA0075.jpg'
+    },
+    {
+      id: 15,
+      title: 'Workshop - Nature Studies',
+      description: 'Botanical collage with leaf forms',
+      image: 'https://customer-assets.emergentagent.com/job_1a691542-aad6-45f0-8138-f326ff6ae66e/artifacts/d2h720fr_IMG-20251127-WA0076.jpg'
     }
   ];
 
