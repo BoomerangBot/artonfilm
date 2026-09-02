@@ -821,7 +821,7 @@ export const artworks = [
   },
   {
     id: 7,
-    title: 'Côte d\'Azur Afternoon',
+    title: 'Dreaming of Portofino',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     size: '90 x 120 cm',
