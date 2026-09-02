@@ -628,7 +628,7 @@ const Home = () => {
               { img: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/kg42jehx_NOM17-min.jpg', artist: 'Dr Chris Lee', title: 'Jazz Spirit', link: '/collection/chris-lee' },
               { img: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/i8bql4b4_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%283%29.jpeg', artist: 'Natasha Kissell', title: 'House of Dolores del Rio', link: '/collection/natasha-kissell' },
               { img: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/xho0bx9q_tiger%20and%20turtle.jpg', artist: 'Dr Chris Lee', title: 'Tiger & Turtle', link: '/collection/chris-lee' },
-              { img: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/alt9k4cw_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%282%29.jpeg', artist: 'Natasha Kissell', title: 'Desert Moderne', link: '/collection/natasha-kissell' },
+              { img: 'https://customer-assets.emergentagent.com/job_8612bb1e-f34a-4ed4-a2ec-6a808376b9b4/artifacts/alt9k4cw_WhatsApp%20Image%202026-03-11%20at%2013.56.33%20%282%29.jpeg', artist: 'Natasha Kissell', title: 'Palm Springs Shadows', link: '/collection/natasha-kissell' },
               { img: 'https://customer-assets.emergentagent.com/job_creative-showcase-205/artifacts/89sw7x5n_Winter%209.jpg', artist: 'Dr Chris Lee', title: 'Winter Serenity', link: '/collection/chris-lee' }
             ].map((artwork, index) => (
               <Link

@@ -782,7 +782,7 @@ export const artworks = [
   },
   {
     id: 4,
-    title: 'Desert Moderne',
+    title: 'Palm Springs Shadows',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     size: '70 x 90 cm',
@@ -795,7 +795,7 @@ export const artworks = [
   },
   {
     id: 5,
-    title: 'Portofino Dreams',
+    title: 'La Dolce Vita',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     size: '100 x 150 cm',
@@ -808,7 +808,7 @@ export const artworks = [
   },
   {
     id: 6,
-    title: 'South Beach Daybreak',
+    title: 'Miami Beach',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     size: '80 x 100 cm',
