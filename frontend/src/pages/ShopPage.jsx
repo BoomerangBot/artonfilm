@@ -60,6 +60,13 @@ const ShopPage = () => {
             Sold
           </span>
         );
+      case 'not-for-sale':
+        return (
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-zinc-500/20 text-zinc-100 text-xs font-semibold rounded-full border border-zinc-300/30">
+            <XCircle size={12} />
+            Not for Sale
+          </span>
+        );
       default:
         return null;
     }
@@ -276,8 +283,7 @@ const ShopPage = () => {
                   {/* Artwork Details */}
                   <div className="space-y-1 mb-4">
                     <p className="text-amber-400 text-sm font-medium">{artwork.artist}</p>
-                    <p className="text-gray-400 text-sm">{artwork.medium}</p>
-                    <p className="text-gray-400 text-sm">{artwork.size}</p>
+                    <p className="text-gray-400 text-sm break-words">{artwork.medium} · {artwork.size}</p>
                     <p className="text-gray-400 text-sm">{artwork.year}</p>
                     {artwork.edition && (
                       <p className="text-purple-400 text-sm">{artwork.edition}</p>
@@ -311,9 +317,19 @@ const ShopPage = () => {
                       <Clock size={18} />
                       Currently Reserved
                     </button>
+                  ) : artwork.status === 'not-for-sale' ? (
+                    <button
+                      disabled
+                      data-testid={`status-btn-${artwork.id}`}
+                      className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-zinc-800 text-gray-400 font-bold rounded-full cursor-not-allowed"
+                    >
+                      <XCircle size={18} />
+                      Not for Sale
+                    </button>
                   ) : (
                     <button
                       disabled
+                      data-testid={`status-btn-${artwork.id}`}
                       className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-zinc-800 text-gray-500 font-bold rounded-full cursor-not-allowed"
                     >
                       <XCircle size={18} />

@@ -157,7 +157,22 @@ ArtOnFilm is a sophisticated digital presence for art investors and enthusiasts.
 - Authentication for collector accounts
 - E-commerce functionality
 
+## Changelog
+### 2026-06 — Artwork metadata, medium/dimensions & availability
+- Updated the 7 sellable paintings in `mock.js` `artworks[]` with client-supplied `medium`, `size` (dimensions using the `×` symbol) and `status`:
+  - Stahl House — Oil on linen · 70 × 60 cm · Available
+  - An Arrangement of Chairs — Oil on panel · 30 × 40 cm · Sold (£1,500)
+  - House of Dolores del Rio — Oil on linen · 70 × 60 cm · Available
+  - Palm Springs Shadows — Oil on linen · 45 × 60 cm · Available (was Sold)
+  - La Dolce Vita — Oil on panel · 28 × 36 cm · Available
+  - Miami Beach — Oil on linen · 180 × 150 cm · Available
+  - Dreaming of Portofino — Oil on linen · 90 × 70 cm · Available
+- `Shop.jsx` (`/collection/natasha-kissell`): added combined metadata line `medium · size`, status badge, public sale info (Sold · price / Not for Sale · charity value), and disabled status button for non-available works (was always "Enquire" and referenced undefined `dimensions`).
+- `ShopPage.jsx` (`/shop`): combined medium+size into one metadata line, added `not-for-sale` status badge + disabled button.
+- Component support added for `sold`, `not-for-sale` (charity), and `available` states; sold/not-for-sale buttons are disabled and do not open the enquiry flow.
+- NOT YET ADDED (no real images supplied): Mountain Deckchairs, Candles in the Snow, Serenity, Laguna Beach — pending client image URLs.
+
 ## Project Health
 - **Status**: MVP Complete
-- **Known Issues**: Forms are mocked (show toast, no email sent)
-- **Testing**: Screenshot verification complete; no testing_agent run needed for current changes
+- **Known Issues**: Forms are mocked (show toast, no email sent); 4 requested artworks await images before they can be added
+- **Testing**: Screenshot verification complete on desktop + mobile for both card pages

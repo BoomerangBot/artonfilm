@@ -67,6 +67,13 @@ const Shop = () => {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  {artwork.status !== 'available' && (
+                    <div className="absolute top-4 right-4" data-testid={`status-badge-${artwork.id}`}>
+                      <span className={`inline-flex items-center px-3 py-1 text-xs font-semibold rounded-full border ${artwork.status === 'sold' ? 'bg-red-500/20 text-red-400 border-red-500/30' : 'bg-zinc-500/30 text-zinc-100 border-zinc-300/30'}`}>
+                        {artwork.status === 'sold' ? 'Sold' : 'Not for Sale'}
+                      </span>
+                    </div>
+                  )}
                 </div>
 
                 <div className="p-6">
@@ -76,19 +83,41 @@ const Shop = () => {
                   <p className="text-xs text-amber-400/70 italic mb-3">
                     This work forms part of the ArtOnFilm curated programme.
                   </p>
-                  <p className="text-sm text-gray-400 mb-4">
-                    {artwork.medium} • {artwork.dimensions}
+                  <p className="text-sm text-gray-400 mb-2 break-words" data-testid={`artwork-meta-${artwork.id}`}>
+                    {artwork.medium} · {artwork.size}
                   </p>
+                  {artwork.status === 'sold' && artwork.soldPrice && (
+                    <p className="text-sm font-semibold text-red-400 mb-4" data-testid={`sale-info-${artwork.id}`}>
+                      Sold · {artwork.soldPrice}
+                    </p>
+                  )}
+                  {artwork.status === 'not-for-sale' && (
+                    <p className="text-sm font-semibold text-zinc-300 mb-4" data-testid={`sale-info-${artwork.id}`}>
+                      Not for Sale{artwork.charityValue ? ` · Charity donation valued at ${artwork.charityValue}` : ''}
+                    </p>
+                  )}
+                  {artwork.status === 'available' && <div className="mb-2" />}
                   <p className="text-gray-300 text-sm mb-4 line-clamp-2">
                     {artwork.description}
                   </p>
-                  
-                  <button
-                    onClick={() => handleInquiry(artwork)}
-                    className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/30"
-                  >
-                    Enquire
-                  </button>
+
+                  {artwork.status === 'available' ? (
+                    <button
+                      onClick={() => handleInquiry(artwork)}
+                      data-testid={`enquire-btn-${artwork.id}`}
+                      className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-full hover:from-amber-400 hover:to-amber-500 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-amber-500/30"
+                    >
+                      Enquire
+                    </button>
+                  ) : (
+                    <button
+                      disabled
+                      data-testid={`status-btn-${artwork.id}`}
+                      className="w-full px-6 py-3 bg-zinc-800 text-gray-400 font-bold rounded-full cursor-not-allowed"
+                    >
+                      {artwork.status === 'sold' ? 'Sold' : 'Not for Sale'}
+                    </button>
+                  )}
                 </div>
               </div>
             ))}
