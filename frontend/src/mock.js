@@ -743,7 +743,7 @@ export const carnabyFilmsData = {
 export const artworks = [
   {
     id: 1,
-    title: 'Pacific Heights Reverie',
+    title: 'Stahl House',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     size: '90 x 120 cm',
@@ -756,7 +756,7 @@ export const artworks = [
   },
   {
     id: 2,
-    title: 'Alpine Sanctuary',
+    title: 'An Arrangement of Chairs',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     size: '100 x 150 cm',
@@ -769,7 +769,7 @@ export const artworks = [
   },
   {
     id: 3,
-    title: 'Flamingo Deco',
+    title: 'House of Dolores del Rio',
     artist: 'Natasha Kissell',
     medium: 'Oil on Canvas',
     size: '80 x 100 cm',
