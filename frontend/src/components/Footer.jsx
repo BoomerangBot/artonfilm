@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Linkedin, Instagram } from 'lucide-react';
 import { quotes } from '../mock';
 
 const Footer = () => {
@@ -10,9 +11,31 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">ArtOnFilm</h3>
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-400 text-sm mb-5">
               Connecting Britain's leading visual artists with Europe's most dynamic cultural cities.
             </p>
+            <div className="flex items-center gap-3">
+              <a
+                href="https://www.linkedin.com/company/artonfilm"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ArtOnFilm on LinkedIn"
+                data-testid="footer-linkedin-link"
+                className="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 text-gray-400 hover:text-amber-400 hover:border-amber-400/40 transition-colors"
+              >
+                <Linkedin size={18} />
+              </a>
+              <a
+                href="https://www.instagram.com/artontour4artonfilm"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ArtOnFilm on Instagram"
+                data-testid="footer-instagram-link"
+                className="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 text-gray-400 hover:text-amber-400 hover:border-amber-400/40 transition-colors"
+              >
+                <Instagram size={18} />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
