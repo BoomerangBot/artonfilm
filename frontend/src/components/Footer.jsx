@@ -21,9 +21,9 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 aria-label="ArtOnFilm on LinkedIn"
                 data-testid="footer-linkedin-link"
-                className="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 text-gray-400 hover:text-amber-400 hover:border-amber-400/40 transition-colors"
+                className="w-11 h-11 flex items-center justify-center rounded-full bg-[#0A66C2] text-white shadow-lg shadow-[#0A66C2]/30 hover:scale-110 transition-transform"
               >
-                <Linkedin size={18} />
+                <Linkedin size={20} fill="currentColor" stroke="currentColor" />
               </a>
               <a
                 href="https://www.instagram.com/artontour4artonfilm"
@@ -31,9 +31,10 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 aria-label="ArtOnFilm on Instagram"
                 data-testid="footer-instagram-link"
-                className="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 text-gray-400 hover:text-amber-400 hover:border-amber-400/40 transition-colors"
+                className="w-11 h-11 flex items-center justify-center rounded-full text-white shadow-lg shadow-pink-500/30 hover:scale-110 transition-transform"
+                style={{ background: 'radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)' }}
               >
-                <Instagram size={18} />
+                <Instagram size={20} />
               </a>
             </div>
           </div>
